@@ -1,185 +1,116 @@
-# 课题 C09：检索增强生成的幻觉检测与量化评估方法研究
+# 模式识别要求
+## 一、材料要求
+### 1.3 时间安排（按 18 教学周计）
 
-开放域问答 RAG 管道 + “检索失败 / 证据冲突 / 答案过时”三类挑战子集 + 基于证据一致性的幻觉自动判别器。
-课题完整要求见 [`C09_检索增强生成的幻觉检测与量化评估方法研究.md`](C09_检索增强生成的幻觉检测与量化评估方法研究.md)，
-考核与交付要求见 [`要求.md`](要求.md)。
+| 阶段 | 周次 | 工作内容 | 占总评比例 |
+|------|------|----------|------------|
+| 选题与团队 | 第 3 周 | 发布课题、组队、课题认领登记 | — |
+| 开题 | 第 4-5 周 | 提交开题报告（九要素细化），教师组织开题评审 | 10% |
+| 实验攻关 | 第 6-11 周 | 数据构造、基线复现、方法改进、消融实验；第 8 周中期检查（提交代码仓库与实验记录） | 20% |
+| 报告撰写 | 第 12-13 周 | 技术报告撰写与组内互审 | 40% |
+| 答辩 | 第 14-15 周 | 10 分钟汇报+5 分钟问答+现场演示或视频展示 | 30% |
 
-## 目录结构
+### 1.4 交付物要求
 
-```
-RAG-C09/
-├── C09_...md                课题任务书
-├── 要求.md                  课程统一要求
-├── requirements.txt        依赖清单（Ubuntu / Windows 通用；全队统一环境的唯一来源）
-├── docs/                    项目文档（入口：开发文档索引.md）
-│   ├── 开发文档索引.md       各文档职责、上手顺序、与要求.md 交付物的映射
-│   ├── 项目启动与实施指南.md  环境与依赖、系统框架图、开发流程图（门禁）、三人分工、验收对照表
-│   ├── 接口契约.md          中间产物 schema 与字段字典、目录命名、变更流程、产物校验
-│   ├── 数据构造规范.md       三类退化算子、标签规则化推导、种子管理与质量门禁
-│   ├── 实验与评估规范.md      指标口径、对照与消融设置、统计检验、图表规范、负结果纪律
-│   ├── 编码与协作规范.md      目录命名、CLI 运行入口、配置与日志、跨平台约定、代码风格
-│   ├── 实验记录.md          周会/结果/消融/失败/决策记录模板（周会围绕它开）
-│   ├── 开题报告.md/.docx/.pdf 九要素开题报告（docx 为交付件，md 为源文件，pdf 为预览）
-│   └── figures/             开题报告插图（由 scripts/make_figures.py 生成，可重绘）
-├── data/
-│   ├── README.md            数据集说明：来源、校验结果、许可
-│   ├── raw/                 已下载的离线副本（备选，非主路径）
-│   │   ├── squad/           SQuAD v2.0: train/dev JSON
-│   │   ├── hotpotqa/        HotpotQA distractor parquet
-│   │   ├── MANIFEST.sha256  SHA-256 校验清单
-│   │   └── VERIFY.json      内容统计与校验报告
-│   ├── interim/             构造中间产物（不入库）
-│   └── processed/           冻结产物：challenge_set.jsonl / normal_set.jsonl / construct_log.json
-├── refs/
-│   ├── arxiv_ids.txt        参考文献候选清单（人工选定 + 分组）
-│   ├── references.json      结构化元数据（含匹配证据与 ACL BibTeX 原文）
-│   ├── references.bib       可直接引用的 BibTeX
-│   ├── 参考文献清单.md       人类可读清单（含 DOI/arXiv 链接与本地 PDF 对应）
-│   ├── 文献综述.md          课题文献综述（引用 29 篇，按 GB/T 7714—2025 著录）
-│   └── pdf/                 29 篇开放获取论文 PDF + MANIFEST.sha256
-├── configs/                 超参配置（代码内不写魔法数）
-│   ├── default.yaml         种子、路径、数据集标识、检索与生成参数
-│   ├── models.yaml          模型选型与显存约束
-│   ├── challenge.yaml       三类退化算子参数与输出路径
-│   └── detect.yaml          特征分组、对照、判别器、检验与目标增益
-├── src/                     源码（分层见 docs/项目启动与实施指南.md §2.1）
-│   ├── common/              schema · seeding · io · logging_utils · cli_utils · validate ← 已实现
-│   ├── datasets/            在线加载 reader · 三类算子 challenge_builder · 抽样划分 split
-│   ├── retrieval/           passage store · BM25（主管线）· dense（可选）· Recall@k
-│   ├── generation/          模型装载 · 解码 · 端到端管道 · 自评置信度基线
-│   ├── features/            entailment · overlap ← 已实现 · consistency · build_features
-│   ├── detection/           判别器 · 训练 · 概率校准 · 预测
-│   ├── evaluation/          metrics ← 已实现 · grouped · significance · tables · plots
-│   └── demo/                演示入口（复用管道实现）
-├── tests/                   unittest 单元测试（overlap / seeding / metrics / contract，共 39 用例）
-├── results/                 实验产物（predictions · features · metrics · figures · logs）
-└── scripts/
-    ├── check_env.py              环境自检：conda 环境 + requirements.txt（依赖/GPU/镜像）
-    ├── prefetch_assets.py        预热模型与数据集（Ubuntu/Windows 通用）
-    ├── smoke_test.py             冒烟测试：结构 / 配置 / 契约 / 产物 / 管道前置
-    ├── make_figures.py           生成开题报告插图（matplotlib，可重绘）
-    ├── md2docx.py                Markdown → docx 转换（需可选依赖 python-docx）
-    ├── download_data.sh          数据集下载（离线备选；bash，Windows 需 WSL/Git Bash）
-    ├── verify_data.py            数据集本地副本校验（行数/字段/分布）
-    ├── download_refs.sh          下载参考文献 PDF
-    ├── fetch_reference_metadata.py  抓取文献元数据（arXiv + OpenAlex + ACL）
-    └── build_reference_docs.py   生成 BibTeX 与文献清单
-```
+1. **开题报告**（第 4 周提交，PDF+源文件）：按本课题条目的九要素（题目、研究目标、研究内容、关键技术、技术路线、数据来源、实验分析、结论、参考文献）逐项细化，字数 3000 字以上；
 
-## 环境准备（全队统一：conda 环境 `rag-c09`，Ubuntu / Windows 通用）
+2. **技术报告**（第 13 周提交，PDF+源文件，5000-8000 字）：含问题形式化、相关工作综述（不少于 15 篇文献，其中近 3 年文献不少于 8 篇）、方法、实验与分析、消融与讨论、负结果分析、结论与展望；
 
-```bash
-conda create -n rag-c09 python=3.10 -y
-conda activate rag-c09
-python -m pip install -r requirements.txt
-export HF_ENDPOINT=https://hf-mirror.com        # Windows: $env:HF_ENDPOINT="https://hf-mirror.com"
-python scripts/check_env.py                     # 环境自检，退出码须为 0
-python scripts/prefetch_assets.py               # 预热模型与数据集（首次需联网）
-```
+3. **可复现代码**：全程使用 Git 管理，提交记录作为过程性考核依据；仓库须含 README（环境配置、运行入口、超机种子）、数据构造脚本、训练与评估脚本；核心实验须提供≥3 个随机种子的完整结果；
 
-- 依赖只有一处定义：[`requirements.txt`](requirements.txt)（3 个锚点包用 `==` 固定；跨平台差异见文件内注释）；
-- 环境配置、跨平台激活与环境变量对照表、显存约束、数据在线加载：见 [`docs/项目启动与实施指南.md`](docs/项目启动与实施指南.md) §1；
-- 数据（SQuAD v2 / HotpotQA）**由代码在线加载**，无需手动下载，见文档 §1.4；
-- 工作区遗留的 `.venv/` 与其他旧环境**不再使用**。
+4. **演示**：现场演示或提交 5 分钟以内的演示视频（含系统界面或关键结果的可视化）；
 
-## 运行入口
+5. **答辩材料**：汇报 PPT（10 分钟容量）。
 
-统一约定：每个模块一个 CLI，共享 `--config / --seed / --out / --limit / --dry-run / --exp-id`；
-退出码 `0` 成功 / `1` 输入错误 / `2` 运行失败 / `3` 产物校验不通过（见 [`docs/编码与协作规范.md`](docs/编码与协作规范.md) §2）。
+### 1.5 学术诚信与原创性要求
 
-```bash
-# 0) 自检与冒烟
-python scripts/check_env.py --report results/env_report.json    # 环境自检（退出码须为 0）
-python scripts/smoke_test.py --with-tests                       # 结构/配置/契约冒烟 + 单元测试
+1. 允许使用开源框架（PyTorch, TensorFlow 等）与公开数据集，但**数据再构造、实验设计、方法改进必须由小组独立完成**；
 
-# 1) 数据构造（A）
-python -m src.datasets.challenge_builder --config configs/challenge.yaml --seed 1000
-python -m src.datasets.split             --config configs/challenge.yaml
+2. 如引用任何第三方代码（超过 20 行的代码块）须在报告与代码注释中显式标注来源与许可证；
 
-# 2) 管道与基线（B）
-python -m src.generation.pipeline            --config configs/default.yaml --seed 13 --limit 20   # 20 条冒烟
-python -m src.generation.baseline_confidence --config configs/default.yaml --seed 13
+3. 技术报告须通过查重（重复率要求以学校研究生院规定为准），方法与实验须通过"问题答辩"审查（见 1.2 条第 2 款）；
 
-# 3) 特征提取（B）
-python -m src.features.build_features --config configs/default.yaml --seed 13
+4. 严禁编造、篡改实验数据与结果。负结果（方法未超越基线）不扣分，隐瞒失败实验或伪造指标按学术不端处理；
 
-# 4) 判别与评估（C）
-python -m src.detection.train   --config configs/detect.yaml --seed 13 --classifier logreg
-python -m src.evaluation.eval   --config configs/detect.yaml --exp-ids w4-consistency-logreg-13
+5. 参考文献须真实、可检索，统一按 GB/T 7714—2025《信息与文献 参考文献著录规则》著录，正文中逐条标注引用位置。
 
-# 5) 产物契约校验
-python -m src.common.validate predictions results/predictions/w3-pipeline-13.jsonl
-python -m src.common.validate features    results/features/w3-pipeline-13.parquet
-```
+## 二、课题设计原则与统一要求
 
-**当前实现状态**：`src/common/`（契约、种子、IO、日志、校验）与 `src/features/overlap.py`、
-`src/evaluation/metrics.py` 已实现并通过单元测试；其余模块为骨架，调用时明确报
-`NotImplementedError` 并指向对应 WBS 任务（不会静默返回成功）。
+本章界定课题各项目的九要素结构与全部课题共用的设计原则、统一实验要求与评分标准，是各课题开题报告撰写与结题验收的统一依据。
 
-## 随机种子
+### 2.1 课题九要素结构说明
 
-| 项 | 值 | 说明 |
-|---|---|---|
-| 模型 / 训练种子 | `13, 42, 2024` | 核心结论必须报告三者的 mean ± std 与配对检验 |
-| 数据构造种子 | `1000 + 基样本序号` | **与模型种子解耦**，保证更换模型种子时挑战集逐字节不变（消融才可比） |
-| 抽样 / 抽检种子 | 显式传入并记录 | 常规集抽样、人工抽检 100 例 |
-| 统一入口 | `src/common/seeding.py::set_seed(seed)` | 实验代码禁止散落 `np.random.seed` / `torch.manual_seed` |
+每个课题均按以下九要素给出设计要求，学生须在开题报告中将其细化为可执行的实施方案：
 
-产物元信息（首行 `_meta`）含 `seed`、`config_hash`、数据集 `revision` 与环境指纹路径，见 [`docs/接口契约.md`](docs/接口契约.md) §4。
+| 要素 | 含义与要求 |
+| :--- | :--- |
+| **题目** | 宏明的技术命题，含场景、任务与关键约束 |
+| **研究目标** | 须量化（如“在××数据集上将指标 X 由基线值提升≥N 个百分点”或“在约束 Y 下验证 Z 的有效性”） |
+| **研究内容** | 拆解为 2-5 个可驾驭的子任务 |
+| **关键技术** | 课题涉及的核心方法与算法，须与课程内容（统计决策、特征提取与降维、聚类、分类器设计、深度学习网络、模型选择与评估等）建立对应关系 |
+| **技术路线** | 从数据到结论的流程化描述（含工具链、模型选型、迭代逻辑） |
+| **数据来源** | 公开数据集（给出获取渠道）或自建数据方案（给出采集/仿真/构造规范）；凡涉及自建数据须说明构造参数与随机种子管理 |
+| **实验分析** | 指标体系、对照设置、消融设计、统计检验方案 |
+| **结论** | 预期成果形式（模型、方法、开源代码、报告）与结论的可信度边界 |
+| **参考文献** | 每课题列出 3-5 条起步文献，学生须自行扩充至 15 篇以上 |
 
-## 已获取的数据与文献
+### 2.2 挑战性与“防抄袭”设计原则
 
-| 项目 | 内容 | 校验 |
-|---|---|---|
-| SQuAD v2.0 | train 130,319 问 / dev 11,873 问 | 与官方发布统计一致（见 `data/VERIFY.json`） |
-| HotpotQA distractor | train 90,447 / validation 7,405 | 行数与列结构完整（同上） |
-| 参考文献 | 29 篇开放获取论文 PDF + BibTeX | 标题/作者取自 arXiv API，出版信息取自 OpenAlex 与 ACL Anthology 官方条目 |
+全部课题按以下四条原则设计：
 
-> `data/raw/` 下的本地副本与校验记录仅作**离线备选**；数据主路径为代码在线加载（`load_dataset`），见 [`docs/项目启动与实施指南.md`](docs/项目启动与实施指南.md) §1.4。
+1.  **约束组合异性**：每个课题至少叠加两项非平凡约束（如“小样本+类别不平衡+跨域偏移”、“低信噪比+非平稳信道”、“遮挡+低分辨率+轻量化”）；
+2.  **数据再构造**：多数课题要求学生在公开数据集之上自行构造退化、域偏移、噪声注入、标签噪声或对抗扰动版本，构造逻辑本身即课题的一部分，答案随构造参数而变；
+3.  **基线复现→超线给出**：所有课题须在标准设定下复现一个公开基线并核对其原文指标（允许±2%偏差并分析原因），再在自构造约束下超越基线或给出严谨的失败分析；“复现+自构造约束+改进”三段式保证答案不唯一；
+4.  **结果不确定性**：结论取决于学生自建实验的设置与统计检验，评分考察论证链质量而非绝对指标高低。
 
-元数据采集做了双重校验（标题完全一致 + 作者姓氏有交集），并由 `build_reference_docs.py` 再做一道
-“ACL 官方条目标题 == arXiv 标题”的交叉校验（当前全部通过）；未匹配到正式出版记录的条目一律
-按预印本著录，不做人工补写，保证全部引用真实、可检索。
+### 2.3 全体课题统一实验要求
 
-其中 7 篇（RAG 原始论文、RAG 综述、干扰上下文、模型自我认知、归因问答、幻觉雪球、Self-RAG）
-未匹配到正式出版记录：它们多为 NeurIPS / ICML / ICLR 或纯 arXiv 论文，这些出版方不注册 DOI，
-在 OpenAlex / Crossref 中没有可用的出版条目。另有客观原因：本机 IP 在批量查询中被 OpenAlex 限流
-（HTTP 429），脚本已自动切换到 Crossref 兜底。OpenAlex 限流恢复后重新执行下面两条命令即可自动补全
-（脚本带增量缓存，仅重试未匹配的条目）：
+1.  **指标**：须报告不少于 3 项量化指标（任务主指标+泛化/鲁棒性/效率类指标），分类任务另报告混淆矩阵与宏/微 F1（类别不平衡课题必录）；
+2.  **重复实验**：核心结论须基于≥3 个随机种子，报告均值±标准差，并做统计显著性检验（配对 t 检验或 Wilcoxon 符号秩检验，显著性水平 0.05）；
+3.  **消融实验**：不少于 3 组消融（去掉关键模块/替换关键模块/变化关键超参）；
+4.  **失败分析**：至少如实报告 1 组未达预期的实验并分析原因；
+5.  **算力约束**：默认在单张消费级 GPU（≤12 GB 显存）上 48 小时内可完成全部实验；鼓励轻量化设计，禁止“以算力换指标”而无消融支持；
+6.  **报告规范**：图表须自绘（可基于实验数据用 Matplotlib 等生成），禁止直接截取他人论文图。
 
-```bash
-conda activate rag-c09 && python scripts/fetch_reference_metadata.py && python scripts/build_reference_docs.py
-```
+# 题目
 
-## 复现命令
+## 研究目标
 
-```bash
-conda activate rag-c09                                 # 环境配置见 docs/项目启动与实施指南.md §1
-python scripts/check_env.py                            # 0) 环境自检（退出码须为 0）
+搭建开放域问答的检索增强生成（RAG）管道，构造含“检索失败、证据冲突、答案过时”三类的挑战子集，实现基于证据一致性打分的幻觉自动判别器，AUC 相对“生成模型自评置信度”基线提升 ≥0.10。
 
-python scripts/prefetch_assets.py                      # 1) 预热模型与数据集（首次联网，之后离线）
-                                                       #    数据集由 load_dataset 在线加载，无需手动下载（文档 §1.4）
+## 研究内容
 
-bash scripts/download_refs.sh                          # 2) 下载文献 PDF
-python scripts/fetch_reference_metadata.py             #    抓取文献元数据
-python scripts/build_reference_docs.py                 #    生成 BibTeX 与清单
-```
+1. **RAG 管道搭建**：检索器 + 开源生成模型，全部离线可复现。
+2. **挑战子集构造**：由 SQuAD/HotpotQA 改造，需可自动判定真伪。
+3. **一致性特征设计**：蕴含概率、检索—生成重叠度。
+4. **幻觉类型分组评估**。
 
-所有下载脚本幂等，可重复执行；网络中断后重跑即可续传。
+## 关键技术
 
-## 环境实测说明
+检索增强生成、自然语言推断、一致性建模、问答评估。
 
-- `huggingface.co` 在本机不可达（连接被重置），数据与模型请走 `hf-mirror.com` 镜像；
-- HotpotQA 官方站点 `curtis.ml.cmu.edu` 连接超时，故改用 HuggingFace 数据集镜像；
-- `arxiv.org`、`aclanthology.org`、`api.openalex.org` 可正常访问；
-- 可用算力：RTX 3050 Laptop（4 GB 显存）、15 GB 内存、约 70 GB 可用磁盘，
-  满足“单张 ≤12 GB 消费级 GPU、48 小时内完成全部实验”的约束（需按 4 GB 显存选型生成模型）。
+## 技术路线
 
-## 后续待办
+管道搭建 → 常规测试集基线 → 挑战集构造（≥300 例） → 特征提取与判别器训练 → 分组评估 → 消融。
 
-- [ ] RAG 管道：检索器（BM25 / 稠密检索）+ 开源小生成模型（如 Qwen2.5-0.5B/1.5B-Instruct），全部离线可复现
-- [ ] 常规测试集基线与生成模型自评置信度基线
-- [ ] 挑战子集构造（≥300 例，覆盖检索失败 / 证据冲突 / 答案过时，随机种子管理）
-- [ ] 一致性特征提取（蕴含概率、检索—生成重叠度）与判别器训练
-- [ ] 按幻觉类型分组评估、消融实验、≥3 随机种子与显著性检验
-- [ ] 版本管理：**不在本工作区进行**（团队实际协作仓库位于别处），本目录不使用 Git
+## 数据来源
+
+- **数据集**：SQuAD、HotpotQA（公开）。
+- **生成模型**：使用开源权重（如 Qwen/Llama 系列可本地部署的小模型），遵守其开源许可。
+
+## 实验分析
+
+- 幻觉判别 AUC；
+- 按幻觉类型分组查准/查全；
+- 人工抽检 100 例一致性；
+- ≥3 种子。
+
+## 结论要求
+
+给出一致性特征对哪类幻觉敏感、对哪类失败的结论。
+
+## 参考文献
+
+1. Lewis P, Perez E, Piktus A, et al. Retrieval-augmented generation for knowledge-intensive NLP tasks[C]//NeurIPS. 2020: 9459-9474.
+2. Ji Z, Lee N, Frieske R, et al. A survey of hallucination in natural language generation[J]. *ACM Computing Surveys*, 2023, 55(12): 1-38.
+3. Rajpurkar P, Zhang J, Lopyrev K, et al. SQuAD: 100,000+ questions for machine comprehension of text[C]//EMNLP. 2016: 2383-2392.
