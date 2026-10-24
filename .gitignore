@@ -1,0 +1,23 @@
+# Local experiment outputs and downloaded assets. Reviewed summaries live in results/.
+/outputs/
+/.cache/
+/nltk_data/
+/data/raw/
+
+# Python environments and generated files.
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Local credentials and editor / OS files.
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store

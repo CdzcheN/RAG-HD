@@ -26,10 +26,11 @@ torchvision==0.25.0
 numpy==2.2.6
 
 # —— 生成与检索 ——
-transformers>=4.56
+# 与已完成的 MiniCheck 复现保持一致；4.56.2 要求 hub>=0.34.0,<1.0。
+transformers==4.56.2
 sentence-transformers>=3.0
 datasets>=2.20
-huggingface_hub==0.29.3
+huggingface_hub==0.36.2
 sentencepiece>=0.2.0
 accelerate>=1.0
 rank_bm25>=0.2.2

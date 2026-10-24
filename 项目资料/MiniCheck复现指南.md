@@ -6,20 +6,19 @@
 
 ## 1. 当前仓库与环境检查
 
-截至 2026-10-20 的本地检查：
+截至 2026-10-24，根据已保存的真实运行记录：
 
 - `baselines/MiniCheck` 已存在，代码提交为 `b58b9fa69acbd1015ec970fa65dd752413a053d2`。
 - 官方 `benchmark_evaluation_demo.ipynb` 默认使用 `Bespoke-MiniCheck-7B`；本项目应显式选择 `flan-t5-large`。
-- 当前终端是 Conda base、Python 3.13，尚未安装 MiniCheck 推理依赖。
-- 当前 `nvidia-smi` 无法连接 NVIDIA 驱动，需要在实际运行机器上确认驱动与 CUDA 可用性。CPU 可用于样例验证，完整基准应在可用 GPU 环境运行。
-- 根目录 `requirements.txt` 同时指定 `transformers>=4.56` 和 `huggingface_hub==0.29.3`。例如 Transformers 4.56.2 要求 `huggingface-hub>=0.34.0,<1.0`，这组约束存在冲突。下面使用独立的最小安装命令；后续统一项目环境时应修正根依赖表。
+- 2026-10-23 已完成官方两条 smoke 样例和完整 LLM-AggreFact test 评测；29,320 条记录、11 个子数据集的宏平均 BAcc 为 **75.0093%**，详见[结果分析与版本记录](../results/minicheck/README.md)。
+- 实验记录使用 Python 3.10.22、NVIDIA GeForce RTX 3090，主要依赖版本保存在 [benchmark/run_config.json](../results/minicheck/benchmark/run_config.json)。在其他机器上仍需单独确认驱动、CUDA 和模型缓存，CPU 可用于样例验证。
+- 根目录 `requirements.txt` 已将原先冲突的 Transformers / Hub 约束修正为记录中的 `transformers==4.56.2` 和 `huggingface_hub==0.36.2`；下面仍提供 MiniCheck 独立环境的最小安装命令。
 
 ## 2. 准备独立环境
 
-以下为 Bash 命令，在项目根目录执行。安装配方保留项目的 Torch / NumPy 数值版本，并固定 Transformers 版本；它是待实际安装验证的兼容性起点，成功安装后再保存完整版本锁定文件。
+以下为 Bash 命令，在项目根目录执行。主要依赖按真实实验记录固定，保留项目的 Torch / NumPy 数值版本。运行记录没有覆盖全部传递依赖，因此这些版本尚不等于完整环境锁定；重建环境成功后仍应保存完整版本清单。
 
 ```bash
-cd /home/xqyang/Project/RAG-HD
 conda create -n minicheck-repro python=3.10 -y
 conda activate minicheck-repro
 python -m pip install -U pip
@@ -30,9 +29,9 @@ python -m pip install -U pip
 ```bash
 python -m pip install \
   "torch==2.10.0" "numpy==2.2.6" \
-  "transformers==4.56.2" "huggingface_hub>=0.34.0,<1.0" \
-  "datasets>=3,<4" "accelerate>=1,<2" \
-  "nltk>=3.9,<4" "scikit-learn>=1.5,<2" "sentencepiece>=0.2" \
+  "transformers==4.56.2" "huggingface_hub==0.36.2" \
+  "datasets==3.6.0" "accelerate==1.15.0" \
+  "nltk==3.10.4" "scikit-learn==1.7.2" "sentencepiece>=0.2" \
   -e ./baselines/MiniCheck
 ```
 
@@ -52,14 +51,52 @@ No broken requirements found.
 
 Flan-T5 路径调用本地模型推理，无需 OpenAI API key。首次运行需要访问 Hugging Face 下载模型；建议事先确认网络和磁盘空间。
 
-准备 NLTK 分句资源，将下载内容保存在项目内：
+准备 NLTK 分句资源，保存在用户主目录下的私有目录中：
 
 ```bash
-python -m nltk.downloader -d .cache/nltk_data punkt punkt_tab
-export NLTK_DATA="$PWD/.cache/nltk_data"
+export NLTK_DATA="$HOME/nltk_data"
+mkdir -p "$NLTK_DATA"
+chmod 700 "$NLTK_DATA"
+
+python - <<'PY'
+import os
+
+# 新建的子目录和文件也不允许组用户或其他用户写入。
+os.umask(0o077)
+import nltk
+
+for package in ("punkt", "punkt_tab"):
+    nltk.download(package, download_dir=os.environ["NLTK_DATA"], raise_on_error=True)
+
+nltk.data.find("tokenizers/punkt")
+print(nltk.sent_tokenize("This is a test. It works."))
+PY
 ```
 
-每次开启新的终端都需要重新激活环境，并设置 `NLTK_DATA`。检查 GPU：
+预期最后输出 `['This is a test.', 'It works.']`。`punkt` 用于满足官方 MiniCheck 导入时的资源检查，`punkt_tab` 用于 NLTK 分句。
+
+如果此前下载到 `.cache/nltk_data` 时遇到 `NLTK will not authorize the non-private download directory` 或 `Security Violation [downloader.lock]`，说明目标目录或其上级目录允许组用户或其他用户写入，触发了 NLTK 路径安全检查。只修改 `.cache/nltk_data` 本身的权限不能解决上级目录的权限问题；使用上述私有目录重新下载即可。通过 Python API 下载也避免了 `python -m nltk.downloader` 的模块重复加载 `RuntimeWarning`，该警告不是这次权限错误的原因。参见 [NLTK 路径安全实现](https://github.com/nltk/nltk/blob/develop/nltk/pathsec.py)与[数据目录配置说明](https://www.nltk.org/data.html)。
+
+如果出现 `Security Violation [pathsec.urlopen]: refusing a proxied fetch`，说明 NLTK 检测到了代理。代理负责连接目标地址，NLTK 无法对最终连接的 IP 实施 SSRF 防护，因此默认拒绝。仅在确认当前代理可信、适合用于这些公开资源下载时，使用官方提供的选项对本次下载显式放行：
+
+```bash
+NLTK_ALLOW_PROXIED_URLOPEN=1 python - <<'PY'
+import os
+
+os.umask(0o077)
+import nltk
+
+for package in ("punkt", "punkt_tab"):
+    nltk.download(package, download_dir=os.environ["NLTK_DATA"], raise_on_error=True)
+
+nltk.data.find("tokenizers/punkt")
+print(nltk.sent_tokenize("This is a test. It works."))
+PY
+```
+
+此命令沿用前面已设置的 `NLTK_DATA`，代理许可仅对这一次 Python 进程生效。若不需要代理且可以直接连接 GitHub，则可以在原下载命令的 `python` 前添加 `env -u http_proxy -u https_proxy -u all_proxy -u HTTP_PROXY -u HTTPS_PROXY -u ALL_PROXY`，仅为该进程移除环境中的代理配置。无需关闭 NLTK 的整体安全检查。参见[官方代理许可实现](https://github.com/nltk/nltk/blob/develop/nltk/pathsec.py)。
+
+每次开启新的终端都需要重新激活环境，并执行 `export NLTK_DATA="$HOME/nltk_data"`；资源下载只需成功完成一次。检查 GPU：
 
 ```bash
 nvidia-smi
@@ -86,6 +123,38 @@ Support probabilities: [约 0.9806, 约 0.0071]
 如果显存不足，优先保持 `--batch-size 1` 并确认没有其他模型占用显存。修改量化、数据类型、切块大小或输入上限会改变复现实验配置，应单独记录。
 
 ## 4. 第二步：小批调试，再跑完整官方基准
+
+`lytang/LLM-AggreFact` 是需要授权访问的 gated dataset。首次运行 benchmark 前，需要同时完成网页授权和终端认证：
+
+1. 在浏览器登录 Hugging Face，打开 [LLM-AggreFact 数据集页面](https://huggingface.co/datasets/lytang/LLM-AggreFact)，阅读并同意访问条件，点击页面上的 `Access repository` 或相应同意按钮。条款说明该资源用于评测，不应用于预训练或微调；授权时会按页面说明向作者共享账号信息。如果页面显示等待审批，应等待获得访问权限后再下载。
+2. 在同一账号的 [Access Tokens 页面](https://huggingface.co/settings/tokens) 创建具有读取权限的 token；使用 fine-grained token 时，需允许读取这个 gated 数据集。
+3. 在运行实验的机器上激活 `minicheck-repro`，执行：
+
+```bash
+hf auth login
+hf auth whoami
+```
+
+按提示在本地终端输入 token；询问是否添加 Git 凭据时，此实验可以选择 `n`。`hf auth whoami` 显示的账号必须与网页获得授权的账号一致。如果没有 `hf` 命令，可使用现有 Python 包登录，无需升级依赖：
+
+```bash
+python -c 'from huggingface_hub import login; login()'
+```
+
+加载模型前，可以单独检查当前凭据是否有数据集访问权限：
+
+```bash
+python - <<'PY'
+from huggingface_hub import HfApi
+
+api = HfApi()
+print("Hugging Face account:", api.whoami()["name"])
+api.auth_check(repo_id="lytang/LLM-AggreFact", repo_type="dataset")
+print("LLM-AggreFact access OK")
+PY
+```
+
+脚本的 `HfApi()` 和 `load_dataset()` 默认读取本地登录凭据。若仍出现 `DatasetNotFoundError: ... gated dataset ... You must be authenticated`，确认网页已授权、token 属于同一账号且拥有相应读取权限。环境中的 `HF_TOKEN` 会覆盖保存的 token；`HF_HUB_DISABLE_IMPLICIT_TOKEN=1` 会阻止这类默认调用携带 token，如曾主动设置该项，可在本终端执行 `unset HF_HUB_DISABLE_IMPLICIT_TOKEN` 后重试。参见 [gated 数据集访问说明](https://huggingface.co/docs/hub/datasets-gated)、[登录命令](https://huggingface.co/docs/huggingface_hub/v0.34.6/guides/cli)和[凭据环境变量](https://huggingface.co/docs/huggingface_hub/v0.34.6/package_reference/environment_variables)。
 
 先验证数据下载与输出链路：
 
@@ -134,6 +203,24 @@ $$
 2026-10-20 查阅的作者官方榜单中，MiniCheck-Flan-T5-L 的 11 个数据集平均 BAcc 为 **75.0%**，例如 WiCE 为 **72.2%**、RAGTruth 为 **78.0%**。以同一数据版本和协议比较；项目提出的“相差不超过 2 个百分点”可作为复现检查目标，不能预先保证达成。
 
 可只复现一个论文明确使用的完整子集并比较该子集的公开指标，但应完整保留子集筛选条件。当前入口默认完整基准；小批 `--limit` 不构成完整子集复现。
+
+### 已完成的运行与离线核查
+
+本次完整结果及分析归档在 [`results/minicheck/`](../results/minicheck/README.md)，其中包含运行配置、官方分组指标、补充统计和图表。约 89 MiB 的完整预测继续保存在本地 `outputs/minicheck_reproduction/benchmark/predictions.jsonl`；`outputs/` 与 `.cache/` 由 Git 忽略。
+
+基于本地预测重新计算指标，无需模型、GPU 或网络：
+
+```bash
+python scripts/analyze_minicheck.py --skip-plots
+```
+
+该入口只接受完整官方基准，默认读 `outputs/minicheck_reproduction/benchmark/`，写 `outputs/minicheck_reproduction/analysis/`，支持 `--benchmark-dir` 和 `--output-dir`。省略 `--skip-plots` 且已安装 Matplotlib 时也会生成图表。错误案例和冲突输入包含原始文本，仅随本地分析生成。
+
+核对本次归档所对应的原始文件（在仓库根目录执行，需要本地保留原始输出）：
+
+```bash
+sha256sum -c results/minicheck/source_artifacts.sha256
+```
 
 ## 6. 第三步：接入你的 RAG baseline
 
@@ -196,4 +283,4 @@ python -m pip freeze > outputs/minicheck_reproduction/requirements.lock.txt
 - [作者官方榜单](https://llm-aggrefact.github.io/)。
 - [Transformers 4.56.2 依赖约束](https://github.com/huggingface/transformers/blob/v4.56.2/src/transformers/dependency_versions_table.py)。
 
-当前交付仅完成代码检查、入口静态检查及复现步骤整理；尚未在当前终端下载模型、安装依赖或产生真实 benchmark 分数。
+本分支已保存公开权重推理与完整官方基准的真实结果；2026-10-24 的整理与离线核查没有重新运行模型推理。项目挑战集、自评置信度对照和多种子实验仍待后续实现。

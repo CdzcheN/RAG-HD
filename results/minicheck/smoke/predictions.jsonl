@@ -1,0 +1,2 @@
+{"dataset": "official_smoke", "doc": "A group of students gather in the school library to study for their upcoming final exams.", "claim": "The students are preparing for an examination.", "label": 1, "row_index": 0, "pred_label": 1, "support_probability": 0.9805923700332642}
+{"dataset": "official_smoke", "doc": "A group of students gather in the school library to study for their upcoming final exams.", "claim": "The students are on vacation.", "label": 0, "row_index": 1, "pred_label": 0, "support_probability": 0.00712132453918457}

@@ -1,0 +1,31 @@
+{
+  "started_at_utc": "2026-10-23T10:11:00.666419+00:00",
+  "task": "smoke",
+  "model_id": "lytang/MiniCheck-Flan-T5-Large",
+  "model_revision": "96eafd01cee2d16cf81aaa2fb226b14f422a37b3",
+  "minicheck_code_revision": "b58b9fa69acbd1015ec970fa65dd752413a053d2",
+  "python": "3.10.22 (main, Oct  1 2026, 20:14:04) [GCC 14.3.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "packages": {
+    "torch": "2.10.0",
+    "transformers": "4.56.2",
+    "datasets": "3.6.0",
+    "huggingface_hub": "0.36.2",
+    "nltk": "3.10.4",
+    "accelerate": "1.15.0",
+    "scikit-learn": "1.7.2",
+    "numpy": "2.2.6",
+    "minicheck": "0.1.0"
+  },
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "batch_size": 1,
+  "chunk_size": 500,
+  "max_model_len": 2048,
+  "support_threshold": 0.5,
+  "threshold_rule": "support_probability > 0.5",
+  "limit": null,
+  "evaluated_rows": 2,
+  "smoke_passed": true,
+  "finished_at_utc": "2026-10-23T10:17:48.880061+00:00"
+}
