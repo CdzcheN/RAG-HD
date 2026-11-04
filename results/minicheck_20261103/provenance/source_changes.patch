@@ -1,0 +1,62 @@
+diff --git a/scripts/reproduce_minicheck.py b/scripts/reproduce_minicheck.py
+index c17cdc5..3d745bf 100644
+--- a/scripts/reproduce_minicheck.py
++++ b/scripts/reproduce_minicheck.py
+@@ -36,6 +36,8 @@ def parse_args():
+                         help="First N benchmark examples, for debugging only.")
+     parser.add_argument("--dataset-revision", default="main",
+                         help="Dataset Git ref; resolved to a commit before loading.")
++    parser.add_argument("--local-model-files", action="store_true",
++                        help="Load cached model/tokenizer files only; disables online weight conversion.")
+     parser.add_argument("--cache-dir", type=Path, default=ROOT / ".cache" / "minicheck")
+     parser.add_argument("--output-dir", type=Path,
+                         default=ROOT / "outputs" / "minicheck_reproduction")
+@@ -61,7 +63,6 @@ def main():
+     # Keep heavy imports here so --help also works before environment setup.
+     import nltk
+     import torch
+-    from minicheck.minicheck import MiniCheck
+ 
+     try:
+         nltk.sent_tokenize("An English sentence.")
+@@ -95,12 +96,9 @@ def main():
+         "support_threshold": 0.5,
+         "threshold_rule": "support_probability > 0.5",
+         "limit": args.limit,
++        "model_local_files_only": args.local_model_files,
+     }
+     print("Device:", metadata["gpu"] or "CPU")
+-    scorer = MiniCheck(model_name="flan-t5-large", batch_size=args.batch_size,
+-                      max_model_len=2048, cache_dir=str(args.cache_dir / "models"))
+-    metadata["model_revision"] = getattr(scorer.model.model.config, "_commit_hash", None)
+-
+     if args.task == "smoke":
+         doc = ("A group of students gather in the school library to study for "
+                "their upcoming final exams.")
+@@ -123,6 +121,26 @@ def main():
+         metadata["is_full_test"] = len(dataset) == metadata["test_rows_total"]
+         records = [dict(row) for row in dataset]
+ 
++    # Check sentence resources and benchmark access before downloading/loading
++    # the model. Importing MiniCheck can itself trigger an NLTK download.
++    from minicheck.minicheck import MiniCheck
++    model_kwargs = dict(model_name="flan-t5-large", batch_size=args.batch_size,
++                        max_model_len=2048, cache_dir=str(args.cache_dir / "models"))
++    if args.local_model_files:
++        from functools import partial
++        from unittest.mock import patch
++        from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
++        # The official constructor doesn't expose from_pretrained options.
++        # Scope this override to construction; keep the official scoring code.
++        with patch.object(AutoModelForSeq2SeqLM, "from_pretrained", partial(
++                AutoModelForSeq2SeqLM.from_pretrained, local_files_only=True)), \
++             patch.object(AutoTokenizer, "from_pretrained", partial(
++                AutoTokenizer.from_pretrained, local_files_only=True)):
++            scorer = MiniCheck(**model_kwargs)
++    else:
++        scorer = MiniCheck(**model_kwargs)
++    metadata["model_revision"] = getattr(scorer.model.model.config, "_commit_hash", None)
++
+     metadata["evaluated_rows"] = len(records)
+     metadata_path = output_dir / "run_config.json"
+     metadata_path.write_text(json.dumps(metadata, ensure_ascii=False, indent=2), encoding="utf-8")
