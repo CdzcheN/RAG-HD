@@ -1,0 +1,12 @@
+{
+  "status": "user_confirmed",
+  "rows": 120,
+  "construction_pairs": 60,
+  "confirmation": "用户确认歧义条目保持 undetermined 后，明确说：好，我已经确认过了，继续下一步工作。保留助手草稿经用户确认的来源，不称独立双人标注。",
+  "recorded_at_utc": "2026-11-05T04:09:32.698352+00:00",
+  "annotation_origin": "assistant_draft_confirmed_by_user",
+  "independent_human_annotation": false,
+  "reviewed_table_sha256": "a9e1aa723792f937e801d943b16223c15fac83c610a03bd55e87367fd0ce7762",
+  "construction_table_sha256": "c8bc0da4d27ae1207a269dd49c17ef34c18ac8f9127a0266decf4a57c45ef11d",
+  "confirmed_review_sha256": "802e1f58ee76e2e42b04572fdfdcdb4b9515873bfa6ec1ebdfdef8238f60e976"
+}

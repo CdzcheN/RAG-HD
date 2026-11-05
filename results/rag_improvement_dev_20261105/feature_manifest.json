@@ -1,0 +1,12 @@
+{
+  "rows": 120,
+  "new_model_calls": 75,
+  "source_records_sha256": "71f6d9abf552da256d64746337ce54b9a45f27bc51c278bf6857f3a403cc4f96",
+  "implementation": {
+    "valid_evidence.py": "666b803433ac6e4be19ba6763b84d899a1b031e4d71183f1e863a4f31d5a1abc",
+    "minicheck_adapter.py": "38d531504c7b5a8d24580d80ecaa3dceb18b41cc4949cbed71c037de8dd776bd"
+  },
+  "feature_cache_sha256": "3f7079ac2eb477bcf123a53c59a144361df4e5bd8dd02c6f104dd1d0bf04d2e5",
+  "label_inputs_used": false,
+  "purpose": "Development prototype; reviewed pilot is not a held-out final test."
+}
