@@ -4,11 +4,37 @@
 
 ## 当前进度
 
-本机 `reproduce/minicheck` 分支已于 **2026-11-03** 完成独立重跑，**2026-11-04** 完成逐条预测离线核查：29,320 条、11 个子数据集，宏平均 BAcc **75.0093%**；完整预测和分组指标的 SHA-256 均与上游清单一致。本机配置、核查和摘要见[本次复现结果](results/minicheck_20261103/README.md)，后续执行顺序见 [plan.md](plan.md)。下一里程碑为约 20 条正常样本的 RAG 闭环，然后构造三类各 20 个基础问题的配对原型。
+本机 `reproduce/minicheck` 分支已于 **2026-11-03** 完成独立重跑，**2026-11-04** 完成逐条预测离线核查：29,320 条、11 个子数据集，宏平均 BAcc **75.0093%**；完整预测和分组指标的 SHA-256 均与上游清单一致。本机配置、核查和摘要见[本次复现结果](results/minicheck_20261103/README.md)，后续执行顺序见 [plan.md](plan.md)。
 
 `baseline` 分支已完成 MiniCheck-Flan-T5-Large 公开权重的推理与官方基准评测复现。2026-10-23 的完整 LLM-AggreFact test 评测包含 **29,320 条样本、11 个子数据集**，宏平均 BAcc 为 **75.0093%**。评测配置、分组指标与离线核查见[结果分析](results/minicheck/README.md)。
 
 后续工作包括项目 RAG 管道、至少 300 条挑战样本、自评置信度对照，以及三个划分/训练种子下的比较与消融。当前基准结果尚未验证项目要求的 AUC 提升 0.10。
+
+2026-11-04 已部署本地 Qwen2.5-3B-Instruct 4-bit，完成 SQuAD / HotpotQA 各 10 条正常问题的 BM25 → 生成 → 自评 → MiniCheck 原型推理。共 17 条事实回答、3 条拒答；标签现已由用户检查确认，其中 15 条进入共同评估。复核后的开发指标与挑战批次启动情况见下文。统计与资源见[原型验收结果](results/rag_prototype_20261104/README.md)，使用方法见[本地模型部署](项目资料/本地生成模型部署.md)，输入与标签边界见[原型实验协议](项目资料/RAG原型实验协议.md)。
+
+## 本地生成与 RAG 原型
+
+当前机器已准备模型、数据和 `.venv/` 环境，可直接使用本地问答入口：
+
+```bash
+.venv/bin/python scripts/local_qa.py \
+  --question "What is the capital of the fictional region of Lumeria?" \
+  --evidence "The fictional region of Lumeria has its capital in Bayport."
+```
+
+新建一次原型运行（复用本地权重和数据；GPU 阶段需在主机终端执行）：
+
+```bash
+bash scripts/run_rag_prototype.sh outputs/rag_prototype_new_run
+```
+
+配置位于 `configs/rag_prototype.yaml`，新增依赖见 `requirements-rag.txt`。本次运行目录是 `outputs/rag_prototype_20261104_v1/`，内有逐条结果、状态、日志、资源记录和不含检测分数的 `review_template.csv`。原型指标需经过可靠标签复核；`undetermined` 不自动当作负类。新增逻辑的 CPU 检查入口为：
+
+```bash
+.venv/bin/python -m unittest discover -s tests -v
+```
+
+20 条原型已整理助手辅助复核稿和人工填写表，位于本地运行目录的 `review_assistance/`。建议列与正式标签分开，尚不构成人工金标；导入方式、歧义案例和三类挑战实施草案见[原型标签复核与挑战准备](项目资料/原型标签复核与挑战准备.md)。
 
 ## 运行 MiniCheck
 
@@ -54,3 +80,16 @@ python scripts/analyze_minicheck.py --skip-plots
 | [项目资料/figures/minicheck_baseline.md](项目资料/figures/minicheck_baseline.md) | MiniCheck 接入流程及图示 |
 
 原始预测保留在本地；仓库保存结果摘要及原始文件的 SHA-256 校验清单。获取数据授权并完成相同配置的实验后，可重新生成完整预测与错误案例。
+
+
+## 用户复核后的挑战原型
+
+20 条正常原型标签已由用户检查确认并导入，共 15 条进入共同评估：自评 ROC-AUC 0.6477、MiniCheck 0.7500。仅为小规模开发诊断，结果见[复核后原型记录](results/rag_pilot_reviewed_20261104/README.md)。
+
+三类挑战的 60 个基础问题已形成 120 条正常/挑战配对，并启动本机后台推理，运行目录为 `outputs/rag_challenge_20261104_v4/`。[冻结协议](项目资料/挑战原型协议.md)明确了受控支撑补全、可见冲突来源规则、旧/新版有效区间及标注边界。可查看日志：
+
+```bash
+tail -n 30 -f outputs/rag_challenge_20261104_v4/logs/pipeline.log
+```
+
+生成后还需检查构造与实际回答标签；不会按挑战类型自动标成幻觉。简明复核表 `review_readable.csv` 会在流水线评估阶段生成。

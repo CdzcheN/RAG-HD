@@ -1,0 +1,7 @@
+{
+  "src/rag_hd/review_packet.py": "b6c478276aef3ffb492f90c1535717049c4a7c9ec70ba1ba5aeec1461f2ae870",
+  "scripts/prepare_review.py": "1fc970d409492718d80d1b8ab9ff671b233d376968fe5f038c544c323f0596a2",
+  "tests/test_review_packet.py": "c7bdaf4da943bbad35d06f388bf6f4fbba4ab5c7d40d3b4176f484a6c82635d7",
+  "tests/test_rag_pilot.py": "4dc65e0c1e784314ee1059bd429f5dbd0278d80c6c47876a0a12885eed1aa40e",
+  "项目资料/原型标签复核与挑战准备.md": "010e1d46c05ec32a86a155e4871ec72e5182cade15725ed32c6a1f6dd60b506e"
+}

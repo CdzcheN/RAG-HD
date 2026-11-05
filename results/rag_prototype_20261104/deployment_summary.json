@@ -1,0 +1,32 @@
+{
+  "model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "quantized_linear_layers": 252,
+  "repeat_text_matches": true,
+  "resources": {
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "elapsed_seconds": 12.792951844166964,
+    "peak_allocated_mib": 2942.98046875,
+    "peak_reserved_mib": 3084.0,
+    "sampled_process_peak_mib": 3424,
+    "process_sample_interval_seconds": 0.5,
+    "memory_limit_mib": 12288,
+    "within_limit": true,
+    "note": "Process VRAM is sampled, allocator values are peaks; this measures only tested inputs."
+  },
+  "passed": true,
+  "case_token_counts": [
+    {
+      "input": 726,
+      "output": 9,
+      "self_status": "ok"
+    },
+    {
+      "input": 1396,
+      "output": 11,
+      "self_status": "ok"
+    }
+  ],
+  "stress_input_tokens": 4096,
+  "stress_output_tokens": 18
+}

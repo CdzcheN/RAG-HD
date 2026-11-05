@@ -1,0 +1,377 @@
+[
+  {
+    "sample_id": "sample:0f0ee5d333b8eddbf040b66e98a99175995081779e305b5bd846124e64b9c80b",
+    "visible_input_sha256": "e00f1036866b371c671dba2561cf390b3f947e1c3d5a25f3ea69eff6bf83843a",
+    "answer_sha256": "2fe79af0f0916af131634627e1c4b0bbd086bb09ca340ffc547a7b96158be205",
+    "review_source": "assistant",
+    "reviewer": "Codex assistant",
+    "evidence_label": "supported",
+    "answer_correctness": "correct",
+    "rationale": "可见证据1明确包含未获邀请、UN Charter Article 32 两项事实。回答涵盖所问 charter；问题将主张归给 US，而正文归给 Soviet Union，属于题干归属歧义，建议复核者记录但不要补写回答未断言的主体。",
+    "evidence_anchors": [
+      {
+        "start": 248,
+        "end": 353,
+        "quote_sha256": "53df687efab05f7cb70799e31b5e0e08f94e30b9a2373063269a6cab5b01a7c5"
+      }
+    ]
+  },
+  {
+    "sample_id": "sample:7abb0d7b8b57720e28011f02a8fda74eac4421b5d0199712024bdda0f952487e",
+    "visible_input_sha256": "187e21f59987dfe146c5f0e4f07a8158cafd27d28393c5ef34ae31a83c2743d6",
+    "answer_sha256": "e4b053945c441059a556baa1ff18d6700490c258c6efc89411ae180350abdcd4",
+    "review_source": "assistant",
+    "reviewer": "Codex assistant",
+    "evidence_label": "supported",
+    "answer_correctness": "correct",
+    "rationale": "证据2明确写 In 91 BC the Social War broke out；回答是这一事实的简洁改写。",
+    "evidence_anchors": [
+      {
+        "start": 965,
+        "end": 998,
+        "quote_sha256": "a27fede25bb70a8d1d0e6bed7664e77e90eac86255ea77edf4f6d57cea7ac652"
+      }
+    ]
+  },
+  {
+    "sample_id": "sample:554e8adee2d4a5878bb739eea9c559ab92b7c26ef1503fe0efc108bca27dec57",
+    "visible_input_sha256": "4c3857cbfdc9fb3d00f0d54996b4b6f85b31f66097e2eeae699d685c23a08d71",
+    "answer_sha256": "db945535346ad00dd1ebd80a0fa0805e0033c8148b368aa36d1e5d30481f337b",
+    "review_source": "assistant",
+    "reviewer": "Codex assistant",
+    "evidence_label": "supported",
+    "answer_correctness": "correct",
+    "rationale": "证据1明确将 sentence-style capitalisation 称为 sentence case；回答调换同义关系的表达方向，不改变事实。",
+    "evidence_anchors": [
+      {
+        "start": 424,
+        "end": 472,
+        "quote_sha256": "787451bdeba7404cd258ede7be8c2f42c305b1d64438773354e15d9eddb4af0d"
+      }
+    ]
+  },
+  {
+    "sample_id": "sample:73c506b759c8579595da6db37b6fbe31e17678954f4a930deadf514c554ed873",
+    "visible_input_sha256": "d61ffba8c4a32633ca6deedd31281cf9283c8ff4f96fd53012f788e2e893b12a",
+    "answer_sha256": "4fb2e6b8f6cb532f31f84eba730080509d2600b9a8bb371745d064e0c0d6e996",
+    "review_source": "assistant",
+    "reviewer": "Codex assistant",
+    "evidence_label": "supported",
+    "answer_correctness": "correct",
+    "rationale": "证据1直接给出 17th hole；整句回答没有加入额外事实。",
+    "evidence_anchors": [
+      {
+        "start": 142,
+        "end": 176,
+        "quote_sha256": "2a7dbc97013349d1354e5be82de2d65a9a90bde512251a81702759cddad79eb2"
+      }
+    ]
+  },
+  {
+    "sample_id": "sample:f7cabea1aa6490af7e39f4c426e7d3608625d7af64eeeb79424f0545a70db417",
+    "visible_input_sha256": "c6435e78b2449d4fe984a64d916698a1b99ed646e3905185e0f5b8542adb8553",
+    "answer_sha256": "f8fd88a748f50252397be200289758aeb3498060faeb99b4c8949ae89eec2147",
+    "review_source": "assistant",
+    "reviewer": "Codex assistant",
+    "evidence_label": "supported",
+    "answer_correctness": "correct",
+    "rationale": "证据1直接支持中世纪巴黎出版物几乎全用 Latin 而非 French；回答保留巴黎限定，没有把地域范围扩大。",
+    "evidence_anchors": [
+      {
+        "start": 456,
+        "end": 549,
+        "quote_sha256": "f8fd88a748f50252397be200289758aeb3498060faeb99b4c8949ae89eec2147"
+      }
+    ]
+  },
+  {
+    "sample_id": "sample:7cda78d3c6e2b3c7d2b060c73d130afee2d3012898a40bd1368d52542c572908",
+    "visible_input_sha256": "1b92ee92b08a991c183005171d1aa6df9f8b126846e209bee06ad4e81886b847",
+    "answer_sha256": "3860cb888eee85ee8b3f0ec9c66019d859be98eb0cfd19bc2a23a2ec3764df79",
+    "review_source": "assistant",
+    "reviewer": "Codex assistant",
+    "evidence_label": "undetermined",
+    "answer_correctness": "undetermined",
+    "rationale": "关键时间歧义：原句把弱化过程放在 Koine Greek period，又把 yielding /θ ð/ 关联到 Medieval and Modern Greek。回答只给 Koine；应由复核者判断题目问过程发生期还是结果所属时期，不能机械按词重合标 supported，也不应未经裁决标 contradicted。",
+    "evidence_anchors": [
+      {
+        "start": 92,
+        "end": 274,
+        "quote_sha256": "6de808fdb26487d39261a3d3d4b8b7b2210dbaf1a8d74f7ffa22b51eb9b2fea2"
+      }
+    ]
+  },
+  {
+    "sample_id": "sample:b5b44018c9b1891c744991b751e5e3416b3b76d0f3af708ff043525275167c56",
+    "visible_input_sha256": "c12287aab8d451a979b14a578b11cd619c3157ef7a630bda5a1563eb1e209b8d",
+    "answer_sha256": "eb32e1c4ef01a5879337ee98c9dc1fb9650bb81afbc1fac25e8ea912640ad742",
+    "review_source": "assistant",
+    "reviewer": "Codex assistant",
+    "evidence_label": "supported",
+    "answer_correctness": "correct",
+    "rationale": "证据1同一句同时给出 885 AD、Ashot I 和 Bagratid Dynasty；回答的附加年份和王朝也有依据。",
+    "evidence_anchors": [
+      {
+        "start": 82,
+        "end": 210,
+        "quote_sha256": "acc1d0f1a5dd84dc3213ca81f74091fb9bb5ef1c4802e1b8ee8742f2ccead2ed"
+      }
+    ]
+  },
+  {
+    "sample_id": "sample:36a7721fbac3768da4f9cf6698f712490ca722e03b86c0ff847664475ce3466c",
+    "visible_input_sha256": "20a153cf7fe74b748ea932691437e64d2b5bdcd84eb02fccfd95720b9476dba3",
+    "answer_sha256": "1eb68fee072f8cd307b267f1ec4039428cf005b91e9b6973debda01b9d992352",
+    "review_source": "assistant",
+    "reviewer": "Codex assistant",
+    "evidence_label": "unsupported",
+    "answer_correctness": "incorrect",
+    "rationale": "证据把通用用途列表与 high temperature military 用途分开陈述。回答将伺服、机器人、自动化和医疗设备统称军事用途，缺少这层限定的依据，并未回答题干要求的 high temperature 类型；缺乏支持不等于已有明确反证。",
+    "evidence_anchors": [
+      {
+        "start": 299,
+        "end": 441,
+        "quote_sha256": "0e75237da6d331a7c4b4164e0ed14d8c6b3b0548a5461c838fb1937348dea79f"
+      },
+      {
+        "start": 493,
+        "end": 597,
+        "quote_sha256": "5d0397f129f8f8327c5503103d2503de1959e7255a971879083e6a67ce6c349d"
+      }
+    ]
+  },
+  {
+    "sample_id": "sample:6d97172604511dfa9ca7fff80ec7d0682a4e87ec2c4874e6db9e48beefa2753e",
+    "visible_input_sha256": "85f082545c6b7debc6d30c442ed62dc861039a556496c5e6e2b0e4dc1cb6cc71",
+    "answer_sha256": "9363338612e08183070b42a46edc63fef05381c59ba944aa8578b6ad72c204d0",
+    "review_source": "assistant",
+    "reviewer": "Codex assistant",
+    "evidence_label": "supported",
+    "answer_correctness": "correct",
+    "rationale": "证据1明确 Madison 在 Federalist 51 写下 legislative authority necessarily predominates；Paper 51 的改写可接受。",
+    "evidence_anchors": [
+      {
+        "start": 242,
+        "end": 278,
+        "quote_sha256": "36172d2ed4ce27cf4f7b088a9245f8d3c6fee7df6d143b46a2e699320dc40623"
+      },
+      {
+        "start": 472,
+        "end": 523,
+        "quote_sha256": "b499812bb9f198a183418831d277b52ab61a9d1b2fe4084d9f7d73c4856279e6"
+      }
+    ]
+  },
+  {
+    "sample_id": "sample:f8664dbe742f8a5986acfe487511aeb64628c2703dc5145906774b3a7b1f3fbf",
+    "visible_input_sha256": "bb94c0d68cc8ad6e69950b1560723e0f7c552c9381b3b679942b01f0ce3e2bc4",
+    "answer_sha256": "a5fafaa214fa671c293071b6dac23e4c0f0bd9fe935f3d65c96c16bacf6ae345",
+    "review_source": "assistant",
+    "reviewer": "Codex assistant",
+    "evidence_label": "undetermined",
+    "answer_correctness": "undetermined",
+    "rationale": "拒答按协议不进入事实回答 AUC。证据1首句已提供 Over 50%，因此这是有答案情况下的过度拒答候选，不能将其计为正确事实回答或幻觉负类；保留为拒答质量案例。",
+    "evidence_anchors": [
+      {
+        "start": 107,
+        "end": 157,
+        "quote_sha256": "1c9aaa4fe2bc9ec7b3b4384563395cbf6efe7e798c8533e323b51f1dc30ce393"
+      }
+    ]
+  },
+  {
+    "sample_id": "sample:8f5dc887596c479a95c149cc7b9a184945bb840068eaa74d8fe3cdf9ad3c399f",
+    "visible_input_sha256": "30d12539364787ca91c24bb652674b373552c078a6a25b548ccc315a78ea8713",
+    "answer_sha256": "a5fafaa214fa671c293071b6dac23e4c0f0bd9fe935f3d65c96c16bacf6ae345",
+    "review_source": "assistant",
+    "reviewer": "Codex assistant",
+    "evidence_label": "undetermined",
+    "answer_correctness": "undetermined",
+    "rationale": "拒答单列。Bijou 明确含 gin；Agua de Valencia 段落只列 base of cava or champagne and orange juice，未声明穷尽配料，不能从未提及 gin 推出不含 gin，也不能仅凭隐藏参考答案将拒答判错。",
+    "evidence_anchors": [
+      {
+        "start": 166,
+        "end": 232,
+        "quote_sha256": "49fa607c5313b31aba1d2d8b0afe99817df956e513d9f1d7062db0125d111b77"
+      },
+      {
+        "start": 545,
+        "end": 622,
+        "quote_sha256": "cd86c3b6805f15f3134e7b11e352cca9f23458e5f728b04183dc3386b7f45588"
+      }
+    ]
+  },
+  {
+    "sample_id": "sample:5347b35e5333ef3bdb777a38723e28a4072f220ed05106dd1bd4d5444d7aa200",
+    "visible_input_sha256": "79f7327bb2ac57df7416dabf381dd4aea96c691b61ef6bb3c859e2017c958397",
+    "answer_sha256": "9b3fa48bcbe7cf4df5b46cdb51295e424f17ca491fb73f247b6682c2bdc7f7a3",
+    "review_source": "assistant",
+    "reviewer": "Codex assistant",
+    "evidence_label": "supported",
+    "answer_correctness": "correct",
+    "rationale": "证据1同段支持 Santon Bridge 位于 Cumbria, England 及 Bridge Inn 举办年度 World's Biggest Liar；无需依赖未检索到的另一金标文档。",
+    "evidence_anchors": [
+      {
+        "start": 86,
+        "end": 148,
+        "quote_sha256": "d9833cf443458ff826e873b18d38585678a025b6eeea82309248a6b29f47b2c2"
+      },
+      {
+        "start": 295,
+        "end": 371,
+        "quote_sha256": "aac06f10f8126bf4b1fca8e523f80753cfea836e9b72a3b0ba2458de190446ff"
+      }
+    ]
+  },
+  {
+    "sample_id": "sample:1acdfd7bb1339478e99f062d2fb15adf7c3bf80adaec038c70694351988a9930",
+    "visible_input_sha256": "1fc6cc563ba0cca4bd101147c636b1969e531b628695d3e07c3536619c3ca92a",
+    "answer_sha256": "215cee0bbf6e0597b028d562573b79505aefd9a4afc6fcd39d9b0c8dde2df011",
+    "review_source": "assistant",
+    "reviewer": "Codex assistant",
+    "evidence_label": "undetermined",
+    "answer_correctness": "correct",
+    "rationale": "参考答案的否定方向可由回答表达，但严格证据支持存在边界：证据3称其 British，没有明确 not American；国籍可能并存。建议保留 undetermined，人工先裁决是否允许通常国籍问答的排他解读。Henry Paul 的国籍不是否定 both 命题的必要前提。",
+    "evidence_anchors": [
+      {
+        "start": 1490,
+        "end": 1542,
+        "quote_sha256": "0a782fef0b8fd7815e2e9cb1860074c1e82b22773b4c7c8e1aec52a16a7aa13e"
+      }
+    ]
+  },
+  {
+    "sample_id": "sample:c582502551e2e02a90ea2f724b83c9fad773f440852205d173c1f4a1b28f83ee",
+    "visible_input_sha256": "a44db2b3bbe8c73556dd90660e1eeaf8c81599c980e7963e74b4a007b951130e",
+    "answer_sha256": "8e3d030e0640806d55893edf92b8e15389bca82247d8f6e162e09c58eb1a1148",
+    "review_source": "assistant",
+    "reviewer": "Codex assistant",
+    "evidence_label": "supported",
+    "answer_correctness": "correct",
+    "rationale": "证据1同时支持出生日期和出演 2010 重拍版；证据4明确该片主演包括 Jaden Smith，回答全部事实可见。",
+    "evidence_anchors": [
+      {
+        "start": 84,
+        "end": 132,
+        "quote_sha256": "39f8618694e52406c625a678c7e4f16832852810f9adab029f5f81a935a4e228"
+      },
+      {
+        "start": 314,
+        "end": 421,
+        "quote_sha256": "0fa6fdaa164e798d46f38518f7e05e4f3b5bd2e4a8182bdd465b220f1a87399b"
+      },
+      {
+        "start": 1657,
+        "end": 1725,
+        "quote_sha256": "cfc1e781eafd93c0411f7fa42089be8435a21a25f9b245e22f85cd6159c6a9d0"
+      }
+    ]
+  },
+  {
+    "sample_id": "sample:e71692555ff6e9aedd97e12989f4625a8bc3989bd7686041d541cbdf712374b8",
+    "visible_input_sha256": "597c3e416fcdaa73f721522a8e417d04f32cfb1df7c396847de69fca8333ae1c",
+    "answer_sha256": "6a86dc86c4c5abc293d278e66f3c705198ce4a8601378ca2e5898b88c17c8b27",
+    "review_source": "assistant",
+    "reviewer": "Codex assistant",
+    "evidence_label": "supported",
+    "answer_correctness": "correct",
+    "rationale": "证据1直接写影片被描述为 Pretty in Pink 与 Cruel Intentions 的混合；回答未附加 1986 年等证据未给出的事实。",
+    "evidence_anchors": [
+      {
+        "start": 652,
+        "end": 739,
+        "quote_sha256": "83c37ff1411c5fa38dd96ddb7feb4a533ab7dcc960ff11caad24e7e6c32cf569"
+      }
+    ]
+  },
+  {
+    "sample_id": "sample:8ab6b71f96a0c0a06e6c177fbab174397a3f0ee97ff7a1da668987a8b3d943a2",
+    "visible_input_sha256": "712d0b1500e4302db37a20ef1b4d38e5eb01f8b0119bf0eafb1d294a7ff7dbe9",
+    "answer_sha256": "d062796c60028717e75de6a5b7ee4b985e7e046f4ee5cde63399f488b91b6e35",
+    "review_source": "assistant",
+    "reviewer": "Codex assistant",
+    "evidence_label": "contradicted",
+    "answer_correctness": "incorrect",
+    "rationale": "证据1将 Los pájaros 定义为 Vicentico 的专辑，证据4称 Vicentico 为 Los Fabulosos Cadillacs 联合创始人。回答反称 Vicentico 被 Los Pájaros 乐队发行，颠倒人物与作品并把专辑说成乐队。虽然含正确乐队名，整句关系错误。",
+    "evidence_anchors": [
+      {
+        "start": 84,
+        "end": 167,
+        "quote_sha256": "50b9edca884064ae06d3c9934f67b27c4a8c2513b6986ff583ddf595437c338d"
+      },
+      {
+        "start": 1251,
+        "end": 1341,
+        "quote_sha256": "85f490ef821718a4f84aaa64240c14601d0bcb366caedb493b0819d853defc1c"
+      }
+    ]
+  },
+  {
+    "sample_id": "sample:ec12579c775c45e80eaf9b0a6c6430cbf3759c14d50ae431904021f940b4b783",
+    "visible_input_sha256": "105870c167dcf7d488850ed02cc892ca0108682e21e43fbd16db7c153f63ef72",
+    "answer_sha256": "820dcddd56a8c9a9134e03d7c532bb234e7c75d13247c779294808efaf4d89cd",
+    "review_source": "assistant",
+    "reviewer": "Codex assistant",
+    "evidence_label": "unsupported",
+    "answer_correctness": "correct",
+    "rationale": "Dawson's Creek 这一问答目标与参考答案一致，证据1支持歌曲被该剧使用。但回答额外说该剧由 James Van Der Beek 主演，完整可见证据未建立这层关系；题干预设不能代替证据，隐藏金标支撑亦不能补入。",
+    "evidence_anchors": [
+      {
+        "start": 410,
+        "end": 470,
+        "quote_sha256": "c9622addb4ea40774208474f8b6501c1fc09d164ce6329fdd44d1d2a30448d2a"
+      }
+    ]
+  },
+  {
+    "sample_id": "sample:7f407397a10c6020bdee454d548d03a483dc12226bb5fd1ba937ec5a0cf06abd",
+    "visible_input_sha256": "fcb30bae1dc8f005fe162c5e6fda22abb6b38cf6afb2a20e58fb75f03cb54b64",
+    "answer_sha256": "9152c564860ad53784904a5a1e5b5aae1fe68d5a1daa34f9a8347b5ac88c4c87",
+    "review_source": "assistant",
+    "reviewer": "Codex assistant",
+    "evidence_label": "unsupported",
+    "answer_correctness": "correct",
+    "rationale": "核心答案 Location 与参考一致；证据1只支持 Silence 与 Khalid 的关系，没有 Khalid 的首单信息。Location 来自模型记忆或不可见支撑的可能性不构成证据支持，不能因答对就标 supported。完整复核仍须检查所有可见段落。",
+    "evidence_anchors": [
+      {
+        "start": 98,
+        "end": 216,
+        "quote_sha256": "7ae80437b19fe5f9280cd0041bc4fb308752b7f9f4c2489103221c1604eb7411"
+      }
+    ]
+  },
+  {
+    "sample_id": "sample:6049a278afae4541c3a2283a61b3dcecd3d10fd28180afa65e37fb3e2f10c3cb",
+    "visible_input_sha256": "2b99a335991dece5a851f5c0d6bc00958783dfc6c73b4fe110c4b1e73b133ee7",
+    "answer_sha256": "26c86b9e6f3302773614114aece715225740fd950014b904d9ab248d21d1882f",
+    "review_source": "assistant",
+    "reviewer": "Codex assistant",
+    "evidence_label": "supported",
+    "answer_correctness": "correct",
+    "rationale": "证据2直接说 George Walker played for Crystal Palace；证据1将俱乐部全名与所在地连接，FC 与 Football Club 可视为别名。",
+    "evidence_anchors": [
+      {
+        "start": 359,
+        "end": 456,
+        "quote_sha256": "80f0f0f5cc3ab56ba68187d0f303b1bc2bb8d3ba1e0771d9b48a7226ea8a8652"
+      }
+    ]
+  },
+  {
+    "sample_id": "sample:fe46cafde9042c4fffbdc0cfd061e1062aa221a99a750f694c2a5b25bd73f58e",
+    "visible_input_sha256": "ecd05f23fa652fe5da545f34db144dc5b6098eb99207031a16261d15f669323b",
+    "answer_sha256": "a5fafaa214fa671c293071b6dac23e4c0f0bd9fe935f3d65c96c16bacf6ae345",
+    "review_source": "assistant",
+    "reviewer": "Codex assistant",
+    "evidence_label": "undetermined",
+    "answer_correctness": "undetermined",
+    "rationale": "拒答单列。可见证据包含 Real Murcia 的创立时间与球场，却没有题目所问右后卫的身份与出生日期；隐藏金标中的 Juanra 不能视为已检索到。此例适合记录缺失多跳末端证据后的合理拒答候选。",
+    "evidence_anchors": [
+      {
+        "start": 231,
+        "end": 349,
+        "quote_sha256": "6410e455b74e9cea3b494da997a5353c214a9f6e9e1eee1b904eb3f4284e75ec"
+      }
+    ]
+  }
+]

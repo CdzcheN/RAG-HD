@@ -1,0 +1,14 @@
+{
+  "unit_tests_passed": 17,
+  "review_rows": 20,
+  "assistant_suggestions": 20,
+  "human_reviews_created": 0,
+  "new_model_inferences": 0,
+  "formal_records_still_undetermined": 20,
+  "status": "human_review_pending",
+  "main_metrics_unchanged": true,
+  "score_inputs_to_review_exporter": [],
+  "draft_labels_prefilled": 20,
+  "review_source_column_removed": true,
+  "user_confirmation": "pending"
+}

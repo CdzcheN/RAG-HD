@@ -1,0 +1,9 @@
+{
+  "status": "inference_started",
+  "run_dir": "outputs/rag_challenge_20261104_v4",
+  "records": 120,
+  "pairs": 60,
+  "cpu_tests_passed": 23,
+  "labels_created_by_construction": 0,
+  "final_output_review_required": true
+}

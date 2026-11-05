@@ -1,0 +1,32 @@
+{
+  "sources": {
+    "squad": {
+      "repo_id": "rajpurkar/squad",
+      "subset": "plain_text",
+      "revision": "7b6d24c440a36b6815f21b70d25016731768db1f",
+      "split": "train",
+      "source_rows": 87599,
+      "pool_size": 200,
+      "selection": "lowest_sha256(seed,dataset,original_id)",
+      "pool_ids_sha256": "499ece138bcedbbd525b6f79f1a142564b63f94073120cb023953529f2d5b424"
+    },
+    "hotpot": {
+      "repo_id": "hotpotqa/hotpot_qa",
+      "subset": "distractor",
+      "revision": "1908d6afbbead072334abe2965f91bd2709910ab",
+      "split": "train",
+      "source_rows": 90447,
+      "pool_size": 200,
+      "selection": "lowest_sha256(seed,dataset,original_id)",
+      "pool_ids_sha256": "1402a0c0369f6972783e2b57d6116aaf22dcf6a87e8b1b09129d6e5b23331de1"
+    }
+  },
+  "seed": 20260918,
+  "records": 20,
+  "corpus_documents": 2193,
+  "groups": 20,
+  "corpus_scope": "Union of contexts of the fixed sampled train pools; this is a closed-corpus development pilot.",
+  "prepared_sha256": "a022abf1c1e4e16f96a2cc1351e29feecdf024db1a70f91096d0c0de06a0664a",
+  "corpus_sha256": "6d6d48b6b8be3af28bdb6f75cc24193cc0085493855a95217746133f6417ac2c",
+  "diagnostic_only_mean_gold_document_recall": 0.85
+}
