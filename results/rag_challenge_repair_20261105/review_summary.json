@@ -1,0 +1,23 @@
+{
+  "status": "assistant_prefilled_pending_user_review",
+  "answer_rows": 60,
+  "construction_rows": 30,
+  "review_source": "assistant",
+  "user_confirmation": "pending",
+  "draft_evidence_label_counts": {
+    "supported": 45,
+    "undetermined": 12,
+    "contradicted": 1,
+    "outdated": 2
+  },
+  "draft_answer_correctness_counts": {
+    "correct": 44,
+    "undetermined": 12,
+    "incorrect": 4
+  },
+  "construction_finding_counts": {
+    "basic": 30
+  },
+  "detector_scores_used_for_labels": false,
+  "formal_artifacts_unchanged": true
+}

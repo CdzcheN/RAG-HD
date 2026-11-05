@@ -1,0 +1,19 @@
+{
+  "cpu_tests_passed": 30,
+  "user_confirmed_rows": 120,
+  "undetermined_preserved": 34,
+  "common_labeled_rows": 86,
+  "original_minicheck_unchanged": true,
+  "split_groups_disjoint_all_seeds": true,
+  "seeds": [
+    13,
+    42,
+    2026
+  ],
+  "trained_models": 15,
+  "thresholds_fit_on": "validation",
+  "scalers_and_models_fit_on": "train",
+  "generated_answers_rerun": 0,
+  "new_minicheck_calls": 75,
+  "formal_test_claim": false
+}

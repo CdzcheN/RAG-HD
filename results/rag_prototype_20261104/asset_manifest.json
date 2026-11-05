@@ -1,0 +1,121 @@
+{
+  "sources": [
+    {
+      "repo_type": "model",
+      "repo_id": "Qwen/Qwen2.5-3B-Instruct",
+      "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+      "files": [
+        {
+          "path": "LICENSE",
+          "size_bytes": 7388,
+          "sha256": "ef52482bb785733093dc9a2e8edd8e764c77d12d8e9d8f10a80c9b547d32d0f9",
+          "hub_object_hash_verified": true
+        },
+        {
+          "path": "README.md",
+          "size_bytes": 4930,
+          "sha256": "2c74693e6ae36ba878124d465195b4dad0f71035b54ece1c9fd1553cc497ef8c",
+          "hub_object_hash_verified": true
+        },
+        {
+          "path": "config.json",
+          "size_bytes": 661,
+          "sha256": "eed00b17e22553979d090fa492e587e92885e328914c8e0b0b78f0a0d3576b3b",
+          "hub_object_hash_verified": true
+        },
+        {
+          "path": "generation_config.json",
+          "size_bytes": 242,
+          "sha256": "ea35dfb6fc5051b01114f9b995820d55dab01ed33ee490f6378b442af82c09f9",
+          "hub_object_hash_verified": true
+        },
+        {
+          "path": "merges.txt",
+          "size_bytes": 1671839,
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+          "hub_object_hash_verified": true
+        },
+        {
+          "path": "model-00001-of-00002.safetensors",
+          "size_bytes": 3968658944,
+          "sha256": "67347b23fb4165b652eb6611f5e1f2a06dfcddba8e909df1b2b0b1857bee06c2",
+          "hub_object_hash_verified": true
+        },
+        {
+          "path": "model-00002-of-00002.safetensors",
+          "size_bytes": 2203268048,
+          "sha256": "a40d941d0e7e0b966ad8b62bb6d6b7c88cce1299197b599d9d0a4ce59aabfc1d",
+          "hub_object_hash_verified": true
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size_bytes": 35581,
+          "sha256": "bc8aaa0c87d4335177e01c765f1de0db81661c67c1a72fbfb0d521b09f5ddc56",
+          "hub_object_hash_verified": true
+        },
+        {
+          "path": "tokenizer.json",
+          "size_bytes": 7031645,
+          "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+          "hub_object_hash_verified": true
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size_bytes": 7305,
+          "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+          "hub_object_hash_verified": true
+        },
+        {
+          "path": "vocab.json",
+          "size_bytes": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "hub_object_hash_verified": true
+        }
+      ]
+    },
+    {
+      "repo_type": "dataset",
+      "repo_id": "rajpurkar/squad",
+      "revision": "7b6d24c440a36b6815f21b70d25016731768db1f",
+      "files": [
+        {
+          "path": "README.md",
+          "size_bytes": 7620,
+          "sha256": "fb89c5d06573a2c7b7fb671ad60f5c1f3be2ccd7a63162f41b9e613abca0f0b8",
+          "hub_object_hash_verified": true
+        },
+        {
+          "path": "plain_text/train-00000-of-00001.parquet",
+          "size_bytes": 14458314,
+          "sha256": "ea7f52bac024f6b1bdc7aaa2a4ee302cba8c2fdc8d4a235cf18a9a5196b6175b",
+          "hub_object_hash_verified": true
+        }
+      ]
+    },
+    {
+      "repo_type": "dataset",
+      "repo_id": "hotpotqa/hotpot_qa",
+      "revision": "1908d6afbbead072334abe2965f91bd2709910ab",
+      "files": [
+        {
+          "path": "README.md",
+          "size_bytes": 9522,
+          "sha256": "3cfab003a856275d3198b031c6b2ac46c63178fb462a4123705f652b71b22813",
+          "hub_object_hash_verified": true
+        },
+        {
+          "path": "distractor/train-00000-of-00002.parquet",
+          "size_bytes": 165624177,
+          "sha256": "76d3bb3048a7cc73c1958107c0c5872a00d7e7d00c105b81e92f6769e7822e68",
+          "hub_object_hash_verified": true
+        },
+        {
+          "path": "distractor/train-00001-of-00002.parquet",
+          "size_bytes": 166162479,
+          "sha256": "713661628434fbb19fff7392e2e321e4ed107e3c7c7784d0690946e5f722763f",
+          "hub_object_hash_verified": true
+        }
+      ]
+    }
+  ]
+}

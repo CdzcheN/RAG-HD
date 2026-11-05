@@ -1,0 +1,8 @@
+{
+  "pairs": 30,
+  "findings": {
+    "basic": 30
+  },
+  "annotation_origin": "assistant_draft_confirmed_by_user",
+  "independent_double_annotation": false
+}

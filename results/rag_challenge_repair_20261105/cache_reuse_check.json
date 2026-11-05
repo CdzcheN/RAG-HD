@@ -1,0 +1,7 @@
+{
+  "old_run": "outputs/rag_challenge_repair_20261105_v2",
+  "public_inputs_identical": true,
+  "reused_stages": [],
+  "resource_records_required_for_reuse": true,
+  "change": "Deletion metadata now records unchanged numerical values_after."
+}

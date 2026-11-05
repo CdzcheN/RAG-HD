@@ -1,0 +1,91 @@
+{
+  "total": 20,
+  "refusals": 3,
+  "label_counts": {
+    "undetermined": 20
+  },
+  "qa_exact_match_rate": 0.0,
+  "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+  "methods": {
+    "self_check": {
+      "score_missing_on_all_inputs": 3,
+      "roc_auc": null,
+      "average_precision": null,
+      "not_computable_reason": "Common labeled cohort has fewer than two classes."
+    },
+    "minicheck": {
+      "score_missing_on_all_inputs": 3,
+      "roc_auc": null,
+      "average_precision": null,
+      "not_computable_reason": "Common labeled cohort has fewer than two classes."
+    }
+  },
+  "labeled_factual_answers": 0,
+  "common_evaluation_rows": 0,
+  "refusal_rate": 0.15,
+  "label_coverage": 0.0,
+  "common_coverage": 0.0,
+  "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split.",
+  "groups": {
+    "hotpot": {
+      "total": 10,
+      "refusals": 2,
+      "label_counts": {
+        "undetermined": 10
+      },
+      "qa_exact_match_rate": 0.0,
+      "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+      "methods": {
+        "self_check": {
+          "score_missing_on_all_inputs": 2,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        },
+        "minicheck": {
+          "score_missing_on_all_inputs": 2,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        }
+      },
+      "labeled_factual_answers": 0,
+      "common_evaluation_rows": 0,
+      "refusal_rate": 0.2,
+      "label_coverage": 0.0,
+      "common_coverage": 0.0,
+      "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split."
+    },
+    "squad": {
+      "total": 10,
+      "refusals": 1,
+      "label_counts": {
+        "undetermined": 10
+      },
+      "qa_exact_match_rate": 0.0,
+      "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+      "methods": {
+        "self_check": {
+          "score_missing_on_all_inputs": 1,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        },
+        "minicheck": {
+          "score_missing_on_all_inputs": 1,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        }
+      },
+      "labeled_factual_answers": 0,
+      "common_evaluation_rows": 0,
+      "refusal_rate": 0.1,
+      "label_coverage": 0.0,
+      "common_coverage": 0.0,
+      "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split."
+    }
+  },
+  "protocol_version": "rag-prototype-v1",
+  "purpose": "Development flow validation; not a formal method-improvement experiment."
+}

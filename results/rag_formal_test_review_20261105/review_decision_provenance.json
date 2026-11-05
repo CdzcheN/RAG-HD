@@ -1,0 +1,30 @@
+{
+  "method": "assistant_question_answer_visible_text_review",
+  "scores_read": false,
+  "reviewed_display_ranges": [
+    [
+      1,
+      120
+    ]
+  ],
+  "explicit_override_rows": [
+    48,
+    50,
+    66,
+    71,
+    72,
+    74,
+    83,
+    84,
+    87,
+    88,
+    90,
+    100,
+    104,
+    118
+  ],
+  "human_confirmation": "pending",
+  "independent_double_annotation": false,
+  "prepared_sha256": "070ab9828ed8a92711d51436e407adf5ddfc7588113b07fdfb4270fd3cdfba1b",
+  "generation_sha256": "f7b9e0b36dd0d8f3486f177bb39f769edabf7eeadb60c100d1e2dba5602673b3"
+}

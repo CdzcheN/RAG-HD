@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1210" viewBox="0 0 1600 1210" role="img" aria-labelledby="title desc">
+  <title id="title">MiniCheck-Flan-T5-Large baseline 推理流程</title>
+  <desc id="desc">上游提供证据文档和生成回答。官方代码按句合并证据为文档块，项目封装将回答切分为句子。每个文档块与每个回答句子配对，使用 MiniCheck-Flan-T5-Large 计算支持分数。官方对文档块取最大值，项目对回答句子取最小值，再用一减去该值获得回答级幻觉风险。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L9,5 L0,10 Z" fill="#50627c"/></marker>
+    <style>
+      text { font-family: 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif; fill: #172b46; }
+      .title { font-size: 38px; font-weight: 700; }
+      .subtitle { font-size: 22px; fill: #56677e; }
+      .legend { font-size: 20px; fill: #44556b; }
+      .heading { font-size: 25px; font-weight: 700; }
+      .body { font-size: 22px; }
+      .small { font-size: 19px; fill: #53657c; }
+      .formula { font-size: 25px; font-weight: 500; }
+      .mono { font-family: 'DejaVu Sans Mono', monospace; font-size: 19px; }
+      .upstream { fill: #f4f6f9; stroke: #c4cedb; stroke-width: 1.8; }
+      .official { fill: #edf5ff; stroke: #6b9bd4; stroke-width: 1.8; }
+      .wrapper { fill: #fff5e9; stroke: #d9a061; stroke-width: 1.8; }
+      .edge { fill: none; stroke: #50627c; stroke-width: 2.5; stroke-linejoin: round; stroke-linecap: round; }
+    </style>
+  </defs>
+  <rect width="1600" height="1210" fill="white"/>
+  <text x="70" y="66" class="title">MiniCheck baseline：基于证据的回答幻觉检测</text>
+  <text x="70" y="108" class="subtitle">MiniCheck-Flan-T5-Large · 770M　｜　公开权重推理，输出回答级风险分数</text>
+
+  <rect x="70" y="140" width="20" height="20" rx="4" class="upstream"/>
+  <text x="102" y="157" class="legend">上游 RAG 输出</text>
+  <rect x="350" y="140" width="20" height="20" rx="4" class="official"/>
+  <text x="382" y="157" class="legend">MiniCheck 官方逻辑</text>
+  <rect x="685" y="140" width="20" height="20" rx="4" class="wrapper"/>
+  <text x="717" y="157" class="legend">本项目回答级封装</text>
+
+  <rect x="170" y="195" width="480" height="100" rx="14" class="upstream"/>
+  <text x="410" y="236" text-anchor="middle" class="heading">检索证据文档 D</text>
+  <text x="410" y="271" text-anchor="middle" class="body">与生成模型使用相同的证据上下文</text>
+  <rect x="950" y="195" width="480" height="100" rx="14" class="upstream"/>
+  <text x="1190" y="236" text-anchor="middle" class="heading">生成回答 A</text>
+  <text x="1190" y="271" text-anchor="middle" class="body">由上游 RAG 生成并缓存</text>
+
+  <path d="M410 295 V340" class="edge" marker-end="url(#arrow)"/>
+  <path d="M1190 295 V340" class="edge" marker-end="url(#arrow)"/>
+  <rect x="170" y="340" width="480" height="120" rx="14" class="official"/>
+  <text x="410" y="378" text-anchor="middle" class="heading">证据切块：c₁, c₂, …, cₘ</text>
+  <text x="410" y="413" text-anchor="middle" class="body">按完整句子合并，默认 chunk_size = 500</text>
+  <text x="410" y="444" text-anchor="middle" class="small">按空白分词计数，保留换行结构</text>
+  <rect x="950" y="340" width="480" height="120" rx="14" class="wrapper"/>
+  <text x="1190" y="378" text-anchor="middle" class="heading">回答切句：s₁, s₂, …, sₙ</text>
+  <text x="1190" y="413" text-anchor="middle" class="body">逐句作为待核验 claim</text>
+  <text x="1190" y="444" text-anchor="middle" class="small">由调用方在 score() 之前完成</text>
+
+  <path d="M410 460 V520 H310" class="edge"/>
+  <path d="M1190 460 V520 H310" class="edge"/>
+  <circle cx="410" cy="520" r="4" fill="#50627c"/>
+
+  <rect x="60" y="555" width="1480" height="235" rx="18" fill="#fbfdff" stroke="#a2bbd9" stroke-width="1.5" stroke-dasharray="8 6"/>
+  <text x="90" y="591" class="small" style="font-weight:700;fill:#34649a">官方单句核验</text>
+  <text x="1505" y="591" text-anchor="end" class="small">对每个回答句子 sᵢ 重复执行；文档块可批量推理</text>
+  <path d="M310 520 V625" class="edge" marker-end="url(#arrow)"/>
+
+  <rect x="100" y="625" width="400" height="130" rx="14" class="official"/>
+  <text x="300" y="662" text-anchor="middle" class="heading">构造证据块–句子对</text>
+  <text x="300" y="697" text-anchor="middle" class="mono">predict: {c_j}&lt;/s&gt;{s_i}</text>
+  <text x="300" y="733" text-anchor="middle" class="small">分词、填充 / 截断至 2048 tokens</text>
+  <path d="M500 690 H600" class="edge" marker-end="url(#arrow)"/>
+
+  <rect x="600" y="625" width="400" height="130" rx="14" class="official"/>
+  <text x="800" y="662" text-anchor="middle" class="heading" style="font-size:23px">MiniCheck-Flan-T5-Large</text>
+  <text x="800" y="697" text-anchor="middle" class="body">公开权重推理 · 首步解码</text>
+  <text x="800" y="733" text-anchor="middle" class="formula">pᵢⱼ = softmax(z₀, z₁)[1]</text>
+  <path d="M1000 690 H1100" class="edge" marker-end="url(#arrow)"/>
+
+  <rect x="1100" y="625" width="400" height="130" rx="14" class="official"/>
+  <text x="1300" y="662" text-anchor="middle" class="heading">文档块级聚合（MAX）</text>
+  <text x="1300" y="699" text-anchor="middle" class="formula">supportᵢ = maxⱼ pᵢⱼ</text>
+  <text x="1300" y="733" text-anchor="middle" class="small">得到每个句子的支持分数</text>
+
+  <path d="M1300 755 V835 H480 V880" class="edge" marker-end="url(#arrow)"/>
+  <text x="1010" y="822" text-anchor="middle" class="small">汇总全部回答句子的支持分数</text>
+  <rect x="230" y="880" width="500" height="130" rx="14" class="wrapper"/>
+  <text x="480" y="918" text-anchor="middle" class="heading">回答句子级聚合（MIN）</text>
+  <text x="480" y="954" text-anchor="middle" class="formula" style="font-size:22px">support_answer = minᵢ supportᵢ</text>
+  <text x="480" y="988" text-anchor="middle" class="small">项目设定：采用最低句子支持分数</text>
+  <path d="M730 945 H870" class="edge" marker-end="url(#arrow)"/>
+
+  <rect x="870" y="880" width="500" height="130" rx="14" class="wrapper"/>
+  <text x="1120" y="918" text-anchor="middle" class="heading">输出回答级幻觉风险</text>
+  <text x="1120" y="954" text-anchor="middle" class="formula">r_mini = 1 − support_answer</text>
+  <text x="1120" y="988" text-anchor="middle" class="small">分数越高，越可能缺乏证据支持</text>
+  <path d="M1120 1010 V1055" class="edge" marker-end="url(#arrow)"/>
+
+  <rect x="230" y="1055" width="1140" height="80" rx="12" fill="#f4f6f9" stroke="#c4cedb" stroke-width="1.5"/>
+  <text x="260" y="1088" class="body" style="font-weight:700">Baseline 评估</text>
+  <text x="490" y="1088" class="body">连续风险：ROC-AUC / PR-AUC</text>
+  <text x="490" y="1119" class="small">分类：r_mini ≥ τ 判为幻觉；τ 仅在验证集选择，再计算 F1 / Precision / Recall</text>
+  <text x="800" y="1183" text-anchor="middle" class="formula" style="font-size:24px">r_mini = 1 − minᵢ maxⱼ P(supported | cⱼ, sᵢ)</text>
+</svg>

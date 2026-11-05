@@ -1,0 +1,12 @@
+{
+  "status": "user_confirmed",
+  "rows": 60,
+  "construction_pairs": 30,
+  "confirmation": "用户在本会话明确确认：我已经亲自确认，继续下一步工作。确认60条回答复核及30组构造检查。",
+  "recorded_at_utc": "2026-11-05T05:15:47.414822+00:00",
+  "annotation_origin": "assistant_draft_confirmed_by_user",
+  "independent_human_annotation": false,
+  "reviewed_table_sha256": "a93c161f078c93fcae7c4f03f1b4438843876e884a56db01c72466e6ac2a9cb5",
+  "construction_table_sha256": "cdf9d96c9d5e66aea852d6e6da322576a5def4d688f823106b240b72fbf41a4d",
+  "confirmed_review_sha256": "a23f1cef4bc02fd2774ae6929ae99ee7f64263634cfd1e423aa6e333c9fb6f89"
+}

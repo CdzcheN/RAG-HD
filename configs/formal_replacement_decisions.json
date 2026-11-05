@@ -1,0 +1,202 @@
+{
+  "protocol_version": "formal-source-replacements-v1",
+  "review_source": "assistant",
+  "decisions": [
+    {
+      "display_number": 40,
+      "replacement_base_question_id": "squad:572644d81125e71900ae193c",
+      "replacement_component_id": "formal-source:07cdca297b86d140a4352752f7d7a293bc1e8d2ab754342360a38f491aead2f0",
+      "question_override": "According to the supplied record, the CLIPSAS list includes over how many Grand Lodges and Grand Orients?",
+      "rationale": "保留over70下界；没有完整70个会所枚举，版本仅记录名单数量下界，不改共济会实体分类。",
+      "review_source": "assistant",
+      "slot_semantics": "reported_lower_bound"
+    },
+    {
+      "display_number": 45,
+      "replacement_base_question_id": "squad:56ce6232aab44d1400b8871d",
+      "replacement_component_id": "formal-source:026a2fd91d27344e9c81889d256f6ea8a3c64e6740e7a4fbb0571ba922b099eb",
+      "question_override": "According to the supplied record, how many parabolic dishes were in the field at the Solar Total Energy Project in Shenandoah, Georgia?",
+      "rationale": "114为设备数，50%满足率和400/401/468kW是输出统计，未给每碟固定功率，±1不引起明示算式矛盾。",
+      "review_source": "assistant"
+    },
+    {
+      "display_number": 48,
+      "replacement_base_question_id": "squad:57302d8ea23a5019007fcf08",
+      "replacement_component_id": "formal-source:2dc20e8d5a36a65e03b57f2dda032cb99b9fa82d29bef9b6aa3a71d04790d76c",
+      "question_override": "According to the supplied record, Principia Mathematica comprised more than how many pages?",
+      "rationale": "more than2000为页数下界，三卷数不变；600出版亏损=300+200+50+50为另一数量关系，保持原样。",
+      "review_source": "assistant",
+      "slot_semantics": "reported_lower_bound"
+    },
+    {
+      "display_number": 49,
+      "replacement_base_question_id": "squad:56df0e673277331400b4d925",
+      "replacement_component_id": "formal-source:edd194b7fb8b2cfb7f01273643f55a53e23ba26bde1185ab441d164b72caa8ff",
+      "question_override": "According to the supplied record, what maximum number of cardinals did Pope Sixtus V set for the College in 1587?",
+      "rationale": "替补原题1587仍是事件年，显式另写有原文支持的数量题，目标70上限；50priests为子集，调整后总量仍不少于50。",
+      "review_source": "assistant",
+      "reference_override": "70",
+      "slot_semantics": "reported_upper_bound",
+      "target_bounds": {
+        "lower": "50",
+        "upper": "1000"
+      }
+    },
+    {
+      "display_number": 76,
+      "replacement_base_question_id": "squad:5726d1bdf1498d1400e8ec3f",
+      "replacement_component_id": "formal-source:2f56fad6a0417b5870993eb470e0246e3f1bf0f0152016933cfd2be7c1c95a07",
+      "question_override": "How many Finnish people were examined in the downloading-behaviour study reported in early May 2014 in the supplied record?",
+      "rationale": "6000为研究样本数，年龄7—84不是分项人数，补研究及2014报道口径。",
+      "review_source": "assistant"
+    },
+    {
+      "display_number": 79,
+      "replacement_base_question_id": "squad:56f97f629b226e1400dd14cd",
+      "replacement_component_id": "formal-source:305ea22758d0e8b8f7b7850dc5df0f19282966775ea7c17557c77dc728238a5b",
+      "question_override": "According to the supplied April 2014 record, how many hectares of land and foreshore did the UK Ministry of Defence own?",
+      "rationale": "替补原题1.8%受227300+222000土地面积绑定，另写明确拥有面积227300ha题。改1ha不改变约1.8%舍入；不把拥有与access混同，保留原问题与参考值另记。",
+      "review_source": "assistant",
+      "reference_override": "227,300",
+      "ratio_rounding_check": {
+        "share": "1.8",
+        "share_percent_resolution": "0.1",
+        "additive_count": "222,000"
+      }
+    },
+    {
+      "display_number": 84,
+      "replacement_base_question_id": "squad:572697f0708984140094cb3a",
+      "replacement_component_id": "formal-source:1d07b8882049dd417aa22973b217f87fa81b663ffec54bb8ac065e9dad3ab218",
+      "question_override": "According to the supplied record, approximately how many members did the Presbyterian Church in Taiwan have as of 2009?",
+      "rationale": "238372限PCT与2009，保留some近似值，不是所有Presbyterian教派总数；无枚举加总。",
+      "review_source": "assistant",
+      "slot_semantics": "reported_estimate"
+    },
+    {
+      "display_number": 94,
+      "replacement_base_question_id": "hotpot:5a8204f1554299676cceb1e6",
+      "replacement_component_id": "formal-source:f041425089a2b9bb0f44ec0cb08a3a190d3d758a794e2820c7bffe43c0dc442d",
+      "question_override": "According to the supplied records, how many episodes did the 2013 series When a Man Falls in Love starring Song Seung-heon air for?",
+      "rationale": "20为剧集数，原资料演员段单独只有身份，系列段完整列演员与集数，明确可单跳直接回答。",
+      "review_source": "assistant",
+      "hop_note": "剧名已在原题给出，标记可单跳，不冒充必须两跳"
+    },
+    {
+      "display_number": 104,
+      "replacement_base_question_id": "hotpot:5a7cea26554299452d57ba9e",
+      "replacement_component_id": "formal-source:03d21ebce9f2c07f830fcf18f6fbd4dd2809ffdbb75721dcdc03d84586206cf7",
+      "question_override": "According to the supplied records, what capacity is reported for the stadium that hosted the 2007 Rhein Fire home games?",
+      "rationale": "球队主场LTU为EspritArena旧名，54600为资料所报容量，不绑定2007当年容量。",
+      "review_source": "assistant"
+    },
+    {
+      "display_number": 120,
+      "replacement_base_question_id": "hotpot:5adea7865542992fa25da7f5",
+      "replacement_component_id": "formal-source:1ae3caedaf40aa639be0089d86d67f7e26e9d1e648100d74c764da25bb28ef20",
+      "question_override": "What was the 2016 census population of the suburb three kilometres north of Melbourne's CBD served by the Inner Circle railway line?",
+      "rationale": "用原文3km north特征唯一限定Parkville，避免在四个所服务郊区中任取一个；7409为2016人口。",
+      "review_source": "assistant"
+    },
+    {
+      "display_number": 141,
+      "replacement_base_question_id": "hotpot:5a80b64e5542992bc0c4a7c5",
+      "replacement_component_id": "formal-source:80873420b9fe11490e12dfa80935de1c799ca13d9ffc584098b03b035852f93a",
+      "question_override": "According to the supplied records, how many acres is the lagoon sharing its name with the neighbourhood where the subjects of Grey Gardens lived?",
+      "rationale": "GreyGardens→GeorgicaPond邻区→290acre同名潟湖，统计对象是水体面积非豪宅面积。",
+      "review_source": "assistant"
+    },
+    {
+      "display_number": 168,
+      "replacement_base_question_id": "hotpot:5ab5e4855542992aa134a3d0",
+      "replacement_component_id": "formal-source:feae91b82324ac824cc6ea659f5834002a9f0e60498ff9a93ff574243ce656eb",
+      "question_override": "What was the 2010 census population of the CDP where independent filmmaker Doug Block was born?",
+      "rationale": "DougBlock→PortWashington→15846 CDP人口，出生1953不作为人口年。",
+      "review_source": "assistant"
+    },
+    {
+      "display_number": 174,
+      "replacement_base_question_id": "hotpot:5ababe7a554299232ef4a38d",
+      "replacement_component_id": "formal-source:4f5a8bac44406a4e7736b4b5275d37d628306fcba36b3e3412e52789ed7733b4",
+      "question_override": "What was the 2010 census population of the city where Sherman Day Thacher founded his school?",
+      "rationale": "替补Schoharie原题2010而资料为2000且同名镇村仍含混，继续拒绝；另选Thacher→Ojai→2010人口7461，纠正Thatcher拼写，2000人口7862较高不冲突。",
+      "review_source": "assistant"
+    },
+    {
+      "display_number": 175,
+      "replacement_base_question_id": "hotpot:5abf81b85542997ec76fd3f8",
+      "replacement_component_id": "formal-source:08c7067cc517623ccbe0a7ff9520a178ea5a87ac724d55921e56d2c813e7e979",
+      "question_override": "According to the supplied records, how many acres was the resort where Bob Scucci served as Assistant Race and Sports Book Manager?",
+      "rationale": "Scucci→Stardust→63acres(25ha)，按精确acre转ha系数及整数ha舍入同步更新25ha，不能只改63。",
+      "review_source": "assistant",
+      "scaled_coupled": [
+        {
+          "before": "25",
+          "key": "hectares",
+          "factor": "0.40468564224",
+          "round_to": "1"
+        }
+      ]
+    },
+    {
+      "display_number": 180,
+      "replacement_base_question_id": "hotpot:5ade03cb5542997545bbbe19",
+      "replacement_component_id": "formal-source:1b031b7f89068877709af03b714b3dad7c7c2b0bab08188f64e049c68607f02e",
+      "question_override": "What was the 2010 census population of the Maine town containing Stratton, where Bigelow Preserve is located?",
+      "rationale": "Bigelow位于Stratton，Eustis包含Stratton，618为Eustis镇人口；保留两级地点关系。",
+      "review_source": "assistant"
+    },
+    {
+      "display_number": 225,
+      "replacement_base_question_id": "hotpot:5a7a76c15542994f819ef1e4",
+      "replacement_component_id": "formal-source:d57323975dd5022e606096ab4c136440300241eade49dc366f420e5df087b174",
+      "question_override": "According to the supplied records, what was the 2001 population of the city from which Club Alianza Viedma comes?",
+      "rationale": "球队→Viedma→47246，补2001而不当现时人口；30/960km为其他量。",
+      "review_source": "assistant"
+    },
+    {
+      "display_number": 228,
+      "replacement_base_question_id": "hotpot:5ae608c05542992663a4f245",
+      "replacement_component_id": "formal-source:57f009b1f5a4c604a48a04ddeb1ce89da0fb7d3fa8fca5b4e4c52451c9a87490",
+      "question_override": "What was the 2010 census population of the CDP where guitar maker Joseph Jesselli lives and works in the supplied records?",
+      "rationale": "Jesselli→EastNorthport→20217，city改CDP，去掉currently现实外推。",
+      "review_source": "assistant"
+    },
+    {
+      "display_number": 262,
+      "replacement_base_question_id": "squad:56e11d89e3433e1400422c22",
+      "replacement_component_id": "formal-source:14061ea67fd9d15977722f4d63f1f91a1b73ef5a65026e99281bffb0b818dd95",
+      "question_override": "According to the supplied record, how many BeiDou-2 satellites had been launched as of December 2012?",
+      "rationale": "16 launched、14 inservice为子集，限定新发射总数>=14；不动2011/2012/2020时间点。",
+      "review_source": "assistant",
+      "target_bounds": {
+        "lower": "14",
+        "upper": "100000"
+      }
+    },
+    {
+      "display_number": 265,
+      "replacement_base_question_id": "squad:56d13443e7d4791d00901fec",
+      "replacement_component_id": "formal-source:8a1263289608db13ff2fcdec74aad0fa1251a030ae32e75f8eddcc165c4bc3cd",
+      "question_override": "According to the supplied Apple audit record, for what percentage of the time did employees work over sixty hours a week?",
+      "rationale": "35%是time占比而非员工人数比例，修正替补原题分母；25%over6days为可能重叠时间事件不当互补。",
+      "review_source": "assistant",
+      "percentage_bounds": true
+    },
+    {
+      "display_number": 295,
+      "replacement_base_question_id": "hotpot:5abd795555429924427fcfdf",
+      "replacement_component_id": "formal-source:1fc57ce6de9fe2f532c6918083f83c3c98bd94a8a3e2a26fb39cf997b609ae0c",
+      "question_override": "According to the supplied records, Back Bay is one of how many officially designated Boston neighbourhoods?",
+      "rationale": "OfficeNeighborhoodServices指定23社区，BackBay官方社区身份另一段明确；当前片段未展开完整23名称清单，可改数量记录而不与枚举矛盾。",
+      "review_source": "assistant"
+    }
+  ],
+  "additional_rejected_proposals": [
+    {
+      "display_number": 174,
+      "base_question_id": "hotpot:5ae3fb6d5542995dadf24283",
+      "reason": "原题年份2010与来源2000不一致，同名Schoharie镇/村边界仍不足确认；不用此替补"
+    }
+  ]
+}

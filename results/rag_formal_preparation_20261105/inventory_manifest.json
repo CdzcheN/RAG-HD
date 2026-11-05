@@ -1,0 +1,116 @@
+{
+  "status": "nominations_ready_semantic_review_pending",
+  "generation_ready": false,
+  "prior_canonical_titles_excluded": 435,
+  "prior_runs_sha256": {
+    "outputs/rag_prototype_20261104_v1": "a022abf1c1e4e16f96a2cc1351e29feecdf024db1a70f91096d0c0de06a0664a",
+    "outputs/rag_challenge_20261104_v4": "dff9c2d2547b5a44b84381aa412bebfd1ec3d0c33f9b52a23c48e4050ff999ad",
+    "outputs/rag_challenge_repair_20261105_v2_final": "47388300e5eeedd3acfaf167a129e9d1d35d5b07838106edc61b0307ba68cba9"
+  },
+  "sources": {
+    "squad": {
+      "repo_id": "rajpurkar/squad",
+      "subset": "plain_text",
+      "revision": "7b6d24c440a36b6815f21b70d25016731768db1f",
+      "split": "train",
+      "source_rows": 87599,
+      "pool_size": 20000,
+      "selection": "lowest_sha256(seed,dataset,original_id)",
+      "pool_ids_sha256": "bf1e91ca6a92d6de62ec6a069fcbb113ffdcd3f8774673064ee1e2fe942ab6ff"
+    },
+    "hotpot": {
+      "repo_id": "hotpotqa/hotpot_qa",
+      "subset": "distractor",
+      "revision": "1908d6afbbead072334abe2965f91bd2709910ab",
+      "split": "train",
+      "source_rows": 90447,
+      "pool_size": 20000,
+      "selection": "lowest_sha256(seed,dataset,original_id)",
+      "pool_ids_sha256": "c7e6f289e9d20dc9b7f8074715e28d9c1170b70e4ead0ddcb2363895ab5965c2"
+    }
+  },
+  "settings": {
+    "protocol_version": "formal-source-inventory-v1",
+    "model_config": "configs/rag_challenge_repair.yaml",
+    "candidate_seed": 20260918,
+    "partition_seed": 20260919,
+    "noise_seed": 20260920,
+    "pool_per_dataset": 20000,
+    "noise_pool_per_partition": 3000,
+    "previous_runs": [
+      "outputs/rag_prototype_20261104_v1",
+      "outputs/rag_challenge_20261104_v4",
+      "outputs/rag_challenge_repair_20261105_v2_final"
+    ],
+    "purpose": "Source inventory and nominations only; semantic review precedes formal inputs"
+  },
+  "screening_counts": {
+    "squad": {
+      "not_exact_numeric_reference": 13591,
+      "not_explicit_quantity_question": 922,
+      "previous_visible_or_gold_source": 4978,
+      "previous_question": 55,
+      "candidate": 429,
+      "nonunique_numeric_slot": 25
+    },
+    "hotpot": {
+      "not_exact_numeric_reference": 18081,
+      "not_explicit_quantity_question": 1432,
+      "previous_question": 55,
+      "candidate": 323,
+      "previous_visible_or_gold_source": 98,
+      "nonunique_numeric_slot": 6,
+      "invalid_source_support": 5
+    }
+  },
+  "candidate_questions": 752,
+  "source_components": 470,
+  "nominated_bases": 300,
+  "planned_paired_inputs": 600,
+  "planned_challenge_inputs": 300,
+  "quota_deficits": [],
+  "nominated_strata": {
+    "train/squad/retrieval_failure": 30,
+    "train/squad/evidence_conflict": 30,
+    "train/squad/outdated_answer": 30,
+    "train/hotpot/retrieval_failure": 30,
+    "train/hotpot/evidence_conflict": 30,
+    "train/hotpot/outdated_answer": 30,
+    "validation/squad/retrieval_failure": 10,
+    "validation/squad/evidence_conflict": 10,
+    "validation/squad/outdated_answer": 10,
+    "validation/hotpot/retrieval_failure": 10,
+    "validation/hotpot/evidence_conflict": 10,
+    "validation/hotpot/outdated_answer": 10,
+    "test/squad/retrieval_failure": 10,
+    "test/squad/evidence_conflict": 10,
+    "test/squad/outdated_answer": 10,
+    "test/hotpot/retrieval_failure": 10,
+    "test/hotpot/evidence_conflict": 10,
+    "test/hotpot/outdated_answer": 10
+  },
+  "noise_pool_documents": {
+    "train": 3000,
+    "validation": 3000,
+    "test": 3000
+  },
+  "reserved_noise_documents": 1500,
+  "canonical_source_overlap_across_nominated_bases": 0,
+  "canonical_source_overlap_with_prior_batches": 0,
+  "noise_sources_bound_to_base_group": true,
+  "semantic_review_completed": 0,
+  "labels_created": 0,
+  "generator_calls": 0,
+  "selection_uses_detector_scores": false,
+  "checks_do_not_prove_semantic_validity": true,
+  "artifacts_sha256": {
+    "candidate_rejections.jsonl": "22b533ff66e25bad050efd91932d4b99e999b637965aa042fa63b45359883ea5",
+    "noise_corpus.jsonl": "9367b84ad258f450df1cc2418f61aac543c2db727ac6ae2104967ea78c6c67ab",
+    "candidates.jsonl": "80109086db6039f547aac672382fa8e4bfbcf499e5070547903b7b153db52f40",
+    "excluded_prior_titles.jsonl": "b7133f38d4acc2040e9b4ad782290307a52b38d9c4dd5c30582ef302faa4c5b3",
+    "nominated_questions.jsonl": "5c9ff7e3690551027c2c9cb70857f52cf9e86dd79ed7c1e0b47f3938c4c4f95a",
+    "noise_reservations.jsonl": "f4416fe91f105da8c8c48507baa5d6a73feb66700ed75afee59b795b33fb70dd",
+    "source_components.jsonl": "d7a8dffd526cb4d783c4899d4973198727bb4f03bcc3edcde76509d92a505df8",
+    "候选来源复核.csv": "952239c452ab1f1efc4bd13e42901eb8d9c7e048429bf8211b736c74a9f4b42a"
+  }
+}

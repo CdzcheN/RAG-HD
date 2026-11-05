@@ -1,0 +1,38 @@
+protocol_version: rag-prototype-v1
+seed: 20260918
+data:
+  split: train
+  pool_per_dataset: 1000
+  samples_per_dataset: 10
+  squad_revision: 7b6d24c440a36b6815f21b70d25016731768db1f
+  hotpot_revision: 1908d6afbbead072334abe2965f91bd2709910ab
+retrieval:
+  top_k: 5
+  max_words_per_document: 250
+  max_evidence_words: 1200
+  k1: 1.5
+  b: 0.75
+generation:
+  model_id: Qwen/Qwen2.5-3B-Instruct
+  revision: aa8e72537993ba99e69dfaafa59ed015b17504d1
+  quantization: nf4-double
+  compute_dtype: float16
+  max_input_tokens: 4096
+  max_new_tokens: 128
+  self_max_new_tokens: 48
+  do_sample: false
+  attention: sdpa
+  self_retries: 1
+  memory_limit_mib: 12288
+minicheck:
+  model_id: lytang/MiniCheck-Flan-T5-Large
+  revision: 96eafd01cee2d16cf81aaa2fb226b14f422a37b3
+  batch_size: 1
+  chunk_size: 500
+  max_model_len: 2048
+challenge:
+  protocol_version: controlled-challenge-v1
+  per_type: 20
+  confirmed_pilot: outputs/rag_prototype_20261104_v1
+  normal_support: gold_support_topup_plus_bm25_distractors
+  selection_namespace: challenge-base

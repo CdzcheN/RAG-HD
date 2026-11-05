@@ -1,0 +1,229 @@
+test_alias_surviving_deletion_is_rejected (test_challenges.ChallengeTests) ... ok
+test_building_pairs_is_deterministic_and_cannot_change_source (test_challenges.ChallengeTests) ... ok
+test_conflict_exposes_rule_and_both_values (test_challenges.ChallengeTests) ... ok
+test_deletion_removes_target_and_preserves_noise (test_challenges.ChallengeTests) ... ok
+test_replacements_preserve_value_kind_and_date_validity (test_challenges.ChallengeTests) ... ok
+test_time_exposes_expiry_update_and_same_query_date (test_challenges.ChallengeTests) ... ok
+test_aliases_and_title_must_be_synchronized_without_changing_work_title (test_construction_repairs.RepairTests) ... ok
+test_complete_cut_removes_all_hops_and_keeps_document_count (test_construction_repairs.RepairTests) ... ok
+test_linked_percentages_must_sum_to_100 (test_construction_repairs.RepairTests) ... ok
+test_missing_question_referent_is_rejected (test_construction_repairs.RepairTests) ... ok
+test_no_automatic_birth_founding_or_death_year_changes (test_construction_repairs.RepairTests) ... ok
+test_overlapping_or_stale_edit_rejected (test_construction_repairs.RepairTests) ... ok
+test_percentage_carry_grouping_and_bounds (test_construction_repairs.RepairTests) ... ok
+test_quantity_boundaries_and_encoded_source_aliases (test_construction_repairs.RepairTests) ... ok
+test_assessment_cache_cannot_change_answer (test_rag_pilot.PilotTests) ... ok
+test_blank_review_sheet_is_not_an_annotation (test_rag_pilot.PilotTests) ... {
+  "total": 1,
+  "refusals": 0,
+  "label_counts": {
+    "undetermined": 1
+  },
+  "qa_exact_match_rate": 0.0,
+  "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+  "methods": {
+    "self_check": {
+      "score_missing_on_all_inputs": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "not_computable_reason": "Common labeled cohort has fewer than two classes."
+    },
+    "minicheck": {
+      "score_missing_on_all_inputs": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "not_computable_reason": "Common labeled cohort has fewer than two classes."
+    }
+  },
+  "labeled_factual_answers": 0,
+  "common_evaluation_rows": 0,
+  "refusal_rate": 0.0,
+  "label_coverage": 0.0,
+  "common_coverage": 0.0,
+  "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split.",
+  "groups": {
+    "synthetic": {
+      "total": 1,
+      "refusals": 0,
+      "label_counts": {
+        "undetermined": 1
+      },
+      "qa_exact_match_rate": 0.0,
+      "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+      "methods": {
+        "self_check": {
+          "score_missing_on_all_inputs": 0,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        },
+        "minicheck": {
+          "score_missing_on_all_inputs": 0,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        }
+      },
+      "labeled_factual_answers": 0,
+      "common_evaluation_rows": 0,
+      "refusal_rate": 0.0,
+      "label_coverage": 0.0,
+      "common_coverage": 0.0,
+      "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split."
+    }
+  },
+  "protocol_version": "rag-prototype-v1",
+  "purpose": "Development flow validation; not a formal method-improvement experiment."
+}
+{
+  "total": 1,
+  "refusals": 0,
+  "label_counts": {
+    "undetermined": 1
+  },
+  "qa_exact_match_rate": 0.0,
+  "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+  "methods": {
+    "self_check": {
+      "score_missing_on_all_inputs": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "not_computable_reason": "Common labeled cohort has fewer than two classes."
+    },
+    "minicheck": {
+      "score_missing_on_all_inputs": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "not_computable_reason": "Common labeled cohort has fewer than two classes."
+    }
+  },
+  "labeled_factual_answers": 0,
+  "common_evaluation_rows": 0,
+  "refusal_rate": 0.0,
+  "label_coverage": 0.0,
+  "common_coverage": 0.0,
+  "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split.",
+  "groups": {
+    "synthetic": {
+      "total": 1,
+      "refusals": 0,
+      "label_counts": {
+        "undetermined": 1
+      },
+      "qa_exact_match_rate": 0.0,
+      "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+      "methods": {
+        "self_check": {
+          "score_missing_on_all_inputs": 0,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        },
+        "minicheck": {
+          "score_missing_on_all_inputs": 0,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        }
+      },
+      "labeled_factual_answers": 0,
+      "common_evaluation_rows": 0,
+      "refusal_rate": 0.0,
+      "label_coverage": 0.0,
+      "common_coverage": 0.0,
+      "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split."
+    }
+  },
+  "protocol_version": "rag-prototype-v1",
+  "purpose": "Development flow validation; not a formal method-improvement experiment."
+}
+{
+  "total": 1,
+  "refusals": 0,
+  "label_counts": {
+    "supported": 1
+  },
+  "qa_exact_match_rate": 0.0,
+  "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+  "methods": {
+    "self_check": {
+      "score_missing_on_all_inputs": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "not_computable_reason": "Common labeled cohort has fewer than two classes."
+    },
+    "minicheck": {
+      "score_missing_on_all_inputs": 0,
+      "roc_auc": null,
+      "average_precision": null,
+      "not_computable_reason": "Common labeled cohort has fewer than two classes."
+    }
+  },
+  "labeled_factual_answers": 1,
+  "common_evaluation_rows": 1,
+  "refusal_rate": 0.0,
+  "label_coverage": 1.0,
+  "common_coverage": 1.0,
+  "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split.",
+  "groups": {
+    "synthetic": {
+      "total": 1,
+      "refusals": 0,
+      "label_counts": {
+        "supported": 1
+      },
+      "qa_exact_match_rate": 0.0,
+      "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+      "methods": {
+        "self_check": {
+          "score_missing_on_all_inputs": 0,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        },
+        "minicheck": {
+          "score_missing_on_all_inputs": 0,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        }
+      },
+      "labeled_factual_answers": 1,
+      "common_evaluation_rows": 1,
+      "refusal_rate": 0.0,
+      "label_coverage": 1.0,
+      "common_coverage": 1.0,
+      "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split."
+    }
+  },
+  "protocol_version": "rag-prototype-v1",
+  "purpose": "Development flow validation; not a formal method-improvement experiment."
+}
+ok
+test_bm25_ties_and_visible_budget (test_rag_pilot.PilotTests) ... ok
+test_cache_rejects_wrong_configuration_or_unknown_sample (test_rag_pilot.PilotTests) ... ok
+test_confidence_rejects_non_numeric_or_ambiguous_outputs (test_rag_pilot.PilotTests) ... ok
+test_hotpot_parser_preserves_both_supports (test_rag_pilot.PilotTests) ... ok
+test_labels_cannot_be_reused_for_a_changed_answer (test_rag_pilot.PilotTests) ... ok
+test_metrics_share_a_common_cohort (test_rag_pilot.PilotTests) ... ok
+test_parquet_sampling_survives_row_reordering (test_rag_pilot.PilotTests) ... ok
+test_reference_correctness_does_not_invent_support (test_rag_pilot.PilotTests) ... ok
+test_transitive_source_groups_across_variants (test_rag_pilot.PilotTests) ... ok
+test_visible_inputs_exclude_private_metadata (test_rag_pilot.PilotTests) ... ok
+test_changed_input_or_answer_rejects_old_suggestion (test_review_packet.ReviewPacketTests) ... ok
+test_duplicate_missing_or_unknown_cases_are_rejected (test_review_packet.ReviewPacketTests) ... ok
+test_export_prefills_draft_without_source_column_and_preserves_human_work (test_review_packet.ReviewPacketTests) ... ok
+test_hidden_or_misaligned_quote_is_rejected (test_review_packet.ReviewPacketTests) ... ok
+test_refusal_cannot_get_a_factual_label (test_review_packet.ReviewPacketTests) ... ok
+test_body_cannot_grant_its_own_source_priority (test_valid_evidence.ValidEvidenceTests) ... ok
+test_groups_never_cross_split_and_scaler_uses_train_only (test_valid_evidence.ValidEvidenceTests) ... ok
+test_no_eligible_time_evidence_is_explicit (test_valid_evidence.ValidEvidenceTests) ... ok
+test_primary_priority_preserves_the_entire_multihop_chain (test_valid_evidence.ValidEvidenceTests) ... ok
+test_private_labels_gold_and_construction_never_affect_features (test_valid_evidence.ValidEvidenceTests) ... ok
+test_query_date_inclusive_bounds_and_expiry (test_valid_evidence.ValidEvidenceTests) ... ok
+test_unknown_policy_and_malformed_dates_do_not_invent_rules (test_valid_evidence.ValidEvidenceTests) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 0.054s
+
+OK

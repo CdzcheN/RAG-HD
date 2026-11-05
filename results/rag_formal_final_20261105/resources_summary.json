@@ -1,0 +1,105 @@
+{
+  "formal_stage_elapsed_seconds_sum": 1416.6884953868575,
+  "highest_sampled_process_mib": 4336,
+  "scope": "formal development/test measured stages only",
+  "resources": [
+    {
+      "path": "/home/yqhe/project/rgzn/RAG-HD/outputs/rag_formal_20261105_v2/partitions/development/probe_resources.json",
+      "values": {
+        "gpu": "NVIDIA GeForce RTX 3090",
+        "elapsed_seconds": 15.69096546410583,
+        "peak_allocated_mib": 2942.98046875,
+        "peak_reserved_mib": 3084.0,
+        "sampled_process_peak_mib": 3422,
+        "process_sample_interval_seconds": 0.5,
+        "memory_limit_mib": 12288,
+        "within_limit": true,
+        "note": "Process VRAM is sampled, allocator values are peaks; this measures only tested inputs."
+      }
+    },
+    {
+      "path": "/home/yqhe/project/rgzn/RAG-HD/outputs/rag_formal_20261105_v2/partitions/development/generation_resources.json",
+      "values": {
+        "gpu": "NVIDIA GeForce RTX 3090",
+        "elapsed_seconds": 975.3114562949631,
+        "peak_allocated_mib": 2942.98046875,
+        "peak_reserved_mib": 3086.0,
+        "sampled_process_peak_mib": 3424,
+        "process_sample_interval_seconds": 0.5,
+        "memory_limit_mib": 12288,
+        "within_limit": true,
+        "note": "Process VRAM is sampled, allocator values are peaks; this measures only tested inputs."
+      }
+    },
+    {
+      "path": "/home/yqhe/project/rgzn/RAG-HD/outputs/rag_formal_20261105_v2/partitions/development/minicheck_resources.json",
+      "values": {
+        "gpu": "NVIDIA GeForce RTX 3090",
+        "elapsed_seconds": 109.33396039600484,
+        "peak_allocated_mib": 3341.6806640625,
+        "peak_reserved_mib": 3954.0,
+        "sampled_process_peak_mib": 4286,
+        "process_sample_interval_seconds": 0.5,
+        "memory_limit_mib": 12288,
+        "within_limit": true,
+        "note": "Process VRAM is sampled, allocator values are peaks; this measures only tested inputs."
+      }
+    },
+    {
+      "path": "/home/yqhe/project/rgzn/RAG-HD/outputs/rag_formal_development_20261105_v1/resources.json",
+      "values": {
+        "gpu": "NVIDIA GeForce RTX 3090",
+        "elapsed_seconds": 34.14709030184895,
+        "peak_allocated_mib": 3256.3779296875,
+        "peak_reserved_mib": 4004.0,
+        "sampled_process_peak_mib": 4336,
+        "process_sample_interval_seconds": 0.5,
+        "memory_limit_mib": 12288,
+        "within_limit": true,
+        "note": "Process VRAM is sampled, allocator values are peaks; this measures only tested inputs."
+      }
+    },
+    {
+      "path": "/home/yqhe/project/rgzn/RAG-HD/outputs/rag_formal_20261105_v2/partitions/test/generation_resources.json",
+      "values": {
+        "gpu": "NVIDIA GeForce RTX 3090",
+        "elapsed_seconds": 250.33982103597373,
+        "peak_allocated_mib": 2942.98046875,
+        "peak_reserved_mib": 3086.0,
+        "sampled_process_peak_mib": 3424,
+        "process_sample_interval_seconds": 0.5,
+        "memory_limit_mib": 12288,
+        "within_limit": true,
+        "note": "Process VRAM is sampled, allocator values are peaks; this measures only tested inputs."
+      }
+    },
+    {
+      "path": "/home/yqhe/project/rgzn/RAG-HD/outputs/rag_formal_20261105_v2/partitions/test/minicheck_resources.json",
+      "values": {
+        "gpu": "NVIDIA GeForce RTX 3090",
+        "elapsed_seconds": 24.54266140400432,
+        "peak_allocated_mib": 3315.48681640625,
+        "peak_reserved_mib": 3900.0,
+        "sampled_process_peak_mib": 4232,
+        "process_sample_interval_seconds": 0.5,
+        "memory_limit_mib": 12288,
+        "within_limit": true,
+        "note": "Process VRAM is sampled, allocator values are peaks; this measures only tested inputs."
+      }
+    },
+    {
+      "path": "/home/yqhe/project/rgzn/RAG-HD/outputs/rag_formal_development_20261105_v1/final_test/resources.json",
+      "values": {
+        "gpu": "NVIDIA GeForce RTX 3090",
+        "elapsed_seconds": 7.322540489956737,
+        "peak_allocated_mib": 3237.23388671875,
+        "peak_reserved_mib": 3568.0,
+        "sampled_process_peak_mib": 3900,
+        "process_sample_interval_seconds": 0.5,
+        "memory_limit_mib": 12288,
+        "within_limit": true,
+        "note": "Process VRAM is sampled, allocator values are peaks; this measures only tested inputs."
+      }
+    }
+  ]
+}

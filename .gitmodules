@@ -1,0 +1,3 @@
+[submodule "baselines/MiniCheck"]
+	path = baselines/MiniCheck
+	url = git@github.com:Liyan06/MiniCheck.git

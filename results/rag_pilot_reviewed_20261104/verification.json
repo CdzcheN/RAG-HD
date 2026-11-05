@@ -1,0 +1,14 @@
+{
+  "reviewed_rows": 20,
+  "common_evaluation_rows": 15,
+  "supported": 11,
+  "unsupported": 3,
+  "contradicted": 1,
+  "undetermined_factual": 2,
+  "refusals": 3,
+  "annotation_origin": "assistant_draft_confirmed_by_user",
+  "independent_human_annotation": false,
+  "new_inferences": 0,
+  "confirmed_review_sha256": "4b3d397c168594cdaad245ffc183d69aec23ae2c755b806ac92fdd509b2d9fb0",
+  "reviewed_display_sha256": "748b3a1975c0a4c875e0c0acd3cd43bc7f408422b35597a5ae78636dfa2567e1"
+}

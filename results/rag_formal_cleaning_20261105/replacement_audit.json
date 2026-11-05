@@ -1,0 +1,142 @@
+[
+  {
+    "display_number": 40,
+    "rejected_base": "squad:572862ab2ca10214002da2cb",
+    "selected_base": "squad:572644d81125e71900ae193c",
+    "reason": "目标3与明确枚举Chera、Chola、Pandyan三王朝绑定，单改总数会自相矛盾；不删除枚举来制造可用性，换用同分区的新来源。",
+    "replacement_reason": "保留over70下界；没有完整70个会所枚举，版本仅记录名单数量下界，不改共济会实体分类。"
+  },
+  {
+    "display_number": 45,
+    "rejected_base": "squad:5725ea37271a42140099d30b",
+    "selected_base": "squad:56ce6232aab44d1400b8871d",
+    "reason": "650 thousand years ago是衣物起源的推测事件时间，非可直接更正的数量统计，且与107,000/42,000—72,000等竞争估计共存；改用其他来源。",
+    "replacement_reason": "114为设备数，50%满足率和400/401/468kW是输出统计，未给每碟固定功率，±1不引起明示算式矛盾。"
+  },
+  {
+    "display_number": 48,
+    "rejected_base": "squad:570c5350fed7b91900d458c0",
+    "selected_base": "squad:57302d8ea23a5019007fcf08",
+    "reason": "1,000marks=700+300，同时绑定£666及分项£466/£200；目前不能安全地仅改总数，保留原例为拒绝记录并更换来源。",
+    "replacement_reason": "more than2000为页数下界，三卷数不变；600出版亏损=300+200+50+50为另一数量关系，保持原样。"
+  },
+  {
+    "display_number": 49,
+    "rejected_base": "squad:572781a5f1498d1400e8fa1d",
+    "selected_base": "squad:56df0e673277331400b4d925",
+    "reason": "11投票成员=市长1+议员10，议员10又=5ward×2，单改任一数需改变制度结构；更换来源，不把形式总数改动冒充一致干预。",
+    "replacement_reason": "替补原题1587仍是事件年，显式另写有原文支持的数量题，目标70上限；50priests为子集，调整后总量仍不少于50。"
+  },
+  {
+    "display_number": 76,
+    "rejected_base": "squad:5708545e9928a814004714d3",
+    "selected_base": "squad:5726d1bdf1498d1400e8ec3f",
+    "reason": "100 cents是equal-tempered semitone的单位定义，不能当可更新统计量改成99或101；换来源。",
+    "replacement_reason": "6000为研究样本数，年龄7—84不是分项人数，补研究及2014报道口径。"
+  },
+  {
+    "display_number": 79,
+    "rejected_base": "squad:5730346ca23a5019007fcf87",
+    "selected_base": "squad:56f97f629b226e1400dd14cd",
+    "reason": "原文79%与remaining22%已合计101%，所列Iranian子组53+7+10+6+2又为78%；不能凭未声明舍入修成真值，换新来源。",
+    "replacement_reason": "替补原题1.8%受227300+222000土地面积绑定，另写明确拥有面积227300ha题。改1ha不改变约1.8%舍入；不把拥有与access混同，保留原问题与参考值另记。"
+  },
+  {
+    "display_number": 84,
+    "rejected_base": "squad:570b33686b8089140040f80a",
+    "selected_base": "squad:572697f0708984140094cb3a",
+    "reason": "7个国家与UK/US/France/Italy/Germany/Ireland/Spain完整七项枚举绑定；不只改数量让清单矛盾，换来源。",
+    "replacement_reason": "238372限PCT与2009，保留some近似值，不是所有Presbyterian教派总数；无枚举加总。"
+  },
+  {
+    "display_number": 94,
+    "rejected_base": "hotpot:5ac3cfea554299204fd21e7e",
+    "selected_base": "hotpot:5a8204f1554299676cceb1e6",
+    "reason": "参考20实际是White Pony发行日期June20，不是2000年前专辑数量；第三张专辑应与2张之前专辑相关，数字槽位不支持原题，换来源。",
+    "replacement_reason": "20为剧集数，原资料演员段单独只有身份，系列段完整列演员与集数，明确可单跳直接回答。"
+  },
+  {
+    "display_number": 104,
+    "rejected_base": "hotpot:5ab3f2df5542992ade7c6ef1",
+    "selected_base": "hotpot:5a7cea26554299452d57ba9e",
+    "reason": "参考2010是普查观察年份而非数量槽位，原题虽含population仍问which year；不将年份强行当计数统计，换来源。",
+    "replacement_reason": "球队主场LTU为EspritArena旧名，54600为资料所报容量，不绑定2007当年容量。"
+  },
+  {
+    "display_number": 120,
+    "rejected_base": "hotpot:5ae7d7a35542993210983f84",
+    "selected_base": "hotpot:5adea7865542992fa25da7f5",
+    "reason": "RichlandMall列JCPenney/Macy/Sears多个链，原题this chain无法唯一指代，1095仅JCPenney段所载；换能自足定位的来源而非任意指定链。",
+    "replacement_reason": "用原文3km north特征唯一限定Parkville，避免在四个所服务郊区中任取一个；7409为2016人口。"
+  },
+  {
+    "display_number": 141,
+    "rejected_base": "hotpot:5a8a829f5542996c9b8d5f13",
+    "selected_base": "hotpot:5a80b64e5542992bc0c4a7c5",
+    "reason": "1995为FallenAngels发行年份，不是数量统计，原题关键词number of films误触结构筛查；换来源不修改事件年。",
+    "replacement_reason": "GreyGardens→GeorgicaPond邻区→290acre同名潟湖，统计对象是水体面积非豪宅面积。"
+  },
+  {
+    "display_number": 168,
+    "rejected_base": "hotpot:5abddf9f5542991f66106088",
+    "selected_base": "hotpot:5ab5e4855542992aa134a3d0",
+    "reason": "673000平方公里与括号260000mi缺失平方单位，且生境MagellanicSteppe与广义沙漠范围含混；不猜修单位或只改一边，换来源。",
+    "replacement_reason": "DougBlock→PortWashington→15846 CDP人口，出生1953不作为人口年。"
+  },
+  {
+    "display_number": 174,
+    "rejected_base": "hotpot:5ae3d70a5542992f92d82392",
+    "selected_base": "hotpot:5ababe7a554299232ef4a38d",
+    "reason": "MoosePond位于Bridgton/Denmark/Sweden三镇，原题没有唯一镇限定，391仅Sweden；避免任取一个镇给真值，换来源。",
+    "replacement_reason": "替补Schoharie原题2010而资料为2000且同名镇村仍含混，继续拒绝；另选Thacher→Ojai→2010人口7461，纠正Thatcher拼写，2000人口7862较高不冲突。"
+  },
+  {
+    "display_number": 175,
+    "rejected_base": "hotpot:5ab7e0075542992aa3b8c869",
+    "selected_base": "hotpot:5abf81b85542997ec76fd3f8",
+    "reason": "Lupinacci选区列多个CDP/镇，原题one with population无法唯一指向Elwood；不强行挑11177这一数值，换来源。",
+    "replacement_reason": "Scucci→Stardust→63acres(25ha)，按精确acre转ha系数及整数ha舍入同步更新25ha，不能只改63。"
+  },
+  {
+    "display_number": 180,
+    "rejected_base": "hotpot:5abc0f22554299700f9d77c7",
+    "selected_base": "hotpot:5ade03cb5542997545bbbe19",
+    "reason": "Limerick-born可指市或郡，诗人出生原文未明确urban area，不能将2016城区94192直接绑定出生地点；换能确定地理层级的新来源。",
+    "replacement_reason": "Bigelow位于Stratton，Eustis包含Stratton，618为Eustis镇人口；保留两级地点关系。"
+  },
+  {
+    "display_number": 225,
+    "rejected_base": "hotpot:5ae3a5845542994393b9e731",
+    "selected_base": "hotpot:5a7a76c15542994f819ef1e4",
+    "reason": "WilliamFloyd地区服务Shirley/Mastic/MasticBeach/Moriches四社区，one of communities无法唯一限定Mastic，不能任取15481；更换来源。",
+    "replacement_reason": "球队→Viedma→47246，补2001而不当现时人口；30/960km为其他量。"
+  },
+  {
+    "display_number": 228,
+    "rejected_base": "hotpot:5a7fb4495542994857a767c6",
+    "selected_base": "hotpot:5ae608c05542992663a4f245",
+    "reason": "13512是Roud目录索引标识符，不是可变数量统计；不把数字ID当count更正，换来源。",
+    "replacement_reason": "Jesselli→EastNorthport→20217，city改CDP，去掉currently现实外推。"
+  },
+  {
+    "display_number": 262,
+    "rejected_base": "squad:571a786110f8ca1400305073",
+    "selected_base": "squad:56e11d89e3433e1400422c22",
+    "reason": "91%与3million/3.3million明确绑定，直接改百分比会破坏给定分子分母；不凭未声明精度猜改历史受害者数，换来源。",
+    "replacement_reason": "16 launched、14 inservice为子集，限定新发射总数>=14；不动2011/2012/2020时间点。"
+  },
+  {
+    "display_number": 265,
+    "rejected_base": "squad:5726f9b0dd62a815002e96a4",
+    "selected_base": "squad:56d13443e7d4791d00901fec",
+    "reason": "16mi(25km)连接QishlakAfshona与Bukhara，而非学院距出生地；原关系不成立且有单位联动，换来源。",
+    "replacement_reason": "35%是time占比而非员工人数比例，修正替补原题分母；25%over6days为可能重叠时间事件不当互补。"
+  },
+  {
+    "display_number": 295,
+    "rejected_base": "hotpot:5a7a50f85542990783324f0c",
+    "selected_base": "hotpot:5abd795555429924427fcfdf",
+    "reason": "人物卒地仅Rhinebeck，无法区分同名town/village，而2657专属village；不能用原题town绑定村人口，换新来源。",
+    "replacement_reason": "OfficeNeighborhoodServices指定23社区，BackBay官方社区身份另一段明确；当前片段未展开完整23名称清单，可改数量记录而不与枚举矛盾。"
+  }
+]

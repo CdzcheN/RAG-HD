@@ -1,0 +1,52 @@
+{
+  "sources": {
+    "squad": {
+      "repo_id": "rajpurkar/squad",
+      "subset": "plain_text",
+      "revision": "7b6d24c440a36b6815f21b70d25016731768db1f",
+      "split": "train",
+      "source_rows": 87599,
+      "pool_size": 4000,
+      "selection": "lowest_sha256(seed,dataset,original_id)",
+      "pool_ids_sha256": "819294f443a388666590163364f1f0de4258eea73478c1c10b0e38c3d1b72aa4"
+    },
+    "hotpot": {
+      "repo_id": "hotpotqa/hotpot_qa",
+      "subset": "distractor",
+      "revision": "1908d6afbbead072334abe2965f91bd2709910ab",
+      "split": "train",
+      "source_rows": 90447,
+      "pool_size": 4000,
+      "selection": "lowest_sha256(seed,dataset,original_id)",
+      "pool_ids_sha256": "fe2189c395ba7c1bba00ab66ed5afb3f5eacc69acffc933b92cf5f3ebca82b96"
+    }
+  },
+  "seed": 20260918,
+  "records": 60,
+  "base_questions": 30,
+  "groups": 30,
+  "construction_protocol": "controlled-challenge-v2",
+  "corpus_documents": 1545,
+  "prepared_sha256": "47388300e5eeedd3acfaf167a129e9d1d35d5b07838106edc61b0307ba68cba9",
+  "corpus_sha256": "9754a5931ac9faa76b6b44379d6d8ecaee6c7df50bc5553fd7373826c551e300",
+  "specs_sha256": "5c4e700dfd76e6f0ac30c095294fc1dc3701da6069b135090689a990a2713e6a",
+  "prior_source_exclusion_sha256": {
+    "outputs/rag_prototype_20261104_v1": "a022abf1c1e4e16f96a2cc1351e29feecdf024db1a70f91096d0c0de06a0664a",
+    "outputs/rag_challenge_20261104_v4": "dff9c2d2547b5a44b84381aa412bebfd1ec3d0c33f9b52a23c48e4050ff999ad"
+  },
+  "excluded_prior_source_count": 325,
+  "old_visible_source_overlap": 0,
+  "normal_and_challenge_evidence_count": 5,
+  "canonical_title_alias_overlap": 0,
+  "source_alias_normalization": "URL-decode, HTML-unescape, NFKC, underscore, case, whitespace",
+  "condition_counts": {
+    "normal": 30,
+    "retrieval_failure": 10,
+    "evidence_conflict": 10,
+    "outdated_answer": 10
+  },
+  "labels_created_by_construction": 0,
+  "selection": "assistant source-text-audited specifications; not model-score selected",
+  "purpose": "construction repair development pilot, not final held-out evaluation",
+  "corpus_scope": "Audited source support plus fixed seeded fresh distractor corpus; controlled intervention only."
+}

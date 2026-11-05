@@ -1,0 +1,6 @@
+{
+  "scripts/evaluate_frozen_repair.py": "9f7ab490ae091db29a5a2b567c3921c59ba14324dcd5156e0641ac0319524852",
+  "scripts/confirm_challenge_review.py": "e726ecdd041c9a3b85de2fe1411fc79f8cf19f46b979cea656696b6b63030e11",
+  "tests/test_frozen_repair_evaluation.py": "623ff0929697a84ecd17e2ab7b0316f0ed4ddd9ef6586340bdbef19ef9392c26",
+  "src/rag_hd/learning.py": "312f8f54548d9b447679cc7d39fa85530ec13be20749e997dc82ae5c4a90ac60"
+}

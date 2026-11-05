@@ -1,0 +1,35 @@
+{
+  "verified_date": "2026-11-04",
+  "inference_date": "2026-11-03",
+  "independent_offline_analysis_matches": true,
+  "upstream_sha256_matches": {
+    "benchmark/predictions.jsonl": true,
+    "benchmark/metrics.csv": true,
+    "smoke/predictions.jsonl": true
+  },
+  "macro_bacc_percent": 75.00931317412265,
+  "audit": {
+    "actual_rows": 29320,
+    "matches_config_evaluated_rows": true,
+    "matches_config_full_test_rows": true,
+    "dataset_groups": 11,
+    "matches_official_group_names": true,
+    "row_index_mismatches": 0,
+    "invalid_labels": 0,
+    "invalid_probabilities": 0,
+    "threshold_mismatches": 0,
+    "empty_documents": 0,
+    "empty_claims": 0,
+    "max_bacc_recalculation_difference_pp": 0.0,
+    "unique_documents": 8331,
+    "unique_document_claim_pairs": 29118,
+    "duplicate_input_groups": 169,
+    "duplicate_extra_rows": 202,
+    "duplicate_input_groups_with_probability_difference_gt_1e_6": 0,
+    "conflicting_input_groups": 9,
+    "conflicting_input_rows": 19,
+    "minimum_errors_on_conflicting_inputs_for_deterministic_classifier": 9
+  },
+  "benchmark_runtime_seconds": 7518.26707,
+  "peak_vram_recorded": false
+}

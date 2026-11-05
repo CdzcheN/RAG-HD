@@ -1,0 +1,9 @@
+{
+  "tests_passed": 84,
+  "model_freeze_intact": true,
+  "frozen_prediction_intact": true,
+  "test_fit_calls": 0,
+  "test_threshold_selection_calls": 0,
+  "analysis_repetitions": 10000,
+  "report_sha256": "25150d109f6d4393e58d17252b657b54791117ac0aba10398fb916b685143391"
+}

@@ -1,0 +1,84 @@
+{
+  "status": "test_inference_and_frozen_predictions_complete_review_pending",
+  "inputs": 120,
+  "source_pairs": 60,
+  "generation_rows": 120,
+  "minicheck_rows": 120,
+  "feature_rows": 120,
+  "frozen_prediction_rows": 360,
+  "pipeline_exit_code": 0,
+  "exact_refusals": 25,
+  "self_check_status": {
+    "ok": 95,
+    "refusal": 25
+  },
+  "truncated_answers": 0,
+  "draft_evidence_labels": {
+    "supported": 81,
+    "undetermined": 25,
+    "outdated": 4,
+    "unsupported": 5,
+    "contradicted": 5
+  },
+  "draft_correctness": {
+    "correct": 81,
+    "undetermined": 25,
+    "incorrect": 14
+  },
+  "construction_findings": {
+    "basic": 54,
+    "bound_overlap": 1,
+    "approximation_overlap": 5
+  },
+  "feature_selection_modes": {
+    "none": 80,
+    "authority": 20,
+    "time": 20
+  },
+  "new_effective_evidence_calls": 38,
+  "resources": {
+    "generation_resources.json": {
+      "gpu": "NVIDIA GeForce RTX 3090",
+      "elapsed_seconds": 250.33982103597373,
+      "peak_allocated_mib": 2942.98046875,
+      "peak_reserved_mib": 3086.0,
+      "sampled_process_peak_mib": 3424,
+      "process_sample_interval_seconds": 0.5,
+      "memory_limit_mib": 12288,
+      "within_limit": true,
+      "note": "Process VRAM is sampled, allocator values are peaks; this measures only tested inputs."
+    },
+    "minicheck_resources.json": {
+      "gpu": "NVIDIA GeForce RTX 3090",
+      "elapsed_seconds": 24.54266140400432,
+      "peak_allocated_mib": 3315.48681640625,
+      "peak_reserved_mib": 3900.0,
+      "sampled_process_peak_mib": 4232,
+      "process_sample_interval_seconds": 0.5,
+      "memory_limit_mib": 12288,
+      "within_limit": true,
+      "note": "Process VRAM is sampled, allocator values are peaks; this measures only tested inputs."
+    },
+    "effective_evidence": {
+      "gpu": "NVIDIA GeForce RTX 3090",
+      "elapsed_seconds": 7.322540489956737,
+      "peak_allocated_mib": 3237.23388671875,
+      "peak_reserved_mib": 3568.0,
+      "sampled_process_peak_mib": 3900,
+      "process_sample_interval_seconds": 0.5,
+      "memory_limit_mib": 12288,
+      "within_limit": true,
+      "note": "Process VRAM is sampled, allocator values are peaks; this measures only tested inputs."
+    }
+  },
+  "model_freeze_intact": true,
+  "cache_integrity_verified": true,
+  "test_fit_calls": 0,
+  "test_threshold_selection_calls": 0,
+  "test_labels_imported": false,
+  "user_confirmation": "pending",
+  "final_performance_computed": false,
+  "original_artifacts_unchanged": true,
+  "annotation_origin": "assistant_draft_pending_user_confirmation",
+  "independent_double_annotation": false
+}

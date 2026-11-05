@@ -1,0 +1,9 @@
+{
+  "src/rag_hd/challenges.py": "02079740a02e62ba4505a5df185eb0842fff2ed8523f0be4e18861e73ea652b4",
+  "scripts/rag_prototype.py": "2b959f36c6c3117b9e53ceb0f7601aa5ed21a8c39781033a3ae29e15d78f0921",
+  "scripts/import_reviewed_table.py": "8d059819ebd366461ffea9590c20506734c05c02a892e8b7e5d7fe81ed1fa4c1",
+  "scripts/run_rag_challenges.sh": "05e8b57304062b302636145cd7ba414b905cd06ca3480c5c90ac2def58e00787",
+  "tests/test_challenges.py": "e63ed3235f709ed1a233aaa86447126c556f779d84b8e3de7810c8a6d66cc1a3",
+  "configs/rag_challenge.yaml": "6f89ccf051049fde7ec82dc9d617b3887b8191d023cc6ec970422b86832db783",
+  "项目资料/挑战原型协议.md": "e40788e70930a0c60f63aad76212b76bdc30d05955c17327fe1a7bec9fd49b27"
+}

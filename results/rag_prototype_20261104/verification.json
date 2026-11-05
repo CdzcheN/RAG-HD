@@ -1,0 +1,11 @@
+{
+  "independent_runs_answer_text_matches": 20,
+  "independent_runs_total": 20,
+  "independent_runs_self_risks_match": true,
+  "unit_tests_passed": 12,
+  "generation_cache_new_inferences": 0,
+  "minicheck_cache_new_inferences": 0,
+  "status": "inference_complete_review_pending",
+  "human_review_complete": false,
+  "formal_method_comparison_complete": false
+}

@@ -1,0 +1,14 @@
+{
+  "bases": 60,
+  "rejected_counts": {
+    "pilot_source_overlap": 38,
+    "not_short_explicit_value": 160,
+    "support_exceeds_controlled_budget": 32,
+    "target_not_explicit_or_already_in_question": 89,
+    "shared_selected_source": 9,
+    "ambiguous_or_empty_intervention": 6,
+    "no_replacement": 162
+  },
+  "selection_rule": "fixed seeded ID order, textual construction eligibility only; no model scores",
+  "manifest_sha256": "983b78b5b4f0a00b0f464c7ff2f3e444a67fdd0acc148e5e5d54b966be0188fb"
+}

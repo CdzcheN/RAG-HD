@@ -1,0 +1,44 @@
+[
+  {
+    "base_question_id": "hotpot:5ab69a925542995eadef0031",
+    "decision": "not_used_in_this_small_pilot",
+    "reason": "原文Searby位于Brigg东南，原题却反问Searby东南的城镇；方位不一致，未用于本批。",
+    "model_scores_used": false
+  },
+  {
+    "base_question_id": "hotpot:5a8309bb55429966c78a6b04",
+    "decision": "not_used_in_this_small_pilot",
+    "reason": "天气台覆盖多个县，原段落未唯一给出发射台所在县，不能直接指定Stillwater为答案。",
+    "model_scores_used": false
+  },
+  {
+    "base_question_id": "squad:5726b8c8dd62a815002e8e33",
+    "decision": "not_used_in_this_small_pilot",
+    "reason": "原文是more than 200,000的下界，不适合直接当作确切计数制造互斥值。",
+    "model_scores_used": false
+  },
+  {
+    "base_question_id": "squad:570d4faffed7b91900d45e64",
+    "decision": "not_used_in_this_small_pilot",
+    "reason": "与本批已选U.S.Army基础题共享来源，不重复跨组使用该源；不是按模型错误选择。",
+    "model_scores_used": false
+  },
+  {
+    "base_question_id": "squad:572692035951b619008f76f7",
+    "decision": "not_used_in_this_small_pilot",
+    "reason": "原文some 30为近似计数，本批来源冲突优先采用更明确的数量口径。",
+    "model_scores_used": false
+  },
+  {
+    "base_question_id": "squad:5719fa954faf5e1900b8a865",
+    "decision": "not_used_in_this_small_pilot",
+    "reason": "原文指Seattle–Tacoma的Cambodian Americans，题干却写Seattle immigrants，地域和人群口径不一致。",
+    "model_scores_used": false
+  },
+  {
+    "base_question_id": "squad:5726bce2f1498d1400e8e99d",
+    "decision": "not_used_in_this_small_pilot",
+    "reason": "Fono总数49有47+2的内部组成关系；没有额外联动规格前不单独改总数。",
+    "model_scores_used": false
+  }
+]

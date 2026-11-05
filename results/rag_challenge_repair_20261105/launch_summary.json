@@ -1,0 +1,10 @@
+{
+  "stage": "prepared_and_pipeline_launched",
+  "run_dir": "outputs/rag_challenge_repair_20261105_v2_final",
+  "pairs": 30,
+  "rows": 60,
+  "tests_passed": 38,
+  "old_visible_source_overlap": 0,
+  "outcome_labels_created": 0,
+  "formal_test": false
+}
