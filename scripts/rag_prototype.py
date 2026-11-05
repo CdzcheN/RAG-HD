@@ -22,6 +22,12 @@ def status(run, stage):
 
 def prepare(config, run):
     if config.get('challenge'):
+        if config['challenge']['protocol_version']=='controlled-challenge-formal-v1':
+            from rag_hd.formal_cleaning import prepare as prepare_formal
+            return prepare_formal(config,run,ROOT)
+        if config['challenge']['protocol_version']=='controlled-challenge-v2':
+            from rag_hd.challenges_v2 import prepare as prepare_v2
+            return prepare_v2(config,run,ROOT)
         from rag_hd.challenges import prepare_challenges
         return prepare_challenges(config, run, ROOT)
     from rag_hd.data import SOURCES, convert_question, read_pool
@@ -125,6 +131,10 @@ def probe(config, run):
     from rag_hd.self_check import assess
     records = read_jsonl(run / 'prepared.jsonl')
     measurement = GpuUsage(config['generation']['memory_limit_mib'])
+    if config.get('challenge', {}).get('probe_partition') == 'train':
+        records = [r for r in records if r.get('formal_split') == 'train']
+        if not records:
+            raise ValueError('Formal resource probe requires training inputs')
     cases = []
     try:
         with measurement:
@@ -388,6 +398,9 @@ def main():
         manifest = json.loads((run / 'data_manifest.json').read_text())
         if manifest['prepared_sha256'] != file_sha256(run / 'prepared.jsonl'):
             raise ValueError('Prepared records changed after preparation; choose a new run')
+        if manifest.get('execution_partition') == 'test':
+            from rag_hd.formal_gate import validate_test_freeze
+            validate_test_freeze(run)
     status(run, args.stage + '_running')
     try:
         if args.stage == 'download':

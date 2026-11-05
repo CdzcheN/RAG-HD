@@ -1,0 +1,12 @@
+{
+  "status": "predictions_complete_test_labels_pending",
+  "input_rows": 120,
+  "prediction_rows": 360,
+  "model_count": 15,
+  "fit_calls": 0,
+  "threshold_selection_calls": 0,
+  "label_inputs_used": false,
+  "model_freeze_sha256": "df7e84d6fa82f30d2f1f975ab21dba7f977541f6cc9bc11825c5fbf7b189319d",
+  "test_records_sha256": "85fbf03845077fade493d0f5c77f0078dd215ce26ab1e6afdc8aca54774b931d",
+  "prediction_sha256": "69da653013e3b15b74fc8a96202569642a41ee4aa9306495ce76ea2f075e01dd"
+}

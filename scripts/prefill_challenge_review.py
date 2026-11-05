@@ -26,7 +26,7 @@ def write_table(path, fields, rows):
     temporary.replace(path)
 
 
-def prefill(run):
+def prefill(run, preserve_construction_notes=False):
     records = read_jsonl(run/'prepared.jsonl')
     generated = {r['sample_id']:r for r in read_jsonl(run/'generation.jsonl')}
     drafts = read_jsonl(run/'review_drafts/answer_assessments.jsonl')
@@ -34,9 +34,10 @@ def prefill(run):
     answers_path, construction_path = run/'review_readable.csv', run/'construction_review.csv'
     fields, rows = read_table(answers_path)
     cfields, crows = read_table(construction_path)
-    if not len(records) == len(drafts) == len(rows) == 120 or not len(constructions) == len(crows) == 60:
-        raise ValueError('Require all 120 answers and 60 constructions')
-    if any(r['判断依据'].strip() for r in rows) or any(r['构造检查备注'].strip() for r in crows):
+    if (not records or not len(records) == len(drafts) == len(rows)
+            or len(records) != 2*len(constructions) or len(constructions) != len(crows)):
+        raise ValueError('Require every answer and exactly one construction review per pair')
+    if any(r['判断依据'].strip() for r in rows) or (not preserve_construction_notes and any(r['构造检查备注'].strip() for r in crows)):
         raise ValueError('Review notes already exist; refusing to overwrite possible user edits')
     if any(r['证据支持标签'] != 'undetermined' or r['答案正确性'] != 'undetermined' for r in rows):
         raise ValueError('Existing labels were edited; preserve them before prefilling')
@@ -74,8 +75,15 @@ def prefill(run):
             raise ValueError('Construction identity mismatch')
         if row['正常证据'] != a['visible_evidence'] or row['挑战证据'] != b['visible_evidence']:
             raise ValueError('Construction text was edited')
+        if '修正后的问题' in row and row['修正后的问题'] != a['question']:
+            raise ValueError('Revised question was edited')
         if finding['review_source'] != 'assistant' or finding['status'] != 'pending_user_review' or not finding['rationale'].strip():
             raise ValueError('Construction notes require assistant draft provenance')
+        if preserve_construction_notes and row['构造检查备注'].strip():
+            initial_note = row['构造检查备注']
+            if (finding.get('initial_note') != initial_note or
+                    not finding['rationale'].startswith(initial_note+'\n')):
+                raise ValueError('Existing construction notes must be preserved verbatim')
         row['构造检查备注'] = finding['rationale']
     backup = run/'provenance/review_before_prefill_20261105'
     backup.mkdir(parents=True, exist_ok=False)
@@ -85,8 +93,8 @@ def prefill(run):
     write_table(construction_path, cfields, crows)
     if any(file_sha256(Path(path)) != digest for path, digest in official.items()):
         raise RuntimeError('Formal evaluation artifacts changed unexpectedly')
-    summary = {'status':'assistant_prefilled_pending_user_review', 'answer_rows':120,
-               'construction_rows':60, 'review_source':'assistant', 'user_confirmation':'pending',
+    summary = {'status':'assistant_prefilled_pending_user_review', 'answer_rows':len(rows),
+               'construction_rows':len(crows), 'review_source':'assistant', 'user_confirmation':'pending',
                'draft_evidence_label_counts':dict(Counter(r['evidence_label'] for r in drafts)),
                'draft_answer_correctness_counts':dict(Counter(r['answer_correctness'] for r in drafts)),
                'construction_finding_counts':dict(Counter(r['construction_finding'] for r in constructions)),
@@ -101,5 +109,7 @@ def prefill(run):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--run-dir', type=Path, required=True)
+    parser.add_argument('--preserve-construction-notes', action='store_true',
+                        help='Append to existing preparation notes, preserving their exact text')
     args = parser.parse_args()
-    print(prefill(args.run_dir))
+    print(prefill(args.run_dir,args.preserve_construction_notes))

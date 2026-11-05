@@ -1,0 +1,39 @@
+{
+  "status": "assistant_prefilled_pending_user_review",
+  "answer_rows": 120,
+  "construction_rows": 60,
+  "review_source": "assistant",
+  "user_confirmation": "pending",
+  "draft_evidence_label_counts": {
+    "supported": 81,
+    "undetermined": 25,
+    "outdated": 4,
+    "unsupported": 5,
+    "contradicted": 5
+  },
+  "draft_answer_correctness_counts": {
+    "correct": 81,
+    "undetermined": 25,
+    "incorrect": 14
+  },
+  "construction_finding_counts": {
+    "basic": 54,
+    "bound_overlap": 1,
+    "approximation_overlap": 5
+  },
+  "detector_scores_used_for_labels": false,
+  "formal_artifacts_unchanged": true,
+  "formal_artifacts_sha256": {
+    "outputs/rag_formal_20261105_v2/partitions/test/records.jsonl": "85fbf03845077fade493d0f5c77f0078dd215ce26ab1e6afdc8aca54774b931d",
+    "outputs/rag_formal_20261105_v2/partitions/test/metrics.json": "e923027118d18981bdff16832d7ee85d23419d77368f01baab29e7b349defbc6",
+    "outputs/rag_formal_20261105_v2/partitions/test/status.json": "63080238b31b970c7273338f3d75d7a1fccf0a40502954fc036c7421cb9fcc6b"
+  },
+  "display_table_sha256": {
+    "review_readable.csv": "b640a072e3b5df805dbb0f3cbdd0a689eb764c689cafaed12f4c03912311073f",
+    "construction_review.csv": "a895451e4b31a215accfdb90f3edd786bc1037ac55101c5f45274531ee9dd194"
+  },
+  "draft_inputs_sha256": {
+    "answer_assessments.jsonl": "566135e9b549d30d5772aa88821b1cbcf1678ce61e242acf4aa75d0af5a6d27c",
+    "construction_assessments.jsonl": "5c37594159eff8ecd895a8b93c71748a98a1a02e9b5f8b0991231b863a941385"
+  }
+}

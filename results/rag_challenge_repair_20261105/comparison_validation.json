@@ -1,0 +1,11 @@
+{
+  "cases": 7,
+  "score_inputs_used": false,
+  "legacy_files_unchanged": true,
+  "legacy_sha256": {
+    "prepared.jsonl": "dff9c2d2547b5a44b84381aa412bebfd1ec3d0c33f9b52a23c48e4050ff999ad",
+    "generation.jsonl": "5a9c55ed7a0fb3490876504fbddac91a0538977743abfc8db6a3b426c664aff9",
+    "minicheck.jsonl": "90b3cc0f22b79674f7ddc932e4a18cc90ffeb491edbc1dba01895ef0554c13d0",
+    "records.jsonl": "71f6d9abf552da256d64746337ce54b9a45f27bc51c278bf6857f3a403cc4f96"
+  }
+}

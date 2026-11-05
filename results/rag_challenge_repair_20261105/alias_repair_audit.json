@@ -1,0 +1,224 @@
+[
+  {
+    "old_pair": 51,
+    "source_document_id": "doc:65ea12a5fd747f5fe75179cad513a2b34e76fa9ac8143385cf519dfc2b778538",
+    "required_entity_mentions": [
+      {
+        "field": "text",
+        "start": 116,
+        "end": 127,
+        "text": "Phil McGraw"
+      }
+    ],
+    "edits": [
+      {
+        "field": "text",
+        "start": 116,
+        "end": 127,
+        "before": "Phil McGraw",
+        "after": "Vincente Minnelli",
+        "role": "cast_entity"
+      }
+    ],
+    "legacy_prediction_changed": false
+  },
+  {
+    "old_pair": 51,
+    "source_document_id": "doc:4b1fc574631037ea41635405807788baabd0f2eb8651de4a609d2ebd3aa7eca6",
+    "required_entity_mentions": [
+      {
+        "field": "title",
+        "start": 0,
+        "end": 11,
+        "text": "Phil McGraw"
+      },
+      {
+        "field": "text",
+        "start": 0,
+        "end": 21,
+        "text": "Phillip Calvin McGraw"
+      },
+      {
+        "field": "text",
+        "start": 57,
+        "end": 65,
+        "text": "Dr. Phil"
+      },
+      {
+        "field": "text",
+        "start": 200,
+        "end": 212,
+        "text": "McGraw first"
+      }
+    ],
+    "edits": [
+      {
+        "field": "title",
+        "start": 0,
+        "end": 11,
+        "before": "Phil McGraw",
+        "after": "Vincente Minnelli",
+        "role": "entity_title"
+      },
+      {
+        "field": "text",
+        "start": 0,
+        "end": 21,
+        "before": "Phillip Calvin McGraw",
+        "after": "Vincente Minnelli",
+        "role": "canonical_entity"
+      },
+      {
+        "field": "text",
+        "start": 57,
+        "end": 65,
+        "before": "Dr. Phil",
+        "after": "Vincente Minnelli",
+        "role": "person_alias"
+      },
+      {
+        "field": "text",
+        "start": 200,
+        "end": 212,
+        "before": "McGraw first",
+        "after": "Minnelli first",
+        "role": "surname_reference"
+      }
+    ],
+    "legacy_prediction_changed": false
+  },
+  {
+    "old_pair": 56,
+    "source_document_id": "doc:e9474f80f0c90146f2c825ffe652d0c153ffa448cb20b4df291d552fcf9f0f90",
+    "required_entity_mentions": [
+      {
+        "field": "title",
+        "start": 0,
+        "end": 17,
+        "text": "Lester B. Pearson"
+      },
+      {
+        "field": "text",
+        "start": 0,
+        "end": 28,
+        "text": "Lester Bowles \"Mike\" Pearson"
+      }
+    ],
+    "edits": [
+      {
+        "field": "title",
+        "start": 0,
+        "end": 17,
+        "before": "Lester B. Pearson",
+        "after": "Kaui Hart",
+        "role": "entity_title"
+      },
+      {
+        "field": "text",
+        "start": 0,
+        "end": 28,
+        "before": "Lester Bowles \"Mike\" Pearson",
+        "after": "Kaui Hart",
+        "role": "canonical_entity"
+      }
+    ],
+    "legacy_prediction_changed": false
+  },
+  {
+    "old_pair": 56,
+    "source_document_id": "doc:1ed86655d060cbfc91dfe993df060134f7167fc0248a1b056aa30d19ed3d156c",
+    "required_entity_mentions": [
+      {
+        "field": "text",
+        "start": 344,
+        "end": 361,
+        "text": "Lester B. Pearson"
+      }
+    ],
+    "edits": [
+      {
+        "field": "text",
+        "start": 344,
+        "end": 361,
+        "before": "Lester B. Pearson",
+        "after": "Kaui Hart",
+        "role": "commission_entity"
+      }
+    ],
+    "legacy_prediction_changed": false
+  },
+  {
+    "old_pair": 58,
+    "source_document_id": "doc:2b8bea1293d2455c8b9e7905d7c71f5b1c64f7825da446ebb3424ac2aacf50e6",
+    "required_entity_mentions": [
+      {
+        "field": "text",
+        "start": 417,
+        "end": 434,
+        "text": "Anna Nicole Smith"
+      }
+    ],
+    "edits": [
+      {
+        "field": "text",
+        "start": 417,
+        "end": 434,
+        "before": "Anna Nicole Smith",
+        "after": "Lee Na-jeong",
+        "role": "professional_name"
+      }
+    ],
+    "legacy_prediction_changed": false
+  },
+  {
+    "old_pair": 58,
+    "source_document_id": "doc:d6de78635fcdc2c78392cab78ddadb654c636e0d4910d21304749e30bb930241",
+    "required_entity_mentions": [
+      {
+        "field": "title",
+        "start": 0,
+        "end": 17,
+        "text": "Anna Nicole Smith"
+      },
+      {
+        "field": "text",
+        "start": 42,
+        "end": 59,
+        "text": "Anna Nicole Smith"
+      },
+      {
+        "field": "text",
+        "start": 159,
+        "end": 170,
+        "text": "Smith first"
+      }
+    ],
+    "edits": [
+      {
+        "field": "title",
+        "start": 0,
+        "end": 17,
+        "before": "Anna Nicole Smith",
+        "after": "Lee Na-jeong",
+        "role": "professional_name_title"
+      },
+      {
+        "field": "text",
+        "start": 42,
+        "end": 59,
+        "before": "Anna Nicole Smith",
+        "after": "Lee Na-jeong",
+        "role": "professional_name"
+      },
+      {
+        "field": "text",
+        "start": 159,
+        "end": 170,
+        "before": "Smith first",
+        "after": "Lee first",
+        "role": "professional_surname"
+      }
+    ],
+    "legacy_prediction_changed": false
+  }
+]

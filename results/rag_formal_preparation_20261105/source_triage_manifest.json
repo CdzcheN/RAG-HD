@@ -1,0 +1,14 @@
+{
+  "status": "partial_source_triage_not_generation_ready",
+  "source": "assistant",
+  "nominated_bases": 300,
+  "triaged_bases": 10,
+  "remaining_source_triage": 290,
+  "fully_validated_construction_specs": 0,
+  "generation_ready": false,
+  "inventory_manifest_sha256": "ff390b4b29d8220e324107eaaae3f523438993d6bfb19e3d4aed53085bb5f446",
+  "triage_sha256": "81ea5f65c0170d0d1e5e1f05336fde1e1fb77f438cc4cafec2f8e457cabecd2f",
+  "readable_triage_sha256": "e23a4ef17d4ae180e34beaf31b7e55a981b4647dedd9131bd664dcb4f5b0d3a4",
+  "score_inputs_used": false,
+  "actual_answer_labels_created": 0
+}

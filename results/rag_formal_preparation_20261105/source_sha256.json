@@ -1,0 +1,11 @@
+{
+  "scripts/prepare_formal_inventory.py": "b8c37888fb2ba269c3d84a06a424e5d8dc0d01e5a01722d00232f1bb38bb7e9c",
+  "scripts/prepare_formal_protocol.py": "3418814b09d4aabb77045a696081385e5fdde14c074e93c36e52c923de8441d2",
+  "src/rag_hd/formal_inventory.py": "0c8d849d792f5288ff882603c22e3081dbefb608becbabfedec06486ae55f8d7",
+  "src/rag_hd/formal_protocol.py": "4705373a35c2b0751b49811e207bddd39ca65a4868d421064d426a0e66e04d7a",
+  "tests/test_formal_inventory.py": "5a89beede64c935e8514a4f1ed30d787fde4d414e4e33f6876d23b9e842db27a",
+  "tests/test_formal_protocol.py": "357f07b91aea36cf7ff04add9feb53b8a1a7125ef6d9aa22b9575a6ab4f965ce",
+  "configs/formal_inventory.json": "70e5d1a04cf6bab39720f5352f7946330614e84893ef529808dff889c774e283",
+  "configs/formal_rule_families.json": "d34fc522a5a43bab514e87ea3de476598b2e49bce7f27103e1dccaebeb11ca0b",
+  "configs/rag_challenge_repair.yaml": "4ed3a1da3a3b791e2a773f4a3ee6ebe649420243d363c84fb9b37e6ba6c21acc"
+}

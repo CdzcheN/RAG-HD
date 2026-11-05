@@ -1,0 +1,11 @@
+{
+  "src/rag_hd/construction_edits.py": "b19625fab69e4d6b2332800524ff6068309375e3d4b01611e017469a3c89f61f",
+  "src/rag_hd/challenges_v2.py": "269392a36a283b6be461af1f0e553a62a8ba6488eea6ae45ba018332c1b4c283",
+  "scripts/compare_construction_repairs.py": "29bc9eaab9edfb715ad5bb0d9969be0c3de7814b54e063529f2ffed3a8463572",
+  "scripts/rag_prototype.py": "6db591d13ea12e0178492ea3fd12b6ddd52bb6dd9aab22b435c1c0b1ebf34fd2",
+  "scripts/run_rag_challenges.sh": "a1c92a0c598d64553d97f6e8154cbb2a0dec428ead3c201a2514ae8ce3e9a986",
+  "tests/test_construction_repairs.py": "d2ab7063e68732f4c4752a6366fb2ec55f3ca720d8365af51f341b98558b03af",
+  "configs/rag_challenge_repair.yaml": "4ed3a1da3a3b791e2a773f4a3ee6ebe649420243d363c84fb9b37e6ba6c21acc",
+  "configs/challenge_repair_specs.json": "5c4e700dfd76e6f0ac30c095294fc1dc3701da6069b135090689a990a2713e6a",
+  "项目资料/挑战构造修正版v2.md": "2dbf2eeac49efa13abd78ca395847f69f968266e24465c6dd57db8df3ce537c3"
+}

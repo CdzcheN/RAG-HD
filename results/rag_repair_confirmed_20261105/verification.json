@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "cpu_tests": 43,
+  "total_rows": 60,
+  "common_rows": 48,
+  "positive_rows": 3,
+  "construction_pairs": 30,
+  "prepared_generation_minicheck_sha256": {
+    "prepared.jsonl": "47388300e5eeedd3acfaf167a129e9d1d35d5b07838106edc61b0307ba68cba9",
+    "generation.jsonl": "69f735c43cf77082e2db039da1e3203ec07d60eca865e1e6b13e01b30e3f530e",
+    "minicheck.jsonl": "f99ddd937cfa6349b733f5a0e8801f848623366b35c120e0c2afa27423b54575"
+  },
+  "frozen_predictions_unchanged": true,
+  "readable_table_unchanged": true,
+  "construction_table_unchanged": true,
+  "formal_status": "complete",
+  "new_fit_calls": 0,
+  "new_threshold_selection": false,
+  "common_cohort_all_methods_and_seeds": true
+}

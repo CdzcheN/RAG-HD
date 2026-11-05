@@ -1,0 +1,15 @@
+{
+  "protocol_version": "formal-source-inventory-v1",
+  "model_config": "configs/rag_challenge_repair.yaml",
+  "candidate_seed": 20260918,
+  "partition_seed": 20260919,
+  "noise_seed": 20260920,
+  "pool_per_dataset": 20000,
+  "noise_pool_per_partition": 3000,
+  "previous_runs": [
+    "outputs/rag_prototype_20261104_v1",
+    "outputs/rag_challenge_20261104_v4",
+    "outputs/rag_challenge_repair_20261105_v2_final"
+  ],
+  "purpose": "Source inventory and nominations only; semantic review precedes formal inputs"
+}
