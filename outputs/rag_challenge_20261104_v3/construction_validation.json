@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "rows": 120,
+  "pairs": 60,
+  "groups": 60,
+  "shared_questions_within_pairs": true,
+  "shared_references_within_pairs": true,
+  "labels_from_construction": 0,
+  "max_evidence_words": 894,
+  "protocol_sha256": "938739b4ae16eb0eb5e15e2786e48d313016dbfe72b86318320f0976da98ed40",
+  "data_sha256": "63902ca43ab5e7a23290cdee868270b647308487dbfe39cb16b2eb6db1959326"
+}

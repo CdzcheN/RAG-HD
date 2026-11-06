@@ -1,0 +1,39 @@
+score_running
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  2.89it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  2.88it/s]
+minicheck 1/20
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  7.00it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.99it/s]
+minicheck 2/20
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.68it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.68it/s]
+minicheck 3/20
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  7.07it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  7.06it/s]
+minicheck 4/20
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.85it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.85it/s]
+minicheck 5/20
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.30it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.29it/s]
+minicheck 6/20
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00, 10.96it/s]
+minicheck 7/20
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00, 12.48it/s]
+minicheck 8/20
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.87it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.86it/s]
+minicheck 9/20
+minicheck 10/20
+minicheck 11/20
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00, 14.61it/s]
+minicheck 12/20
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00, 12.02it/s]
+minicheck 13/20
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00, 11.17it/s]
+minicheck 14/20
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00, 11.44it/s]
+minicheck 15/20
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00, 14.77it/s]
+minicheck 16/20
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00, 12.46it/s]
+minicheck 17/20
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.31it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.30it/s]
+minicheck 18/20
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00, 14.90it/s]
+minicheck 19/20
+minicheck 20/20
+score_complete

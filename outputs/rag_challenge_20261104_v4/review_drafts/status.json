@@ -1,0 +1,42 @@
+{
+  "status": "assistant_prefilled_pending_user_review",
+  "answer_rows": 120,
+  "construction_rows": 60,
+  "review_source": "assistant",
+  "user_confirmation": "pending",
+  "draft_evidence_label_counts": {
+    "undetermined": 34,
+    "supported": 71,
+    "unsupported": 9,
+    "contradicted": 1,
+    "outdated": 5
+  },
+  "draft_answer_correctness_counts": {
+    "undetermined": 38,
+    "correct": 66,
+    "incorrect": 16
+  },
+  "construction_finding_counts": {
+    "basic": 36,
+    "question_ambiguity": 10,
+    "incomplete_question_chain": 4,
+    "residual_support": 2,
+    "alias_inconsistency": 6,
+    "incomplete_support_chain": 2
+  },
+  "detector_scores_used_for_labels": false,
+  "formal_artifacts_unchanged": true,
+  "formal_artifacts_sha256": {
+    "outputs/rag_challenge_20261104_v4/records.jsonl": "1123a30d82436fc3100b0261859c562dec3f8a3b922aaca2ee1e5d7b99ed7a88",
+    "outputs/rag_challenge_20261104_v4/metrics.json": "e44ed9e70290d8c952ec9c3af0708a9fe0962c1baee8fd19e9ebde1ecb83c138",
+    "outputs/rag_challenge_20261104_v4/status.json": "453819e065c0567ee5b1fd96a31dc5eea455622b0c569c590774339fa1fa0348"
+  },
+  "display_table_sha256": {
+    "review_readable.csv": "a9e1aa723792f937e801d943b16223c15fac83c610a03bd55e87367fd0ce7762",
+    "construction_review.csv": "c8bc0da4d27ae1207a269dd49c17ef34c18ac8f9127a0266decf4a57c45ef11d"
+  },
+  "draft_inputs_sha256": {
+    "answer_assessments.jsonl": "d4b275da4610fb6e2bf9c1868197f01018c6ed1b1742d20fe702fb28efd96fcf",
+    "construction_assessments.jsonl": "f9f294dd285e4ba343c64a9dd3d4171ac5b2ba9f8636381e7f0753cc3fc87866"
+  }
+}

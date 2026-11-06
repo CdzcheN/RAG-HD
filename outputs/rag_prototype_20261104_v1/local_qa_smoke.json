@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "answer": "The capital of the fictional region of Lumeria is Bayport.",
+  "inference": {
+    "text": "The capital of the fictional region of Lumeria is Bayport.",
+    "input_tokens": 97,
+    "output_tokens": 15,
+    "hit_output_limit": false,
+    "elapsed_seconds": 1.0175010338425636
+  },
+  "resources": {
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "elapsed_seconds": 8.9799672330264,
+    "peak_allocated_mib": 2942.98046875,
+    "peak_reserved_mib": 3014.0,
+    "sampled_process_peak_mib": 3352,
+    "process_sample_interval_seconds": 0.5,
+    "memory_limit_mib": 12288,
+    "within_limit": true,
+    "note": "Process VRAM is sampled, allocator values are peaks; this measures only tested inputs."
+  }
+}

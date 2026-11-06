@@ -1,0 +1,663 @@
+probe_running
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.60s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.02s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.10s/it]
+{
+  "quantized_linear_layers": 252,
+  "repeat_text_matches": true,
+  "resources": {
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "elapsed_seconds": 11.980074238032103,
+    "peak_allocated_mib": 2942.98046875,
+    "peak_reserved_mib": 3084.0,
+    "sampled_process_peak_mib": 3422,
+    "process_sample_interval_seconds": 0.5,
+    "memory_limit_mib": 12288,
+    "within_limit": true,
+    "note": "Process VRAM is sampled, allocator values are peaks; this measures only tested inputs."
+  },
+  "passed": true
+}
+probe_complete
+generate_running
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.61s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.02s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.11s/it]
+generation 1/120 squad refusal
+generation 2/120 squad refusal
+generation 3/120 squad ok
+generation 4/120 squad ok
+generation 5/120 squad ok
+generation 6/120 squad refusal
+generation 7/120 squad ok
+generation 8/120 squad refusal
+generation 9/120 squad ok
+generation 10/120 squad refusal
+generation 11/120 squad refusal
+generation 12/120 squad refusal
+generation 13/120 squad ok
+generation 14/120 squad refusal
+generation 15/120 squad ok
+generation 16/120 squad ok
+generation 17/120 squad ok
+generation 18/120 squad refusal
+generation 19/120 squad ok
+generation 20/120 squad refusal
+generation 21/120 hotpot ok
+generation 22/120 hotpot ok
+generation 23/120 hotpot ok
+generation 24/120 hotpot ok
+generation 25/120 hotpot ok
+generation 26/120 hotpot refusal
+generation 27/120 hotpot ok
+generation 28/120 hotpot refusal
+generation 29/120 hotpot ok
+generation 30/120 hotpot refusal
+generation 31/120 hotpot ok
+generation 32/120 hotpot ok
+generation 33/120 hotpot ok
+generation 34/120 hotpot ok
+generation 35/120 hotpot ok
+generation 36/120 hotpot refusal
+generation 37/120 hotpot ok
+generation 38/120 hotpot refusal
+generation 39/120 hotpot ok
+generation 40/120 hotpot refusal
+generation 41/120 squad ok
+generation 42/120 squad ok
+generation 43/120 squad ok
+generation 44/120 squad ok
+generation 45/120 squad ok
+generation 46/120 squad ok
+generation 47/120 squad ok
+generation 48/120 squad ok
+generation 49/120 squad ok
+generation 50/120 squad ok
+generation 51/120 squad ok
+generation 52/120 squad refusal
+generation 53/120 squad ok
+generation 54/120 squad ok
+generation 55/120 squad ok
+generation 56/120 squad ok
+generation 57/120 squad ok
+generation 58/120 squad ok
+generation 59/120 squad refusal
+generation 60/120 squad refusal
+generation 61/120 hotpot ok
+generation 62/120 hotpot ok
+generation 63/120 hotpot ok
+generation 64/120 hotpot ok
+generation 65/120 hotpot ok
+generation 66/120 hotpot ok
+generation 67/120 hotpot ok
+generation 68/120 hotpot ok
+generation 69/120 hotpot ok
+generation 70/120 hotpot ok
+generation 71/120 hotpot ok
+generation 72/120 hotpot ok
+generation 73/120 hotpot ok
+generation 74/120 hotpot ok
+generation 75/120 hotpot ok
+generation 76/120 hotpot ok
+generation 77/120 hotpot ok
+generation 78/120 hotpot ok
+generation 79/120 hotpot ok
+generation 80/120 hotpot ok
+generation 81/120 squad ok
+generation 82/120 squad ok
+generation 83/120 squad ok
+generation 84/120 squad ok
+generation 85/120 squad ok
+generation 86/120 squad ok
+generation 87/120 squad ok
+generation 88/120 squad ok
+generation 89/120 squad ok
+generation 90/120 squad ok
+generation 91/120 squad ok
+generation 92/120 squad ok
+generation 93/120 squad refusal
+generation 94/120 squad ok
+generation 95/120 squad refusal
+generation 96/120 squad ok
+generation 97/120 squad ok
+generation 98/120 squad ok
+generation 99/120 squad ok
+generation 100/120 squad ok
+generation 101/120 hotpot ok
+generation 102/120 hotpot ok
+generation 103/120 hotpot ok
+generation 104/120 hotpot ok
+generation 105/120 hotpot ok
+generation 106/120 hotpot ok
+generation 107/120 hotpot ok
+generation 108/120 hotpot ok
+generation 109/120 hotpot ok
+generation 110/120 hotpot ok
+generation 111/120 hotpot ok
+generation 112/120 hotpot ok
+generation 113/120 hotpot ok
+generation 114/120 hotpot ok
+generation 115/120 hotpot ok
+generation 116/120 hotpot ok
+generation 117/120 hotpot ok
+generation 118/120 hotpot ok
+generation 119/120 hotpot ok
+generation 120/120 hotpot ok
+generate_complete
+score_running
+minicheck 1/120
+minicheck 2/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  3.89it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  3.89it/s]
+minicheck 3/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00, 15.36it/s]
+minicheck 4/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00, 12.77it/s]
+minicheck 5/120
+minicheck 6/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00, 12.71it/s]
+minicheck 7/120
+minicheck 8/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.99it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.99it/s]
+minicheck 9/120
+minicheck 10/120
+minicheck 11/120
+minicheck 12/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00, 13.88it/s]
+minicheck 13/120
+minicheck 14/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00, 11.00it/s]
+minicheck 15/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00, 13.44it/s]
+minicheck 16/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00, 13.53it/s]
+minicheck 17/120
+minicheck 18/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.78it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.77it/s]
+minicheck 19/120
+minicheck 20/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00, 13.84it/s]
+minicheck 21/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00, 13.03it/s]
+minicheck 22/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00, 10.74it/s]
+minicheck 23/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00, 14.06it/s]
+minicheck 24/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  9.71it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  9.70it/s]
+minicheck 25/120
+minicheck 26/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00, 10.45it/s]
+minicheck 27/120
+minicheck 28/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00, 11.82it/s]
+minicheck 29/120
+minicheck 30/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.69it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.68it/s]
+minicheck 31/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00, 11.18it/s]
+minicheck 32/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  8.13it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  8.12it/s]
+minicheck 33/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  9.81it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  9.80it/s]
+minicheck 34/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00, 11.70it/s]
+minicheck 35/120
+minicheck 36/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00, 11.14it/s]
+minicheck 37/120
+minicheck 38/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  8.36it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  8.35it/s]
+minicheck 39/120
+minicheck 40/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.36it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.35it/s]
+minicheck 41/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.70it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.69it/s]
+minicheck 42/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.75it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.74it/s]
+minicheck 43/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.67it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.66it/s]
+minicheck 44/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.43it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.42it/s]
+minicheck 45/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.57it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.56it/s]
+minicheck 46/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.66it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.66it/s]
+minicheck 47/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.51it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.50it/s]
+minicheck 48/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.75it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.74it/s]
+minicheck 49/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  2.70it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  2.70it/s]
+minicheck 50/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  2.42it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  2.42it/s]
+minicheck 51/120
+minicheck 52/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  3.21it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  3.21it/s]
+minicheck 53/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  3.80it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  3.80it/s]
+minicheck 54/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.12it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.12it/s]
+minicheck 55/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.66it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.66it/s]
+minicheck 56/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.08it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.07it/s]
+minicheck 57/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.08it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.08it/s]
+minicheck 58/120
+minicheck 59/120
+minicheck 60/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  7.63it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  7.63it/s]
+minicheck 61/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.79it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.78it/s]
+minicheck 62/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  8.40it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  8.39it/s]
+minicheck 63/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  8.57it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  8.57it/s]
+minicheck 64/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  7.05it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  7.05it/s]
+minicheck 65/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.97it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.96it/s]
+minicheck 66/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  9.50it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  9.50it/s]
+minicheck 67/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  9.42it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  9.41it/s]
+minicheck 68/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00, 10.64it/s]
+minicheck 69/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00, 10.86it/s]
+minicheck 70/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.53it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.53it/s]
+minicheck 71/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.55it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.54it/s]
+minicheck 72/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  7.43it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  7.42it/s]
+minicheck 73/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  7.16it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  7.16it/s]
+minicheck 74/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.38it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.38it/s]
+minicheck 75/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.39it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.39it/s]
+minicheck 76/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  8.45it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  8.44it/s]
+minicheck 77/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  8.47it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  8.47it/s]
+minicheck 78/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.96it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.96it/s]
+minicheck 79/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.97it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.97it/s]
+minicheck 80/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.16it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.16it/s]
+minicheck 81/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.51it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.51it/s]
+minicheck 82/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.50it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.50it/s]
+minicheck 83/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.70it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.70it/s]
+minicheck 84/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.69it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.69it/s]
+minicheck 85/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.88it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.88it/s]
+minicheck 86/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  2.76it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  2.76it/s]
+minicheck 87/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  2.81it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  2.81it/s]
+minicheck 88/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.07it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.07it/s]
+minicheck 89/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  3.89it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  3.88it/s]
+minicheck 90/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.90it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.89it/s]
+minicheck 91/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.75it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.75it/s]
+minicheck 92/120
+minicheck 93/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.48it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.47it/s]
+minicheck 94/120
+minicheck 95/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.12it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.11it/s]
+minicheck 96/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.50it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.50it/s]
+minicheck 97/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.66it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.65it/s]
+minicheck 98/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.02it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.02it/s]
+minicheck 99/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  3.73it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  3.73it/s]
+minicheck 100/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.06it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.06it/s]
+minicheck 101/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.56it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.55it/s]
+minicheck 102/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.86it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.85it/s]
+minicheck 103/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.24it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  6.23it/s]
+minicheck 104/120
+Evaluating:   0%|          | 0/2 [00:00<?, ?it/s]Evaluating:  50%|█████     | 1/2 [00:00<00:00,  4.61it/s]Evaluating: 100%|██████████| 2/2 [00:00<00:00,  4.72it/s]Evaluating: 100%|██████████| 2/2 [00:00<00:00,  4.70it/s]
+minicheck 105/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.65it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.65it/s]
+minicheck 106/120
+Evaluating:   0%|          | 0/2 [00:00<?, ?it/s]Evaluating:  50%|█████     | 1/2 [00:00<00:00,  4.22it/s]Evaluating: 100%|██████████| 2/2 [00:00<00:00,  4.28it/s]Evaluating: 100%|██████████| 2/2 [00:00<00:00,  4.27it/s]
+minicheck 107/120
+Evaluating:   0%|          | 0/2 [00:00<?, ?it/s]Evaluating:  50%|█████     | 1/2 [00:00<00:00,  4.19it/s]Evaluating: 100%|██████████| 2/2 [00:00<00:00,  3.83it/s]Evaluating: 100%|██████████| 2/2 [00:00<00:00,  3.88it/s]
+minicheck 108/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  3.54it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  3.54it/s]
+minicheck 109/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  3.34it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  3.34it/s]
+minicheck 110/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.01it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.01it/s]
+minicheck 111/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.38it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.37it/s]
+minicheck 112/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  3.89it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  3.88it/s]
+minicheck 113/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  3.96it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  3.96it/s]
+minicheck 114/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.88it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.88it/s]
+minicheck 115/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.35it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  5.35it/s]
+minicheck 116/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  3.67it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  3.67it/s]
+minicheck 117/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  3.61it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  3.61it/s]
+minicheck 118/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.25it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.25it/s]
+minicheck 119/120
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.24it/s]Evaluating: 100%|██████████| 1/1 [00:00<00:00,  4.24it/s]
+minicheck 120/120
+score_complete
+evaluate_running
+{
+  "total": 120,
+  "refusals": 21,
+  "label_counts": {
+    "undetermined": 120
+  },
+  "qa_exact_match_rate": 0.0,
+  "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+  "methods": {
+    "self_check": {
+      "score_missing_on_all_inputs": 21,
+      "roc_auc": null,
+      "average_precision": null,
+      "not_computable_reason": "Common labeled cohort has fewer than two classes."
+    },
+    "minicheck": {
+      "score_missing_on_all_inputs": 21,
+      "roc_auc": null,
+      "average_precision": null,
+      "not_computable_reason": "Common labeled cohort has fewer than two classes."
+    }
+  },
+  "labeled_factual_answers": 0,
+  "common_evaluation_rows": 0,
+  "refusal_rate": 0.175,
+  "label_coverage": 0.0,
+  "common_coverage": 0.0,
+  "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split.",
+  "groups": {
+    "hotpot": {
+      "total": 60,
+      "refusals": 6,
+      "label_counts": {
+        "undetermined": 60
+      },
+      "qa_exact_match_rate": 0.0,
+      "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+      "methods": {
+        "self_check": {
+          "score_missing_on_all_inputs": 6,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        },
+        "minicheck": {
+          "score_missing_on_all_inputs": 6,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        }
+      },
+      "labeled_factual_answers": 0,
+      "common_evaluation_rows": 0,
+      "refusal_rate": 0.1,
+      "label_coverage": 0.0,
+      "common_coverage": 0.0,
+      "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split."
+    },
+    "squad": {
+      "total": 60,
+      "refusals": 15,
+      "label_counts": {
+        "undetermined": 60
+      },
+      "qa_exact_match_rate": 0.0,
+      "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+      "methods": {
+        "self_check": {
+          "score_missing_on_all_inputs": 15,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        },
+        "minicheck": {
+          "score_missing_on_all_inputs": 15,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        }
+      },
+      "labeled_factual_answers": 0,
+      "common_evaluation_rows": 0,
+      "refusal_rate": 0.25,
+      "label_coverage": 0.0,
+      "common_coverage": 0.0,
+      "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split."
+    }
+  },
+  "condition_groups": {
+    "evidence_conflict": {
+      "total": 20,
+      "refusals": 2,
+      "label_counts": {
+        "undetermined": 20
+      },
+      "qa_exact_match_rate": 0.0,
+      "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+      "methods": {
+        "self_check": {
+          "score_missing_on_all_inputs": 2,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        },
+        "minicheck": {
+          "score_missing_on_all_inputs": 2,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        }
+      },
+      "labeled_factual_answers": 0,
+      "common_evaluation_rows": 0,
+      "refusal_rate": 0.1,
+      "label_coverage": 0.0,
+      "common_coverage": 0.0,
+      "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split."
+    },
+    "normal": {
+      "total": 60,
+      "refusals": 5,
+      "label_counts": {
+        "undetermined": 60
+      },
+      "qa_exact_match_rate": 0.0,
+      "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+      "methods": {
+        "self_check": {
+          "score_missing_on_all_inputs": 5,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        },
+        "minicheck": {
+          "score_missing_on_all_inputs": 5,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        }
+      },
+      "labeled_factual_answers": 0,
+      "common_evaluation_rows": 0,
+      "refusal_rate": 0.08333333333333333,
+      "label_coverage": 0.0,
+      "common_coverage": 0.0,
+      "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split."
+    },
+    "outdated_answer": {
+      "total": 20,
+      "refusals": 0,
+      "label_counts": {
+        "undetermined": 20
+      },
+      "qa_exact_match_rate": 0.0,
+      "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+      "methods": {
+        "self_check": {
+          "score_missing_on_all_inputs": 0,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        },
+        "minicheck": {
+          "score_missing_on_all_inputs": 0,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        }
+      },
+      "labeled_factual_answers": 0,
+      "common_evaluation_rows": 0,
+      "refusal_rate": 0.0,
+      "label_coverage": 0.0,
+      "common_coverage": 0.0,
+      "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split."
+    },
+    "retrieval_failure": {
+      "total": 20,
+      "refusals": 14,
+      "label_counts": {
+        "undetermined": 20
+      },
+      "qa_exact_match_rate": 0.0,
+      "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+      "methods": {
+        "self_check": {
+          "score_missing_on_all_inputs": 14,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        },
+        "minicheck": {
+          "score_missing_on_all_inputs": 14,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        }
+      },
+      "labeled_factual_answers": 0,
+      "common_evaluation_rows": 0,
+      "refusal_rate": 0.7,
+      "label_coverage": 0.0,
+      "common_coverage": 0.0,
+      "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split."
+    }
+  },
+  "challenge_type_groups": {
+    "evidence_conflict": {
+      "total": 40,
+      "refusals": 3,
+      "label_counts": {
+        "undetermined": 40
+      },
+      "qa_exact_match_rate": 0.0,
+      "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+      "methods": {
+        "self_check": {
+          "score_missing_on_all_inputs": 3,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        },
+        "minicheck": {
+          "score_missing_on_all_inputs": 3,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        }
+      },
+      "labeled_factual_answers": 0,
+      "common_evaluation_rows": 0,
+      "refusal_rate": 0.075,
+      "label_coverage": 0.0,
+      "common_coverage": 0.0,
+      "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split."
+    },
+    "outdated_answer": {
+      "total": 40,
+      "refusals": 2,
+      "label_counts": {
+        "undetermined": 40
+      },
+      "qa_exact_match_rate": 0.0,
+      "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+      "methods": {
+        "self_check": {
+          "score_missing_on_all_inputs": 2,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        },
+        "minicheck": {
+          "score_missing_on_all_inputs": 2,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        }
+      },
+      "labeled_factual_answers": 0,
+      "common_evaluation_rows": 0,
+      "refusal_rate": 0.05,
+      "label_coverage": 0.0,
+      "common_coverage": 0.0,
+      "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split."
+    },
+    "retrieval_failure": {
+      "total": 40,
+      "refusals": 16,
+      "label_counts": {
+        "undetermined": 40
+      },
+      "qa_exact_match_rate": 0.0,
+      "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+      "methods": {
+        "self_check": {
+          "score_missing_on_all_inputs": 16,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        },
+        "minicheck": {
+          "score_missing_on_all_inputs": 16,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        }
+      },
+      "labeled_factual_answers": 0,
+      "common_evaluation_rows": 0,
+      "refusal_rate": 0.4,
+      "label_coverage": 0.0,
+      "common_coverage": 0.0,
+      "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split."
+    }
+  },
+  "protocol_version": "rag-prototype-v1",
+  "purpose": "Development flow validation; not a formal method-improvement experiment."
+}
+inference_complete_review_pending

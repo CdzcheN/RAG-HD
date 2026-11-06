@@ -1,0 +1,5 @@
+Device: NVIDIA GeForce RTX 3090
+Evaluating:   0%|          | 0/2 [00:00<?, ?it/s]Evaluating:  50%|█████     | 1/2 [00:00<00:00,  3.88it/s]Evaluating: 100%|██████████| 2/2 [00:00<00:00,  6.46it/s]
+Predicted labels: [1, 0] (expected [1, 0])
+Support probabilities: [0.980592, 0.007121]
+Saved: /home/yqhe/project/rgzn/RAG-HD/outputs/minicheck_20261103/smoke

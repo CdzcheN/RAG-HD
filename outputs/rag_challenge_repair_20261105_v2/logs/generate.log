@@ -1,0 +1,59 @@
+generate_running
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.59s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.01s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.10s/it]
+generation 1/60 squad ok
+generation 2/60 squad refusal
+generation 3/60 squad ok
+generation 4/60 squad refusal
+generation 5/60 squad refusal
+generation 6/60 squad refusal
+generation 7/60 squad ok
+generation 8/60 squad refusal
+generation 9/60 squad ok
+generation 10/60 squad refusal
+generation 11/60 hotpot ok
+generation 12/60 hotpot refusal
+generation 13/60 hotpot ok
+generation 14/60 hotpot ok
+generation 15/60 hotpot ok
+generation 16/60 hotpot refusal
+generation 17/60 hotpot ok
+generation 18/60 hotpot refusal
+generation 19/60 hotpot refusal
+generation 20/60 hotpot refusal
+generation 21/60 squad ok
+generation 22/60 squad ok
+generation 23/60 squad ok
+generation 24/60 squad ok
+generation 25/60 squad ok
+generation 26/60 squad ok
+generation 27/60 squad ok
+generation 28/60 squad ok
+generation 29/60 squad ok
+generation 30/60 squad ok
+generation 31/60 hotpot ok
+generation 32/60 hotpot ok
+generation 33/60 hotpot ok
+generation 34/60 hotpot ok
+generation 35/60 hotpot ok
+generation 36/60 hotpot ok
+generation 37/60 hotpot ok
+generation 38/60 hotpot ok
+generation 39/60 hotpot ok
+generation 40/60 hotpot ok
+generation 41/60 squad ok
+generation 42/60 squad ok
+generation 43/60 squad ok
+generation 44/60 squad ok
+generation 45/60 squad ok
+generation 46/60 squad ok
+generation 47/60 squad ok
+generation 48/60 squad ok
+generation 49/60 squad ok
+generation 50/60 squad ok
+generation 51/60 hotpot ok
+generation 52/60 hotpot ok
+generation 53/60 hotpot ok
+generation 54/60 hotpot ok
+generation 55/60 hotpot ok
+generation 56/60 hotpot ok
+generation 57/60 hotpot ok

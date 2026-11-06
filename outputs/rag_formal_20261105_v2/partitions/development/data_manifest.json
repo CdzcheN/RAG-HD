@@ -1,0 +1,98 @@
+{
+  "construction_protocol": "controlled-challenge-formal-v1",
+  "sources": {
+    "squad": {
+      "repo_id": "rajpurkar/squad",
+      "subset": "plain_text",
+      "revision": "7b6d24c440a36b6815f21b70d25016731768db1f",
+      "split": "train",
+      "source_rows": 87599,
+      "pool_size": 20000,
+      "selection": "lowest_sha256(seed,dataset,original_id)",
+      "pool_ids_sha256": "bf1e91ca6a92d6de62ec6a069fcbb113ffdcd3f8774673064ee1e2fe942ab6ff"
+    },
+    "hotpot": {
+      "repo_id": "hotpotqa/hotpot_qa",
+      "subset": "distractor",
+      "revision": "1908d6afbbead072334abe2965f91bd2709910ab",
+      "split": "train",
+      "source_rows": 90447,
+      "pool_size": 20000,
+      "selection": "lowest_sha256(seed,dataset,original_id)",
+      "pool_ids_sha256": "c7e6f289e9d20dc9b7f8074715e28d9c1170b70e4ead0ddcb2363895ab5965c2"
+    }
+  },
+  "records": 480,
+  "base_questions": 240,
+  "groups": 240,
+  "condition_counts": {
+    "normal": 240,
+    "retrieval_failure": 80,
+    "evidence_conflict": 80,
+    "outdated_answer": 80
+  },
+  "prior_source_exclusion_sha256": {
+    "outputs/rag_prototype_20261104_v1": "a022abf1c1e4e16f96a2cc1351e29feecdf024db1a70f91096d0c0de06a0664a",
+    "outputs/rag_challenge_20261104_v4": "dff9c2d2547b5a44b84381aa412bebfd1ec3d0c33f9b52a23c48e4050ff999ad",
+    "outputs/rag_challenge_repair_20261105_v2_final": "47388300e5eeedd3acfaf167a129e9d1d35d5b07838106edc61b0307ba68cba9"
+  },
+  "prepared_sha256": "bd3f8d7f62a14647f0bbaa0c7711381bf90270dab5601ddfd42eb84f51bf56bb",
+  "corpus_sha256": "8d70311a442fefd1538163dec5cb40faf62ec93bc886746dc408b9bcfa8dd369",
+  "inventory_manifest_sha256": "ff390b4b29d8220e324107eaaae3f523438993d6bfb19e3d4aed53085bb5f446",
+  "source_decisions_sha256": "6ac5d046c5e0594274bff59e9f2ae9a015d0f6a082ba1aee59b9b3c8cdf0e1e0",
+  "replacement_decisions_sha256": "5b4e67eaa062f6b4065b4c6ee6158a6070adae1685f50b33749e290dbcecf6cd",
+  "partition_checks": {
+    "13": {
+      "base_counts": {
+        "train": 180,
+        "validation": 60,
+        "test": 60
+      },
+      "source_counts": {
+        "train": 1170,
+        "validation": 390,
+        "test": 390
+      },
+      "cross_partition_canonical_source_overlap": 0
+    },
+    "42": {
+      "base_counts": {
+        "train": 180,
+        "validation": 60,
+        "test": 60
+      },
+      "source_counts": {
+        "train": 1170,
+        "validation": 390,
+        "test": 390
+      },
+      "cross_partition_canonical_source_overlap": 0
+    },
+    "2026": {
+      "base_counts": {
+        "train": 180,
+        "validation": 60,
+        "test": 60
+      },
+      "source_counts": {
+        "train": 1170,
+        "validation": 390,
+        "test": 390
+      },
+      "cross_partition_canonical_source_overlap": 0
+    }
+  },
+  "source_reviews": 300,
+  "replaced_candidates": 20,
+  "old_visible_source_overlap": 0,
+  "canonical_title_alias_overlap": 0,
+  "labels_created_by_construction": 0,
+  "detector_scores_used_for_cleaning": false,
+  "new_old_numeric_aliases_excluded_from_noise": true,
+  "purpose": "Formal development inputs",
+  "source_review_origin": "assistant_source_text_review",
+  "independent_human_annotation": false,
+  "disclosure": "Only declared sources/excerpts and explicit record rules; no natural full-Wikipedia retrieval claim.",
+  "parent_prepared_sha256": "34aa29764b57c42249a81d0631baa6c470d1b5f3c97a31671e2997811736e530",
+  "execution_partition": "development"
+}

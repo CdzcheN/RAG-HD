@@ -1,0 +1,2 @@
+GPU: NVIDIA GeForce RTX 3090 ; torch: 2.10.0+cu128
+LLM-AggreFact access OK

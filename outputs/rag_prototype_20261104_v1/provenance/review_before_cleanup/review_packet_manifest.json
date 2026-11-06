@@ -1,0 +1,20 @@
+{
+  "status": "assistant_suggestions_pending_human_review",
+  "rows": 20,
+  "suggestion_source": "assistant",
+  "formal_labels_created": 0,
+  "draft_labels_prefilled": true,
+  "user_confirmation": "pending",
+  "suggested_evidence_label_counts": {
+    "supported": 11,
+    "undetermined": 5,
+    "unsupported": 3,
+    "contradicted": 1
+  },
+  "requests_sha256": "f4fd98a7a8f31a8a57cb3eab0b8bccaa61db8df5c9da994e63c64aab248b41a2",
+  "suggestions_sha256": "2b6f19c8a38f4c34cb926558d53610c0f60b99e55446413428357c9381f17953",
+  "csv_sha256": "47dc0dea351a9b2c9b82f3f0ebfd50052715ba40bce971d1aed2757745182b7b",
+  "packet_sha256": "6618777b66aeb9de15d9c92159b9b5fb31b9c6937c21694387a30dae21825783",
+  "score_inputs": [],
+  "note": "Suggestions are not ground truth and no AUC is computed here."
+}

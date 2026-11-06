@@ -1,0 +1,2366 @@
+[
+  {
+    "display_number": 1,
+    "base_question_id": "squad:5726a33a5951b619008f7881",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "原文明示1856-05-03出发193人，194是途中出生婴儿后的到达人数；保留原题出发日期及对象。"
+  },
+  {
+    "display_number": 2,
+    "base_question_id": "squad:5727835af1498d1400e8fa48",
+    "action": "rewrite",
+    "question_override": "According to the supplied 2010 New Haven census record, what percentage of the city population was African American?",
+    "rationale": "补2010普查口径；35.4%是城市人口中的African American，不与可跨种族的Hispanic比例相加。"
+  },
+  {
+    "display_number": 3,
+    "base_question_id": "squad:573260120fdd8d15006c6a56",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many Bronx residents over age three were enrolled in all pre-college schools in 2000?",
+    "rationale": "333,100对应全部学前大学阶段入学居民，非大学生或仅公立学校；280,000才是公校近似数。"
+  },
+  {
+    "display_number": 4,
+    "base_question_id": "squad:5726a94b708984140094cd2f",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "双方各约23,000伤亡，原题around及法方对象有直接支撑；仅删除证据，不修改战斗日期或其他人数。"
+  },
+  {
+    "display_number": 5,
+    "base_question_id": "squad:56dd1e8366d3e219004dabda",
+    "action": "rewrite",
+    "question_override": "According to the supplied Republic of the Congo record, what percentage of the population is described as Awakening Lutherans?",
+    "rationale": "按原文22.3%及该共和国范围，不依据名称陌生擅改来源分类；本题仅支撑删除。"
+  },
+  {
+    "display_number": 6,
+    "base_question_id": "squad:573040c2a23a5019007fd00d",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "17条Laws of the Game由首句直接支持；后面英文seventeen同值提及，删除整篇避免残留别名。"
+  },
+  {
+    "display_number": 7,
+    "base_question_id": "squad:572fed9fa23a5019007fcb55",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many bombers from Sperrle's Luftflotte 3 took part in the night attack?",
+    "rationale": "补bombers，247是轰炸机数量不是247个Air Fleet；不猜原文缺失的具体夜袭日期。"
+  },
+  {
+    "display_number": 8,
+    "base_question_id": "squad:572904223f37b31900477f85",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, by how many million years ago had Homo erectus spread throughout Europe and Asia?",
+    "rationale": "Europa改Europe，保留by1.5百万年前；仅删除，不自动改演化事件时间。"
+  },
+  {
+    "display_number": 9,
+    "base_question_id": "squad:572eb7ab03f989190075698e",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, at least what percentage of the listed butterflies' habitat did the San Bruno conservation plan protect?",
+    "rationale": "87%是at least下界；明确San Bruno及所列蝴蝶栖息地，不能当成恰好87%。"
+  },
+  {
+    "display_number": 10,
+    "base_question_id": "squad:5726baec708984140094cf71",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, the Raleigh Parks and Recreation Department offers leisure opportunities at more than how many sites?",
+    "rationale": "限定部门及more than150下界，不能问成城市恰好150处一般地点。"
+  },
+  {
+    "display_number": 11,
+    "base_question_id": "squad:5726cb515951b619008f7e4c",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, UNAM has more than how many students?",
+    "rationale": "保留more than300,000下界，不能把人数上报为恰好300,000。"
+  },
+  {
+    "display_number": 12,
+    "base_question_id": "squad:5727ef71ff5b5019007d98d2",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "2,190为2012—2013学年学士授予数，硕士／博士／专业学位分别另列，不混淆类别。"
+  },
+  {
+    "display_number": 13,
+    "base_question_id": "squad:57279a47708984140094e1fd",
+    "action": "rewrite",
+    "question_override": "According to the supplied Yerevan demonstration account, how many demonstrators were there on the day after February 22?",
+    "rationale": "原文明示22日100,000、次日300,000；不凭隐藏年份补日期，去掉参考答案末尾逗号作为标点。",
+    "reference_normalization": "strip_trailing_comma"
+  },
+  {
+    "display_number": 14,
+    "base_question_id": "squad:570d2c0bb3d812140066d4e6",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, about how many pounds of PCBs were estimated to be retained in sediment behind Woods Pond dam?",
+    "rationale": "保留估计与about；11,000磅不是110mg/kg浓度，也不是河中全部PCB总量。"
+  },
+  {
+    "display_number": 15,
+    "base_question_id": "squad:57270d33dd62a815002e985c",
+    "action": "rewrite",
+    "question_override": "According to the supplied passage, about what percentage of people may have no symptoms in its discussion of tuberculosis?",
+    "rationale": "原题don't ever增加终生断言；保留原文About25%与may、限定所给段落，不补外部医学判断。"
+  },
+  {
+    "display_number": 16,
+    "base_question_id": "squad:5735cc33012e2f140011a069",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "approximately300是Kathmandu valley Baha'is记录，未将Nepal穆斯林4.2%或教堂170混入。"
+  },
+  {
+    "display_number": 17,
+    "base_question_id": "squad:5727bb132ca10214002d94f6",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, Galicia contributed more than what percentage of the Crown of Castille's total earnings from 1480 to 1520?",
+    "rationale": "保留more than10%、1480—1520及王室收入分母，而非精确10%或全部时期。"
+  },
+  {
+    "display_number": 18,
+    "base_question_id": "squad:570c3cc96b8089140040fc55",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many spectators could Camp de Les Corts hold after its last expansion?",
+    "rationale": "明确Les Corts而非任意体育场，60,000是最后扩建容量，20,000是初建容量或支持者数。"
+  },
+  {
+    "display_number": 19,
+    "base_question_id": "squad:572a6bf8fed8de19000d5c07",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many madaris were established in Cairo between 1155 and 1260?",
+    "rationale": "补原文1155—1260范围，75不代表历来全部学校，51及44对应其他城市。"
+  },
+  {
+    "display_number": 20,
+    "base_question_id": "squad:572eafd1c246551400ce4505",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "30juz可覆盖全Quran，分为hizb与manzil是其他层级，不改单位。"
+  },
+  {
+    "display_number": 21,
+    "base_question_id": "squad:570e54c20b85d914000d7e4f",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "原文明示不溶性氧化物摄入吸收0.5%，可溶离子up to5%是另一对象。"
+  },
+  {
+    "display_number": 22,
+    "base_question_id": "squad:56e1441acd28a01900c67702",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many Hispanic residents of all national origins live in the city of Boston?",
+    "rationale": "107,917是Boston市所有Hispanic origins合计，Greater Boston及所列子群体人数不替代此值。"
+  },
+  {
+    "display_number": 23,
+    "base_question_id": "squad:570bcd11ec8fbc190045bafe",
+    "action": "rewrite",
+    "question_override": "What number of endemic faunal species is reported for the forests discussed in the supplied record?",
+    "rationale": "限定原段森林所述数值1,837，不凭常识补原文未写的国家范围；5,150是flora。"
+  },
+  {
+    "display_number": 24,
+    "base_question_id": "squad:5727e9773acd2414000defa0",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many All-Ireland hurling championships has Cork won?",
+    "rationale": "明确hurling的30，不能与随后Gaelic football7个冠军混为总数。"
+  },
+  {
+    "display_number": 25,
+    "base_question_id": "squad:570cedbbb3d812140066d331",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "2002年日本男子艺术体操人数1000有直接支撑；保留性别项目及年份，citation needed仅来源质量提示不变造事实。"
+  },
+  {
+    "display_number": 26,
+    "base_question_id": "squad:573035cd947a6a140053d296",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, what percentage of Santa Monica's population was affected by property crime in 2006?",
+    "rationale": "纠正分母：3.74%是人口受财产犯罪影响比例，不是财产犯罪占所有犯罪比例；原4.41%不作为互补项。"
+  },
+  {
+    "display_number": 27,
+    "base_question_id": "squad:5727d8cc4b864d1900163e71",
+    "action": "rewrite",
+    "question_override": "According to the supplied account of Eton's existing sports facilities in 1995, how many cricket squares did it have?",
+    "rationale": "30是cricket squares，24为其他球场，补1995资料口径。"
+  },
+  {
+    "display_number": 28,
+    "base_question_id": "squad:5725e46dec44d21400f3d716",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many bathrooms does Buckingham Palace contain?",
+    "rationale": "补白金汉宫对象；78为浴室数，775是全部房间总数，仅删除无需修改房间组成。"
+  },
+  {
+    "display_number": 29,
+    "base_question_id": "squad:572cabbb2babe914003c29bc",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "女子篮球8个national titles与男子篮球SEC、橄榄球碗赛数量分开，首句地点不影响关系。"
+  },
+  {
+    "display_number": 30,
+    "base_question_id": "squad:57273a5e708984140094db17",
+    "action": "rewrite",
+    "question_override": "In the supplied Ricci v. DeStefano account, how many White firefighters gained the possibility of immediate promotion through the test?",
+    "rationale": "明确案件及消防员，17是获得晋升可能人数，不宣称已经实际晋升；two Hispanics及African American比例另列。"
+  },
+  {
+    "display_number": 31,
+    "base_question_id": "squad:572fc827b2c2fd1400568461",
+    "action": "rewrite",
+    "question_override": "According to the supplied 2007 record, how many communities (hamaynkner) did Armenia have?",
+    "rationale": "补2007口径；915=49城市+866农村，改总数时农村分项同步加同一差值，避免内部加总矛盾。",
+    "coupled_deltas": [
+      {
+        "before": "866",
+        "key": "rural"
+      }
+    ],
+    "sum_constraint": {
+      "parts": {
+        "urban": "49",
+        "rural": "866"
+      },
+      "total_key": "target"
+    }
+  },
+  {
+    "display_number": 32,
+    "base_question_id": "squad:5705f53452bb891400689738",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many bird species are there worldwide in total?",
+    "rationale": "10,000为全世界总鸟种，约1,800为长距离迁徙子集；目标加减1不破坏子集小于总量。"
+  },
+  {
+    "display_number": 33,
+    "base_question_id": "squad:57343a484776f41900661a9d",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many consecutive NCAA Tournaments had the University of Arizona men's basketball team reached?",
+    "rationale": "25是连续入围赛事次数，不是赢25次锦标赛；实际所述总冠军为1997一届。"
+  },
+  {
+    "display_number": 34,
+    "base_question_id": "squad:57343306d058e614000b6aff",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, the 1963–1965 downtown boom in Richmond produced more than how many buildings?",
+    "rationale": "原文more than700，改为记录下界提问并保留1963—1965；不宣称准确700栋。",
+    "slot_semantics": "reported_lower_bound"
+  },
+  {
+    "display_number": 35,
+    "base_question_id": "squad:5705e4f452bb891400689676",
+    "action": "rewrite",
+    "question_override": "What average daily circulation does the supplied record report for The Times in March 2014?",
+    "rationale": "394,448是发行量而非读者人数，Sunday Times839,077为不同报纸。"
+  },
+  {
+    "display_number": 36,
+    "base_question_id": "squad:57096ba1200fba1400367fb3",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, what percentage of electricity used by industry is accounted for by motors and motor-driven systems?",
+    "rationale": "69%分母为工业用电，43—46%为全球所有用电，保留对象不当互补项。",
+    "percentage_bounds": true
+  },
+  {
+    "display_number": 37,
+    "base_question_id": "squad:56dde8249a695914005b96a1",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many international operations had Canadian military units completed since 1947?",
+    "rationale": "72是已完成国际行动，more than200是参加全球行动数；保留completed与since1947，不把两者视作同数。"
+  },
+  {
+    "display_number": 38,
+    "base_question_id": "squad:57266b04f1498d1400e8df2b",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, about how many students in Indonesia study Dutch as a source language, mainly for law and history?",
+    "rationale": "35,000是source language学习者，不是外国人荷兰语课程several thousand或ETC每年1500—2000；保留about。",
+    "slot_semantics": "reported_estimate"
+  },
+  {
+    "display_number": 39,
+    "base_question_id": "squad:57267f35f1498d1400e8e1c1",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "原文双单位1,800,000平方英里与4,700,000平方公里为约换算；平方英里改1后仍在以十万平方公里表达的舍入范围内，显式验证误差上界，不将它当作精确等式。",
+    "scaled_check": {
+      "other": "4,700,000",
+      "factor": "2.589988110336",
+      "tolerance": "50000"
+    }
+  },
+  {
+    "display_number": 40,
+    "base_question_id": "squad:572644d81125e71900ae193c",
+    "action": "replace",
+    "question_override": "According to the supplied record, the CLIPSAS list includes over how many Grand Lodges and Grand Orients?",
+    "rationale": "保留over70下界；没有完整70个会所枚举，版本仅记录名单数量下界，不改共济会实体分类。",
+    "rejected_base_question_id": "squad:572862ab2ca10214002da2cb",
+    "replacement_base_question_id": "squad:572644d81125e71900ae193c",
+    "replacement_component_id": "formal-source:07cdca297b86d140a4352752f7d7a293bc1e8d2ab754342360a38f491aead2f0",
+    "review_source": "assistant",
+    "slot_semantics": "reported_lower_bound"
+  },
+  {
+    "display_number": 41,
+    "base_question_id": "squad:57318e5ea5e9cc1400cdc079",
+    "action": "rewrite",
+    "question_override": "According to the supplied account of universities by the end of the eighteenth century, how many were attributed to the German Empire?",
+    "rationale": "34受原段18世纪末统计口径限定；approx143是欧洲合计，其他26/25/23不穷尽所有国家，目标微调不强行凑总和。"
+  },
+  {
+    "display_number": 42,
+    "base_question_id": "squad:573218f9e99e3014001e6505",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many jobs in Greece were directly or indirectly related to tourism in 2008?",
+    "rationale": "840,000及19%对应就业量与占劳动力比，19%为整数百分比精度；改1个工作不会改变其百分位舍入。",
+    "ratio_rounding_check": {
+      "share": "19",
+      "share_percent_resolution": "1",
+      "note": "仅确认±1个就业位变化不跨整百分比舍入，未由19%反推隐含劳动力真值"
+    }
+  },
+  {
+    "display_number": 43,
+    "base_question_id": "squad:56fad7698f12f319006301e6",
+    "action": "rewrite",
+    "question_override": "According to the 1993 study described in the supplied Somalia record, around what percentage of Qur'anic school pupils were girls?",
+    "rationale": "保留1993研究、Somalia及around40 per cent范围，不能扩展到所有地区所有年份。",
+    "percentage_bounds": true,
+    "slot_semantics": "reported_estimate"
+  },
+  {
+    "display_number": 44,
+    "base_question_id": "squad:5728591aff5b5019007da1a5",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, what total population did the U.S. Census Bureau estimate for Alaska in 2015?",
+    "rationale": "738,432为2015 Census Bureau估计，不是2015年人口普查；about half是Anchorage份额而非目标总数。"
+  },
+  {
+    "display_number": 45,
+    "base_question_id": "squad:56ce6232aab44d1400b8871d",
+    "action": "replace",
+    "question_override": "According to the supplied record, how many parabolic dishes were in the field at the Solar Total Energy Project in Shenandoah, Georgia?",
+    "rationale": "114为设备数，50%满足率和400/401/468kW是输出统计，未给每碟固定功率，±1不引起明示算式矛盾。",
+    "rejected_base_question_id": "squad:5725ea37271a42140099d30b",
+    "replacement_base_question_id": "squad:56ce6232aab44d1400b8871d",
+    "replacement_component_id": "formal-source:026a2fd91d27344e9c81889d256f6ea8a3c64e6740e7a4fbb0571ba922b099eb",
+    "review_source": "assistant"
+  },
+  {
+    "display_number": 46,
+    "base_question_id": "squad:56cbd2f96d243a140015ed71",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, about how many public performances did Frédéric Chopin give during the last eighteen years of his life after settling in Paris?",
+    "rationale": "补Chopin与18年观察范围，保留some30近似表述，非全部人生公开演出次数。",
+    "slot_semantics": "reported_estimate"
+  },
+  {
+    "display_number": 47,
+    "base_question_id": "squad:571cfac85efbb31900334e79",
+    "action": "rewrite",
+    "question_override": "According to the supplied historical passage, what percentage of tuberculosis patients died within five years of admission to sanitoriums around the time streptomycin was discovered?",
+    "rationale": "50%是当时疗养院入院后五年死亡比例，不是所有感染者自感染起算；仅按所给历史资料记录，不作医疗指导。",
+    "percentage_bounds": true
+  },
+  {
+    "display_number": 48,
+    "base_question_id": "squad:57302d8ea23a5019007fcf08",
+    "action": "replace",
+    "question_override": "According to the supplied record, Principia Mathematica comprised more than how many pages?",
+    "rationale": "more than2000为页数下界，三卷数不变；600出版亏损=300+200+50+50为另一数量关系，保持原样。",
+    "rejected_base_question_id": "squad:570c5350fed7b91900d458c0",
+    "replacement_base_question_id": "squad:57302d8ea23a5019007fcf08",
+    "replacement_component_id": "formal-source:2dc20e8d5a36a65e03b57f2dda032cb99b9fa82d29bef9b6aa3a71d04790d76c",
+    "review_source": "assistant",
+    "slot_semantics": "reported_lower_bound"
+  },
+  {
+    "display_number": 49,
+    "base_question_id": "squad:56df0e673277331400b4d925",
+    "action": "replace",
+    "question_override": "According to the supplied record, what maximum number of cardinals did Pope Sixtus V set for the College in 1587?",
+    "rationale": "替补原题1587仍是事件年，显式另写有原文支持的数量题，目标70上限；50priests为子集，调整后总量仍不少于50。",
+    "rejected_base_question_id": "squad:572781a5f1498d1400e8fa1d",
+    "replacement_base_question_id": "squad:56df0e673277331400b4d925",
+    "replacement_component_id": "formal-source:edd194b7fb8b2cfb7f01273643f55a53e23ba26bde1185ab441d164b72caa8ff",
+    "review_source": "assistant",
+    "reference_override": "70",
+    "slot_semantics": "reported_upper_bound",
+    "target_bounds": {
+      "lower": "50",
+      "upper": "1000"
+    }
+  },
+  {
+    "display_number": 50,
+    "base_question_id": "squad:5726da7d708984140094d39c",
+    "action": "rewrite",
+    "question_override": "According to the supplied account, how many Jews died under the harsh conditions in the Warsaw Ghetto?",
+    "rationale": "43,000是该段记载的恶劣条件死亡人数，不能泛化成华沙犹太人全部死亡或全部时期总数；纠正Warsa拼写。"
+  },
+  {
+    "display_number": 51,
+    "base_question_id": "squad:572f0d29dfa6aa1500f8d593",
+    "action": "rewrite",
+    "question_override": "According to the supplied January 2008 record, how many elevators had China installed since 1949?",
+    "rationale": "610,000为截至2008年1月自1949以来安装数，950,000与700,000为另两国；改1不改变相对排序。"
+  },
+  {
+    "display_number": 52,
+    "base_question_id": "squad:57096026ed30961900e8401c",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, up to what percentage of human communication may occur through non-verbal facial expressions?",
+    "rationale": "保留up to55%与may，而非确定55%；38%paralanguage不是明确互补全集。",
+    "percentage_bounds": true,
+    "slot_semantics": "reported_upper_bound"
+  },
+  {
+    "display_number": 53,
+    "base_question_id": "squad:5727d8bc4b864d1900163e66",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "600为Chumik Shenko西藏军队死者，12为英国侧；不更改原文内部1903/1904叙述年份，题干不额外断定时间。"
+  },
+  {
+    "display_number": 54,
+    "base_question_id": "squad:570cf3e5fed7b91900d45b67",
+    "action": "rewrite",
+    "question_override": "According to statistics from late 2003 in the supplied record, what percentage of desktop share in the United States did Apple have?",
+    "rationale": "2.06是2003年末桌面份额，2004Q4的2.88及2006总市场份额不混用；目标微调不改变增长比较。",
+    "percentage_bounds": true
+  },
+  {
+    "display_number": 55,
+    "base_question_id": "squad:572f87eba23a5019007fc6fa",
+    "action": "rewrite",
+    "question_override": "According to the supplied Han dynasty record, a large county headed by a Prefect had about how many households?",
+    "rationale": "10,000是大县约户数，不是确切官员辖户配额；Prefect与Chief对应不同县规模。",
+    "slot_semantics": "reported_estimate"
+  },
+  {
+    "display_number": 56,
+    "base_question_id": "squad:572a526bb8ce0319002e2aa7",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "55,000为Salonica1800年人口；1912年160,000与Izmir统计分开，目标改1不破坏人口增长方向。"
+  },
+  {
+    "display_number": 57,
+    "base_question_id": "squad:572ab067be1ee31400cb8180",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, what was the female literacy rate in Rajasthan in 1991?",
+    "rationale": "20.44%是女性识字率，不是女性人数；只保留明确的1991统计句，另年增长的近似23%不进入此记录。",
+    "excerpt_quote": "In 1991, the state's literacy rate was only 38.55% (54.99% male and 20.44% female).",
+    "percentage_bounds": true
+  },
+  {
+    "display_number": 58,
+    "base_question_id": "squad:56de4ea54396321400ee27ce",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many economies did the UNDP HDI enumerate in 2009?",
+    "rationale": "182对象原文为economies而非一律主权国家；230+是另报告扩展，169是2010年。"
+  },
+  {
+    "display_number": 59,
+    "base_question_id": "squad:56d9749adc89441400fdb4a4",
+    "action": "rewrite",
+    "question_override": "According to the supplied account of the 2008 Olympic torch relay in Hong Kong, how many torchbearers were selected to participate?",
+    "rationale": "120是被选人数，实际一人因航班延误未参加；不把120当实际全部参加人数，保留selected。"
+  },
+  {
+    "display_number": 60,
+    "base_question_id": "squad:5727a70e4b864d1900163981",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "115为公立school systems，2,425为schools；charter99不是system分项，微调system不改学校总数。"
+  },
+  {
+    "display_number": 61,
+    "base_question_id": "squad:56d632371c85041400946fe1",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, what dog-bite incidence rate is reported per 10,000 inhabitants in the United States?",
+    "rationale": "12.9是每万人发生率而非12.9个整数人数，60.7对应5—9岁男童分组；保留分母。"
+  },
+  {
+    "display_number": 62,
+    "base_question_id": "squad:5719fa954faf5e1900b8a865",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, about how many Cambodian Americans live in the Seattle–Tacoma area?",
+    "rationale": "改回Seattle–Tacoma与Cambodian Americans，不能把市域与都会区域、族裔居民与移民混同。",
+    "slot_semantics": "reported_estimate"
+  },
+  {
+    "display_number": 63,
+    "base_question_id": "squad:56f7144e711bf01900a44916",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, about how many foreign decorations did Josip Broz Tito receive?",
+    "rationale": "明确Tito主语并保留some98估计，原文只枚举两个例子而非全部装饰品清单。",
+    "slot_semantics": "reported_estimate"
+  },
+  {
+    "display_number": 64,
+    "base_question_id": "squad:571b3d469499d21900609c32",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, asphalt emulsions can contain up to what percentage of asphalt or bitumen?",
+    "rationale": "保留up to70%的上界，添加剂less than1.5%不是余下全部成分，不能误设总和为100%。",
+    "percentage_bounds": true,
+    "slot_semantics": "reported_upper_bound"
+  },
+  {
+    "display_number": 65,
+    "base_question_id": "squad:56e79cf000c9c71400d773b7",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many University of Kansas teams had reached the National Debate Tournament final four?",
+    "rationale": "12是进入final four的队伍数量，5是夺冠次数，70是参与总队数；小幅改动保持12小于70。"
+  },
+  {
+    "display_number": 66,
+    "base_question_id": "squad:572ac557f75d5e190021fcba",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many candidates for U.S. House, Senate, state and local offices received support through Kerry's 2006-cycle campaign operation?",
+    "rationale": "179涵盖原文up/down ballot各级候选人，不应只限down-ballot，42为所在州数。"
+  },
+  {
+    "display_number": 67,
+    "base_question_id": "squad:5731579e497a881900248e31",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, to how many provinces was the Qing province count later increased from eighteen?",
+    "rationale": "22是后期增设省后的数量，不是18世纪版图顶峰同时统计；保留from18语义，小幅变化仍大于18。"
+  },
+  {
+    "display_number": 68,
+    "base_question_id": "squad:572ed426dfa6aa1500f8d41e",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many of David Bowie's studio albums were made available on CD by RCA Records in February 1985?",
+    "rationale": "15为已有专辑CD化发行，不是1985年2月创作15张新专辑；四张精选另列。"
+  },
+  {
+    "display_number": 69,
+    "base_question_id": "squad:57283dc84b864d19001647da",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many horizontal TVL lines did NTSC LaserDisc provide, compared with NTSC VHS's 240?",
+    "rationale": "明确NTSC425，PAL440属于另一制式；改变1仍保持比240更高清晰度。"
+  },
+  {
+    "display_number": 70,
+    "base_question_id": "squad:573019ca04bcaa1900d77199",
+    "action": "rewrite",
+    "question_override": "According to the supplied 2005 San Diego record, about what percentage of families were below the poverty line?",
+    "rationale": "10.6%为家庭比例、14.6%为人口比例，保留about；不是把人口年龄分组当家庭互补项。",
+    "percentage_bounds": true,
+    "slot_semantics": "reported_estimate"
+  },
+  {
+    "display_number": 71,
+    "base_question_id": "squad:5709a976ed30961900e843da",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "60,000为1988互联网连接计算机数，11月2日是蠕虫事件时间，不改任何事件年份。"
+  },
+  {
+    "display_number": 72,
+    "base_question_id": "squad:56ceebf8aab44d1400b88cbb",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "374是Spectre北美首周IMAX屏幕数，429premium cinemas、112XD、3927总屏幕数量区分；±1不违背子集上界。"
+  },
+  {
+    "display_number": 73,
+    "base_question_id": "squad:56e788b200c9c71400d7725f",
+    "action": "rewrite",
+    "question_override": "According to the supplied Nanjing record, how many laborers worked on the Ming construction project that included the city wall and palace complex?",
+    "rationale": "It took200,000 laborers指前文建城墙及宫殿政府建筑项目，不把人数只归到墙体单项；21年为工期。"
+  },
+  {
+    "display_number": 74,
+    "base_question_id": "squad:5726e320f1498d1400e8eebf",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "2011联赛10队，2012计划扩12队，改1仍低于计划12；不把计划当已完成。"
+  },
+  {
+    "display_number": 75,
+    "base_question_id": "squad:5727c9482ca10214002d9629",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "915,000是2014 Strasbourg–Ortenau跨国Eurodistrict；前面市、都会区、法国侧地域和年份均不同，不混算。"
+  },
+  {
+    "display_number": 76,
+    "base_question_id": "squad:5726d1bdf1498d1400e8ec3f",
+    "action": "replace",
+    "question_override": "How many Finnish people were examined in the downloading-behaviour study reported in early May 2014 in the supplied record?",
+    "rationale": "6000为研究样本数，年龄7—84不是分项人数，补研究及2014报道口径。",
+    "rejected_base_question_id": "squad:5708545e9928a814004714d3",
+    "replacement_base_question_id": "squad:5726d1bdf1498d1400e8ec3f",
+    "replacement_component_id": "formal-source:2f56fad6a0417b5870993eb470e0246e3f1bf0f0152016933cfd2be7c1c95a07",
+    "review_source": "assistant"
+  },
+  {
+    "display_number": 77,
+    "base_question_id": "squad:5709896b200fba1400368165",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "around500,000为总体观看者，250k—300k为付费订阅者；保留approx及2009-10-10赛事，微调不破坏订阅子集范围。",
+    "slot_semantics": "reported_estimate"
+  },
+  {
+    "display_number": 78,
+    "base_question_id": "squad:5730132704bcaa1900d7711f",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, what moisture-absorption percentage is reported for epoxies in FR-4 materials?",
+    "rationale": "纠正F-4为FR-4及moisture对象；0.15%与Teflon0.01%不同材料，小改仍保持比较方向。",
+    "percentage_bounds": true
+  },
+  {
+    "display_number": 79,
+    "base_question_id": "squad:56f97f629b226e1400dd14cd",
+    "action": "replace",
+    "question_override": "According to the supplied April 2014 record, how many hectares of land and foreshore did the UK Ministry of Defence own?",
+    "rationale": "替补原题1.8%受227300+222000土地面积绑定，另写明确拥有面积227300ha题。改1ha不改变约1.8%舍入；不把拥有与access混同，保留原问题与参考值另记。",
+    "rejected_base_question_id": "squad:5730346ca23a5019007fcf87",
+    "replacement_base_question_id": "squad:56f97f629b226e1400dd14cd",
+    "replacement_component_id": "formal-source:305ea22758d0e8b8f7b7850dc5df0f19282966775ea7c17557c77dc728238a5b",
+    "review_source": "assistant",
+    "reference_override": "227,300",
+    "ratio_rounding_check": {
+      "share": "1.8",
+      "share_percent_resolution": "0.1",
+      "additive_count": "222,000"
+    }
+  },
+  {
+    "display_number": 80,
+    "base_question_id": "squad:573021a304bcaa1900d771e8",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "15 counties之下合计90 districts，未列district分项，改1不破坏明示加总；土地面积双单位不涉及目标。"
+  },
+  {
+    "display_number": 81,
+    "base_question_id": "squad:572655495951b619008f6ff0",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many factories did the East India Company have by 1647?",
+    "rationale": "明确East India Company与by1647，23工厂不同于90员工，前三个fort只是例子。"
+  },
+  {
+    "display_number": 82,
+    "base_question_id": "squad:57336f3ed058e614000b5b08",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, about how many private villas were available to rent on Saint Barthélemy?",
+    "rationale": "400为private villas估计，不是25酒店或58房间；保留about及租赁状态。",
+    "slot_semantics": "reported_estimate"
+  },
+  {
+    "display_number": 83,
+    "base_question_id": "squad:573256c6e17f3d14004228b7",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "约20,000德国信徒中约10,000后被监禁，2000营中人数、1200死亡、250处决均为下层子集，目标±1不破坏包含范围。",
+    "slot_semantics": "reported_estimate"
+  },
+  {
+    "display_number": 84,
+    "base_question_id": "squad:572697f0708984140094cb3a",
+    "action": "replace",
+    "question_override": "According to the supplied record, approximately how many members did the Presbyterian Church in Taiwan have as of 2009?",
+    "rationale": "238372限PCT与2009，保留some近似值，不是所有Presbyterian教派总数；无枚举加总。",
+    "rejected_base_question_id": "squad:570b33686b8089140040f80a",
+    "replacement_base_question_id": "squad:572697f0708984140094cb3a",
+    "replacement_component_id": "formal-source:1d07b8882049dd417aa22973b217f87fa81b663ffec54bb8ac065e9dad3ab218",
+    "review_source": "assistant",
+    "slot_semantics": "reported_estimate"
+  },
+  {
+    "display_number": 85,
+    "base_question_id": "squad:5707111d90286e26004fc89e",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, a 2007 genetic study found recent African ancestry in at least what percentage of middle-class white Brazilians?",
+    "rationale": "29%限定中产白人群体且为at least，不是所有巴西人；2000种族普查统计分母不同。",
+    "percentage_bounds": true,
+    "slot_semantics": "reported_lower_bound"
+  },
+  {
+    "display_number": 86,
+    "base_question_id": "squad:56de7251cffd8e1900b4b911",
+    "action": "rewrite",
+    "question_override": "In the statement attributed to Selim the Grim in the supplied record, killing one Shiite was compared with killing how many Christians?",
+    "rationale": "只核对资料引述中的70这一数量，不表示认可暴力言论；版本更正限定于所报引文数值，非真实历史主张。"
+  },
+  {
+    "display_number": 87,
+    "base_question_id": "squad:5729240c1d046914007790ba",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, what percentage of Saar voters rejected the proposed independent Saarland in the referendum on 23 October 1955?",
+    "rationale": "67.7%与32.3%互补，并有423,434/201,975票及96.5%投票率；按新百分比同步分配同一总有效票数并验证一位小数舍入，不能只改比例。",
+    "percentage_bounds": true,
+    "percentage_partition": {
+      "complement": "32.3%",
+      "target_votes": "423,434",
+      "other_votes": "201,975",
+      "resolution": "0.1"
+    }
+  },
+  {
+    "display_number": 88,
+    "base_question_id": "squad:5728ee664b864d19001650b8",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many samurai did Japan muster against the Yuan invasion in 1274?",
+    "rationale": "10,000为集结数量，不把成功击败或风暴作用全归人数；40,000是入侵军不同对象。"
+  },
+  {
+    "display_number": 89,
+    "base_question_id": "squad:56f989939e9bad19000a0a5f",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "1,570乡镇级单位=761towns+505townships+14ethnic+290subdistricts；同步505分项，县级90=36+20+33+1不改。",
+    "coupled_deltas": [
+      {
+        "before": "505",
+        "key": "townships"
+      }
+    ],
+    "sum_constraint": {
+      "parts": {
+        "towns": "761",
+        "townships": "505",
+        "ethnic": "14",
+        "subdistricts": "290"
+      },
+      "total_key": "target"
+    }
+  },
+  {
+    "display_number": 90,
+    "base_question_id": "squad:5730245ca23a5019007fce43",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "34是2012Windows8/Surface推广快闪店，预算US$1.5—1.8b非分店数，无其他分项合计需要更改。"
+  },
+  {
+    "display_number": 91,
+    "base_question_id": "hotpot:5ab4c17155429942dd415f83",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, what was the 2011 census population of Torksey civil parish, associated with the village less than one mile southwest of Brampton?",
+    "rationale": "875为civil parish人口，不是任意小村住户数；less than1mi northeast反转为southwest保持方向与界限。",
+    "hop_note": "题干显式给Torksey以纠正村/教区范围，按需第二段核对位置，不宣称必须两跳"
+  },
+  {
+    "display_number": 92,
+    "base_question_id": "hotpot:5ae076f05542993d6555eb68",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "Stephanie Lee→Yong-Pal→18集，原计划16+延长2一致；删除两篇，不会只留算式推出答案。"
+  },
+  {
+    "display_number": 93,
+    "base_question_id": "hotpot:5a8001fe5542995d8a8ddf3f",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, Gunstock Mountain, south of Mount Rowe, has an elevation greater than how many feet?",
+    "rationale": "2240是greater than下界，保留单位英尺和山峰身份；683m是近似换算，本题仅删除不改数值。"
+  },
+  {
+    "display_number": 94,
+    "base_question_id": "hotpot:5a8204f1554299676cceb1e6",
+    "action": "replace",
+    "question_override": "According to the supplied records, how many episodes did the 2013 series When a Man Falls in Love starring Song Seung-heon air for?",
+    "rationale": "20为剧集数，原资料演员段单独只有身份，系列段完整列演员与集数，明确可单跳直接回答。",
+    "rejected_base_question_id": "hotpot:5ac3cfea554299204fd21e7e",
+    "replacement_base_question_id": "hotpot:5a8204f1554299676cceb1e6",
+    "replacement_component_id": "formal-source:f041425089a2b9bb0f44ec0cb08a3a190d3d758a794e2820c7bffe43c0dc442d",
+    "review_source": "assistant",
+    "hop_note": "剧名已在原题给出，标记可单跳，不冒充必须两跳"
+  },
+  {
+    "display_number": 95,
+    "base_question_id": "hotpot:5a79b6ca554299148911fa3d",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, what area in square kilometres is reported for the state electorate Bob Dale represented from 1933 to 1938?",
+    "rationale": "Dale→Adelaide成立，23.4km²是资料当前选区面积，不声称1933—1938年边界面积同值。"
+  },
+  {
+    "display_number": 96,
+    "base_question_id": "hotpot:5ae6899f5542991bbc97611c",
+    "action": "rewrite",
+    "question_override": "What was the 2016 census population of the Melbourne suburb where Brummels Gallery is located?",
+    "rationale": "Gallery→South Yarra，原题town改suburb并补2016；不把1950s画廊创办时间当人口时点。"
+  },
+  {
+    "display_number": 97,
+    "base_question_id": "hotpot:5a8a53d95542995153361365",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "Parshall→Bakken Formation→about200000sqmi成立，保留about与地下地层面积，不说油田本身占地面积200000。"
+  },
+  {
+    "display_number": 98,
+    "base_question_id": "hotpot:5abbe85d554299642a094bc5",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "Village Shires→Bucks County→2010人口625249，村人口3949为不同层级且小于县总数。"
+  },
+  {
+    "display_number": 99,
+    "base_question_id": "hotpot:5ae445d75542996836b02c64",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many Grand Slam titles in total did the singles winner of the 1980 Avon Championships of Houston win?",
+    "rationale": "Houston女子单打冠军BillieJeanKing→39总冠军，12单打+16女双+11混双；此类仅删除所以保留完整加总。"
+  },
+  {
+    "display_number": 100,
+    "base_question_id": "hotpot:5a78a4315542990784727704",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, what was the 2010 population of Secaucus, the Hudson County town connected to Route 495 at New Jersey Turnpike exit 17?",
+    "rationale": "出口17属于Turnpike连接Route495而非Route495自身17出口；人口16264及2000/1990增长关系仅删除，不修改。",
+    "hop_note": "纠正道路/出口关系并显式镇名，不宣称问题必须两跳"
+  },
+  {
+    "display_number": 101,
+    "base_question_id": "hotpot:5adc3159554299438c868d71",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, about how many U.S. gallons of spilled oil were estimated in the creek forming the eastern boundary of Brooklyn Community Board 1?",
+    "rationale": "社区东界Newtown Creek→estimated30000000USgal，明确估计及油量单位，不误当溪流体积。"
+  },
+  {
+    "display_number": 102,
+    "base_question_id": "hotpot:5ae31fae5542991a06ce992c",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many students were enrolled in fall 2016 at the university where Oscar Jacobson directed the art department?",
+    "rationale": "SusiePeters段明确Jacobson为OU艺术系主任，大学段给Fall2016入学31250，非近3000教师。"
+  },
+  {
+    "display_number": 103,
+    "base_question_id": "hotpot:5a8afc7055429949d91db460",
+    "action": "rewrite",
+    "question_override": "What was the 2010 census population of the city where Palatka Water Works is located?",
+    "rationale": "WaterWorks→Palatka→2010人口10558；72893为micropolitan区域，不是城市人口。"
+  },
+  {
+    "display_number": 104,
+    "base_question_id": "hotpot:5a7cea26554299452d57ba9e",
+    "action": "replace",
+    "question_override": "According to the supplied records, what capacity is reported for the stadium that hosted the 2007 Rhein Fire home games?",
+    "rationale": "球队主场LTU为EspritArena旧名，54600为资料所报容量，不绑定2007当年容量。",
+    "rejected_base_question_id": "hotpot:5ab3f2df5542992ade7c6ef1",
+    "replacement_base_question_id": "hotpot:5a7cea26554299452d57ba9e",
+    "replacement_component_id": "formal-source:03d21ebce9f2c07f830fcf18f6fbd4dd2809ffdbb75721dcdc03d84586206cf7",
+    "review_source": "assistant"
+  },
+  {
+    "display_number": 105,
+    "base_question_id": "hotpot:5a877f5b5542993e715abf82",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "Hecla→Beaverhead County→2010人口9246，ghost town状态不等于县人口消失；完整两跳证据删除。"
+  },
+  {
+    "display_number": 106,
+    "base_question_id": "hotpot:5a7792495542997042120aa8",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, what was the 2010 census population of the CDP corresponding to Jamesport, where New York politician Edward Hawkins died?",
+    "rationale": "Hawkins卒地Jamesport，1710为CDP而非Riverhead全镇；明确CDP范围避免村/镇/统计区混淆。",
+    "hop_note": "显式地名服务于CDP边界纠正，保留人物关系核查"
+  },
+  {
+    "display_number": 107,
+    "base_question_id": "hotpot:5a8462805542990548d0b29f",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "Edgeplain→ColoradoCollege→90acre校区，2000为学生数、70mi为距Denver距离；本题无单位编辑。"
+  },
+  {
+    "display_number": 108,
+    "base_question_id": "hotpot:5ab7b1cd5542992aa3b8c849",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "KickapooSite7→BrownCounty→9984县人口，66为CDP人口；题干2010范围一致。"
+  },
+  {
+    "display_number": 109,
+    "base_question_id": "hotpot:5ae0df7d5542993d6555ec76",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, what population did the U.S. Census Bureau estimate for 2010 for the city where the Solar Energy Research Institute was located?",
+    "rationale": "SERI收藏段定位Golden，城市段给2010估计18867，不改称实测2010普查数；1859等年份不是人口。"
+  },
+  {
+    "display_number": 110,
+    "base_question_id": "hotpot:5ac4596f554299204fd21f2c",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "Aldrich→Strawweight→106—115lb上端成立，同时48—52kg仅保留不编辑；删除全部支撑避免另一段残留区间。"
+  },
+  {
+    "display_number": 111,
+    "base_question_id": "hotpot:5ac42d81554299076e296d83",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many tickets did the 2004 horror-comedy through which Cha Seung-won achieved stardom sell in its release year?",
+    "rationale": "Cha列GhostHouse→2004年度2890000门票；4th为排名不是数目，原剧名唯一horror-comedy。"
+  },
+  {
+    "display_number": 112,
+    "base_question_id": "hotpot:5ae04c3f55429924de1b7097",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, what revised 2007 census population is reported for the city bordering Sululta on the south?",
+    "rationale": "Sululta南界AddisAbaba，3384569为改订值，原发布2738248已被本段明示替代；问revised值而非任选数字。"
+  },
+  {
+    "display_number": 113,
+    "base_question_id": "hotpot:5a837211554299123d8c212b",
+    "action": "rewrite",
+    "question_override": "How many staff were taken hostage in the 1971 prison riot that activist David Rothenberg observed as a civilian?",
+    "rationale": "Rothenberg→AtticaPrisonriot→42职员，约1000反叛囚犯及2200监狱人数不混用。"
+  },
+  {
+    "display_number": 114,
+    "base_question_id": "hotpot:5adff11755429925eb1afb56",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "MaxEmerson出生VeroBeach→2010人口15220，院校2009等时间不参与人口统计。"
+  },
+  {
+    "display_number": 115,
+    "base_question_id": "hotpot:5adc801b5542994650320d2b",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many Formula One podium finishes did the driver who finished third in the 1999 San Marino Grand Prix score?",
+    "rationale": "赛事第三Barrichello→68podiums，11wins为子集；不把赛中第三当职业总成绩。"
+  },
+  {
+    "display_number": 116,
+    "base_question_id": "hotpot:5ab260b25542993be8fa98f2",
+    "action": "rewrite",
+    "question_override": "What was the 2010 census population of the CDP where KORL-FM is located?",
+    "rationale": "KORL-FM在Waianae，13177为该CDP，不是整个HonoluluCounty；补明确行政层级。"
+  },
+  {
+    "display_number": 117,
+    "base_question_id": "hotpot:5a8430015542996488c2e4ff",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many solo albums had the guest guitarist on The Art of Loss who played in Cacophony with Jason Becker released?",
+    "rationale": "TheArtOfLoss有三位Megadeth前成员，增Cacophony/Becker特征唯一指向MartyFriedman，12为其独奏专辑；不把所有来宾当同一人。"
+  },
+  {
+    "display_number": 118,
+    "base_question_id": "hotpot:5ab51b375542996a3a96a01d",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, what was the 2016 census population of the town 80 kilometres north of the Wonawinta mine?",
+    "rationale": "纠正Wonawinter拼写，矿位于Cobar南80km所以镇在矿北，3990为2016镇人口非shire约4700。"
+  },
+  {
+    "display_number": 119,
+    "base_question_id": "hotpot:5a90921e55429933b8a20563",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, the creator of the Foreigner universe has written more than how many books since the mid-1970s?",
+    "rationale": "Cherryh原文more than60，不能改成approx60；18仅Foreigner系列小说数，保留职业总书籍下界。"
+  },
+  {
+    "display_number": 120,
+    "base_question_id": "hotpot:5adea7865542992fa25da7f5",
+    "action": "replace",
+    "question_override": "What was the 2016 census population of the suburb three kilometres north of Melbourne's CBD served by the Inner Circle railway line?",
+    "rationale": "用原文3km north特征唯一限定Parkville，避免在四个所服务郊区中任取一个；7409为2016人口。",
+    "rejected_base_question_id": "hotpot:5ae7d7a35542993210983f84",
+    "replacement_base_question_id": "hotpot:5adea7865542992fa25da7f5",
+    "replacement_component_id": "formal-source:1ae3caedaf40aa639be0089d86d67f7e26e9d1e648100d74c764da25bb28ef20",
+    "review_source": "assistant"
+  },
+  {
+    "display_number": 121,
+    "base_question_id": "hotpot:5abdb3925542996e802b4817",
+    "action": "rewrite",
+    "question_override": "What was the 2010 census population of the hamlet where the Big Duck, originally built by Martin Maurer, is located in the supplied records?",
+    "rationale": "明确BigDuck对象；现址Flanders人口4472，不把1931原建Riverhead当当前地点。"
+  },
+  {
+    "display_number": 122,
+    "base_question_id": "hotpot:5a8849a855429938390d3f21",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many passengers were on the flight on which Willem Witteveen was killed?",
+    "rationale": "Witteveen→MH17→283乘客，另15机组人员；未显式给298总人数，改乘客数不留下总数矛盾。"
+  },
+  {
+    "display_number": 123,
+    "base_question_id": "hotpot:5ab6c6fd5542995eadef0094",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, what was the Census-estimated 2016 population of the borough where Allan R. Bomhard was born?",
+    "rationale": "Bomhard→Brooklyn→2016估计2629150，不将估计改成普查实测。"
+  },
+  {
+    "display_number": 124,
+    "base_question_id": "hotpot:5ab8c0d45542991b5579eff7",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "SeatonHouse→Alexandria→2010人口139966，2016估计155810为另一时点，微调不改变增长方向。"
+  },
+  {
+    "display_number": 125,
+    "base_question_id": "hotpot:5ae70ea9554299572ea546a0",
+    "action": "rewrite",
+    "question_override": "What was the 2010 census population of the unincorporated town two miles northwest of the former Archer mining camp?",
+    "rationale": "Archer在Tonopah东南2mi，反向为镇在营地西北；2478为镇人口，1904营地短期存在不混入统计日期。"
+  },
+  {
+    "display_number": 126,
+    "base_question_id": "hotpot:5a7e379b5542995ed0d166d7",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "ImpKerr出生Uppsala→2015人口149245，出生年1980不改。"
+  },
+  {
+    "display_number": 127,
+    "base_question_id": "hotpot:5ac52db25542994611c8b3ee",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many senators are in the state senate where Barbara Allen served?",
+    "rationale": "Allen→KansasSenate→40，125是下院席位；用served而非resided。"
+  },
+  {
+    "display_number": 128,
+    "base_question_id": "hotpot:5a7e410b554299495941994d",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "MatchGroup子公司→IAC→100国家，over150是品牌数，不是国家数量。"
+  },
+  {
+    "display_number": 129,
+    "base_question_id": "hotpot:5abd45725542996e802b4757",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, what was the inclusive staff total, counting part-time, flexible and fixed-contract staff, of the broadcaster that co-produced Shadow of the Noose?",
+    "rationale": "BBC35402为含非全职等人员的扩展口径，20950与16672是不同统计范围，不当直接加总。"
+  },
+  {
+    "display_number": 130,
+    "base_question_id": "hotpot:5ab6c7a655429953192ad38e",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "PersonalFoul作者Donaghy→772常规赛，20季后赛为另一类别，无总比赛数约束。"
+  },
+  {
+    "display_number": 131,
+    "base_question_id": "hotpot:5ae625c45542992663a4f26c",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many students did the high school from which Corey Snide graduated have in 2005?",
+    "rationale": "Snide同时毕业高中与Juilliard，限定high school唯一定位ColonieCentral→2225；132为教师数。"
+  },
+  {
+    "display_number": 132,
+    "base_question_id": "hotpot:5ade73015542992fa25da78a",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "Wagenmann卒地Heidelberg→2015人口156257，roughly四分之一学生未给明确人数，不作精确比例约束。"
+  },
+  {
+    "display_number": 133,
+    "base_question_id": "hotpot:5a82414655429903bc27ba57",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "CraigCole表亲MarcusAllen→145总达阵，123冲球达阵为子集，目标±1不破坏包含关系。"
+  },
+  {
+    "display_number": 134,
+    "base_question_id": "hotpot:5ac063da5542992a796ded15",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many years did the parliamentary career of Anthony Robinson's friend Charles James Fox span?",
+    "rationale": "Fox38年职业持续时间，生卒年1749/1806不是职业起止，未产生可见年份算术冲突。"
+  },
+  {
+    "display_number": 135,
+    "base_question_id": "hotpot:5ae088d055429945ae9593a2",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many miles long is the river meeting the Atlantic Ocean at New York City?",
+    "rationale": "GeographyNYC→Hudson→315mi，河流流向与其他地理年份不涉及目标。"
+  },
+  {
+    "display_number": 136,
+    "base_question_id": "hotpot:5a79c0255542994bb945705e",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many Albania national-team caps did Andrea Marko's cousin earn from 1990 to 2005?",
+    "rationale": "Marko表亲FotoStrakosha→73caps；most ever是历史原文范围，题干不外推当前纪录。"
+  },
+  {
+    "display_number": 137,
+    "base_question_id": "hotpot:5ae2d6a155429928c42394ef",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "Acura2007卫冕者Sharapova→合计21周WTA第一，five occasions不是周数分项。"
+  },
+  {
+    "display_number": 138,
+    "base_question_id": "hotpot:5a897af455429946c8d6e925",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "PowerFM覆盖多个地区但MoruyaRiver镇特征明确Moruya，2011人口2531；175/305为距离。"
+  },
+  {
+    "display_number": 139,
+    "base_question_id": "hotpot:5ade5f62554299728e26c6f2",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, what was the 2010 census population of the CDP east of Long Island MacArthur Airport included in Al Graf's district?",
+    "rationale": "机场东侧特征唯一匹配HolbrookCDP→27195；不把CDP称district或MP整个选区人口。"
+  },
+  {
+    "display_number": 140,
+    "base_question_id": "hotpot:5abbe62f55429931dba145d4",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many acres is the first Disney park built outside the United States, which also hosts Splash Mountain?",
+    "rationale": "TokyoDisneyland115acre；SplashMountain原文明列三个园区，删除原题one of two虚假前提，保留海外首园特征。"
+  },
+  {
+    "display_number": 141,
+    "base_question_id": "hotpot:5a80b64e5542992bc0c4a7c5",
+    "action": "replace",
+    "question_override": "According to the supplied records, how many acres is the lagoon sharing its name with the neighbourhood where the subjects of Grey Gardens lived?",
+    "rationale": "GreyGardens→GeorgicaPond邻区→290acre同名潟湖，统计对象是水体面积非豪宅面积。",
+    "rejected_base_question_id": "hotpot:5a8a829f5542996c9b8d5f13",
+    "replacement_base_question_id": "hotpot:5a80b64e5542992bc0c4a7c5",
+    "replacement_component_id": "formal-source:80873420b9fe11490e12dfa80935de1c799ca13d9ffc584098b03b035852f93a",
+    "review_source": "assistant"
+  },
+  {
+    "display_number": 142,
+    "base_question_id": "hotpot:5ae625f85542992ae0d1624e",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many nonfiction books had the author of a memoir about her late mentor, the founder of the Exploratorium, written?",
+    "rationale": "Exploratorium创办人FrankOppenheimer→回忆录作者K.C.Cole→8非虚构书；删去原题拼接病句。"
+  },
+  {
+    "display_number": 143,
+    "base_question_id": "hotpot:5abd370955429924427fcf49",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "PCFinancial→Loblaw→22regional/market banners，1000为门店数，品牌列为examples非完整22项清单。"
+  },
+  {
+    "display_number": 144,
+    "base_question_id": "hotpot:5ac12da65542994d76dccd9f",
+    "action": "rewrite",
+    "question_override": "What was the 2010 population of the village where Haviland-Davison Grist Mill is located?",
+    "rationale": "磨坊→EastRockaway→9818，修复figurein排版，建筑1689不参与人口编辑。"
+  },
+  {
+    "display_number": 145,
+    "base_question_id": "hotpot:5a87a1075542996e4f30888d",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, what was the 2010 population of the Maine town represented by Nancy B. Sullivan whose population count explicitly excludes Kennebunkport?",
+    "rationale": "Sullivan代表多个镇，加入原文明示excludesKennebunkport人口口径以唯一定位Kennebunk→10798；不任意指定多镇之一。"
+  },
+  {
+    "display_number": 146,
+    "base_question_id": "hotpot:5adc9003554299438c868dfc",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "Batdorf&Bronson→Olympia→2010人口46478，不是Seattle或邻市；编码标题规范化保持一致。"
+  },
+  {
+    "display_number": 147,
+    "base_question_id": "hotpot:5adeb03755429939a52fe959",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many miles does U.S. Route 27 run through Kentucky from the Tennessee border to the Ohio border?",
+    "rationale": "190.785mi为US27 Kentucky路段，不是LakeCumberland海岸1255mi；去掉原题无关水库长串。",
+    "hop_note": "原题已显式道路名称，清洗后标为可单跳直接回答，不宣称必须两跳"
+  },
+  {
+    "display_number": 148,
+    "base_question_id": "hotpot:5a7cc1e05542990527d5551f",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, what population is reported for the Jordanian city hosting the CBRL research institute?",
+    "rationale": "CBRL在Jordan研究所BIA位于Amman→4007526，另Jerusalem机构在不同城市。"
+  },
+  {
+    "display_number": 149,
+    "base_question_id": "hotpot:5ab7709d5542992aa3b8c816",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "Path64Marketplace端nearBoulderCity→2010人口15023，另一端Adelanto不能混用。"
+  },
+  {
+    "display_number": 150,
+    "base_question_id": "hotpot:5aba984c55429955dce3ee98",
+    "action": "rewrite",
+    "question_override": "What was the 2010 census population of the incorporated village where Gary Angelo Marangi was born?",
+    "rationale": "RockvilleCentre是incorporated village非city，24023为2010村人口，不误用上级Hempstead。"
+  },
+  {
+    "display_number": 151,
+    "base_question_id": "hotpot:5ae37c655542992e3233c42a",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "Lighthouse→Williamstown→MelbourneCBD西南9km，无第二单位换算；更正仅资料中的距离统计，不挪动灯塔实体。"
+  },
+  {
+    "display_number": 152,
+    "base_question_id": "hotpot:5a8473855542993344746135",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, the 2012 historical comedy starring Chun Bo-geun concerns a gang of how many thieves?",
+    "rationale": "Chun→GrandHeist→gang11，不能断言童星本身就是团伙成员；保留影片剧情对象。"
+  },
+  {
+    "display_number": 153,
+    "base_question_id": "hotpot:5ae4e32a55429908b63264ab",
+    "action": "rewrite",
+    "question_override": "What was the 2010 census population of the city where racing driver Jimmy Foster was born?",
+    "rationale": "JimmyFoster出生OrmondBeach→38137，补racing driver与2010，不用模糊from。"
+  },
+  {
+    "display_number": 154,
+    "base_question_id": "hotpot:5a7a693b5542996c55b2dd9c",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many Grammy Awards did the album containing the Dixie Chicks song Everybody Knows win?",
+    "rationale": "歌曲→TakingLongWay→5Grammys，纠正Gammy；列出的三类奖项为including非完整五项。"
+  },
+  {
+    "display_number": 155,
+    "base_question_id": "hotpot:5abb7f825542996cc5e4a012",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "Yaroshenko的Grigorovich剧院→Grigorovich主导30年，无明示职业起止年份需同步；生年非该统计起点。"
+  },
+  {
+    "display_number": 156,
+    "base_question_id": "hotpot:5a7ca64355429907fabeefe6",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "TempleEck→Chanhassen→2010人口22952，寺庙1990竣工不作为人口年份。"
+  },
+  {
+    "display_number": 157,
+    "base_question_id": "hotpot:5ae437895542996836b02c50",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "DameSchool→Nottingham→2010人口4785，建筑和教会历年不改。"
+  },
+  {
+    "display_number": 158,
+    "base_question_id": "hotpot:5ab727e655429928e1fe3818",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, what seating capacity is reported for the stadium that hosted the 2001 Copa del Rey Final?",
+    "rationale": "LaCartuja60000为资料所述容量，不扩展为2001当时容量；赛事3-1比分与容量无加总关系。"
+  },
+  {
+    "display_number": 159,
+    "base_question_id": "hotpot:5ab98ca95542996be202054a",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "Seftel代表公司CAA→2016年3月1800员工，电影长段无同值数量，不更改作品或人物身份。"
+  },
+  {
+    "display_number": 160,
+    "base_question_id": "hotpot:5ae4eea755429908b63264c0",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many passenger-service flights did the Tu-144, the other supersonic airliner alongside Concorde, conduct?",
+    "rationale": "55是Tu144客运班次，one of two指机型数，16000m和Mach1.6不涉及航班数。"
+  },
+  {
+    "display_number": 161,
+    "base_question_id": "hotpot:5ab61fc3554299710c8d1e6a",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, what 2015 Census Bureau population estimate is reported for the city containing Straight Street Bridge?",
+    "rationale": "Bridge→Paterson→2015估计147754，2010为146199；增加1.1%是舍入结果，±1人口不会改变一位小数比例。",
+    "ratio_rounding_check": {
+      "base": "146,199",
+      "reported_growth": "1.1",
+      "resolution": "0.1"
+    }
+  },
+  {
+    "display_number": 162,
+    "base_question_id": "hotpot:5adc63f85542996e68525349",
+    "action": "rewrite",
+    "question_override": "What was the 2010 census population of the Mississippi city served by WYDL?",
+    "rationale": "WYDLlicensedMiddleton但servesCorinth，14573为Corinth；明确served与州避免把发牌地当服务城市。"
+  },
+  {
+    "display_number": 163,
+    "base_question_id": "hotpot:5addc96e5542997dc7907026",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "Myerscough最高比例地点Fleetwood→2011人口25939，不是姓氏源头hamlet，保留highest proportions限定。"
+  },
+  {
+    "display_number": 164,
+    "base_question_id": "hotpot:5ab69a925542995eadef0031",
+    "action": "rewrite",
+    "question_override": "What was the 2011 census population of the market town four miles northwest of Searby, Lincolnshire?",
+    "rationale": "原文Searby在Brigg东南4mi，反向Brigg在西北；纠正原题southeast，5626是2011而5076是2001。"
+  },
+  {
+    "display_number": 165,
+    "base_question_id": "hotpot:5a823fc8554299676cceb235",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many acres is the state park near Oak Beach Inn?",
+    "rationale": "原文仅nearCaptree，不能提升为closest；340acre公园面积没有同义面积换算需要联动。"
+  },
+  {
+    "display_number": 166,
+    "base_question_id": "hotpot:5a8f001f5542995b44241f21",
+    "action": "rewrite",
+    "question_override": "What was the 2010 census population of the town where screenwriter Glenn Todd Berger was born?",
+    "rationale": "Smithtown为town而非city，Aibel出生Demarest为另一作者；117801对象正确。"
+  },
+  {
+    "display_number": 167,
+    "base_question_id": "hotpot:5add363c5542990dbb2f7dc8",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "RyuHyeYoung饰Bo-ra→Reply1988→20集，1988为剧名及设定非播出年份，fivefriends不是集数分项。"
+  },
+  {
+    "display_number": 168,
+    "base_question_id": "hotpot:5ab5e4855542992aa134a3d0",
+    "action": "replace",
+    "question_override": "What was the 2010 census population of the CDP where independent filmmaker Doug Block was born?",
+    "rationale": "DougBlock→PortWashington→15846 CDP人口，出生1953不作为人口年。",
+    "rejected_base_question_id": "hotpot:5abddf9f5542991f66106088",
+    "replacement_base_question_id": "hotpot:5ab5e4855542992aa134a3d0",
+    "replacement_component_id": "formal-source:feae91b82324ac824cc6ea659f5834002a9f0e60498ff9a93ff574243ce656eb",
+    "review_source": "assistant"
+  },
+  {
+    "display_number": 169,
+    "base_question_id": "hotpot:5a75ddf455429976ec32bc4c",
+    "action": "rewrite",
+    "question_override": "What was the 2010 census population of the city containing Hans Hanson House?",
+    "rationale": "House→MarquetteKansas→641，补2010，211地址不作人口。"
+  },
+  {
+    "display_number": 170,
+    "base_question_id": "hotpot:5ac3c7d8554299204fd21e55",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many aircraft of the type formerly flown from Daporijo to Guwahati and Dibrugarh were in airline service in July 2017?",
+    "rationale": "Daporijo→Do228→63在airline service，不是全部军民在役量；245/125为历史制造数。"
+  },
+  {
+    "display_number": 171,
+    "base_question_id": "hotpot:5a8a0bbe5542992d82986e75",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many films did the actress whose stage career included Noël Coward's Blithe Spirit and the role of Blanche du Bois appear in?",
+    "rationale": "Davies履历明确1943BlitheSpirit及Blanche角色→38部；不误指接替前的VivienLeigh，原拼写异常不改实体。"
+  },
+  {
+    "display_number": 172,
+    "base_question_id": "hotpot:5a8f4ec35542992414482a32",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, what population is reported for the Ghanaian town where Gerald Asamoah was born?",
+    "rationale": "Asamoah→Mampong→42037，town不是city，来源无观察年不自行补2010。"
+  },
+  {
+    "display_number": 173,
+    "base_question_id": "hotpot:5ae149515542990adbacf73a",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many episodes did the ABC run of the sitcom featuring Nancy Travis as Vanessa Baxter have from 2011 to 2017?",
+    "rationale": "130限原文ABC2011—2017播出段，不宣称整个系列永远总集数。"
+  },
+  {
+    "display_number": 174,
+    "base_question_id": "hotpot:5ababe7a554299232ef4a38d",
+    "action": "replace",
+    "question_override": "What was the 2010 census population of the city where Sherman Day Thacher founded his school?",
+    "rationale": "替补Schoharie原题2010而资料为2000且同名镇村仍含混，继续拒绝；另选Thacher→Ojai→2010人口7461，纠正Thatcher拼写，2000人口7862较高不冲突。",
+    "rejected_base_question_id": "hotpot:5ae3d70a5542992f92d82392",
+    "replacement_base_question_id": "hotpot:5ababe7a554299232ef4a38d",
+    "replacement_component_id": "formal-source:4f5a8bac44406a4e7736b4b5275d37d628306fcba36b3e3412e52789ed7733b4",
+    "review_source": "assistant"
+  },
+  {
+    "display_number": 175,
+    "base_question_id": "hotpot:5abf81b85542997ec76fd3f8",
+    "action": "replace",
+    "question_override": "According to the supplied records, how many acres was the resort where Bob Scucci served as Assistant Race and Sports Book Manager?",
+    "rationale": "Scucci→Stardust→63acres(25ha)，按精确acre转ha系数及整数ha舍入同步更新25ha，不能只改63。",
+    "rejected_base_question_id": "hotpot:5ab7e0075542992aa3b8c869",
+    "replacement_base_question_id": "hotpot:5abf81b85542997ec76fd3f8",
+    "replacement_component_id": "formal-source:08c7067cc517623ccbe0a7ff9520a178ea5a87ac724d55921e56d2c813e7e979",
+    "review_source": "assistant",
+    "scaled_coupled": [
+      {
+        "before": "25",
+        "key": "hectares",
+        "factor": "0.40468564224",
+        "round_to": "1"
+      }
+    ]
+  },
+  {
+    "display_number": 176,
+    "base_question_id": "hotpot:5abaf3245542996cc5e49f2e",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many albums did the duo that made Solitaire from Sedaka's Back a hit record during its fourteen-year career?",
+    "rationale": "Solitaire→Carpenters→11albums，31singles与5TV specials另类；14年不改。"
+  },
+  {
+    "display_number": 177,
+    "base_question_id": "hotpot:5a8eae995542995085b37477",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "Warke首次curacyStMarkNewtownards→2011人口28039；其他Rector职位地点不能替代curacy。"
+  },
+  {
+    "display_number": 178,
+    "base_question_id": "hotpot:5ac17bfc5542994ab5c67d68",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "SoulOfYouth导演Taylor→1914—1922导演59默片，27是其演员作品量，时点和角色清晰。"
+  },
+  {
+    "display_number": 179,
+    "base_question_id": "hotpot:5aba9479554299232ef4a341",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many sovereign states are members of the organisation whose member-state flags include Mozambique's flag?",
+    "rationale": "Mozambique旗段明确UNmember→UN193states，组织与成员对象完整；oneoftwo持枪旗帜数不是会员总数。"
+  },
+  {
+    "display_number": 180,
+    "base_question_id": "hotpot:5ade03cb5542997545bbbe19",
+    "action": "replace",
+    "question_override": "What was the 2010 census population of the Maine town containing Stratton, where Bigelow Preserve is located?",
+    "rationale": "Bigelow位于Stratton，Eustis包含Stratton，618为Eustis镇人口；保留两级地点关系。",
+    "rejected_base_question_id": "hotpot:5abc0f22554299700f9d77c7",
+    "replacement_base_question_id": "hotpot:5ade03cb5542997545bbbe19",
+    "replacement_component_id": "formal-source:1b031b7f89068877709af03b714b3dad7c7c2b0bab08188f64e049c68607f02e",
+    "review_source": "assistant"
+  },
+  {
+    "display_number": 181,
+    "base_question_id": "squad:56d548552593cc1400307b1a",
+    "action": "rewrite",
+    "question_override": "According to Wei Hong's statement on 21 November 2008 in the supplied record, more than how many people were dead or missing after the Sichuan earthquake?",
+    "rationale": "保留more than90000与发布日，死亡或失踪合并指标，不把重建房屋或学校当人数。"
+  },
+  {
+    "display_number": 182,
+    "base_question_id": "squad:56ddfc5f4396321400ee252a",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many government National Institutes of Technology are there in India?",
+    "rationale": "30仅NIT，另16IIT也是自治政府院校；不能把30当全部政府技术院校总量。"
+  },
+  {
+    "display_number": 183,
+    "base_question_id": "squad:572e80e8cb0c0d14000f11fd",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many Muslims lived on Cyprus in 1872?",
+    "rationale": "44000穆斯林+100000基督徒=144000总人口，完整保留仅删除支撑，不改分项。"
+  },
+  {
+    "display_number": 184,
+    "base_question_id": "squad:5725b2b0b80e561500fa6f30",
+    "action": "rewrite",
+    "question_override": "According to the supplied 2016 estimate, how many citizens in Israel were designated as Arabs, including Druze and most East Jerusalem Arabs?",
+    "rationale": "1760400按该资料2016统计对象；Jewish6345400及74.9%等与目标不同，只有删除不做人口加总改动。"
+  },
+  {
+    "display_number": 185,
+    "base_question_id": "squad:57266847f1498d1400e8dea7",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, what population is given for London's metropolitan area?",
+    "rationale": "13879757为metropolitan，与municipality8538689、urban9787426、city-region2270万不同口径，来源未给此数观察日不补2014。"
+  },
+  {
+    "display_number": 186,
+    "base_question_id": "squad:572abf9af75d5e190021fc97",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many Philadelphia public schools closed in 2013?",
+    "rationale": "补城市对象，24为关闭学校数，2010/2015入学人数为背景不是学校数。"
+  },
+  {
+    "display_number": 187,
+    "base_question_id": "squad:5728a249ff5b5019007da368",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "BYU21NCAA varsity teams，19是原MountainWest主要参赛子集；删除完整长段避免其他例子提供同值。"
+  },
+  {
+    "display_number": 188,
+    "base_question_id": "squad:5728c01f4b864d1900164d53",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "42%为Estonia出口去Nordic，三分之四为外资来源分母，不相加；此题仅支撑删除。"
+  },
+  {
+    "display_number": 189,
+    "base_question_id": "squad:5733e682d058e614000b652d",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, what was Tajikistan's estimated population in July 2009?",
+    "rationale": "7349145为2009年7月估计，补estimated，70%及35%年龄组重叠不是互补。"
+  },
+  {
+    "display_number": 190,
+    "base_question_id": "squad:57294f546aef051400154c9e",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, approximately what percentage of Denmark's electricity generation comes from wind power?",
+    "rationale": "19%为丹麦近似值，其他国家9/6及全球3.1不同分母年份；保留approximately。"
+  },
+  {
+    "display_number": 191,
+    "base_question_id": "squad:57323202e17f3d1400422711",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "KuritaCenterForce13destroyers，5battleships和12cruisers另类，未给总舰数，13±1不动Yamato/Musashi子集。"
+  },
+  {
+    "display_number": 192,
+    "base_question_id": "squad:570b3f0fec8fbc190045b913",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, in January 2002 the U.S. initially sent more than how many troops to the Philippines?",
+    "rationale": "原文more than1200后增2000，保留初始下界和时间而非精确人数。",
+    "slot_semantics": "reported_lower_bound"
+  },
+  {
+    "display_number": 193,
+    "base_question_id": "squad:57279cea3acd2414000de7ce",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "about30学校，more440为blocos、列举学校是部分例子，不是完整枚举；保留about及Rio地域。",
+    "slot_semantics": "reported_estimate"
+  },
+  {
+    "display_number": 194,
+    "base_question_id": "squad:570c3527ec8fbc190045bdaa",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, on how many occasions did FBI agents fire their weapons from 1993 to 2011?",
+    "rationale": "289为occasions而非子弹或受伤人数，纠正first/fired；5例不正当、150伤70死子集范围在微调后仍成立。"
+  },
+  {
+    "display_number": 195,
+    "base_question_id": "squad:5731785b497a881900248f39",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, what percentage of Bolivia's residents over age fifteen self-identified as indigenous?",
+    "rationale": "62%限定15岁以上自我认同；3.7%母语不认同及含儿童的66.4%分母不同，不可简单相加凑总比例。",
+    "percentage_bounds": true
+  },
+  {
+    "display_number": 196,
+    "base_question_id": "squad:5726dc5cf1498d1400e8ed98",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, what percentage of Mali's population had access to sanitation services of some kind in 2000?",
+    "rationale": "69percent为卫生设施，62—65percent是安全饮水，分母及用途不混；不外推改善年份。",
+    "percentage_bounds": true
+  },
+  {
+    "display_number": 197,
+    "base_question_id": "squad:56e152ace3433e1400422dbd",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, what percentage of primary-education students in Northern Catalonia study Catalan as a foreign language?",
+    "rationale": "补NorthernCatalonia；30%为primary、15%为secondary，两不同学段不可当合计，微调不违背其他数值。",
+    "percentage_bounds": true
+  },
+  {
+    "display_number": 198,
+    "base_question_id": "squad:57098329200fba14003680ec",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many rabbis signed Jacob Ettlinger's Shlomei Emunei Yisrael manifesto?",
+    "rationale": "177签名者不包括后述人物例子作为完整总数枚举，书名明确，改正rabbi's语法。"
+  },
+  {
+    "display_number": 199,
+    "base_question_id": "squad:570b933d6b8089140040f9a5",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, what percentage of Earth's heating is attributed to infrared light from the Sun?",
+    "rationale": "49%及其余可见光是定性补集，未出现51%需要同步，改后rest仍是余量；不延伸成全部地热分母。",
+    "percentage_bounds": true
+  },
+  {
+    "display_number": 200,
+    "base_question_id": "squad:573047e404bcaa1900d7746d",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "83%Christian与15+1+0.5+0.2非Christian已占16.7%；限定目标不超过83.3，必要时反向-1至82，避免总比例超过100%；Roman20为子群体下界。",
+    "target_bounds": {
+      "lower": "20",
+      "upper": "83.3"
+    },
+    "percentage_bounds": true
+  },
+  {
+    "display_number": 201,
+    "base_question_id": "squad:570c5213fed7b91900d458b0",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many Great Feasts does the Eastern Orthodox Church recognise?",
+    "rationale": "12GreatFeasts明确为体系数量，不是年份；原文未枚举12项，本次只是披露的资料记载更正，不宣称现实教义发生变更。"
+  },
+  {
+    "display_number": 202,
+    "base_question_id": "squad:56df97b838dc4217001520a1",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, by 1886 more than how many people in the United States owned telephones?",
+    "rationale": "保留more than150000下界，1877是公司创办年，不改历史事件年。",
+    "slot_semantics": "reported_lower_bound"
+  },
+  {
+    "display_number": 203,
+    "base_question_id": "squad:57281a634b864d190016448b",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "2007-01-03Mueller聚类8PS3，256MB为单机RAM，无总RAM/计算节点派生值，修改统计数不改硬件规格。"
+  },
+  {
+    "display_number": 204,
+    "base_question_id": "squad:5731daf6b9d445190005e5c1",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, about how many recently arrived Iraqi refugees were in Egypt?",
+    "rationale": "about150000伊拉克难民是估计，70000巴勒斯坦是另一群体，总难民50万—300万不与±1变化冲突。",
+    "slot_semantics": "reported_estimate"
+  },
+  {
+    "display_number": 205,
+    "base_question_id": "squad:5725c44089a1e219009abe34",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "707697女性+618271男性=1325968；保持总人口，男数反向调整，53.4/46.6为一位小数百分比微改1后不变；其他历年总体趋势由总数保持。",
+    "coupled_deltas": [
+      {
+        "before": "618,271",
+        "key": "male",
+        "multiplier": -1
+      }
+    ],
+    "sum_constraint": {
+      "parts": {
+        "female": "$target",
+        "male": "618,271"
+      },
+      "constant_total": "1,325,968"
+    },
+    "partition_rounding": {
+      "denominator": "1,325,968",
+      "shares": {
+        "female": "53.4",
+        "male": "46.6"
+      },
+      "resolution": "0.1"
+    }
+  },
+  {
+    "display_number": 206,
+    "base_question_id": "squad:56e745c100c9c71400d76f05",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many members does the Royal Institute of British Architects have?",
+    "rationale": "明确RIBA机构，44000全体会员，chartered/student称谓差别不提供其他人数。"
+  },
+  {
+    "display_number": 207,
+    "base_question_id": "squad:570ad8714103511400d59a89",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many troops can Izumo carry for operations other than its helicopter role?",
+    "rationale": "400是Izumo其他任务运兵量，14/7/2为直升机数，50为卡车数；不把这些异类对象相加。"
+  },
+  {
+    "display_number": 208,
+    "base_question_id": "squad:57269f685951b619008f77ff",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, about how many agricultural workers in developing countries die each year after severe pesticide poisoning?",
+    "rationale": "about18000是WHO/UNEP估计的严重中毒死亡子集，3million为严重中毒总量，25million为轻度中毒范围。",
+    "slot_semantics": "reported_estimate"
+  },
+  {
+    "display_number": 209,
+    "base_question_id": "squad:56e76ba237bdd419002c3f8c",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, accidents increase by as much as what percentage during the two weeks after British Summer Time ends?",
+    "rationale": "保留as much as11%上界及两周窗口，其他研究不同范围不当相互矛盾，保留原文不确定因果。",
+    "percentage_bounds": true,
+    "slot_semantics": "reported_upper_bound"
+  },
+  {
+    "display_number": 210,
+    "base_question_id": "squad:570fcdfc5ab6b81900391028",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many desktop PCs was Dell's Chennai facility targeted to produce in 2007?",
+    "rationale": "400000为desktop目标而非实际产量或notebook，时点2007不改，预算60m等另类。"
+  },
+  {
+    "display_number": 211,
+    "base_question_id": "hotpot:5abb9f89554299642a094ad0",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "Morse→NewHampshireSenate→24districts，22是其代表区编号不是总区数，全部支撑移除。"
+  },
+  {
+    "display_number": 212,
+    "base_question_id": "hotpot:5ae1497455429920d5234391",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "2014CheezIt355→WatkinsGlen→2010村人口1859，赛事2014不是观察年，90为圈数。"
+  },
+  {
+    "display_number": 213,
+    "base_question_id": "hotpot:5ade0c575542995b365fabe9",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many faculty members did the university coached by Herbert Ward Page in 1902 have?",
+    "rationale": "Page→Washburn→550教师，去掉currently现实外推，不把1902当教师统计年份；6100/800是学生。"
+  },
+  {
+    "display_number": 214,
+    "base_question_id": "hotpot:5a905fc155429933b8a20500",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many employees did the company that acquired MetCare in 2012 have as of 2014?",
+    "rationale": "MetCare2012收购方Humana→2014资料51600员工，明确员工统计与收购年份不同。"
+  },
+  {
+    "display_number": 215,
+    "base_question_id": "hotpot:5a74b82055429916b01641ed",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "Harragon→KurriKurri→2011人口5772，KurriKurri-Weston2014的17241不是同地理统计区。"
+  },
+  {
+    "display_number": 216,
+    "base_question_id": "hotpot:5adf72825542992d7e9f9365",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, the housing complex named for the third female U.S. Supreme Court justice contains close to how many apartments?",
+    "rationale": "Sotomayor→SotomayorHouses→close to1500公寓，不是28楼或3500住户，保留近似限定。"
+  },
+  {
+    "display_number": 217,
+    "base_question_id": "hotpot:5a7e2a735542995ed0d166bb",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, what population is reported for the town where North Hertfordshire council is based?",
+    "rationale": "Council→Letchworth→33600，town非city，原文无年份不臆补。"
+  },
+  {
+    "display_number": 218,
+    "base_question_id": "hotpot:5a90801a5542990a98493664",
+    "action": "rewrite",
+    "question_override": "How many rounds were in the NBA draft held in the year the Pistons moved to Detroit?",
+    "rationale": "迁移1957→1957NBAdraft→14rounds，83是球员、8是球队，原题drafts单位不对。"
+  },
+  {
+    "display_number": 219,
+    "base_question_id": "hotpot:5a81e75655429926c1cdadb7",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, the association to which headmaster Chris Staley belongs represents how many independent schools across the United Kingdom, Crown dependencies and Republic of Ireland?",
+    "rationale": "Staley→HMC→283覆盖UK+属地+Ireland，不能全部算英国境内；年费三倍关系仅保留不编辑。"
+  },
+  {
+    "display_number": 220,
+    "base_question_id": "hotpot:5ac3e9065542997ea680c994",
+    "action": "rewrite",
+    "question_override": "What was the 2010 census population of the city containing the unincorporated community of Handy Corner, Mississippi?",
+    "rationale": "HandyCorner在OliveBranch，33484为市人口而非未建制社区，2000/1990增长数仅删除不改。"
+  },
+  {
+    "display_number": 221,
+    "base_question_id": "hotpot:5abbf8b355429931dba145f4",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "AggregateIndustries→LafargeHolcim→90countries，115000为员工数，无完整国家枚举或分项加总。"
+  },
+  {
+    "display_number": 222,
+    "base_question_id": "hotpot:5ac2a3b055429967731025cf",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, what population is reported for the residential community on the peninsula where Kenneth F. Sutherland was born?",
+    "rationale": "ConeyIsland现为半岛，60000是西部residential community不是全岛含娱乐区人口，纠正地貌及统计范围。"
+  },
+  {
+    "display_number": 223,
+    "base_question_id": "hotpot:5ae643ca55429908198fa561",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, approximately how many miles west of New York City is the venue of the 2017 U.S. Women's Open?",
+    "rationale": "赛事→TrumpNationalBedminster→approx40mi westNYC，原NY不指整个州，保留近似。",
+    "slot_semantics": "reported_estimate"
+  },
+  {
+    "display_number": 224,
+    "base_question_id": "hotpot:5a7f74d455429969796c1a5f",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many municipal-council seats held since 2008 did the Alliance for the Future of Austria lose in Graz in 2012?",
+    "rationale": "2为2008已有而2012失去席位，非全国议会或新增席位；未给总席位限制单改数量。"
+  },
+  {
+    "display_number": 225,
+    "base_question_id": "hotpot:5a7a76c15542994f819ef1e4",
+    "action": "replace",
+    "question_override": "According to the supplied records, what was the 2001 population of the city from which Club Alianza Viedma comes?",
+    "rationale": "球队→Viedma→47246，补2001而不当现时人口；30/960km为其他量。",
+    "rejected_base_question_id": "hotpot:5ae3a5845542994393b9e731",
+    "replacement_base_question_id": "hotpot:5a7a76c15542994f819ef1e4",
+    "replacement_component_id": "formal-source:d57323975dd5022e606096ab4c136440300241eade49dc366f420e5df087b174",
+    "review_source": "assistant"
+  },
+  {
+    "display_number": 226,
+    "base_question_id": "hotpot:5ac3901555429939154137d7",
+    "action": "rewrite",
+    "question_override": "What was the 2010 census population of the town containing Glendale, New Hampshire?",
+    "rationale": "Glendale→Gilford→7126，Route11和机场名称不变，修复commumity拼写。"
+  },
+  {
+    "display_number": 227,
+    "base_question_id": "hotpot:5ac0f2385542996f0d89cc3d",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many teaching and non-teaching staff did the college attended by Craig Heyer other than UNLV have?",
+    "rationale": "Heyer两个院校排除UNLV唯一CSN→2900，四专业完整枚举但不涉及员工数。"
+  },
+  {
+    "display_number": 228,
+    "base_question_id": "hotpot:5ae608c05542992663a4f245",
+    "action": "replace",
+    "question_override": "What was the 2010 census population of the CDP where guitar maker Joseph Jesselli lives and works in the supplied records?",
+    "rationale": "Jesselli→EastNorthport→20217，city改CDP，去掉currently现实外推。",
+    "rejected_base_question_id": "hotpot:5a7fb4495542994857a767c6",
+    "replacement_base_question_id": "hotpot:5ae608c05542992663a4f245",
+    "replacement_component_id": "formal-source:57f009b1f5a4c604a48a04ddeb1ce89da0fb7d3fa8fca5b4e4c52451c9a87490",
+    "review_source": "assistant"
+  },
+  {
+    "display_number": 229,
+    "base_question_id": "hotpot:5ae684f65542996d980e7bd1",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "Chenoweth→Enid→2010人口49379，九大排名无其他可见竞争人口，±1不破坏明示数字关系。"
+  },
+  {
+    "display_number": 230,
+    "base_question_id": "hotpot:5a7a16185542994f819ef132",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many undergraduate students were enrolled in fall 2016 at the university where Bud Saunders coached football from 1923 to 1926?",
+    "rationale": "改Sanders为Saunders，18599仅undergraduates，不含4807graduate；16:1学生教师比无教师人数不可强求精确等式。"
+  },
+  {
+    "display_number": 231,
+    "base_question_id": "hotpot:5ac1bd1e5542991316484bb9",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, what population is stated for Bernie Calvert's birthplace before the noted decline to 8,193 at the 2011 census?",
+    "rationale": "Brierfield8200与后续2011的8193共存，明确问前一记载值，版本更正不改变后一个观察；±1后仍为marginal decline。"
+  },
+  {
+    "display_number": 232,
+    "base_question_id": "hotpot:5a8754d15542996432c5726b",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many customers did the company that acquired Element K in 2011 have as of 2014?",
+    "rationale": "MindLeaders段明确收购ElementK者Skillsoft，10000为Skillsoft客户，60million为用户；修复原题模糊this company。"
+  },
+  {
+    "display_number": 233,
+    "base_question_id": "hotpot:5ae3f48b5542995ad6573ce6",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many professional teams comprise the premier Danish ice-hockey league in which the Odense Bulldogs compete?",
+    "rationale": "Odense赛季→丹麦联赛MetalLigaen→11teams，27为队伍赛季序数，非队数。"
+  },
+  {
+    "display_number": 234,
+    "base_question_id": "hotpot:5ae615675542996de7b71b3a",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many career goals, including unofficial friendlies and tour games, were credited to the player who broke Manuel Rosas's youngest World Cup scorer record?",
+    "rationale": "Rosas纪录被Pelé破→1281球/1363场，含非正式赛事，不能当仅正式联赛球；加1仍远低于比赛总数但进球可多于比赛无需伪约束。"
+  },
+  {
+    "display_number": 235,
+    "base_question_id": "hotpot:5a74ba8455429916b01641f3",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "Sugarloaf机场ownedTownCarrabassettValley→2010人口761，机场距CBD双单位不涉及人口。"
+  },
+  {
+    "display_number": 236,
+    "base_question_id": "hotpot:5ab5eb8e5542997d4ad1f24e",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, what estimated resident population in June 2016 is reported for the metropolitan city containing Para Wirra Conservation Park?",
+    "rationale": "ParaWirra在Adelaide都会区域，1326354为2016年6月估计，不是公园面积或SouthAustralia170万；±1不跨>75%粗比界限。"
+  },
+  {
+    "display_number": 237,
+    "base_question_id": "hotpot:5ac549d35542993e66e822b4",
+    "action": "rewrite",
+    "question_override": "According to the supplied historical record of Hong Kong district councils, what was the total number of members appointed by the Chief Executive across the councils?",
+    "rationale": "102为全体district councils合计appointed，不是每个council上限102；412为elected，27为exofficio。"
+  },
+  {
+    "display_number": 238,
+    "base_question_id": "hotpot:5a839b4d554299123d8c2166",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "歌曲LovesGotaHoldonYou歌手AlanJackson→16studio albums，另3精选/2圣诞/2福音/其他汇编未给合计，勿相混。"
+  },
+  {
+    "display_number": 239,
+    "base_question_id": "hotpot:5a8626cc554299211dda2a8f",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "KenmoreSquare东端→US20→3365mi，20是路线编号不编辑，I90只作近似平行路线无数值换算。"
+  },
+  {
+    "display_number": 240,
+    "base_question_id": "hotpot:5ac2a1c8554299218029dacf",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, what spectator capacity is reported for the circuit that hosted the final round of the 2004 Superbike World Championship?",
+    "rationale": "末站MagnyCours→capacity90000，问资料所报容量不推断2004当时容量；250km(160mi)距巴黎不涉及目标。"
+  },
+  {
+    "display_number": 241,
+    "base_question_id": "squad:573424434776f41900661942",
+    "action": "rewrite",
+    "question_override": "According to the supplied Census Bureau record, by what percentage did Montana's population increase from the 2010 census to 1 July 2015?",
+    "rationale": "4.40%及4.40percent同义，补Montana和截止日；989415+43534=1032949，全部只删除无需改数。"
+  },
+  {
+    "display_number": 242,
+    "base_question_id": "squad:57274f575951b619008f880d",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many clubs entered the FA Cup in 2007–08?",
+    "rationale": "明确FA Cup，731为2007—08赛季，687/762其他赛季不混，删除完整支撑。"
+  },
+  {
+    "display_number": 243,
+    "base_question_id": "squad:570a88724103511400d5981c",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, what percentage of University of Houston System graduates were still living and working in the Houston region after five years?",
+    "rationale": "80.5%是地区居住且工作毕业生比例，非人数；不是每年12500所有毕业生均留市。"
+  },
+  {
+    "display_number": 244,
+    "base_question_id": "squad:5733dfd24776f419006613e8",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "PremierLeague20clubs与38场/队、总380有精确关系，但检索删除不编辑任一数，整段移除可避免凭赛制算回20。"
+  },
+  {
+    "display_number": 245,
+    "base_question_id": "squad:56f9760b9e9bad19000a0954",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, about how many metres apart are the two 181st Street subway stations?",
+    "rationale": "500m(550yd)近似距离，保留about；仅删除所以无需同步另一个单位。"
+  },
+  {
+    "display_number": 246,
+    "base_question_id": "squad:56de8ef74396321400ee2a19",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "拟建Terminator雕像25m(82ft)，proposed非已建事实，原题feet单位保持仅删除。"
+  },
+  {
+    "display_number": 247,
+    "base_question_id": "squad:56cf796e4df3c31400b0d808",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many pairs of Adidas Yeezy Boosts were available in the initial New York City-only release?",
+    "rationale": "9000为初始available限量，原题sold暗示实际销售量虽soldout可推但改为来源直接available更清晰。"
+  },
+  {
+    "display_number": 248,
+    "base_question_id": "squad:57270ca95951b619008f8538",
+    "action": "rewrite",
+    "question_override": "According to the supplied 1853 account, about how many Turkish troops moved toward Gyumri or Alexandropol?",
+    "rationale": "about30000为南线部队，北线20000及5000/1000损失不同对象；保留about与Gyumri同名。"
+  },
+  {
+    "display_number": 249,
+    "base_question_id": "squad:5726704cf1498d1400e8dfb0",
+    "action": "rewrite",
+    "question_override": "According to the supplied account, how many home runs did Henry Rodríguez hit in his first Chicago Cubs season?",
+    "rationale": "31 round-trippers=home runs，补Henry/球队避免其他Rodriguez；Sosa66、McGwire70不同球员。"
+  },
+  {
+    "display_number": 250,
+    "base_question_id": "squad:56e7857c00c9c71400d7722b",
+    "action": "rewrite",
+    "question_override": "According to the supplied December 2012 NARA catalog record, about ten billion logical data records described how many artifacts?",
+    "rationale": "527000为artifacts，922000是数字副本、81%覆盖率，补NARA及2012口径。"
+  },
+  {
+    "display_number": 251,
+    "base_question_id": "squad:56f96f929b226e1400dd144b",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, the tuna-loining plant built in the Marshall Islands in 1999 employed more than how many people?",
+    "rationale": "保留more than400下界及1999厂；后文half as many为转金枪鱼排工序需求而非已实现200人，无已列数字联动。",
+    "slot_semantics": "reported_lower_bound"
+  },
+  {
+    "display_number": 252,
+    "base_question_id": "squad:5731196da5e9cc1400cdbc08",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, approximately how many marine cadets does the Tuvalu Maritime Training Institute train each year?",
+    "rationale": "120为年度学员估计，800是认证在职海员存量、15%是成人男性出海比例，不同分母。",
+    "slot_semantics": "reported_estimate"
+  },
+  {
+    "display_number": 253,
+    "base_question_id": "squad:57060b8852bb891400689800",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, by 1874 the annual number of rail passengers arriving in Atlantic City was almost what figure?",
+    "rationale": "保留almost500000，600为铁路首批乘客而非年度总量，1874不改。",
+    "slot_semantics": "reported_estimate"
+  },
+  {
+    "display_number": 254,
+    "base_question_id": "squad:56e1bbb8cd28a01900c67af4",
+    "action": "rewrite",
+    "question_override": "According to the supplied Somali Post reconstruction plan, how many branch offices were planned in the capital during Phase I?",
+    "rationale": "16为首期首都分局，17是地区分局，718/897其他期，不把plan当已完成。"
+  },
+  {
+    "display_number": 255,
+    "base_question_id": "squad:570af7036b8089140040f64f",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, about how many bands were active in and around Liverpool in the early 1960s?",
+    "rationale": "around350为in/aroundLiverpool早1960s估计，不是所有Lancashire或整个十年固定总数。",
+    "slot_semantics": "reported_estimate"
+  },
+  {
+    "display_number": 256,
+    "base_question_id": "squad:572689e65951b619008f7637",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many audience members were confirmed at Queen's 1976 free concert in Hyde Park?",
+    "rationale": "150000为confirmed audience，非帮助组织人员；HydeParkLondon事件明确。"
+  },
+  {
+    "display_number": 257,
+    "base_question_id": "squad:5709f3704103511400d594be",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many bombing raids targeted Hanover during World War II?",
+    "rationale": "88限Hanover轰炸总数，不能当二战全球袭击总数；6000是死者，90%是市中心毁损份额。"
+  },
+  {
+    "display_number": 258,
+    "base_question_id": "squad:5727ac44ff5b5019007d9246",
+    "action": "rewrite",
+    "question_override": "According to the supplied ACE sample of over 180 nations, what percentage provided direct public funding to political parties?",
+    "rationale": "58%direct、60%indirect可重叠，25%无资助不是其互补单项；限定direct<=75%，不设58+60+25=100假约束。",
+    "percentage_bounds": true,
+    "target_bounds": {
+      "lower": "0",
+      "upper": "75"
+    }
+  },
+  {
+    "display_number": 259,
+    "base_question_id": "squad:57314ee9497a881900248d94",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, the pectoralis muscle accounts for what percentage of a bird's total mass?",
+    "rationale": "15%为单一胸肌占整鸟体质量，另外supracoracoideus未给比例，two是肌群数不与15%联动。",
+    "percentage_bounds": true
+  },
+  {
+    "display_number": 260,
+    "base_question_id": "squad:57270a67dd62a815002e984a",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many customers did American Cable Systems have when Ralph J. Roberts and his partners purchased it in 1963?",
+    "rationale": "明确ACS及1963，12000为客户，five是频道数、500000是价格，不混为用户数。"
+  },
+  {
+    "display_number": 261,
+    "base_question_id": "squad:56f8e0f59e9bad19000a0669",
+    "action": "rewrite",
+    "question_override": "According to the supplied 2010 UN population record, what percentage of Guinea-Bissau's population was under fifteen?",
+    "rationale": "41.3%+55.4%+3.3%=100%，同步中间年龄组55.4反向差值；保留原统计15/65边界措辞，不新增年龄交界真值。",
+    "percentage_bounds": true,
+    "coupled_deltas": [
+      {
+        "before": "55.4%",
+        "key": "middle",
+        "multiplier": -1
+      }
+    ],
+    "sum_constraint": {
+      "parts": {
+        "young": "$target",
+        "middle": "55.4%",
+        "older": "3.3%"
+      },
+      "constant_total": "100"
+    }
+  },
+  {
+    "display_number": 262,
+    "base_question_id": "squad:56e11d89e3433e1400422c22",
+    "action": "replace",
+    "question_override": "According to the supplied record, how many BeiDou-2 satellites had been launched as of December 2012?",
+    "rationale": "16 launched、14 inservice为子集，限定新发射总数>=14；不动2011/2012/2020时间点。",
+    "rejected_base_question_id": "squad:571a786110f8ca1400305073",
+    "replacement_base_question_id": "squad:56e11d89e3433e1400422c22",
+    "replacement_component_id": "formal-source:14061ea67fd9d15977722f4d63f1f91a1b73ef5a65026e99281bffb0b818dd95",
+    "review_source": "assistant",
+    "target_bounds": {
+      "lower": "14",
+      "upper": "100000"
+    }
+  },
+  {
+    "display_number": 263,
+    "base_question_id": "squad:56e74d4a37bdd419002c3e41",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "90%为cotton cellulose组成，5%是漂白损失不同过程，不作互补；0—100约束即可。",
+    "percentage_bounds": true
+  },
+  {
+    "display_number": 264,
+    "base_question_id": "squad:56dfbf737aa994140058e104",
+    "action": "rewrite",
+    "question_override": "According to the supplied account, how many beer houses existed across the country within the eight-year period described?",
+    "rationale": "46000为within eight years总数，原文未在当前片段明示Beer Act名称或具体起年，不从外部补该法案或恰好八年末时点。"
+  },
+  {
+    "display_number": 265,
+    "base_question_id": "squad:56d13443e7d4791d00901fec",
+    "action": "replace",
+    "question_override": "According to the supplied Apple audit record, for what percentage of the time did employees work over sixty hours a week?",
+    "rationale": "35%是time占比而非员工人数比例，修正替补原题分母；25%over6days为可能重叠时间事件不当互补。",
+    "rejected_base_question_id": "squad:5726f9b0dd62a815002e96a4",
+    "replacement_base_question_id": "squad:56d13443e7d4791d00901fec",
+    "replacement_component_id": "formal-source:8a1263289608db13ff2fcdec74aad0fa1251a030ae32e75f8eddcc165c4bc3cd",
+    "review_source": "assistant",
+    "percentage_bounds": true
+  },
+  {
+    "display_number": 266,
+    "base_question_id": "squad:57276ed9708984140094dd66",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, about how many million children were employed as child labourers in Asia?",
+    "rationale": "about114million为亚洲儿童量，22%workforce不同分母，Africa65m/Latin14m跨地区不当总和。",
+    "slot_semantics": "reported_estimate"
+  },
+  {
+    "display_number": 267,
+    "base_question_id": "squad:5733ad34d058e614000b6017",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, in how many countries did educational institutions offer some anthropology curriculum by 1898?",
+    "rationale": "13国家、48机构、75faculty是不同量；微调国家数仍<=48机构，不改变观察年。"
+  },
+  {
+    "display_number": 268,
+    "base_question_id": "squad:5730e9bfaca1c71400fe5b6b",
+    "action": "rewrite",
+    "question_override": "According to the supplied March 2013 record, what percentage of all websites used Russian?",
+    "rationale": "5.9%总体网站，89.8%.ru及国别百分比为子总体不可合计；slightly aheadGerman未给数值不编造精确边界。",
+    "percentage_bounds": true
+  },
+  {
+    "display_number": 269,
+    "base_question_id": "squad:56cf586faab44d1400b890a6",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, how many communities had selected To Kill a Mockingbird for citywide reading programs by 2004?",
+    "rationale": "25为截至2004社区数，more than any other novel未列竞争值，微调不产生明示比较冲突。"
+  },
+  {
+    "display_number": 270,
+    "base_question_id": "squad:5727c3953acd2414000dec07",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, what was the regular-season roster limit for an NFL team?",
+    "rationale": "53为资料所述regular season limit，90是offseason，four preseason games与两主两客不涉及人数；版本更正不声称现实规则已变更。"
+  },
+  {
+    "display_number": 271,
+    "base_question_id": "hotpot:5adeba13554299728e26c784",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "HenburySchool→Macclesfield→2011人口52044，学校约1000学生100员工非城市人口。"
+  },
+  {
+    "display_number": 272,
+    "base_question_id": "hotpot:5ab2997d554299545a2cf9c9",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many venues are in the complex that hosted the 2013 Walt Disney World Pro Soccer Classic?",
+    "rationale": "赛事→ESPNWideWorldSports→9venues，6MLSteams不是场地数，修复has held。"
+  },
+  {
+    "display_number": 273,
+    "base_question_id": "hotpot:5a7e5c785542991319bc9476",
+    "action": "rewrite",
+    "question_override": "What was the 2010 census population of the CDP of which North Woodmere is a hamlet section?",
+    "rationale": "NorthWoodmere属于SouthValleyStream，5962为母CDP人口，不是NorthWoodmere子社区单独人口。"
+  },
+  {
+    "display_number": 274,
+    "base_question_id": "hotpot:5ab65fbe55429954757d3267",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many rooms and suites are reported for the resort that hosted UFC Fight Night: Silva vs. Irvin?",
+    "rationale": "赛事→Palms→703房与套房，问资料记载不把703绑定2008赛事当时；2500是音乐厅席位。"
+  },
+  {
+    "display_number": 275,
+    "base_question_id": "hotpot:5a7f7ac95542995d8a8dde88",
+    "action": "rewrite",
+    "question_override": "What was the 2010 city-proper population of the Baja California state capital containing a campus of the university with an International Medical Graduate program?",
+    "rationale": "Xochicalco多校区中Mexicali为本段首府，689775为cityproper非metropolitan996826。"
+  },
+  {
+    "display_number": 276,
+    "base_question_id": "hotpot:5a7fb43755429969796c1b2c",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "BlueLove歌手HankWilliams→35Top10单曲，含5遗作、11榜首其中3遗作是交叉子集；仅删除不编辑分组。"
+  },
+  {
+    "display_number": 277,
+    "base_question_id": "hotpot:5a7ba6335542995eb53be97a",
+    "action": "rewrite",
+    "question_override": "What was the 2016 census population of the Bowral area where Ian Hindmarsh was born?",
+    "rationale": "原文Bowral area12949，不泛化成当前人口或整个Wingecarribee；补明确统计区并去currently。",
+    "hop_note": "明确Bowral统计区，人物关系另段核查，不宣称必须两跳"
+  },
+  {
+    "display_number": 278,
+    "base_question_id": "hotpot:5ac188d855429964131be217",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "RockyFork→EastTennessee→33counties=30Eastern+3Central，完整支撑删除不留可计算答案。"
+  },
+  {
+    "display_number": 279,
+    "base_question_id": "hotpot:5a7da9db5542995f4f4022b2",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, the larger mall near Miami International Mall has over how many retail outlets and name-brand discounters?",
+    "rationale": "Dolphin为largeroutletmall，over240不是恰好240；MiamiInternational约140shops/eateries另对象。"
+  },
+  {
+    "display_number": 280,
+    "base_question_id": "hotpot:5a83222455429966c78a6b45",
+    "action": "rewrite",
+    "question_override": "According to the supplied record, thrift institutions among Fiserv's clients can have no more than what percentage of lending in commercial loans?",
+    "rationale": "20percent为所给资料中的商业贷款上限，保留no more than；只核对历史文本，不当现行法律指导。"
+  },
+  {
+    "display_number": 281,
+    "base_question_id": "hotpot:5a8bb3b15542997f31a41da6",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many Il-2 aircraft were produced during World War II, the type of which Wilhelm Batz claimed at least 46 victories?",
+    "rationale": "保留Batz at least46而非正好46；36183为Il2，42330为含Il10合计，未给Il10分项，微调仍小于合计。"
+  },
+  {
+    "display_number": 282,
+    "base_question_id": "hotpot:5ae48b1755429913cc204495",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many NHL games did Terry Gray play in total for teams including the six-time Stanley Cup champion Boston Bruins?",
+    "rationale": "147为Gray跨四队合计，不能说只为Bruins打147；六次StanleyCup是球队特征不改。"
+  },
+  {
+    "display_number": 283,
+    "base_question_id": "hotpot:5ae3d3005542990afbd1e1ea",
+    "action": "rewrite",
+    "question_override": "What was the 2010 census population of the Kentucky county through which Kentucky Route 247 travels?",
+    "rationale": "原题state误用，43437是NelsonCounty，不是Kentucky州；保持公路→县→人口两跳。"
+  },
+  {
+    "display_number": 284,
+    "base_question_id": "hotpot:5a79c17d5542994bb9457068",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many Test matches did Ray Harvey's brother who represented Australia from 1948 to 1963 play?",
+    "rationale": "Ray有Merv/Neil等兄弟，用1948—1963代表澳洲特征唯一Neil→79，不任意用the brother定位。"
+  },
+  {
+    "display_number": 285,
+    "base_question_id": "hotpot:5a88dd97554299206df2b385",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, what city-proper population is reported for the city containing Sree Kulathoor Kolathukara Shiva Temple?",
+    "rationale": "957730为Thiruvananthapuram city，metro1.68m另口径；寺庙段只保留位置句，剔除悬空1893与无关建造年份残句。",
+    "source_excerpts": {
+      "Kolathukara shiva temple": "Sree Kulathoor Kolathukara Shiva Temple is a Hindu temple located in Thiruvananthapuram in the Indian state of Kerala."
+    }
+  },
+  {
+    "display_number": 286,
+    "base_question_id": "hotpot:5adf5e765542993a75d264da",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, what was the population in 2000 of the community containing Allegiant Air's corporate headquarters?",
+    "rationale": "明确AllegiantAir而不无依据把HQ归到母公司；Summerlin2000人口59000，2010nearly100000是后期统计。"
+  },
+  {
+    "display_number": 287,
+    "base_question_id": "hotpot:5ae10e5c55429920d52342ad",
+    "action": "rewrite",
+    "question_override": "What was the 2010 census population of the town on the United States side of the Four Falls Border Crossing?",
+    "rationale": "FortFairfield为town而非city，3496为2010，one-way通行规则仅原文背景不作为现行出行建议。"
+  },
+  {
+    "display_number": 288,
+    "base_question_id": "hotpot:5a8c51e0554299653c1aa03c",
+    "action": "rewrite",
+    "question_override": "What was the 2010 census population of the Massachusetts city where the crime underlying No One Would Tell occurred?",
+    "rationale": "电影真实事件→Beverly→39502，补人口观察年2010，不把1991案发年当人口时点。"
+  },
+  {
+    "display_number": 289,
+    "base_question_id": "hotpot:5ae2cd09554299495565db38",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, about how many residents live in the resort town six kilometres south of Preila, Lithuania?",
+    "rationale": "Preila在Nida北6km反向Nida在南，about1650保留估计；不添加无来源人口年份。",
+    "slot_semantics": "reported_estimate"
+  },
+  {
+    "display_number": 290,
+    "base_question_id": "hotpot:5a8bdf835542995e66a47515",
+    "action": "rewrite",
+    "question_override": "What was the 2010 census population of the Maine town where the York River rises at York Pond?",
+    "rationale": "原题located非唯一沿河镇，具体源头Eliot→6204，与河口York镇区分。"
+  },
+  {
+    "display_number": 291,
+    "base_question_id": "hotpot:5a851b3c5542994c784ddafc",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, what passing-yardage benchmark did the player receiving the most votes for the Chargers' 50th-anniversary team reach in three consecutive seasons?",
+    "rationale": "最高票Fouts→4000yards benchmark，非三季合计4000或每季恰好4000；53/103球队名单与目标无关。",
+    "slot_semantics": "reported_benchmark"
+  },
+  {
+    "display_number": 292,
+    "base_question_id": "hotpot:5abd51a85542992ac4f3825e",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "Tide→UpperMarlboro→2010town limits631，明确小镇边界非GreaterUpperMarlboro，不以体育队伍年份代替人口年份。"
+  },
+  {
+    "display_number": 293,
+    "base_question_id": "hotpot:5ac0a3cb5542992a796ded46",
+    "action": "rewrite",
+    "question_override": "What was the 2010 census population of the Maine town at the end of the International Railway of Maine?",
+    "rationale": "线路LacMégantic→Mattawamkeag，限定Maine终点唯一，687为该镇2010人口。"
+  },
+  {
+    "display_number": 294,
+    "base_question_id": "hotpot:5adbe1df55429944faac23a1",
+    "action": "rewrite",
+    "question_override": "What was the 2009 census population of the city proper where Joan Guillem Truyols was born?",
+    "rationale": "出生Palma→2009 cityproper401270，不混都市621000或岛全人口；微调仍满足市<都市。"
+  },
+  {
+    "display_number": 295,
+    "base_question_id": "hotpot:5abd795555429924427fcfdf",
+    "action": "replace",
+    "question_override": "According to the supplied records, Back Bay is one of how many officially designated Boston neighbourhoods?",
+    "rationale": "OfficeNeighborhoodServices指定23社区，BackBay官方社区身份另一段明确；当前片段未展开完整23名称清单，可改数量记录而不与枚举矛盾。",
+    "rejected_base_question_id": "hotpot:5a7a50f85542990783324f0c",
+    "replacement_base_question_id": "hotpot:5abd795555429924427fcfdf",
+    "replacement_component_id": "formal-source:1fc57ce6de9fe2f532c6918083f83c3c98bd94a8a3e2a26fb39cf997b609ae0c",
+    "review_source": "assistant"
+  },
+  {
+    "display_number": 296,
+    "base_question_id": "hotpot:5ab9a2a95542996be2020576",
+    "action": "rewrite",
+    "question_override": "What was the 2010 census population of the New York town whose boundary adjoins Feura Bush to the southeast of New Scotland?",
+    "rationale": "FeuraBush位于NewScotland沿Bethlehemtown-line，33656为Bethlehem，不问FeuraBush所在NewScotland的总人口。"
+  },
+  {
+    "display_number": 297,
+    "base_question_id": "hotpot:5a7c7f8e55429907fabeefa2",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "Asgarby→A17→62mi，其他3mi/2mi为村相对Sleaford/Heckington位置，未给公制长度需联动。"
+  },
+  {
+    "display_number": 298,
+    "base_question_id": "hotpot:5a8ce09b554299585d9e374e",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many sovereign member states did the Commonwealth of Nations have?",
+    "rationale": "52为Commonwealth会员总量，English段仅most不能断言52国都广用英语；改问明确有依据的会员总量并记录降为可单跳问题。",
+    "hop_note": "原英语使用计数无支撑，改为会员总数，明确可单跳，不宣称保留英语使用统计"
+  },
+  {
+    "display_number": 299,
+    "base_question_id": "hotpot:5a7a20b15542996c55b2dd1d",
+    "action": "keep",
+    "question_override": null,
+    "rationale": "MontaukLight→SuffolkCounty→2010人口1493350，2016估计1492583较低，小幅变化仍保持下降。"
+  },
+  {
+    "display_number": 300,
+    "base_question_id": "hotpot:5a8cb9c655429941ae14dede",
+    "action": "rewrite",
+    "question_override": "According to the supplied records, how many U.S. number-one hit singles did the producer of Harbor produce?",
+    "rationale": "Harbor制作GeorgeMartin→US23，UK30不同国家，不要求加总为同一排行榜。"
+  }
+]

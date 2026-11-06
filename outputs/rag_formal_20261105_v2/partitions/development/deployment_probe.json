@@ -1,0 +1,82 @@
+{
+  "model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "quantized_linear_layers": 252,
+  "cases": [
+    {
+      "sample_id": "sample:be9b2ead010d0c407848f5f11798db4a0bea04cf50f5533514d8b257f6f35d96",
+      "generation": {
+        "text": "The 2010 census population of Rockville Centre, where Gary Angelo Marangi was born, was 24,023.",
+        "input_tokens": 581,
+        "output_tokens": 31,
+        "hit_output_limit": false,
+        "elapsed_seconds": 1.8545423350296915
+      },
+      "self_check": {
+        "status": "ok",
+        "support_confidence": 1.0,
+        "risk": 0.0,
+        "attempts": [
+          {
+            "text": "{\n  \"support_confidence\": 1\n}",
+            "input_tokens": 617,
+            "output_tokens": 12,
+            "hit_output_limit": false,
+            "elapsed_seconds": 0.6811506389640272
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "sample:99a2e0cde8b6a01007f21ec3256e01593cbab4a9a140c02828a043c6c60af542",
+      "generation": {
+        "text": "According to the evidence, there were 115 parabolic dishes in the field at the Solar Total Energy Project in Shenandoah, Georgia.",
+        "input_tokens": 1668,
+        "output_tokens": 31,
+        "hit_output_limit": false,
+        "elapsed_seconds": 1.8141172348987311
+      },
+      "self_check": {
+        "status": "ok",
+        "support_confidence": 1.0,
+        "risk": 0.0,
+        "attempts": [
+          {
+            "text": "{\n  \"support_confidence\": 1\n}",
+            "input_tokens": 1704,
+            "output_tokens": 12,
+            "hit_output_limit": false,
+            "elapsed_seconds": 0.7915016950573772
+          }
+        ]
+      }
+    }
+  ],
+  "repeated_generation": {
+    "text": "The 2010 census population of Rockville Centre, where Gary Angelo Marangi was born, was 24,023.",
+    "input_tokens": 581,
+    "output_tokens": 31,
+    "hit_output_limit": false,
+    "elapsed_seconds": 1.6914047428872436
+  },
+  "repeat_text_matches": true,
+  "stress_input": {
+    "text": "INSUFFICIENT_EVIDENCE",
+    "input_tokens": 4096,
+    "output_tokens": 7,
+    "hit_output_limit": false,
+    "elapsed_seconds": 0.7795763351023197
+  },
+  "resources": {
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "elapsed_seconds": 15.69096546410583,
+    "peak_allocated_mib": 2942.98046875,
+    "peak_reserved_mib": 3084.0,
+    "sampled_process_peak_mib": 3422,
+    "process_sample_interval_seconds": 0.5,
+    "memory_limit_mib": 12288,
+    "within_limit": true,
+    "note": "Process VRAM is sampled, allocator values are peaks; this measures only tested inputs."
+  },
+  "passed": true
+}

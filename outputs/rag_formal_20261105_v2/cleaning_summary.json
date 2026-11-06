@@ -1,0 +1,33 @@
+{
+  "status": "source_cleaning_and_cpu_preflight_complete",
+  "assistant_source_reviews": 300,
+  "original_candidate_actions": {
+    "keep": 74,
+    "rewrite": 206,
+    "replace": 20
+  },
+  "individually_reviewed_replacements": 20,
+  "additional_rejected_replacement_proposals": 1,
+  "authored_reference_overrides": 2,
+  "normal_inputs": 300,
+  "challenge_inputs": 300,
+  "development_inputs": 480,
+  "held_out_test_inputs": 120,
+  "declared_numeric_constraint_cases": {
+    "sum_constraint": 4,
+    "percentage_partition": 1,
+    "scaled_coupled": 1,
+    "scaled_check": 1,
+    "partition_rounding": 1,
+    "ratio_rounding_check": 3
+  },
+  "old_sources_overlap": 0,
+  "cpu_tests": 68,
+  "inference_method_implementations_unchanged": true,
+  "prior_development_prepared_data_unchanged": true,
+  "inference_started": false,
+  "actual_answer_labels_created": 0,
+  "source_review_origin": "assistant_source_text_review",
+  "independent_human_annotation": false,
+  "frozen_input_prepared_sha256": "34aa29764b57c42249a81d0631baa6c470d1b5f3c97a31671e2997811736e530"
+}

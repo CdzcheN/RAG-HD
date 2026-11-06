@@ -1,0 +1,41 @@
+{
+  "sources": {
+    "squad": {
+      "repo_id": "rajpurkar/squad",
+      "subset": "plain_text",
+      "revision": "7b6d24c440a36b6815f21b70d25016731768db1f",
+      "split": "train",
+      "source_rows": 87599,
+      "pool_size": 1000,
+      "selection": "lowest_sha256(seed,dataset,original_id)",
+      "pool_ids_sha256": "e59cdbf26e1214cc5590a0b5ec223f9e00995974c6fb48d9e96566e201015c46"
+    },
+    "hotpot": {
+      "repo_id": "hotpotqa/hotpot_qa",
+      "subset": "distractor",
+      "revision": "1908d6afbbead072334abe2965f91bd2709910ab",
+      "split": "train",
+      "source_rows": 90447,
+      "pool_size": 1000,
+      "selection": "lowest_sha256(seed,dataset,original_id)",
+      "pool_ids_sha256": "ae69eeb0001feacf907eaff834f2138714a120568a960f77f094bb2d797eac20"
+    }
+  },
+  "seed": 20260918,
+  "records": 120,
+  "base_questions": 60,
+  "groups": 60,
+  "corpus_documents": 10820,
+  "construction_protocol": "controlled-challenge-v1",
+  "corpus_scope": "Controlled support-topup intervention pilot; not full-Wikipedia retrieval evaluation.",
+  "prepared_sha256": "63902ca43ab5e7a23290cdee868270b647308487dbfe39cb16b2eb6db1959326",
+  "corpus_sha256": "7096ab7fd39ccc61db8a4e978fb28f18b9d8820151f8a462e6449cf30924d37a",
+  "confirmed_pilot_review_sha256": "4b3d397c168594cdaad245ffc183d69aec23ae2c755b806ac92fdd509b2d9fb0",
+  "condition_counts": {
+    "normal": 60,
+    "retrieval_failure": 20,
+    "evidence_conflict": 20,
+    "outdated_answer": 20
+  },
+  "labels_created_by_construction": 0
+}

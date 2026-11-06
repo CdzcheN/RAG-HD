@@ -1,0 +1,10 @@
+{
+  "status": "user_confirmed",
+  "confirmation": "用户先明确说“检查完毕，去掉无关内容，比如sha256”，随后要求“继续推进下一步的工作”。本次记录助手草稿经用户检查确认，并非独立双人标注。",
+  "annotation_origin": "assistant_draft_confirmed_by_user",
+  "independent_human_annotation": false,
+  "rows": 20,
+  "recorded_at_utc": "2026-11-04T10:46:18.451672+00:00",
+  "reviewed_table_sha256": "748b3a1975c0a4c875e0c0acd3cd43bc7f408422b35597a5ae78636dfa2567e1",
+  "confirmed_review_sha256": "4b3d397c168594cdaad245ffc183d69aec23ae2c755b806ac92fdd509b2d9fb0"
+}

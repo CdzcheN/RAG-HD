@@ -1,0 +1,57 @@
+{
+  "macro_bacc": 75.00931317412265,
+  "macro_dataset_auc": 0.8218502370488383,
+  "pooled": {
+    "dataset": "Pooled",
+    "n": 29320,
+    "n_supported": 22832,
+    "n_unsupported": 6488,
+    "unsupported_prevalence_percent": 22.128240109140517,
+    "accuracy_percent": 72.34652114597544,
+    "balanced_accuracy_percent": 74.70850719391824,
+    "macro_f1": 0.6784721496073952,
+    "micro_f1": 0.7234652114597544,
+    "roc_auc": 0.8174340591697723,
+    "unsupported_average_precision": 0.578590054030673,
+    "support_precision_percent": 92.17461044912923,
+    "support_recall_percent": 70.47126839523476,
+    "unsupported_precision_percent": 43.1726230613621,
+    "unsupported_recall_percent": 78.94574599260173,
+    "tn": 5122,
+    "fp": 1366,
+    "fn": 6742,
+    "tp": 16090,
+    "official_bacc_percent": null,
+    "delta_vs_rounded_official_pp": null
+  },
+  "audit": {
+    "actual_rows": 29320,
+    "matches_config_evaluated_rows": true,
+    "matches_config_full_test_rows": true,
+    "dataset_groups": 11,
+    "matches_official_group_names": true,
+    "row_index_mismatches": 0,
+    "invalid_labels": 0,
+    "invalid_probabilities": 0,
+    "threshold_mismatches": 0,
+    "empty_documents": 0,
+    "empty_claims": 0,
+    "max_bacc_recalculation_difference_pp": 0.0,
+    "unique_documents": 8331,
+    "unique_document_claim_pairs": 29118,
+    "duplicate_input_groups": 169,
+    "duplicate_extra_rows": 202,
+    "duplicate_input_groups_with_probability_difference_gt_1e_6": 0,
+    "conflicting_input_groups": 9,
+    "conflicting_input_rows": 19,
+    "minimum_errors_on_conflicting_inputs_for_deterministic_classifier": 9
+  },
+  "runtime": {
+    "recorded_elapsed_seconds": 7518.26707,
+    "rows_per_second_including_setup": 3.899834859151924,
+    "rows_per_minute_including_setup": 233.99009154911545,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "peak_vram_recorded": false
+  }
+}
+Saved: /home/yqhe/project/rgzn/RAG-HD/outputs/minicheck_20261103/analysis

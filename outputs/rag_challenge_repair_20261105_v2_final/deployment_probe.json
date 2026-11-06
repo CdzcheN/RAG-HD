@@ -1,0 +1,82 @@
+{
+  "model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "quantized_linear_layers": 252,
+  "cases": [
+    {
+      "sample_id": "sample:09f0ed5360e7002def347351d7d9a071f604771dfad2ec534100492a056d26e5",
+      "generation": {
+        "text": "The 2010 census population of the Mississippi county containing Long Beach, Mississippi was 187,105, which is Harrison County.",
+        "input_tokens": 619,
+        "output_tokens": 33,
+        "hit_output_limit": false,
+        "elapsed_seconds": 1.9882306570652872
+      },
+      "self_check": {
+        "status": "ok",
+        "support_confidence": 1.0,
+        "risk": 0.0,
+        "attempts": [
+          {
+            "text": "{\n  \"support_confidence\": 1\n}",
+            "input_tokens": 657,
+            "output_tokens": 12,
+            "hit_output_limit": false,
+            "elapsed_seconds": 0.6864836460445076
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "sample:802ca32946dab447ae92a5913e3c29cd048694dbf713bb45f54754e4ccaa756b",
+      "generation": {
+        "text": "The 2011 census population of the civil parish containing Cholmondeley Castle was 156.",
+        "input_tokens": 1261,
+        "output_tokens": 26,
+        "hit_output_limit": false,
+        "elapsed_seconds": 1.4984388819430023
+      },
+      "self_check": {
+        "status": "ok",
+        "support_confidence": 1.0,
+        "risk": 0.0,
+        "attempts": [
+          {
+            "text": "{\n  \"support_confidence\": 1\n}",
+            "input_tokens": 1292,
+            "output_tokens": 12,
+            "hit_output_limit": false,
+            "elapsed_seconds": 0.7507318211719394
+          }
+        ]
+      }
+    }
+  ],
+  "repeated_generation": {
+    "text": "The 2010 census population of the Mississippi county containing Long Beach, Mississippi was 187,105, which is Harrison County.",
+    "input_tokens": 619,
+    "output_tokens": 33,
+    "hit_output_limit": false,
+    "elapsed_seconds": 1.8103358198422939
+  },
+  "repeat_text_matches": true,
+  "stress_input": {
+    "text": "INSUFFICIENT_EVIDENCE",
+    "input_tokens": 4096,
+    "output_tokens": 7,
+    "hit_output_limit": false,
+    "elapsed_seconds": 0.7792675830423832
+  },
+  "resources": {
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "elapsed_seconds": 15.093242404982448,
+    "peak_allocated_mib": 2942.98046875,
+    "peak_reserved_mib": 3060.0,
+    "sampled_process_peak_mib": 3400,
+    "process_sample_interval_seconds": 0.5,
+    "memory_limit_mib": 12288,
+    "within_limit": true,
+    "note": "Process VRAM is sampled, allocator values are peaks; this measures only tested inputs."
+  },
+  "passed": true
+}

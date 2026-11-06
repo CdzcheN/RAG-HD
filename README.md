@@ -111,7 +111,7 @@ python scripts/analyze_minicheck.py --skip-plots
 | [scripts/](scripts/) | MiniCheck 评测入口与离线分析脚本 |
 | [baselines/MiniCheck/](baselines/MiniCheck/) | 官方 MiniCheck 子模块，固定到原始复现提交 |
 | [results/minicheck/](results/minicheck/) | 可纳入版本管理的配置、指标、图表和分析报告 |
-| `outputs/` | 本地原始预测与重新生成的分析产物，Git 忽略 |
+| [outputs/README.md](outputs/README.md) | 已共享的完整实验输出导航：构造数据、确认标签、训练模型、冻结预测、日志及历史记录 |
 | `.cache/` | 本地模型及数据缓存，Git 忽略 |
 | [项目资料/要求.md](项目资料/要求.md) | 课程要求、项目目标与交付标准 |
 | [项目资料/项目启动与实施指南.md](项目资料/项目启动与实施指南.md) | 项目整体实施方案，部分规划脚本尚待实现 |
@@ -119,7 +119,7 @@ python scripts/analyze_minicheck.py --skip-plots
 | [项目资料/docs/开题报告.md](项目资料/docs/开题报告.md) | 开题报告源文档，同目录含 Word / PDF 版本 |
 | [项目资料/figures/minicheck_baseline.md](项目资料/figures/minicheck_baseline.md) | MiniCheck 接入流程及图示 |
 
-原始预测保留在本地；仓库保存结果摘要及原始文件的 SHA-256 校验清单。获取数据授权并完成相同配置的实验后，可重新生成完整预测与错误案例。
+实验输出现已纳入版本管理，合作开发者可直接查看数据、原始预测及分析产物；历史失败和中断记录也完整保留。模型下载缓存和Python环境仍保留在本地。数据来源及使用条件见[输出数据说明](outputs/DATA_SOURCES.md)；获取数据授权并准备相同配置后，可重新运行实验。
 
 
 ## 用户复核后的挑战原型

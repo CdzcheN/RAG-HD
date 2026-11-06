@@ -1,0 +1,64 @@
+{
+  "status": "proposed_semantic_source_review_pending",
+  "generation_ready": false,
+  "partition_checks": {
+    "13": {
+      "base_counts": {
+        "train": 180,
+        "validation": 60,
+        "test": 60
+      },
+      "source_counts": {
+        "train": 1170,
+        "validation": 390,
+        "test": 390
+      },
+      "cross_partition_canonical_source_overlap": 0
+    },
+    "42": {
+      "base_counts": {
+        "train": 180,
+        "validation": 60,
+        "test": 60
+      },
+      "source_counts": {
+        "train": 1170,
+        "validation": 390,
+        "test": 390
+      },
+      "cross_partition_canonical_source_overlap": 0
+    },
+    "2026": {
+      "base_counts": {
+        "train": 180,
+        "validation": 60,
+        "test": 60
+      },
+      "source_counts": {
+        "train": 1170,
+        "validation": 390,
+        "test": 390
+      },
+      "cross_partition_canonical_source_overlap": 0
+    }
+  },
+  "fixed_test_bases": 60,
+  "training_seeds": [
+    13,
+    42,
+    2026
+  ],
+  "test_rule_counts": {
+    "seen_wording": 20,
+    "not_applicable": 20,
+    "heldout_wording": 20
+  },
+  "same_test_sources_across_seeds": true,
+  "noise_moves_with_its_owner_base": true,
+  "inventory_manifest_sha256": "ff390b4b29d8220e324107eaaae3f523438993d6bfb19e3d4aed53085bb5f446",
+  "rule_families_sha256": "d34fc522a5a43bab514e87ea3de476598b2e49bce7f27103e1dccaebeb11ca0b",
+  "splits_sha256": "360ae207dd597f485010136e108b97e1dab6a73cd3f89013358b4e967c98ac47",
+  "rule_assignments_sha256": "5fc53fbfa94a50338a07395b4f4de6b7980d99f170656cf51099f36997471a96",
+  "labels_created": 0,
+  "generator_calls": 0
+}

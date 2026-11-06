@@ -1,0 +1,189 @@
+[
+  {
+    "input_sha256": "cd909d072926a488ce5f3c76c31a52757b9d8ac5b90c1a5f19f8e9299d0e2de8",
+    "claim": "The City Council is recommending to oppose Proposition Six, which would repeal gas and vehicle taxes.",
+    "records": [
+      {
+        "dataset": "TofuEval-MeetB",
+        "row_index": 1722,
+        "label": 0,
+        "pred_label": 1,
+        "support_probability": 0.9778776168823242
+      },
+      {
+        "dataset": "TofuEval-MeetB",
+        "row_index": 1723,
+        "label": 1,
+        "pred_label": 1,
+        "support_probability": 0.9778776168823242
+      }
+    ]
+  },
+  {
+    "input_sha256": "c6b2cc3546247e8c51271b1f3c54d484dfe2435f8a6505dbfa85a2d8b9c6670b",
+    "claim": "The Free State of Mecklenburg-Schwerin is located in Germany.",
+    "records": [
+      {
+        "dataset": "Reveal",
+        "row_index": 3694,
+        "label": 0,
+        "pred_label": 0,
+        "support_probability": 0.16867436468601227
+      },
+      {
+        "dataset": "Reveal",
+        "row_index": 3696,
+        "label": 1,
+        "pred_label": 0,
+        "support_probability": 0.16867436468601227
+      }
+    ]
+  },
+  {
+    "input_sha256": "907c74e29ed06fcc88b0ed6f2826c4783317a8169467aa7c6c45452e852aa8c6",
+    "claim": "Taking a left footed shot is part of soccer.",
+    "records": [
+      {
+        "dataset": "Reveal",
+        "row_index": 3978,
+        "label": 1,
+        "pred_label": 1,
+        "support_probability": 0.89753258228302
+      },
+      {
+        "dataset": "Reveal",
+        "row_index": 4115,
+        "label": 0,
+        "pred_label": 1,
+        "support_probability": 0.89753258228302
+      }
+    ]
+  },
+  {
+    "input_sha256": "268517a2f4aea4b228908a228e56720b2a8a7b57a288113fd68e69e98e427538",
+    "claim": "Neymar is a soccer player.",
+    "records": [
+      {
+        "dataset": "Reveal",
+        "row_index": 3990,
+        "label": 1,
+        "pred_label": 1,
+        "support_probability": 0.9744271039962769
+      },
+      {
+        "dataset": "Reveal",
+        "row_index": 3993,
+        "label": 0,
+        "pred_label": 1,
+        "support_probability": 0.9744271039962769
+      }
+    ]
+  },
+  {
+    "input_sha256": "58460b78a238b677ef186e6ea4affd0a1adaea8fad9bf4d94a1a75568a87b9a1",
+    "claim": "Diego Forlan is a soccer player.",
+    "records": [
+      {
+        "dataset": "Reveal",
+        "row_index": 4006,
+        "label": 0,
+        "pred_label": 1,
+        "support_probability": 0.969697892665863
+      },
+      {
+        "dataset": "Reveal",
+        "row_index": 4008,
+        "label": 1,
+        "pred_label": 1,
+        "support_probability": 0.969697892665863
+      }
+    ]
+  },
+  {
+    "input_sha256": "0c7841ea36f0a540c8acebcd3b26c70d2ac390045cae823b6690f74483d791d4",
+    "claim": "Karim Benzema is a soccer player.",
+    "records": [
+      {
+        "dataset": "Reveal",
+        "row_index": 4023,
+        "label": 1,
+        "pred_label": 1,
+        "support_probability": 0.9703693389892578
+      },
+      {
+        "dataset": "Reveal",
+        "row_index": 4106,
+        "label": 0,
+        "pred_label": 1,
+        "support_probability": 0.9703693389892578
+      }
+    ]
+  },
+  {
+    "input_sha256": "6a7fc977645026f3c8646e23be3c9afc089d64c98587fea75db7867c3af76b8d",
+    "claim": "Steampunk is a subgenre of science fiction that incorporates retrofuturistic technology and aesthetics inspired by 19th-century industrial steam-powered machinery.",
+    "records": [
+      {
+        "dataset": "ClaimVerify",
+        "row_index": 5408,
+        "label": 1,
+        "pred_label": 1,
+        "support_probability": 0.9749540686607361
+      },
+      {
+        "dataset": "ClaimVerify",
+        "row_index": 5410,
+        "label": 0,
+        "pred_label": 1,
+        "support_probability": 0.9749540686607361
+      }
+    ]
+  },
+  {
+    "input_sha256": "7cbccc5f09ff0be1e15c03bed3587ad2f2f35ec19dedb3bb5b6d298c5d3fc2bf",
+    "claim": "By replacing frequently occurring character sequences with a new symbol, Byte Pair Encoding creates an encryption scheme.",
+    "records": [
+      {
+        "dataset": "FactCheck-GPT",
+        "row_index": 5785,
+        "label": 1,
+        "pred_label": 0,
+        "support_probability": 0.028120866045355797
+      },
+      {
+        "dataset": "FactCheck-GPT",
+        "row_index": 5787,
+        "label": 0,
+        "pred_label": 0,
+        "support_probability": 0.028120866045355797
+      }
+    ]
+  },
+  {
+    "input_sha256": "6c26d777d72d6330ec797fd63ac030fa4e7168579b023c3627fc4a5a4d46d330",
+    "claim": "Connect your iPhone to your computer using a USB cable.",
+    "records": [
+      {
+        "dataset": "RAGTruth",
+        "row_index": 25689,
+        "label": 0,
+        "pred_label": 1,
+        "support_probability": 0.9819238781929016
+      },
+      {
+        "dataset": "RAGTruth",
+        "row_index": 25714,
+        "label": 1,
+        "pred_label": 1,
+        "support_probability": 0.9819238781929016
+      },
+      {
+        "dataset": "RAGTruth",
+        "row_index": 25721,
+        "label": 1,
+        "pred_label": 1,
+        "support_probability": 0.9819238781929016
+      }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+generate_running
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.60s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  1.99s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.09s/it]
+generation 1/20 squad ok
+generation 2/20 squad ok
+generation 3/20 squad ok
+generation 4/20 squad ok
+generation 5/20 squad ok
+generation 6/20 squad ok
+generation 7/20 squad ok
+generation 8/20 squad ok
+generation 9/20 squad ok
+generation 10/20 squad refusal
+generation 11/20 hotpot refusal
+generation 12/20 hotpot ok
+generation 13/20 hotpot ok
+generation 14/20 hotpot ok
+generation 15/20 hotpot ok
+generation 16/20 hotpot ok
+generation 17/20 hotpot ok
+generation 18/20 hotpot ok
+generation 19/20 hotpot ok
+generation 20/20 hotpot refusal
+generate_complete

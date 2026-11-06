@@ -1,0 +1,9 @@
+GPU: NVIDIA GeForce RTX 3090 ; torch: 2.10.0+cu128
+LLM-AggreFact access OK
+[nltk_data] Error loading punkt: Security Violation [pathsec.urlopen]:
+[nltk_data]     SSRF attempt to restricted IP 198.18.0.16
+Traceback (most recent call last):
+  File "<stdin>", line 15, in <module>
+  File "/home/yqhe/project/rgzn/RAG-HD/.venv/lib/python3.10/site-packages/nltk/downloader.py", line 1561, in download
+    raise ValueError(msg.message)
+ValueError: Error loading punkt: Security Violation [pathsec.urlopen]: SSRF attempt to restricted IP 198.18.0.16

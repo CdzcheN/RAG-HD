@@ -1,0 +1,57 @@
+{
+  "status": "user_confirmed_frozen_evaluation_complete",
+  "total_rows": 60,
+  "refusals": 11,
+  "label_counts": {
+    "supported": 45,
+    "undetermined": 12,
+    "contradicted": 1,
+    "outdated": 2
+  },
+  "common_rows": 48,
+  "positive_rows": 3,
+  "common_coverage": 0.8,
+  "score_missing_on_all_inputs": {
+    "13": {
+      "logreg_all": 11,
+      "minicheck": 11,
+      "minicheck_logreg": 11,
+      "self_check": 11,
+      "valid_evidence_minicheck": 11,
+      "without_authority": 11,
+      "without_lexical": 11,
+      "without_time": 11
+    },
+    "42": {
+      "logreg_all": 11,
+      "minicheck": 11,
+      "minicheck_logreg": 11,
+      "self_check": 11,
+      "valid_evidence_minicheck": 11,
+      "without_authority": 11,
+      "without_lexical": 11,
+      "without_time": 11
+    },
+    "2026": {
+      "logreg_all": 11,
+      "minicheck": 11,
+      "minicheck_logreg": 11,
+      "self_check": 11,
+      "valid_evidence_minicheck": 11,
+      "without_authority": 11,
+      "without_lexical": 11,
+      "without_time": 11
+    }
+  },
+  "threshold_origin": "original development validation sets only; never selected on repair labels",
+  "annotation_origin": "assistant_draft_confirmed_by_user",
+  "independent_double_annotation": false,
+  "seeds_change": "Existing training models; all seeds evaluated on the same 60 repair inputs",
+  "formal_held_out_test": false,
+  "new_fit_calls": 0,
+  "limitations": [
+    "Only three positive labels; construction-repair development check, not a final independent test.",
+    "Bootstrap conditions on this batch; seed results share the same evaluation rows.",
+    "Do not use a t-test across repeated baseline AUCs as independent test evidence."
+  ]
+}

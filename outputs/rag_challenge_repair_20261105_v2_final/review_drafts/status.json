@@ -1,0 +1,36 @@
+{
+  "status": "assistant_prefilled_pending_user_review",
+  "answer_rows": 60,
+  "construction_rows": 30,
+  "review_source": "assistant",
+  "user_confirmation": "pending",
+  "draft_evidence_label_counts": {
+    "supported": 45,
+    "undetermined": 12,
+    "contradicted": 1,
+    "outdated": 2
+  },
+  "draft_answer_correctness_counts": {
+    "correct": 44,
+    "undetermined": 12,
+    "incorrect": 4
+  },
+  "construction_finding_counts": {
+    "basic": 30
+  },
+  "detector_scores_used_for_labels": false,
+  "formal_artifacts_unchanged": true,
+  "formal_artifacts_sha256": {
+    "outputs/rag_challenge_repair_20261105_v2_final/records.jsonl": "d632150a49c584da2b9a355a22d3ad068e63d70f0ca7dd574a9f40c1972a17e9",
+    "outputs/rag_challenge_repair_20261105_v2_final/metrics.json": "35291b897975198c0fa8e669bcc3e0ace31b5f19302303f6492dd360765190b8",
+    "outputs/rag_challenge_repair_20261105_v2_final/status.json": "571db433cedbbf5d10771aad3d9b668eeafb34755b7c51927148f3b5557f5684"
+  },
+  "display_table_sha256": {
+    "review_readable.csv": "a93c161f078c93fcae7c4f03f1b4438843876e884a56db01c72466e6ac2a9cb5",
+    "construction_review.csv": "cdf9d96c9d5e66aea852d6e6da322576a5def4d688f823106b240b72fbf41a4d"
+  },
+  "draft_inputs_sha256": {
+    "answer_assessments.jsonl": "8413cfb6b05c0c4d9448138cf024156476fed2b420b6878dd5622d80dcebb013",
+    "construction_assessments.jsonl": "bace83b289a80240b31ce25a10acead600b07d5154eb5eae454add298f2b8c20"
+  }
+}

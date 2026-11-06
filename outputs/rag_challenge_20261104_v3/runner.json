@@ -1,0 +1,1 @@
+{"pid": 291421, "log": "outputs/rag_challenge_20261104_v3/logs/pipeline.log", "stages": ["probe", "generate", "score", "evaluate"]}
