@@ -1,0 +1,299 @@
+{
+  "purpose": "Exploratory method development on user-reviewed pilot; no final gain claim.",
+  "source_rows": 120,
+  "common_labeled_rows": 86,
+  "seeds": [
+    13,
+    42,
+    2026
+  ],
+  "methods": {
+    "self_check": {
+      "roc_auc": {
+        "values": [
+          0.49166666666666675,
+          0.7000000000000001,
+          0.7115384615384616
+        ],
+        "mean": 0.6344017094017095,
+        "sample_std": 0.12374673063196251
+      },
+      "average_precision": {
+        "values": [
+          0.3958333333333333,
+          0.5588235294117647,
+          0.4509803921568627
+        ],
+        "mean": 0.4685457516339869,
+        "sample_std": 0.08290269835531186
+      },
+      "macro_f1": {
+        "values": [
+          0.5,
+          0.8172043010752688,
+          0.7301587301587301
+        ],
+        "mean": 0.6824543437446663,
+        "sample_std": 0.16389454999333924
+      }
+    },
+    "minicheck": {
+      "roc_auc": {
+        "values": [
+          0.9666666666666668,
+          0.9666666666666667,
+          0.9615384615384616
+        ],
+        "mean": 0.9649572649572651,
+        "sample_std": 0.002960770611228872
+      },
+      "average_precision": {
+        "values": [
+          0.9583333333333334,
+          0.8333333333333333,
+          0.9166666666666666
+        ],
+        "mean": 0.9027777777777777,
+        "sample_std": 0.06364688465216449
+      },
+      "macro_f1": {
+        "values": [
+          0.38461538461538464,
+          0.8172043010752688,
+          0.43333333333333335
+        ],
+        "mean": 0.5450510063413289,
+        "sample_std": 0.23694708588147947
+      }
+    },
+    "valid_evidence_minicheck": {
+      "roc_auc": {
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean": 1.0,
+        "sample_std": 0.0
+      },
+      "average_precision": {
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean": 1.0,
+        "sample_std": 0.0
+      },
+      "macro_f1": {
+        "values": [
+          0.8545454545454545,
+          0.8172043010752688,
+          0.343859649122807
+        ],
+        "mean": 0.6718698015811767,
+        "sample_std": 0.2846780383563917
+      }
+    },
+    "minicheck_logreg": {
+      "roc_auc": {
+        "values": [
+          0.033333333333333326,
+          0.9666666666666667,
+          0.9615384615384616
+        ],
+        "mean": 0.6538461538461539,
+        "sample_std": 0.5373859831978697
+      },
+      "average_precision": {
+        "values": [
+          0.2504324379324379,
+          0.8333333333333333,
+          0.9166666666666666
+        ],
+        "mean": 0.666810812644146,
+        "sample_std": 0.3629935595940839
+      },
+      "macro_f1": {
+        "values": [
+          0.3333333333333333,
+          0.8172043010752688,
+          0.43333333333333335
+        ],
+        "mean": 0.5279569892473118,
+        "sample_std": 0.2554368915207326
+      }
+    },
+    "logreg_all": {
+      "roc_auc": {
+        "values": [
+          0.9666666666666667,
+          1.0,
+          1.0
+        ],
+        "mean": 0.9888888888888889,
+        "sample_std": 0.01924500897298752
+      },
+      "average_precision": {
+        "values": [
+          0.9484126984126984,
+          1.0,
+          1.0
+        ],
+        "mean": 0.9828042328042329,
+        "sample_std": 0.029783942458195004
+      },
+      "macro_f1": {
+        "values": [
+          0.6666666666666667,
+          0.7976190476190477,
+          1.0
+        ],
+        "mean": 0.8214285714285715,
+        "sample_std": 0.1679373330912605
+      }
+    },
+    "without_lexical": {
+      "roc_auc": {
+        "values": [
+          0.8,
+          1.0,
+          1.0
+        ],
+        "mean": 0.9333333333333332,
+        "sample_std": 0.11547005383792514
+      },
+      "average_precision": {
+        "values": [
+          0.8257575757575757,
+          1.0,
+          1.0
+        ],
+        "mean": 0.9419191919191919,
+        "sample_std": 0.10059891054061665
+      },
+      "macro_f1": {
+        "values": [
+          0.38461538461538464,
+          0.8172043010752688,
+          0.9244444444444444
+        ],
+        "mean": 0.7087547100450325,
+        "sample_std": 0.2857881012305284
+      }
+    },
+    "without_authority": {
+      "roc_auc": {
+        "values": [
+          1.0,
+          0.9666666666666667,
+          1.0
+        ],
+        "mean": 0.9888888888888889,
+        "sample_std": 0.01924500897298752
+      },
+      "average_precision": {
+        "values": [
+          1.0,
+          0.8333333333333333,
+          1.0
+        ],
+        "mean": 0.9444444444444443,
+        "sample_std": 0.09622504486493767
+      },
+      "macro_f1": {
+        "values": [
+          0.6666666666666667,
+          0.8172043010752688,
+          0.7984189723320159
+        ],
+        "mean": 0.7607633133579839,
+        "sample_std": 0.08202960644127784
+      }
+    },
+    "without_time": {
+      "roc_auc": {
+        "values": [
+          0.4666666666666667,
+          0.9666666666666667,
+          0.8653846153846154
+        ],
+        "mean": 0.7662393162393162,
+        "sample_std": 0.2643337715029204
+      },
+      "average_precision": {
+        "values": [
+          0.5684523809523809,
+          0.8333333333333333,
+          0.5666666666666667
+        ],
+        "mean": 0.6561507936507937,
+        "sample_std": 0.1534471781107219
+      },
+      "macro_f1": {
+        "values": [
+          0.5,
+          0.7166666666666667,
+          0.43333333333333335
+        ],
+        "mean": 0.55,
+        "sample_std": 0.14813657362192648
+      }
+    }
+  },
+  "C": 1.0,
+  "class_weight": "balanced",
+  "solver": "liblinear",
+  "feature_groups": {
+    "base": [
+      "minicheck_risk"
+    ],
+    "lexical": [
+      "question_coverage",
+      "answer_coverage",
+      "answer_number_coverage"
+    ],
+    "authority": [
+      "authority_risk_delta",
+      "authority_excluded_token_fraction",
+      "authority_drop_fraction"
+    ],
+    "time": [
+      "time_risk_delta",
+      "time_excluded_token_fraction",
+      "time_excluded_number_fraction",
+      "time_drop_fraction"
+    ]
+  },
+  "variants": {
+    "minicheck_logreg": [
+      "base"
+    ],
+    "logreg_all": [
+      "base",
+      "lexical",
+      "authority",
+      "time"
+    ],
+    "without_lexical": [
+      "base",
+      "authority",
+      "time"
+    ],
+    "without_authority": [
+      "base",
+      "lexical",
+      "time"
+    ],
+    "without_time": [
+      "base",
+      "lexical",
+      "authority"
+    ]
+  },
+  "hyperparameter_search": false,
+  "new_generator_calls": 0,
+  "formal_test_claim": false,
+  "source_records_sha256": "71f6d9abf552da256d64746337ce54b9a45f27bc51c278bf6857f3a403cc4f96",
+  "feature_cache_sha256": "3f7079ac2eb477bcf123a53c59a144361df4e5bd8dd02c6f104dd1d0bf04d2e5"
+}

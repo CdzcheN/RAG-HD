@@ -1,0 +1,14 @@
+{
+  "pid": 331932,
+  "started_at_utc": "2026-11-05T09:39:43.694879+00:00",
+  "scope": "480 formal development inputs only",
+  "label_inputs_used": false,
+  "command": [
+    ".venv/bin/python",
+    "scripts/extract_valid_evidence.py",
+    "--run-dir",
+    "outputs/rag_formal_20261105_v2/partitions/development",
+    "--output-dir",
+    "outputs/rag_formal_development_20261105_v1"
+  ]
+}

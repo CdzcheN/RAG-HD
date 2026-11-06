@@ -1,0 +1,59 @@
+{
+  "status": "source_inventory_verified_semantic_review_pending",
+  "cpu_tests": 55,
+  "nominated_bases": 300,
+  "reserved_noise_sources": 1500,
+  "total_unique_reserved_target_and_noise_sources": 1950,
+  "prior_visible_and_gold_source_overlap": 0,
+  "all_current_source_answer_aliases_absent_from_reserved_noise": true,
+  "future_replacement_value_noise_check": "required_after_semantic_specs_fix_the_actual_replacement_values",
+  "partition_checks": {
+    "13": {
+      "base_counts": {
+        "train": 180,
+        "validation": 60,
+        "test": 60
+      },
+      "source_counts": {
+        "train": 1170,
+        "validation": 390,
+        "test": 390
+      },
+      "cross_partition_canonical_source_overlap": 0
+    },
+    "42": {
+      "base_counts": {
+        "train": 180,
+        "validation": 60,
+        "test": 60
+      },
+      "source_counts": {
+        "train": 1170,
+        "validation": 390,
+        "test": 390
+      },
+      "cross_partition_canonical_source_overlap": 0
+    },
+    "2026": {
+      "base_counts": {
+        "train": 180,
+        "validation": 60,
+        "test": 60
+      },
+      "source_counts": {
+        "train": 1170,
+        "validation": 390,
+        "test": 390
+      },
+      "cross_partition_canonical_source_overlap": 0
+    }
+  },
+  "fixed_final_test_across_training_seeds": true,
+  "heldout_rule_bases": 20,
+  "generation_ready": false,
+  "generator_calls": 0,
+  "labels_created": 0,
+  "semantic_cases_triaged": 10,
+  "remaining_source_triage": 290,
+  "fully_validated_construction_specs": 0
+}

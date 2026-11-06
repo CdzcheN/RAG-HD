@@ -1,0 +1,32 @@
+﻿样例,问题,修正前,修正后,检查结论
+旧构造第51组,全名、简称、标题或跨篇人物别名没有同步,"Love the Beast
+Love the Beast is a 2009 documentary film directed by Eric Bana, and featuring Bana, Jay Leno, Jeremy Clarkson, and Phil McGraw.  It was listed as one of the best automotive documentaries by The News Wheel in 2015.
+
+Phil McGraw
+Phillip Calvin McGraw (born September 1, 1950), known as Dr. Phil, is an American television personality, author, psychologist, and the host of the television show ""Dr. Phil"", which debuted in 2002.  McGraw first gained celebrity status with appearances on ""The Oprah Winfrey Show"" in the late 1990s.  In 2015, ""Forbes"" listed his earnings at $70 million for the previous 12 months, and ranked him the 15th highest earning celebrity in the world.","Love the Beast
+Love the Beast is a 2009 documentary film directed by Eric Bana, and featuring Bana, Jay Leno, Jeremy Clarkson, and Vincente Minnelli.  It was listed as one of the best automotive documentaries by The News Wheel in 2015.
+
+Vincente Minnelli
+Vincente Minnelli (born September 1, 1950), known as Vincente Minnelli, is an American television personality, author, psychologist, and the host of the television show ""Dr. Phil"", which debuted in 2002.  Minnelli first gained celebrity status with appearances on ""The Oprah Winfrey Show"" in the late 1990s.  In 2015, ""Forbes"" listed his earnings at $70 million for the previous 12 months, and ranked him the 15th highest earning celebrity in the world.",针对已核对的实体提及同步编辑；作品标题、出生名等不同语义角色分别处理。仅作构造回归例，不重评旧回答。
+旧构造第56组,全名、简称、标题或跨篇人物别名没有同步,"Lester B. Pearson
+Lester Bowles ""Mike"" Pearson (23 April 1897 – 27 December 1972) was a Canadian scholar, statesman, soldier and diplomat, who won the Nobel Peace Prize in 1957 for organizing the United Nations Emergency Force to resolve the Suez Canal Crisis.  He was the 14th Prime Minister of Canada from 22 April 1963 to 20 April 1968, as the head of two back-to-back Liberal minority governments following elections in 1963 and 1965.
+
+Royal Commission on the Status of Women
+The Royal Commission on the Status of Women was a Canadian Royal Commission that examined the status of women and recommended steps that might be taken by the federal government to ensure equal opportunities with men and women in all aspects of Canadian society.  The Commission commenced on 16 February 1967 as an initiative of Prime Minister Lester B. Pearson.  Public sessions were conducted the following year to accept public comment for the Commission to consider as it formulated its recommendations.  Florence Bird was the Commission's chair.","Kaui Hart
+Kaui Hart (23 April 1897 – 27 December 1972) was a Canadian scholar, statesman, soldier and diplomat, who won the Nobel Peace Prize in 1957 for organizing the United Nations Emergency Force to resolve the Suez Canal Crisis.  He was the 14th Prime Minister of Canada from 22 April 1963 to 20 April 1968, as the head of two back-to-back Liberal minority governments following elections in 1963 and 1965.
+
+Royal Commission on the Status of Women
+The Royal Commission on the Status of Women was a Canadian Royal Commission that examined the status of women and recommended steps that might be taken by the federal government to ensure equal opportunities with men and women in all aspects of Canadian society.  The Commission commenced on 16 February 1967 as an initiative of Prime Minister Kaui Hart.  Public sessions were conducted the following year to accept public comment for the Commission to consider as it formulated its recommendations.  Florence Bird was the Commission's chair.",针对已核对的实体提及同步编辑；作品标题、出生名等不同语义角色分别处理。仅作构造回归例，不重评旧回答。
+旧构造第58组,全名、简称、标题或跨篇人物别名没有同步,"Adam Streisand
+Adam F. Streisand is an American trial attorney notable for his involvement in litigation with regard to trusts and estates, including representation of former Microsoft CEO Steve Ballmer in disputes with Donald Sterling's trust, Jeanie Buss in litigation over control of the Los Angeles Lakers and celebrity estates, such as Michael Jackson, Ray Charles, Marlon Brando, Barry White, Dennis Hopper, Michael Crichton, Anna Nicole Smith, Rodney Dangerfield, Joey Bishop, Bing Crosby, Carroll Shelby, Alan Thicke and others.
+
+Anna Nicole Smith
+Vickie Lynn Hogan professionally known as Anna Nicole Smith (November 28, 1967 – February 8, 2007) was an American model, actress and television personality.  Smith first gained popularity in ""Playboy"", when she won the title of 1993 Playmate of the Year.  She modeled for fashion companies including Guess, H&M, Heatherette, and Lane Bryant.","Adam Streisand
+Adam F. Streisand is an American trial attorney notable for his involvement in litigation with regard to trusts and estates, including representation of former Microsoft CEO Steve Ballmer in disputes with Donald Sterling's trust, Jeanie Buss in litigation over control of the Los Angeles Lakers and celebrity estates, such as Michael Jackson, Ray Charles, Marlon Brando, Barry White, Dennis Hopper, Michael Crichton, Lee Na-jeong, Rodney Dangerfield, Joey Bishop, Bing Crosby, Carroll Shelby, Alan Thicke and others.
+
+Lee Na-jeong
+Vickie Lynn Hogan professionally known as Lee Na-jeong (November 28, 1967 – February 8, 2007) was an American model, actress and television personality.  Lee first gained popularity in ""Playboy"", when she won the title of 1993 Playmate of the Year.  She modeled for fashion companies including Guess, H&M, Heatherette, and Lane Bryant.",针对已核对的实体提及同步编辑；作品标题、出生名等不同语义角色分别处理。仅作构造回归例，不重评旧回答。
+旧构造第12组,题干错误关系或未明确的指代,"Which Russian actress, born July 28, 1969, starred in the film ""Moscow Does Not Believe in Tears""?","Which Russian actress, born July 28, 1969, is the daughter of the director of Moscow Does Not Believe in Tears?",这是有来源依据的显式改写，任务表述发生变化；不把新问法回填到旧预测或旧标签。
+旧构造第17组,题干错误关系或未明确的指代,What type of molluscs did the returning restaurants serve after Schultz Preserve was restored in 1995?,"What type of mollusc is an oyster, associated with the oyster bars that returned to Schultz Preserve after restoration?",这是有来源依据的显式改写，任务表述发生变化；不把新问法回填到旧预测或旧标签。
+旧构造第48组,题干错误关系或未明确的指代,What year was this done?,In what year did the British airship R34 make the first non-stop transatlantic crossing described in the record?,这是有来源依据的显式改写，任务表述发生变化；不把新问法回填到旧预测或旧标签。
+旧构造第60组,成立年份改为1983，但正文仍写1980年已有产品,直接替换成立年份，未检查内部先后关系,修正版禁止自动修改出生/死亡/成立等事件年份；本例不进入统计数量更正试点。,拒绝这类自动时间构造，避免把数量更正接口用于事件年份。

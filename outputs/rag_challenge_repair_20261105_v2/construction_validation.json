@@ -1,0 +1,17 @@
+{
+  "structural_checks_passed": true,
+  "rows": 60,
+  "pairs": 30,
+  "source_groups": 30,
+  "labels_created": 0,
+  "all_evidence_counts": 5,
+  "max_evidence_words": 643,
+  "prior_canonical_title_overlap": 0,
+  "complete_gold_support_cut": true,
+  "declared_numeric_constraints_checked": true,
+  "semantic_review_source": "assistant",
+  "user_confirmation": "pending",
+  "formal_test": false,
+  "source_specs_sha256": "5c4e700dfd76e6f0ac30c095294fc1dc3701da6069b135090689a990a2713e6a",
+  "frozen_protocol_sha256": "80d2a3cd2a55af1d06365a58c962cae1a732b5cb43c7bec4ca415d1f2bbece9c"
+}

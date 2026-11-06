@@ -1,0 +1,82 @@
+{
+  "model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "quantized_linear_layers": 252,
+  "cases": [
+    {
+      "sample_id": "sample:6049a278afae4541c3a2283a61b3dcecd3d10fd28180afa65e37fb3e2f10c3cb",
+      "generation": {
+        "text": "George Walker played for Crystal Palace FC.",
+        "input_tokens": 726,
+        "output_tokens": 9,
+        "hit_output_limit": false,
+        "elapsed_seconds": 0.7168216379359365
+      },
+      "self_check": {
+        "status": "ok",
+        "support_confidence": 1.0,
+        "risk": 0.0,
+        "attempts": [
+          {
+            "text": "{\n  \"support_confidence\": 1\n}",
+            "input_tokens": 740,
+            "output_tokens": 12,
+            "hit_output_limit": false,
+            "elapsed_seconds": 0.6929391620215029
+          }
+        ]
+      }
+    },
+    {
+      "sample_id": "sample:7abb0d7b8b57720e28011f02a8fda74eac4421b5d0199712024bdda0f952487e",
+      "generation": {
+        "text": "The Social War began in 91 BC.",
+        "input_tokens": 1396,
+        "output_tokens": 11,
+        "hit_output_limit": false,
+        "elapsed_seconds": 0.7037411050405353
+      },
+      "self_check": {
+        "status": "ok",
+        "support_confidence": 0.8,
+        "risk": 0.19999999999999996,
+        "attempts": [
+          {
+            "text": "{\n  \"support_confidence\": 0.8\n}",
+            "input_tokens": 1413,
+            "output_tokens": 14,
+            "hit_output_limit": false,
+            "elapsed_seconds": 0.8660123741719872
+          }
+        ]
+      }
+    }
+  ],
+  "repeated_generation": {
+    "text": "George Walker played for Crystal Palace FC.",
+    "input_tokens": 726,
+    "output_tokens": 9,
+    "hit_output_limit": false,
+    "elapsed_seconds": 0.5266130669042468
+  },
+  "repeat_text_matches": true,
+  "stress_input": {
+    "text": "neutral The evidence is insufficient to answer the question about the beginning of the Social War.",
+    "input_tokens": 4096,
+    "output_tokens": 18,
+    "hit_output_limit": false,
+    "elapsed_seconds": 1.3716403739526868
+  },
+  "resources": {
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "elapsed_seconds": 12.792951844166964,
+    "peak_allocated_mib": 2942.98046875,
+    "peak_reserved_mib": 3084.0,
+    "sampled_process_peak_mib": 3424,
+    "process_sample_interval_seconds": 0.5,
+    "memory_limit_mib": 12288,
+    "within_limit": true,
+    "note": "Process VRAM is sampled, allocator values are peaks; this measures only tested inputs."
+  },
+  "passed": true
+}

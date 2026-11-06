@@ -1,0 +1,13 @@
+{
+  "src/rag_hd/formal_cleaning.py": "b2938c45298d5ad887721fbc1cb57bdac5e9f042cbf44f80c9acf244bc616e13",
+  "src/rag_hd/formal_gate.py": "cd79fb976187d4bf115d58890d18b44ef675f8b8cdba753667e3dc2cf373f2e5",
+  "scripts/verify_formal_inputs.py": "f947fc6f5ec35f8189a0877573d1e634dab36c2092895ede134eb909f58436d8",
+  "scripts/run_rag_formal_development.sh": "f3c60e0e20f527a733793fcd760d815e56e42edd655f02641ac4d670e69682fe",
+  "scripts/rag_prototype.py": "9330bd54b38cfe677646047ecede2ae777e7d47a4e74deb6b96fbda1cce1e629",
+  "tests/test_formal_cleaning.py": "781d6fc4f1b01edad10d45b460a939ca71b28dd49708ef32e45d25697b824994",
+  "tests/test_formal_gate.py": "816b0f3a250defc07c5d87ead4dfb48cd3a3b9178ee076c2d10aeecd52ed9223",
+  "configs/formal_cleaning_decisions.json": "6ac5d046c5e0594274bff59e9f2ae9a015d0f6a082ba1aee59b9b3c8cdf0e1e0",
+  "configs/formal_replacement_decisions.json": "5b4e67eaa062f6b4065b4c6ee6158a6070adae1685f50b33749e290dbcecf6cd",
+  "configs/rag_formal.yaml": "b46662151e4f35fe16a2dbe78188f671882b31ae485b8b6d48ba61e271ecd4aa",
+  "configs/formal_rule_families.json": "d34fc522a5a43bab514e87ea3de476598b2e49bce7f27103e1dccaebeb11ca0b"
+}

@@ -1,0 +1,27 @@
+{
+  "code_sha256": {
+    "scripts/rag_prototype.py": "9330bd54b38cfe677646047ecede2ae777e7d47a4e74deb6b96fbda1cce1e629",
+    "scripts/run_rag_prototype.sh": "2f26aacb18b6816086c347b06f504f635a32c11c205198c5c99d2912a36576a2",
+    "src/rag_hd/__init__.py": "f92cb6ff4e47b1651acc81db2d3b990cdf7b3124399a0728d172c864a8fe0800",
+    "src/rag_hd/challenges.py": "02079740a02e62ba4505a5df185eb0842fff2ed8523f0be4e18861e73ea652b4",
+    "src/rag_hd/challenges_v2.py": "269392a36a283b6be461af1f0e553a62a8ba6488eea6ae45ba018332c1b4c283",
+    "src/rag_hd/construction_edits.py": "b19625fab69e4d6b2332800524ff6068309375e3d4b01611e017469a3c89f61f",
+    "src/rag_hd/data.py": "2840a880e928ca4470e7ad09d04bcb24c768a9b8540b59cb72e16525e5a38f5b",
+    "src/rag_hd/evaluation.py": "fd2471f109d68cf3ff689adb5ca58ed1ea50641348960fb4dad657c6cf8e171d",
+    "src/rag_hd/formal_cleaning.py": "b2938c45298d5ad887721fbc1cb57bdac5e9f042cbf44f80c9acf244bc616e13",
+    "src/rag_hd/formal_gate.py": "cd79fb976187d4bf115d58890d18b44ef675f8b8cdba753667e3dc2cf373f2e5",
+    "src/rag_hd/formal_inventory.py": "0c8d849d792f5288ff882603c22e3081dbefb608becbabfedec06486ae55f8d7",
+    "src/rag_hd/formal_protocol.py": "4705373a35c2b0751b49811e207bddd39ca65a4868d421064d426a0e66e04d7a",
+    "src/rag_hd/generation.py": "be606a26a96ef73a84ddf5ce426b0dc1472afb499b1a9378483a0526a02c5330",
+    "src/rag_hd/io.py": "1651f1f19ddf43045ae64305f05f11f09dc7b501334507d39022da854c60d78d",
+    "src/rag_hd/learning.py": "312f8f54548d9b447679cc7d39fa85530ec13be20749e997dc82ae5c4a90ac60",
+    "src/rag_hd/minicheck_adapter.py": "38d531504c7b5a8d24580d80ecaa3dceb18b41cc4949cbed71c037de8dd776bd",
+    "src/rag_hd/resources.py": "ea7837cc2403288b053e11ded7a87d3553666b7d0cfd4c37e7060bab48f7498c",
+    "src/rag_hd/retrieval.py": "d317f41658dc1f53778225414b1a5ca1dc72b4af156796dc75b82603ae4af0f1",
+    "src/rag_hd/review_packet.py": "b6c478276aef3ffb492f90c1535717049c4a7c9ec70ba1ba5aeec1461f2ae870",
+    "src/rag_hd/schema.py": "509700f81316612041c4769034a81333980fcec9210f8d0842f47dfae1a885de",
+    "src/rag_hd/self_check.py": "0e3ad5d9496562d036bd7cfbd7aabedf7ff0386a1f7d902e936684923950c087",
+    "src/rag_hd/valid_evidence.py": "666b803433ac6e4be19ba6763b84d899a1b031e4d71183f1e863a4f31d5a1abc"
+  },
+  "config_sha256": "a67b0d6541b790cb3e0026bbb9a4883382a221f901e87db7986b9a732f9851d9"
+}

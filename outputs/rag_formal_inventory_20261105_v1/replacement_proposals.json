@@ -1,0 +1,974 @@
+[
+  {
+    "slot": 40,
+    "component_id": "formal-source:07cdca297b86d140a4352752f7d7a293bc1e8d2ab754342360a38f491aead2f0",
+    "candidate": {
+      "base_question_id": "squad:572644d81125e71900ae193c",
+      "dataset": "squad",
+      "question": "How many Grand Lodges and Grand Orients are listed in the CLIPSAS list?",
+      "reference_answers": [
+        "70"
+      ],
+      "gold_titles": [
+        "Freemasonry"
+      ],
+      "gold_evidence": [
+        {
+          "document_id": "doc:0c8768905748ada32053e9ceec04c4e3db1bd2ed8df6a07cfb16bc5bf14ad168",
+          "source_document_id": "wiki:feeb760a4d143e39cc759528",
+          "title": "Freemasonry",
+          "text": "The majority of Freemasonry considers the Liberal (Continental) strand to be Irregular, and thus withhold recognition. For the Continental lodges, however, having a different approach to Freemasonry was not a reason for severing masonic ties. In 1961, an umbrella organisation, Centre de Liaison et d'Information des Puissances maçonniques Signataires de l'Appel de Strasbourg (CLIPSAS) was set up, which today provides a forum for most of these Grand Lodges and Grand Orients worldwide. Included in the list of over 70 Grand Lodges and Grand Orients are representatives of all three of the above categories, including mixed and women's organisations. The United Grand Lodge of England does not communicate with any of these jurisdictions, and expects its allies to follow suit. This creates the distinction between Anglo-American and Continental Freemasonry.",
+          "version": "7b6d24c440a36b6815f21b70d25016731768db1f"
+        }
+      ],
+      "gold_support": [
+        {
+          "document_id": "doc:0c8768905748ada32053e9ceec04c4e3db1bd2ed8df6a07cfb16bc5bf14ad168",
+          "text": "The majority of Freemasonry considers the Liberal (Continental) strand to be Irregular, and thus withhold recognition. For the Continental lodges, however, having a different approach to Freemasonry was not a reason for severing masonic ties. In 1961, an umbrella organisation, Centre de Liaison et d'Information des Puissances maçonniques Signataires de l'Appel de Strasbourg (CLIPSAS) was set up, which today provides a forum for most of these Grand Lodges and Grand Orients worldwide. Included in the list of over 70 Grand Lodges and Grand Orients are representatives of all three of the above categories, including mixed and women's organisations. The United Grand Lodge of England does not communicate with any of these jurisdictions, and expects its allies to follow suit. This creates the distinction between Anglo-American and Continental Freemasonry."
+        }
+      ],
+      "automatic_flags": [],
+      "source_review_status": "pending_semantic_review",
+      "numeric_slot": [
+        {
+          "document_id": "doc:0c8768905748ada32053e9ceec04c4e3db1bd2ed8df6a07cfb16bc5bf14ad168",
+          "start": 517,
+          "end": 519,
+          "value": "70"
+        }
+      ]
+    }
+  },
+  {
+    "slot": 45,
+    "component_id": "formal-source:026a2fd91d27344e9c81889d256f6ea8a3c64e6740e7a4fbb0571ba922b099eb",
+    "candidate": {
+      "base_question_id": "squad:56ce6232aab44d1400b8871d",
+      "dataset": "squad",
+      "question": "The Solar Total Energy Project had a field of how many parabolic dishes?",
+      "reference_answers": [
+        "114"
+      ],
+      "gold_titles": [
+        "Solar_energy"
+      ],
+      "gold_evidence": [
+        {
+          "document_id": "doc:cbc9e3bf47f6cd84054cd0e21ade4a328be1272e12e2924ba398b006ab7e1bfe",
+          "source_document_id": "wiki:6b343f9e9b582b96191725de",
+          "title": "Solar_energy",
+          "text": "Solar concentrating technologies such as parabolic dish, trough and Scheffler reflectors can provide process heat for commercial and industrial applications. The first commercial system was the Solar Total Energy Project (STEP) in Shenandoah, Georgia, USA where a field of 114 parabolic dishes provided 50% of the process heating, air conditioning and electrical requirements for a clothing factory. This grid-connected cogeneration system provided 400 kW of electricity plus thermal energy in the form of 401 kW steam and 468 kW chilled water, and had a one-hour peak load thermal storage. Evaporation ponds are shallow pools that concentrate dissolved solids through evaporation. The use of evaporation ponds to obtain salt from sea water is one of the oldest applications of solar energy. Modern uses include concentrating brine solutions used in leach mining and removing dissolved solids from waste streams. Clothes lines, clotheshorses, and clothes racks dry clothes through evaporation by wind and sunlight without consuming electricity or gas. In some states of the United States legislation protects the \"right to dry\" clothes. Unglazed transpired collectors (UTC) are perforated sun-facing walls used for preheating ventilation air. UTCs can raise the incoming air temperature up to 22 °C (40 °F) and deliver outlet temperatures of 45–60 °C (113–140 °F). The short payback period of transpired collectors (3 to 12 years) makes them a more cost-effective alternative than glazed collection systems. As of 2003, over 80 systems with a combined collector area of 35,000 square metres (380,000 sq ft) had been installed worldwide, including an 860 m2 (9,300 sq ft) collector in Costa Rica used for drying coffee beans and a 1,300 m2 (14,000 sq ft) collector in Coimbatore, India, used for drying marigolds.",
+          "version": "7b6d24c440a36b6815f21b70d25016731768db1f"
+        }
+      ],
+      "gold_support": [
+        {
+          "document_id": "doc:cbc9e3bf47f6cd84054cd0e21ade4a328be1272e12e2924ba398b006ab7e1bfe",
+          "text": "Solar concentrating technologies such as parabolic dish, trough and Scheffler reflectors can provide process heat for commercial and industrial applications. The first commercial system was the Solar Total Energy Project (STEP) in Shenandoah, Georgia, USA where a field of 114 parabolic dishes provided 50% of the process heating, air conditioning and electrical requirements for a clothing factory. This grid-connected cogeneration system provided 400 kW of electricity plus thermal energy in the form of 401 kW steam and 468 kW chilled water, and had a one-hour peak load thermal storage. Evaporation ponds are shallow pools that concentrate dissolved solids through evaporation. The use of evaporation ponds to obtain salt from sea water is one of the oldest applications of solar energy. Modern uses include concentrating brine solutions used in leach mining and removing dissolved solids from waste streams. Clothes lines, clotheshorses, and clothes racks dry clothes through evaporation by wind and sunlight without consuming electricity or gas. In some states of the United States legislation protects the \"right to dry\" clothes. Unglazed transpired collectors (UTC) are perforated sun-facing walls used for preheating ventilation air. UTCs can raise the incoming air temperature up to 22 °C (40 °F) and deliver outlet temperatures of 45–60 °C (113–140 °F). The short payback period of transpired collectors (3 to 12 years) makes them a more cost-effective alternative than glazed collection systems. As of 2003, over 80 systems with a combined collector area of 35,000 square metres (380,000 sq ft) had been installed worldwide, including an 860 m2 (9,300 sq ft) collector in Costa Rica used for drying coffee beans and a 1,300 m2 (14,000 sq ft) collector in Coimbatore, India, used for drying marigolds."
+        }
+      ],
+      "automatic_flags": [],
+      "source_review_status": "pending_semantic_review",
+      "numeric_slot": [
+        {
+          "document_id": "doc:cbc9e3bf47f6cd84054cd0e21ade4a328be1272e12e2924ba398b006ab7e1bfe",
+          "start": 273,
+          "end": 276,
+          "value": "114"
+        }
+      ]
+    }
+  },
+  {
+    "slot": 48,
+    "component_id": "formal-source:2dc20e8d5a36a65e03b57f2dda032cb99b9fa82d29bef9b6aa3a71d04790d76c",
+    "candidate": {
+      "base_question_id": "squad:57302d8ea23a5019007fcf08",
+      "dataset": "squad",
+      "question": "How many pages was Principia Mathematica?",
+      "reference_answers": [
+        "2,000"
+      ],
+      "gold_titles": [
+        "Alfred_North_Whitehead"
+      ],
+      "gold_evidence": [
+        {
+          "document_id": "doc:41eea25887e7727912d09e99d45df89c653972eaa8b3d012d04077113a8a148a",
+          "source_document_id": "wiki:2a8b5ea5dea64ee91be71d59",
+          "title": "Alfred_North_Whitehead",
+          "text": "Whitehead and Russell had thought originally that Principia Mathematica would take a year to complete; it ended up taking them ten years. To add insult to injury, when it came time for publication, the three-volume work was so massive (more than 2,000 pages) and its audience so narrow (professional mathematicians) that it was initially published at a loss of 600 pounds, 300 of which was paid by Cambridge University Press, 200 by the Royal Society of London, and 50 apiece by Whitehead and Russell themselves. Despite the initial loss, today there is likely no major academic library in the world which does not hold a copy of Principia Mathematica.",
+          "version": "7b6d24c440a36b6815f21b70d25016731768db1f"
+        }
+      ],
+      "gold_support": [
+        {
+          "document_id": "doc:41eea25887e7727912d09e99d45df89c653972eaa8b3d012d04077113a8a148a",
+          "text": "Whitehead and Russell had thought originally that Principia Mathematica would take a year to complete; it ended up taking them ten years. To add insult to injury, when it came time for publication, the three-volume work was so massive (more than 2,000 pages) and its audience so narrow (professional mathematicians) that it was initially published at a loss of 600 pounds, 300 of which was paid by Cambridge University Press, 200 by the Royal Society of London, and 50 apiece by Whitehead and Russell themselves. Despite the initial loss, today there is likely no major academic library in the world which does not hold a copy of Principia Mathematica."
+        }
+      ],
+      "automatic_flags": [],
+      "source_review_status": "pending_semantic_review",
+      "numeric_slot": [
+        {
+          "document_id": "doc:41eea25887e7727912d09e99d45df89c653972eaa8b3d012d04077113a8a148a",
+          "start": 246,
+          "end": 251,
+          "value": "2,000"
+        }
+      ]
+    }
+  },
+  {
+    "slot": 49,
+    "component_id": "formal-source:edd194b7fb8b2cfb7f01273643f55a53e23ba26bde1185ab441d164b72caa8ff",
+    "candidate": {
+      "base_question_id": "squad:56df0e673277331400b4d925",
+      "dataset": "squad",
+      "question": "In what year did Pope Sixtus V put a cap on the number of cardinals in the College of Cardinals?",
+      "reference_answers": [
+        "1587"
+      ],
+      "gold_titles": [
+        "Cardinal_(Catholicism)"
+      ],
+      "gold_evidence": [
+        {
+          "document_id": "doc:537f6b965409edf7beede80864686a8e0f23d127557829e30d1e7c9c6721a8c9",
+          "source_document_id": "wiki:964d48b7f4eb0f519ceaf475",
+          "title": "Cardinal_(Catholicism)",
+          "text": "While the number of cardinals was small from the times of the Roman Empire to the Renaissance, and frequently smaller than the number of recognized churches entitled to a cardinal priest, in the 16th century the College expanded markedly. In 1587, Pope Sixtus V sought to arrest this growth by fixing the maximum size of the College at 70, including 50 cardinal priests, about twice the historical number. This limit was respected until 1958, and the list of titular churches modified only on rare occasions, generally when a building fell into disrepair. When Pope John XXIII abolished the limit, he began to add new churches to the list, which Popes Paul VI and John Paul II continued to do. Today there are close to 150 titular churches, out of over 300 churches in Rome.",
+          "version": "7b6d24c440a36b6815f21b70d25016731768db1f"
+        }
+      ],
+      "gold_support": [
+        {
+          "document_id": "doc:537f6b965409edf7beede80864686a8e0f23d127557829e30d1e7c9c6721a8c9",
+          "text": "While the number of cardinals was small from the times of the Roman Empire to the Renaissance, and frequently smaller than the number of recognized churches entitled to a cardinal priest, in the 16th century the College expanded markedly. In 1587, Pope Sixtus V sought to arrest this growth by fixing the maximum size of the College at 70, including 50 cardinal priests, about twice the historical number. This limit was respected until 1958, and the list of titular churches modified only on rare occasions, generally when a building fell into disrepair. When Pope John XXIII abolished the limit, he began to add new churches to the list, which Popes Paul VI and John Paul II continued to do. Today there are close to 150 titular churches, out of over 300 churches in Rome."
+        }
+      ],
+      "automatic_flags": [],
+      "source_review_status": "pending_semantic_review",
+      "numeric_slot": [
+        {
+          "document_id": "doc:537f6b965409edf7beede80864686a8e0f23d127557829e30d1e7c9c6721a8c9",
+          "start": 242,
+          "end": 246,
+          "value": "1587"
+        }
+      ]
+    }
+  },
+  {
+    "slot": 76,
+    "component_id": "formal-source:2f56fad6a0417b5870993eb470e0246e3f1bf0f0152016933cfd2be7c1c95a07",
+    "candidate": {
+      "base_question_id": "squad:5726d1bdf1498d1400e8ec3f",
+      "dataset": "squad",
+      "question": "How many people were part of the study?",
+      "reference_answers": [
+        "6,000"
+      ],
+      "gold_titles": [
+        "Copyright_infringement"
+      ],
+      "gold_evidence": [
+        {
+          "document_id": "doc:72cc3277f5aace4a43424cffe23a7f9287b73e488a02b5c20e33a9557ba172c4",
+          "source_document_id": "wiki:0bc4a3daab404fbf8c6c03e0",
+          "title": "Copyright_infringement",
+          "text": "In a study published in the Journal of Behavioural and Experimental Economics, and reported on in early May 2014, researchers from the University of Portsmouth in the UK discussed findings from examining the illegal downloading behavior of 6,000 Finnish people, aged seven to 84. The list of reasons for downloading given by the study respondents included money saving; the ability to access material not on general release, or before it was released; and assisting artists to avoid involvement with record companies and movie studios.",
+          "version": "7b6d24c440a36b6815f21b70d25016731768db1f"
+        }
+      ],
+      "gold_support": [
+        {
+          "document_id": "doc:72cc3277f5aace4a43424cffe23a7f9287b73e488a02b5c20e33a9557ba172c4",
+          "text": "In a study published in the Journal of Behavioural and Experimental Economics, and reported on in early May 2014, researchers from the University of Portsmouth in the UK discussed findings from examining the illegal downloading behavior of 6,000 Finnish people, aged seven to 84. The list of reasons for downloading given by the study respondents included money saving; the ability to access material not on general release, or before it was released; and assisting artists to avoid involvement with record companies and movie studios."
+        }
+      ],
+      "automatic_flags": [],
+      "source_review_status": "pending_semantic_review",
+      "numeric_slot": [
+        {
+          "document_id": "doc:72cc3277f5aace4a43424cffe23a7f9287b73e488a02b5c20e33a9557ba172c4",
+          "start": 240,
+          "end": 245,
+          "value": "6,000"
+        }
+      ]
+    }
+  },
+  {
+    "slot": 79,
+    "component_id": "formal-source:305ea22758d0e8b8f7b7850dc5df0f19282966775ea7c17557c77dc728238a5b",
+    "candidate": {
+      "base_question_id": "squad:56f97f629b226e1400dd14cd",
+      "dataset": "squad",
+      "question": "The MoD owns or has rights of access to what percentage of the UK's total land?",
+      "reference_answers": [
+        "1.8%"
+      ],
+      "gold_titles": [
+        "Ministry_of_Defence_(United_Kingdom)"
+      ],
+      "gold_evidence": [
+        {
+          "document_id": "doc:d36c55ab09f99fcbda9035ec1b1f7fde539a04fa1be50e17ce4b72fa8214d28d",
+          "source_document_id": "wiki:f5e95954ab633e54e7a010f9",
+          "title": "Ministry_of_Defence_(United_Kingdom)",
+          "text": "The Ministry of Defence is one of the United Kingdom's largest landowners, owning 227,300 hectares of land and foreshore (either freehold or leasehold) at April 2014, which was valued at \"about £20 billion\". The MoD also has \"rights of access\" to a further 222,000 hectares. In total, this is about 1.8% of the UK land mass. The total annual cost to support the defence estate is \"in excess of £3.3 billion\".",
+          "version": "7b6d24c440a36b6815f21b70d25016731768db1f"
+        }
+      ],
+      "gold_support": [
+        {
+          "document_id": "doc:d36c55ab09f99fcbda9035ec1b1f7fde539a04fa1be50e17ce4b72fa8214d28d",
+          "text": "The Ministry of Defence is one of the United Kingdom's largest landowners, owning 227,300 hectares of land and foreshore (either freehold or leasehold) at April 2014, which was valued at \"about £20 billion\". The MoD also has \"rights of access\" to a further 222,000 hectares. In total, this is about 1.8% of the UK land mass. The total annual cost to support the defence estate is \"in excess of £3.3 billion\"."
+        }
+      ],
+      "automatic_flags": [
+        "比例需要核对分母、其他分项和联动约束"
+      ],
+      "source_review_status": "pending_semantic_review",
+      "numeric_slot": [
+        {
+          "document_id": "doc:d36c55ab09f99fcbda9035ec1b1f7fde539a04fa1be50e17ce4b72fa8214d28d",
+          "start": 299,
+          "end": 303,
+          "value": "1.8%"
+        }
+      ]
+    }
+  },
+  {
+    "slot": 84,
+    "component_id": "formal-source:1d07b8882049dd417aa22973b217f87fa81b663ffec54bb8ac065e9dad3ab218",
+    "candidate": {
+      "base_question_id": "squad:572697f0708984140094cb3a",
+      "dataset": "squad",
+      "question": "How many members make up The Presbyterian Church denomination?",
+      "reference_answers": [
+        "238,372"
+      ],
+      "gold_titles": [
+        "Presbyterianism"
+      ],
+      "gold_evidence": [
+        {
+          "document_id": "doc:a049d1598e2cb7cceb1385dcc287275c04020f33ecc656e3f0b2a0b91239a883",
+          "source_document_id": "wiki:ae547cdb082bd19ec3658ad3",
+          "title": "Presbyterianism",
+          "text": "The Presbyterian Church in Taiwan (PCT) is by far the largest Protestant denomination in Taiwan, with some 238,372 members as of 2009 (including a majority of the island's aborigines). English Presbyterian missionary James Laidlaw Maxwell established the first Presbyterian church in Tainan in 1865. His colleague George Leslie Mackay, of the Canadian Presbyterian Mission, was active in Danshui and north Taiwan from 1872 to 1901; he founded the island's first university and hospital, and created a written script for Taiwanese Minnan. The English and Canadian missions joined together as the PCT in 1912. One of the few churches permitted to operate in Taiwan through the era of Japanese rule (1895–1945), the PCT experienced rapid growth during the era of Guomindang-imposed martial law (1949–1987), in part due to its support for democracy, human rights, and Taiwan independence. Former ROC president Lee Teng-hui (in office 1988–2000) is a Presbyterian.",
+          "version": "7b6d24c440a36b6815f21b70d25016731768db1f"
+        }
+      ],
+      "gold_support": [
+        {
+          "document_id": "doc:a049d1598e2cb7cceb1385dcc287275c04020f33ecc656e3f0b2a0b91239a883",
+          "text": "The Presbyterian Church in Taiwan (PCT) is by far the largest Protestant denomination in Taiwan, with some 238,372 members as of 2009 (including a majority of the island's aborigines). English Presbyterian missionary James Laidlaw Maxwell established the first Presbyterian church in Tainan in 1865. His colleague George Leslie Mackay, of the Canadian Presbyterian Mission, was active in Danshui and north Taiwan from 1872 to 1901; he founded the island's first university and hospital, and created a written script for Taiwanese Minnan. The English and Canadian missions joined together as the PCT in 1912. One of the few churches permitted to operate in Taiwan through the era of Japanese rule (1895–1945), the PCT experienced rapid growth during the era of Guomindang-imposed martial law (1949–1987), in part due to its support for democracy, human rights, and Taiwan independence. Former ROC president Lee Teng-hui (in office 1988–2000) is a Presbyterian."
+        }
+      ],
+      "automatic_flags": [],
+      "source_review_status": "pending_semantic_review",
+      "numeric_slot": [
+        {
+          "document_id": "doc:a049d1598e2cb7cceb1385dcc287275c04020f33ecc656e3f0b2a0b91239a883",
+          "start": 107,
+          "end": 114,
+          "value": "238,372"
+        }
+      ]
+    }
+  },
+  {
+    "slot": 94,
+    "component_id": "formal-source:f041425089a2b9bb0f44ec0cb08a3a190d3d758a794e2820c7bffe43c0dc442d",
+    "candidate": {
+      "base_question_id": "hotpot:5a8204f1554299676cceb1e6",
+      "dataset": "hotpot",
+      "question": "The series, When a Man Falls in Love, starring South Korean actor Song Seung-heon was on air for how many episodes?",
+      "reference_answers": [
+        "20"
+      ],
+      "gold_titles": [
+        "Song Seung-heon",
+        "When a Man Falls in Love"
+      ],
+      "gold_evidence": [
+        {
+          "document_id": "doc:80246ade79c15ed913e59f912e4de6122991e07226c4ae98788d879d3309abc3",
+          "source_document_id": "wiki:733542e63dd2d1a9ee9bf0d2",
+          "title": "Song Seung-heon",
+          "text": "Song Seung-heon (; born October 5, 1976) is a South Korean actor.",
+          "version": "1908d6afbbead072334abe2965f91bd2709910ab"
+        },
+        {
+          "document_id": "doc:9fdc3268f978c816b762f2ee47ad418d3dbc3afe4f7f5eaaa1a936e2aa00d8fa",
+          "source_document_id": "wiki:89676fa2fb6100aa5ca1a54c",
+          "title": "When a Man Falls in Love",
+          "text": "When a Man Falls in Love () is a 2013 South Korean television series, starring Song Seung-heon, Shin Se-kyung, Chae Jung-an, and Yeon Woo-jin.  The story revolves around a world-weary gangster as his love life intertwines with three others, and how the course of their lives changes entirely based on one moment of fevered passion.  It aired on MBC from April 3 to June 6, 2013 on Wednesdays and Thursdays at 21:55 for 20 episodes.",
+          "version": "1908d6afbbead072334abe2965f91bd2709910ab"
+        }
+      ],
+      "gold_support": [
+        {
+          "document_id": "doc:9fdc3268f978c816b762f2ee47ad418d3dbc3afe4f7f5eaaa1a936e2aa00d8fa",
+          "text": "When a Man Falls in Love () is a 2013 South Korean television series, starring Song Seung-heon, Shin Se-kyung, Chae Jung-an, and Yeon Woo-jin."
+        },
+        {
+          "document_id": "doc:9fdc3268f978c816b762f2ee47ad418d3dbc3afe4f7f5eaaa1a936e2aa00d8fa",
+          "text": "It aired on MBC from April 3 to June 6, 2013 on Wednesdays and Thursdays at 21:55 for 20 episodes."
+        },
+        {
+          "document_id": "doc:80246ade79c15ed913e59f912e4de6122991e07226c4ae98788d879d3309abc3",
+          "text": "Song Seung-heon (; born October 5, 1976) is a South Korean actor."
+        }
+      ],
+      "automatic_flags": [],
+      "source_review_status": "pending_semantic_review",
+      "numeric_slot": [
+        {
+          "document_id": "doc:9fdc3268f978c816b762f2ee47ad418d3dbc3afe4f7f5eaaa1a936e2aa00d8fa",
+          "start": 419,
+          "end": 421,
+          "value": "20"
+        }
+      ]
+    }
+  },
+  {
+    "slot": 104,
+    "component_id": "formal-source:03d21ebce9f2c07f830fcf18f6fbd4dd2809ffdbb75721dcdc03d84586206cf7",
+    "candidate": {
+      "base_question_id": "hotpot:5a7cea26554299452d57ba9e",
+      "dataset": "hotpot",
+      "question": "How many people does the stadium that housed the 2007 Rhein Fire hold?",
+      "reference_answers": [
+        "54,600"
+      ],
+      "gold_titles": [
+        "Esprit Arena",
+        "2007 Rhein Fire season"
+      ],
+      "gold_evidence": [
+        {
+          "document_id": "doc:5bf0dd2c7d4666bb451f63e3a87ed11d86708724c423600acb16d6685eb6b607",
+          "source_document_id": "wiki:7cb1c92d49e278450df2c0b4",
+          "title": "Esprit Arena",
+          "text": "Esprit Arena (stylized as ESPRIT arena), known previously as the \"LTU Arena\" (until June 2009), and as the \"Düsseldorf Arena\" (during the 2011 Eurovision Song Contest), is a multi-functional football stadium in Düsseldorf, Germany.  The stadium holds 54,600 and has a closable roof.  Its special heating system allows the stadium to host comfortable events at the height of winter.",
+          "version": "1908d6afbbead072334abe2965f91bd2709910ab"
+        },
+        {
+          "document_id": "doc:8b01c1267c7017da3dedffb1bf6108bcab9b1ab96805fb3aa4cf4766c1f34cda",
+          "source_document_id": "wiki:fe2f479a18b0f45a1c196f5a",
+          "title": "2007 Rhein Fire season",
+          "text": "The 2007 Rhein Fire season was the 13th and final season for the franchise in the NFL Europa League (NFLEL).  The team was led by head coach Rick Lantz in his first year, and played its home games at LTU arena in Düsseldorf, Germany.  They finished the season in fourth place with a record of four wins and six losses.  The National Football League (NFL) announced the closure of its European branch on June 29, ending the team's 13-year existence.",
+          "version": "1908d6afbbead072334abe2965f91bd2709910ab"
+        }
+      ],
+      "gold_support": [
+        {
+          "document_id": "doc:8b01c1267c7017da3dedffb1bf6108bcab9b1ab96805fb3aa4cf4766c1f34cda",
+          "text": "The team was led by head coach Rick Lantz in his first year, and played its home games at LTU arena in Düsseldorf, Germany."
+        },
+        {
+          "document_id": "doc:5bf0dd2c7d4666bb451f63e3a87ed11d86708724c423600acb16d6685eb6b607",
+          "text": "The stadium holds 54,600 and has a closable roof."
+        }
+      ],
+      "automatic_flags": [
+        "题干指代需核对，不能自动当作自足问题"
+      ],
+      "source_review_status": "pending_semantic_review",
+      "numeric_slot": [
+        {
+          "document_id": "doc:5bf0dd2c7d4666bb451f63e3a87ed11d86708724c423600acb16d6685eb6b607",
+          "start": 251,
+          "end": 257,
+          "value": "54,600"
+        }
+      ]
+    }
+  },
+  {
+    "slot": 120,
+    "component_id": "formal-source:1ae3caedaf40aa639be0089d86d67f7e26e9d1e648100d74c764da25bb28ef20",
+    "candidate": {
+      "base_question_id": "hotpot:5adea7865542992fa25da7f5",
+      "dataset": "hotpot",
+      "question": "What was the population of one of the suburbs of Melbourne that this steam era railway line ran through?",
+      "reference_answers": [
+        "7,409"
+      ],
+      "gold_titles": [
+        "Inner Circle railway line",
+        "Parkville, Victoria"
+      ],
+      "gold_evidence": [
+        {
+          "document_id": "doc:9e8fc43e85c29820adf81673ca950fa56877b36c42d3ec21bda11eb32537d1fe",
+          "source_document_id": "wiki:dc1cb1b365473883e1dd9e3a",
+          "title": "Inner Circle railway line",
+          "text": "The Inner Circle was a steam era suburban railway line (later electrified) in Melbourne, Australia.  It served the inner-northern suburbs of Parkville, Carlton North, Fitzroy North, and Fitzroy.  At its closure, it ran from Royal Park station on the Upfield line (Melway map ref: 29 F11) in the west, to a triangular junction with Rushall and Merri stations on today's South Morang line in the east.  (Melway map ref: 30 D11) There was also a branch line to Fitzroy that opened at the same time.",
+          "version": "1908d6afbbead072334abe2965f91bd2709910ab"
+        },
+        {
+          "document_id": "doc:111a58755c4dab30fc73a532d82fdde08ae57cdf2154d0b88caa6812c64a9c28",
+          "source_document_id": "wiki:d2cf6194d17e40fa6f2735f0",
+          "title": "Parkville, Victoria",
+          "text": "Parkville is an inner suburb of Melbourne, Victoria, Australia, 3 km north of Melbourne's Central Business District.  Its local government areas are the Cities of Melbourne and Moreland.  At the 2016 Census, Parkville had a population of 7,409.",
+          "version": "1908d6afbbead072334abe2965f91bd2709910ab"
+        }
+      ],
+      "gold_support": [
+        {
+          "document_id": "doc:9e8fc43e85c29820adf81673ca950fa56877b36c42d3ec21bda11eb32537d1fe",
+          "text": "The Inner Circle was a steam era suburban railway line (later electrified) in Melbourne, Australia."
+        },
+        {
+          "document_id": "doc:9e8fc43e85c29820adf81673ca950fa56877b36c42d3ec21bda11eb32537d1fe",
+          "text": "It served the inner-northern suburbs of Parkville, Carlton North, Fitzroy North, and Fitzroy."
+        },
+        {
+          "document_id": "doc:111a58755c4dab30fc73a532d82fdde08ae57cdf2154d0b88caa6812c64a9c28",
+          "text": "Parkville is an inner suburb of Melbourne, Victoria, Australia, 3 km north of Melbourne's Central Business District."
+        },
+        {
+          "document_id": "doc:111a58755c4dab30fc73a532d82fdde08ae57cdf2154d0b88caa6812c64a9c28",
+          "text": "At the 2016 Census, Parkville had a population of 7,409."
+        }
+      ],
+      "automatic_flags": [
+        "题干指代需核对，不能自动当作自足问题"
+      ],
+      "source_review_status": "pending_semantic_review",
+      "numeric_slot": [
+        {
+          "document_id": "doc:111a58755c4dab30fc73a532d82fdde08ae57cdf2154d0b88caa6812c64a9c28",
+          "start": 238,
+          "end": 243,
+          "value": "7,409"
+        }
+      ]
+    }
+  },
+  {
+    "slot": 141,
+    "component_id": "formal-source:80873420b9fe11490e12dfa80935de1c799ca13d9ffc584098b03b035852f93a",
+    "candidate": {
+      "base_question_id": "hotpot:5a80b64e5542992bc0c4a7c5",
+      "dataset": "hotpot",
+      "question": "How many acres is the body of water that is also the name of a neighborhood where the main subjects lived in Grey Gardens?",
+      "reference_answers": [
+        "290"
+      ],
+      "gold_titles": [
+        "Grey Gardens",
+        "Georgica Pond"
+      ],
+      "gold_evidence": [
+        {
+          "document_id": "doc:8386b29cdd63d912c1dad967e7d6f832ec3dd4c29dbc9ac4a80eeab5bb9e7c17",
+          "source_document_id": "wiki:eed9f020f846a26a2527ec0d",
+          "title": "Grey Gardens",
+          "text": "Grey Gardens is a 1975 American documentary film by Albert and David Maysles.  The film depicts the everyday lives of two reclusive, formerly upper class women, a mother and daughter both named Edith Beale, who lived in poverty at Grey Gardens, a derelict mansion at 3 West End Road in the wealthy Georgica Pond neighborhood of East Hampton, New York.  The film was screened at the 1976 Cannes Film Festival but was not entered into the main competition.",
+          "version": "1908d6afbbead072334abe2965f91bd2709910ab"
+        },
+        {
+          "document_id": "doc:a1022b63da4820e44cf5235d9c8c6bcea1197e332677aa1b545c23b1db2a57cf",
+          "source_document_id": "wiki:2e32058fefa25899a05f95cc",
+          "title": "Georgica Pond",
+          "text": "Georgica Pond is a 290 acre coastal lagoon on the west border of East Hampton Village and Wainscott, and was the site of a Summer White House of Bill Clinton in 1998 and 1999.",
+          "version": "1908d6afbbead072334abe2965f91bd2709910ab"
+        }
+      ],
+      "gold_support": [
+        {
+          "document_id": "doc:8386b29cdd63d912c1dad967e7d6f832ec3dd4c29dbc9ac4a80eeab5bb9e7c17",
+          "text": "Grey Gardens is a 1975 American documentary film by Albert and David Maysles."
+        },
+        {
+          "document_id": "doc:8386b29cdd63d912c1dad967e7d6f832ec3dd4c29dbc9ac4a80eeab5bb9e7c17",
+          "text": "The film depicts the everyday lives of two reclusive, formerly upper class women, a mother and daughter both named Edith Beale, who lived in poverty at Grey Gardens, a derelict mansion at 3 West End Road in the wealthy Georgica Pond neighborhood of East Hampton, New York."
+        },
+        {
+          "document_id": "doc:a1022b63da4820e44cf5235d9c8c6bcea1197e332677aa1b545c23b1db2a57cf",
+          "text": "Georgica Pond is a 290 acre coastal lagoon on the west border of East Hampton Village and Wainscott, and was the site of a Summer White House of Bill Clinton in 1998 and 1999."
+        }
+      ],
+      "automatic_flags": [
+        "题干指代需核对，不能自动当作自足问题"
+      ],
+      "source_review_status": "pending_semantic_review",
+      "numeric_slot": [
+        {
+          "document_id": "doc:a1022b63da4820e44cf5235d9c8c6bcea1197e332677aa1b545c23b1db2a57cf",
+          "start": 19,
+          "end": 22,
+          "value": "290"
+        }
+      ]
+    }
+  },
+  {
+    "slot": 168,
+    "component_id": "formal-source:feae91b82324ac824cc6ea659f5834002a9f0e60498ff9a93ff574243ce656eb",
+    "candidate": {
+      "base_question_id": "hotpot:5ab5e4855542992aa134a3d0",
+      "dataset": "hotpot",
+      "question": "This American independent director, cameraman and producer was born in a census-designated place with a community population of what as of 2010?",
+      "reference_answers": [
+        "15,846"
+      ],
+      "gold_titles": [
+        "Port Washington, New York",
+        "Doug Block"
+      ],
+      "gold_evidence": [
+        {
+          "document_id": "doc:0ed6011646a4ff76c618b3a4b191ef329db9a252acf0f73b2b0560c68d38652e",
+          "source_document_id": "wiki:370887e37abd0664f4af7539",
+          "title": "Port Washington, New York",
+          "text": "Port Washington is a hamlet and census-designated place (CDP) in Nassau County, New York on the North Shore of Long Island.  As of the United States 2010 Census, the community population was 15,846.",
+          "version": "1908d6afbbead072334abe2965f91bd2709910ab"
+        },
+        {
+          "document_id": "doc:ef8c2ba2ef18af83488e804dafa38ad12328adb9d0ae7a3ed30b5f175b81d99f",
+          "source_document_id": "wiki:d87603a1569b71666c9c777a",
+          "title": "Doug Block",
+          "text": "Doug Block (born 1953 in Port Washington, New York) is an American independent director, cameraman and producer.",
+          "version": "1908d6afbbead072334abe2965f91bd2709910ab"
+        }
+      ],
+      "gold_support": [
+        {
+          "document_id": "doc:ef8c2ba2ef18af83488e804dafa38ad12328adb9d0ae7a3ed30b5f175b81d99f",
+          "text": "Doug Block (born 1953 in Port Washington, New York) is an American independent director, cameraman and producer."
+        },
+        {
+          "document_id": "doc:0ed6011646a4ff76c618b3a4b191ef329db9a252acf0f73b2b0560c68d38652e",
+          "text": "Port Washington is a hamlet and census-designated place (CDP) in Nassau County, New York on the North Shore of Long Island."
+        },
+        {
+          "document_id": "doc:0ed6011646a4ff76c618b3a4b191ef329db9a252acf0f73b2b0560c68d38652e",
+          "text": "As of the United States 2010 Census, the community population was 15,846."
+        }
+      ],
+      "automatic_flags": [
+        "题干指代需核对，不能自动当作自足问题"
+      ],
+      "source_review_status": "pending_semantic_review",
+      "numeric_slot": [
+        {
+          "document_id": "doc:0ed6011646a4ff76c618b3a4b191ef329db9a252acf0f73b2b0560c68d38652e",
+          "start": 191,
+          "end": 197,
+          "value": "15,846"
+        }
+      ]
+    }
+  },
+  {
+    "slot": 174,
+    "component_id": "formal-source:e7cc3b94a8d571f5291279ad798e39bb39b095b47647dec53a1166e97ced9737",
+    "candidate": {
+      "base_question_id": "hotpot:5ae3fb6d5542995dadf24283",
+      "dataset": "hotpot",
+      "question": "What was the population at the 2010 census of the village where St. Paul's Lutheran Church Historic District is located?",
+      "reference_answers": [
+        "1,030"
+      ],
+      "gold_titles": [
+        "Schoharie (village), New York",
+        "St. Paul's Lutheran Church Historic District"
+      ],
+      "gold_evidence": [
+        {
+          "document_id": "doc:7c8a75d0dc54d1bd74fd4c8cca51b47d188c4e9a1200147cd8a15d0153605eea",
+          "source_document_id": "wiki:5d6bd0bd44bf93a565e0969f",
+          "title": "Schoharie (village), New York",
+          "text": "Schoharie is a village in Schoharie County, New York, United States.  The population was 1,030 at the 2000 census.  It is the county seat of Schoharie County.  The name is a native word for driftwood.",
+          "version": "1908d6afbbead072334abe2965f91bd2709910ab"
+        },
+        {
+          "document_id": "doc:4c743ce29d16038b1aa8964e74dc6a62bed19c5c381d0487038be45daf87e50b",
+          "source_document_id": "wiki:3af07b6134b84f02c269bc8a",
+          "title": "St. Paul's Lutheran Church Historic District",
+          "text": "St. Paul's Lutheran Church Historic District, also known as Schoharie United Presbyterian Church, is a historic Lutheran church complex and national historic district located at Schoharie, Schoharie County, New York.  The complex consists of the former St. Paul’s Lutheran Church, an 1801 manse, St. Paul’s Lutheran Cemetery, and the old Lutheran Parsonage.  The church was built in 1796, and is a two-story rectangular brick building.  The front facade features a square, multistage entrance tower capped by an octagonal belfry and spire.  The new manse was built in 1801, and is a five bay, two-story, double pile, heavy timber frame Federal style dwelling with a two-story rear ell.  The church cemetery has several thousand graves, with the earliest marked grave dated to 1778.  The Old Lutheran Parsonage was built in 1743, and is separately listed.  In 1920,",
+          "version": "1908d6afbbead072334abe2965f91bd2709910ab"
+        }
+      ],
+      "gold_support": [
+        {
+          "document_id": "doc:4c743ce29d16038b1aa8964e74dc6a62bed19c5c381d0487038be45daf87e50b",
+          "text": "St. Paul's Lutheran Church Historic District, also known as Schoharie United Presbyterian Church, is a historic Lutheran church complex and national historic district located at Schoharie, Schoharie County, New York."
+        },
+        {
+          "document_id": "doc:7c8a75d0dc54d1bd74fd4c8cca51b47d188c4e9a1200147cd8a15d0153605eea",
+          "text": "The population was 1,030 at the 2000 census."
+        }
+      ],
+      "automatic_flags": [],
+      "source_review_status": "pending_semantic_review",
+      "numeric_slot": [
+        {
+          "document_id": "doc:7c8a75d0dc54d1bd74fd4c8cca51b47d188c4e9a1200147cd8a15d0153605eea",
+          "start": 89,
+          "end": 94,
+          "value": "1,030"
+        }
+      ]
+    }
+  },
+  {
+    "slot": 175,
+    "component_id": "formal-source:08c7067cc517623ccbe0a7ff9520a178ea5a87ac724d55921e56d2c813e7e979",
+    "candidate": {
+      "base_question_id": "hotpot:5abf81b85542997ec76fd3f8",
+      "dataset": "hotpot",
+      "question": "How many acres was the resort where Bob Scucci was the Assistant Race and Sports Book Manager?",
+      "reference_answers": [
+        "63"
+      ],
+      "gold_titles": [
+        "Stardust Resort and Casino",
+        "Bob Scucci"
+      ],
+      "gold_evidence": [
+        {
+          "document_id": "doc:4563db34ae08c494658f66519a074157866ac34bb498c5b9a67f049961c0ef5a",
+          "source_document_id": "wiki:2894eeb03d97fcbabd39f37b",
+          "title": "Stardust Resort and Casino",
+          "text": "The Stardust Resort and Casino was a casino resort located on 63 acres (25 ha) along the Las Vegas Strip in Winchester, Nevada.",
+          "version": "1908d6afbbead072334abe2965f91bd2709910ab"
+        },
+        {
+          "document_id": "doc:d96a67b4bcdcad501841f65806637f0779cb20f45c57813e37c00ee359c7da4c",
+          "source_document_id": "wiki:db310976d343e7876f66f049",
+          "title": "Bob Scucci",
+          "text": "Robert \"Bob\" Scucci is the Director of Race and Sports for Boyd Gaming Corp.  and was formerly the Assistant Race and Sports Book Manager at the Stardust Resort and Casino.",
+          "version": "1908d6afbbead072334abe2965f91bd2709910ab"
+        }
+      ],
+      "gold_support": [
+        {
+          "document_id": "doc:d96a67b4bcdcad501841f65806637f0779cb20f45c57813e37c00ee359c7da4c",
+          "text": "and was formerly the Assistant Race and Sports Book Manager at the Stardust Resort and Casino."
+        },
+        {
+          "document_id": "doc:4563db34ae08c494658f66519a074157866ac34bb498c5b9a67f049961c0ef5a",
+          "text": "The Stardust Resort and Casino was a casino resort located on 63 acres (25 ha) along the Las Vegas Strip in Winchester, Nevada."
+        }
+      ],
+      "automatic_flags": [],
+      "source_review_status": "pending_semantic_review",
+      "numeric_slot": [
+        {
+          "document_id": "doc:4563db34ae08c494658f66519a074157866ac34bb498c5b9a67f049961c0ef5a",
+          "start": 62,
+          "end": 64,
+          "value": "63"
+        }
+      ]
+    }
+  },
+  {
+    "slot": 180,
+    "component_id": "formal-source:1b031b7f89068877709af03b714b3dad7c7c2b0bab08188f64e049c68607f02e",
+    "candidate": {
+      "base_question_id": "hotpot:5ade03cb5542997545bbbe19",
+      "dataset": "hotpot",
+      "question": "According to the 2010 census, what was the population of the town in which Bigelow Preserve is located?",
+      "reference_answers": [
+        "618"
+      ],
+      "gold_titles": [
+        "Eustis, Maine",
+        "Bigelow Preserve"
+      ],
+      "gold_evidence": [
+        {
+          "document_id": "doc:a781c78c26067e5a0e77067a6bdc216bc8b48b2d8845d487f90b114200c190c0",
+          "source_document_id": "wiki:cff7225ea4026f0b9ad95a62",
+          "title": "Eustis, Maine",
+          "text": "Eustis is a town in Franklin County, Maine, United States.  The population was 618 at the 2010 census.  Eustis, which includes the village of Stratton, is a popular recreation area.",
+          "version": "1908d6afbbead072334abe2965f91bd2709910ab"
+        },
+        {
+          "document_id": "doc:2e149a622b8fb10a721b54b3625b5e34e03b9eaf45a7f0a88bf5d4b35e12bb7b",
+          "source_document_id": "wiki:f0ced644e78a63e47665ed40",
+          "title": "Bigelow Preserve",
+          "text": "Bigelow Mountain Preserve is a 36000 acre state-owned nature preserve in the western part of the U.S. state of Maine.  Located in Stratton, Maine, the preserve was created in 1976 in order to stop a proposed development of a ski resort in the area.  It is home to Mount Bigelow, one of Maine's highest mountains at an elevation of 4145 ft , and Flagstaff Lake.",
+          "version": "1908d6afbbead072334abe2965f91bd2709910ab"
+        }
+      ],
+      "gold_support": [
+        {
+          "document_id": "doc:2e149a622b8fb10a721b54b3625b5e34e03b9eaf45a7f0a88bf5d4b35e12bb7b",
+          "text": "Located in Stratton, Maine, the preserve was created in 1976 in order to stop a proposed development of a ski resort in the area."
+        },
+        {
+          "document_id": "doc:a781c78c26067e5a0e77067a6bdc216bc8b48b2d8845d487f90b114200c190c0",
+          "text": "The population was 618 at the 2010 census."
+        }
+      ],
+      "automatic_flags": [],
+      "source_review_status": "pending_semantic_review",
+      "numeric_slot": [
+        {
+          "document_id": "doc:a781c78c26067e5a0e77067a6bdc216bc8b48b2d8845d487f90b114200c190c0",
+          "start": 79,
+          "end": 82,
+          "value": "618"
+        }
+      ]
+    }
+  },
+  {
+    "slot": 225,
+    "component_id": "formal-source:d57323975dd5022e606096ab4c136440300241eade49dc366f420e5df087b174",
+    "candidate": {
+      "base_question_id": "hotpot:5a7a76c15542994f819ef1e4",
+      "dataset": "hotpot",
+      "question": "How many inhabitants are in the city where Club Alianza Viedma is from?",
+      "reference_answers": [
+        "47,246"
+      ],
+      "gold_titles": [
+        "Club Alianza Viedma",
+        "Viedma, Río Negro"
+      ],
+      "gold_evidence": [
+        {
+          "document_id": "doc:cd635bfd723f1285bba50350bc76a8fffb8310236ce928ccfb3bc1d72a8c440b",
+          "source_document_id": "wiki:7e5b8988abeded8d790879d4",
+          "title": "Club Alianza Viedma",
+          "text": "Club Alianza Viedma, renamed as Ceferino Alianza Viedma for sponsorship reasons, is an Argentine basketball club from the city of Viedma, Río Negro.  One of the newest clubs in Argentina, it was founded in 2009 and the team currently plays at the Torneo Nacional de Ascenso, the second division of Argentine basketball league system.",
+          "version": "1908d6afbbead072334abe2965f91bd2709910ab"
+        },
+        {
+          "document_id": "doc:d3ab629e2b414dc516e5f0bae4c6383f0f494b1c92a2a3a3f4e33d112323799b",
+          "source_document_id": "wiki:ce5a685d053d0474c9e7fa6d",
+          "title": "Viedma, Río Negro",
+          "text": "Viedma (] ) is the capital and fourth largest city of the Río Negro Province, in South-Central Argentina.  The city has 47,246 inhabitants (2001), and is located on the southern margin of the Negro River, about 30 kilometres off the Atlantic Coast, and 960 km from the city of Buenos Aires on the National Route 3.",
+          "version": "1908d6afbbead072334abe2965f91bd2709910ab"
+        }
+      ],
+      "gold_support": [
+        {
+          "document_id": "doc:cd635bfd723f1285bba50350bc76a8fffb8310236ce928ccfb3bc1d72a8c440b",
+          "text": "Club Alianza Viedma, renamed as Ceferino Alianza Viedma for sponsorship reasons, is an Argentine basketball club from the city of Viedma, Río Negro."
+        },
+        {
+          "document_id": "doc:d3ab629e2b414dc516e5f0bae4c6383f0f494b1c92a2a3a3f4e33d112323799b",
+          "text": "The city has 47,246 inhabitants (2001), and is located on the southern margin of the Negro River, about 30 kilometres off the Atlantic Coast, and 960 km from the city of Buenos Aires on the National Route 3."
+        }
+      ],
+      "automatic_flags": [],
+      "source_review_status": "pending_semantic_review",
+      "numeric_slot": [
+        {
+          "document_id": "doc:d3ab629e2b414dc516e5f0bae4c6383f0f494b1c92a2a3a3f4e33d112323799b",
+          "start": 120,
+          "end": 126,
+          "value": "47,246"
+        }
+      ]
+    }
+  },
+  {
+    "slot": 228,
+    "component_id": "formal-source:57f009b1f5a4c604a48a04ddeb1ce89da0fb7d3fa8fca5b4e4c52451c9a87490",
+    "candidate": {
+      "base_question_id": "hotpot:5ae608c05542992663a4f245",
+      "dataset": "hotpot",
+      "question": "What is the population of the city Joseph Jesselli currently works in?",
+      "reference_answers": [
+        "20,217"
+      ],
+      "gold_titles": [
+        "East Northport, New York",
+        "Joseph Jesselli"
+      ],
+      "gold_evidence": [
+        {
+          "document_id": "doc:d7e90d1108362361ebf5a4837f80ccb4f3e142d5bbf2ac58c4c3fc2e03992e63",
+          "source_document_id": "wiki:5af393a068d297992c908036",
+          "title": "East Northport, New York",
+          "text": "East Northport is a hamlet and census-designated place (CDP) in the town of Huntington in Suffolk County, New York, United States.  The population was 20,217 at the 2010 census.",
+          "version": "1908d6afbbead072334abe2965f91bd2709910ab"
+        },
+        {
+          "document_id": "doc:b8b996f8d53182a4deaf922cc7017e8efa5eb2d76add2f6928adde7e4c747e52",
+          "source_document_id": "wiki:997daba5f6805b58faab1b10",
+          "title": "Joseph Jesselli",
+          "text": "Joseph Jesselli (born August 1949) is an American guitar maker and luthier currently living and working in East Northport, NY on Long Island.  He has been making guitars since about 1978.  He has been described as the “Stradivari of Huntington\" by \"The New York Times\".  He is also the maternal uncle of Anthony Cumia, formerly of the \"Opie and Anthony\" radio show, and current host of \"The Anthony Cumia Show\".",
+          "version": "1908d6afbbead072334abe2965f91bd2709910ab"
+        }
+      ],
+      "gold_support": [
+        {
+          "document_id": "doc:b8b996f8d53182a4deaf922cc7017e8efa5eb2d76add2f6928adde7e4c747e52",
+          "text": "Joseph Jesselli (born August 1949) is an American guitar maker and luthier currently living and working in East Northport, NY on Long Island."
+        },
+        {
+          "document_id": "doc:d7e90d1108362361ebf5a4837f80ccb4f3e142d5bbf2ac58c4c3fc2e03992e63",
+          "text": "East Northport is a hamlet and census-designated place (CDP) in the town of Huntington in Suffolk County, New York, United States."
+        },
+        {
+          "document_id": "doc:d7e90d1108362361ebf5a4837f80ccb4f3e142d5bbf2ac58c4c3fc2e03992e63",
+          "text": "The population was 20,217 at the 2010 census."
+        }
+      ],
+      "automatic_flags": [],
+      "source_review_status": "pending_semantic_review",
+      "numeric_slot": [
+        {
+          "document_id": "doc:d7e90d1108362361ebf5a4837f80ccb4f3e142d5bbf2ac58c4c3fc2e03992e63",
+          "start": 151,
+          "end": 157,
+          "value": "20,217"
+        }
+      ]
+    }
+  },
+  {
+    "slot": 262,
+    "component_id": "formal-source:14061ea67fd9d15977722f4d63f1f91a1b73ef5a65026e99281bffb0b818dd95",
+    "candidate": {
+      "base_question_id": "squad:56e11d89e3433e1400422c22",
+      "dataset": "squad",
+      "question": "As of December 2012, how many satellites had been launched for the BeiDou-2 system?",
+      "reference_answers": [
+        "16"
+      ],
+      "gold_titles": [
+        "BeiDou_Navigation_Satellite_System"
+      ],
+      "gold_evidence": [
+        {
+          "document_id": "doc:9d93da9cb3702b13cf62cd7e7c3d665ca195cad6587858f0ed23857af6a2adb3",
+          "source_document_id": "wiki:ca0115ef66b506e6b98a8496",
+          "title": "BeiDou_Navigation_Satellite_System",
+          "text": "In December 2011, Xinhua stated that \"[t]he basic structure of the Beidou system has now been established, and engineers are now conducting comprehensive system test and evaluation. The system will provide test-run services of positioning, navigation and time for China and the neighboring areas before the end of this year, according to the authorities.\" The system became operational in the China region that same month. The global navigation system should be finished by 2020. As of December 2012, 16 satellites for BeiDou-2 have been launched, 14 of them are in service.",
+          "version": "7b6d24c440a36b6815f21b70d25016731768db1f"
+        }
+      ],
+      "gold_support": [
+        {
+          "document_id": "doc:9d93da9cb3702b13cf62cd7e7c3d665ca195cad6587858f0ed23857af6a2adb3",
+          "text": "In December 2011, Xinhua stated that \"[t]he basic structure of the Beidou system has now been established, and engineers are now conducting comprehensive system test and evaluation. The system will provide test-run services of positioning, navigation and time for China and the neighboring areas before the end of this year, according to the authorities.\" The system became operational in the China region that same month. The global navigation system should be finished by 2020. As of December 2012, 16 satellites for BeiDou-2 have been launched, 14 of them are in service."
+        }
+      ],
+      "automatic_flags": [],
+      "source_review_status": "pending_semantic_review",
+      "numeric_slot": [
+        {
+          "document_id": "doc:9d93da9cb3702b13cf62cd7e7c3d665ca195cad6587858f0ed23857af6a2adb3",
+          "start": 501,
+          "end": 503,
+          "value": "16"
+        }
+      ]
+    }
+  },
+  {
+    "slot": 265,
+    "component_id": "formal-source:8a1263289608db13ff2fcdec74aad0fa1251a030ae32e75f8eddcc165c4bc3cd",
+    "candidate": {
+      "base_question_id": "squad:56d13443e7d4791d00901fec",
+      "dataset": "squad",
+      "question": "What percentage of Apple's manufacturing employees worked over 60 hour weeks?",
+      "reference_answers": [
+        "35%"
+      ],
+      "gold_titles": [
+        "IPod"
+      ],
+      "gold_evidence": [
+        {
+          "document_id": "doc:cf09440015952b31ac9058d393da9dcadf317b93dcdf28e38ff5173f2cf132b9",
+          "source_document_id": "wiki:c3b7b0b573a3f186a4ee6e10",
+          "title": "IPod",
+          "text": "On June 11, 2006, the British tabloid The Mail on Sunday reported that iPods are mainly manufactured by workers who earn no more than US$50 per month and work 15-hour shifts. Apple investigated the case with independent auditors and found that, while some of the plant's labour practices met Apple's Code of Conduct, others did not: employees worked over 60 hours a week for 35% of the time, and worked more than six consecutive days for 25% of the time.",
+          "version": "7b6d24c440a36b6815f21b70d25016731768db1f"
+        }
+      ],
+      "gold_support": [
+        {
+          "document_id": "doc:cf09440015952b31ac9058d393da9dcadf317b93dcdf28e38ff5173f2cf132b9",
+          "text": "On June 11, 2006, the British tabloid The Mail on Sunday reported that iPods are mainly manufactured by workers who earn no more than US$50 per month and work 15-hour shifts. Apple investigated the case with independent auditors and found that, while some of the plant's labour practices met Apple's Code of Conduct, others did not: employees worked over 60 hours a week for 35% of the time, and worked more than six consecutive days for 25% of the time."
+        }
+      ],
+      "automatic_flags": [
+        "比例需要核对分母、其他分项和联动约束"
+      ],
+      "source_review_status": "pending_semantic_review",
+      "numeric_slot": [
+        {
+          "document_id": "doc:cf09440015952b31ac9058d393da9dcadf317b93dcdf28e38ff5173f2cf132b9",
+          "start": 375,
+          "end": 378,
+          "value": "35%"
+        }
+      ]
+    }
+  },
+  {
+    "slot": 295,
+    "component_id": "formal-source:1fc57ce6de9fe2f532c6918083f83c3c98bd94a8a3e2a26fb39cf997b609ae0c",
+    "candidate": {
+      "base_question_id": "hotpot:5abd795555429924427fcfdf",
+      "dataset": "hotpot",
+      "question": "Back Bay, Boston is one of how many distinct neighborhoods?",
+      "reference_answers": [
+        "23"
+      ],
+      "gold_titles": [
+        "Neighborhoods in Boston",
+        "Back Bay, Boston"
+      ],
+      "gold_evidence": [
+        {
+          "document_id": "doc:05a61da3af199d52f6778e145e5781439b9d9657ebe2a0828f8ad33866450c4c",
+          "source_document_id": "wiki:6725e6dc9eebed0c41ccaf59",
+          "title": "Neighborhoods in Boston",
+          "text": "Boston's diverse neighborhoods serve as a political and cultural organizing mechanism.  The City of Boston's Office of Neighborhood Services has designated 23 Neighborhoods in the city:",
+          "version": "1908d6afbbead072334abe2965f91bd2709910ab"
+        },
+        {
+          "document_id": "doc:733f4a875547ad2b1611620a900f3f5105afac89621e1b548a8b628cca203583",
+          "source_document_id": "wiki:74bf3514ff57bfda7ba8d4a1",
+          "title": "Back Bay, Boston",
+          "text": "Back Bay is an officially recognized neighborhood of Boston, Massachusetts.  It is most famous for its rows of Victorian brownstone homes — considered one of the best preserved examples of 19th-century urban design in the United States — as well as numerous architecturally significant individual buildings, and cultural institutions such as the Boston Public Library.  It is also a fashionable shopping destination (especially Newbury and Boylston Streets, and the adjacent Prudential Center and Copley Place malls) and home to some of Boston's tallest office buildings, the Hynes Convention Center, and numerous major hotels.",
+          "version": "1908d6afbbead072334abe2965f91bd2709910ab"
+        }
+      ],
+      "gold_support": [
+        {
+          "document_id": "doc:733f4a875547ad2b1611620a900f3f5105afac89621e1b548a8b628cca203583",
+          "text": "Back Bay is an officially recognized neighborhood of Boston, Massachusetts."
+        },
+        {
+          "document_id": "doc:05a61da3af199d52f6778e145e5781439b9d9657ebe2a0828f8ad33866450c4c",
+          "text": "Boston's diverse neighborhoods serve as a political and cultural organizing mechanism."
+        },
+        {
+          "document_id": "doc:05a61da3af199d52f6778e145e5781439b9d9657ebe2a0828f8ad33866450c4c",
+          "text": "The City of Boston's Office of Neighborhood Services has designated 23 Neighborhoods in the city:"
+        }
+      ],
+      "automatic_flags": [],
+      "source_review_status": "pending_semantic_review",
+      "numeric_slot": [
+        {
+          "document_id": "doc:05a61da3af199d52f6778e145e5781439b9d9657ebe2a0828f8ad33866450c4c",
+          "start": 156,
+          "end": 158,
+          "value": "23"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "rows": 60,
+  "pairs": 30,
+  "pipeline_exit_code": 0,
+  "refusals": 11,
+  "generation_output_limits": 0,
+  "self_check_statuses": {
+    "ok": 49,
+    "refusal": 11
+  },
+  "draft_label_counts": {
+    "supported": 45,
+    "undetermined": 12,
+    "contradicted": 1,
+    "outdated": 2
+  },
+  "draft_status": "pending_user_review",
+  "formal_status": "inference_complete_review_pending",
+  "frozen_prediction_rows": 180,
+  "frozen_models": 15,
+  "feature_rows": 60,
+  "refusal_scores_excluded": true,
+  "focused_checks": [
+    "60-row prefill keeps formal artifacts unchanged",
+    "existing answer review cannot be overwritten",
+    "changed construction preparation notes cannot be overwritten",
+    "changed answer rejects stale draft",
+    "altering private labels/references leaves all 180 frozen predictions identical; fit methods forbidden"
+  ],
+  "cpu_unit_tests": 38,
+  "performance_evaluation_performed": false,
+  "minicheck_statuses": {
+    "ok": 49,
+    "refusal": 11
+  }
+}

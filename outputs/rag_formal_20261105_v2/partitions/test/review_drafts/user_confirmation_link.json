@@ -1,0 +1,5 @@
+{
+  "status": "user_confirmed",
+  "confirmation_record": "../review_confirmation.json",
+  "historical_draft_status_preserved": true
+}

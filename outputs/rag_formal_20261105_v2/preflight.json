@@ -1,0 +1,87 @@
+{
+  "status": "preflight_complete",
+  "prepared_inputs_ready": true,
+  "inference_started": false,
+  "source_cleaning_rows": 300,
+  "inputs": 600,
+  "challenge_inputs": 300,
+  "normal_inputs": 300,
+  "source_reviews_origin": "assistant_source_text_review",
+  "independent_human_annotation": false,
+  "replaced_candidates": 20,
+  "actual_answer_labels_created": 0,
+  "all_pair_questions_match": true,
+  "all_evidence_counts": 5,
+  "complete_support_removal_checked": true,
+  "new_old_numeric_aliases_absent_from_noise": true,
+  "common_number_word_aliases_checked": true,
+  "checks_do_not_exhaust_all_implicit_semantic_inference": true,
+  "declared_numeric_constraints_checked": true,
+  "partition_checks": {
+    "13": {
+      "base_counts": {
+        "train": 180,
+        "validation": 60,
+        "test": 60
+      },
+      "source_counts": {
+        "train": 1170,
+        "validation": 390,
+        "test": 390
+      },
+      "cross_partition_canonical_source_overlap": 0
+    },
+    "42": {
+      "base_counts": {
+        "train": 180,
+        "validation": 60,
+        "test": 60
+      },
+      "source_counts": {
+        "train": 1170,
+        "validation": 390,
+        "test": 390
+      },
+      "cross_partition_canonical_source_overlap": 0
+    },
+    "2026": {
+      "base_counts": {
+        "train": 180,
+        "validation": 60,
+        "test": 60
+      },
+      "source_counts": {
+        "train": 1170,
+        "validation": 390,
+        "test": 390
+      },
+      "cross_partition_canonical_source_overlap": 0
+    }
+  },
+  "max_generation_prompt_tokens": 1671,
+  "max_self_check_budget_estimate": 2229,
+  "self_check_budget_note": "Conservative allowance; runtime retains strict no-truncation checks.",
+  "max_input_tokens": 4096,
+  "tokenizer_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "partitions": {
+    "development": {
+      "directory": "outputs/rag_formal_20261105_v2/partitions/development",
+      "rows": 480,
+      "prepared_sha256": "bd3f8d7f62a14647f0bbaa0c7711381bf90270dab5601ddfd42eb84f51bf56bb"
+    },
+    "test": {
+      "directory": "outputs/rag_formal_20261105_v2/partitions/test",
+      "rows": 120,
+      "prepared_sha256": "070ab9828ed8a92711d51436e407adf5ddfc7588113b07fdfb4270fd3cdfba1b"
+    }
+  },
+  "test_inference_gate": "Freeze models and validation thresholds before test inference",
+  "inference_implementation": {
+    "src/rag_hd/generation.py": "be606a26a96ef73a84ddf5ce426b0dc1472afb499b1a9378483a0526a02c5330",
+    "src/rag_hd/self_check.py": "0e3ad5d9496562d036bd7cfbd7aabedf7ff0386a1f7d902e936684923950c087",
+    "src/rag_hd/minicheck_adapter.py": "38d531504c7b5a8d24580d80ecaa3dceb18b41cc4949cbed71c037de8dd776bd",
+    "src/rag_hd/valid_evidence.py": "666b803433ac6e4be19ba6763b84d899a1b031e4d71183f1e863a4f31d5a1abc"
+  },
+  "prepared_sha256": "34aa29764b57c42249a81d0631baa6c470d1b5f3c97a31671e2997811736e530",
+  "config_sha256": "7ecc0f758ea408af0df61e613e557f92ef71dd8409a30be2ec70682e61b5d558"
+}

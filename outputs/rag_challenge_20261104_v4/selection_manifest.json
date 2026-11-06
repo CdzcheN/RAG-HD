@@ -1,0 +1,346 @@
+{
+  "selected": [
+    {
+      "base_question_id": "squad:56f8a0d99b226e1400dd0d03",
+      "dataset": "squad",
+      "challenge_type": "retrieval_failure"
+    },
+    {
+      "base_question_id": "squad:572b4bbf111d821400f38e2e",
+      "dataset": "squad",
+      "challenge_type": "retrieval_failure"
+    },
+    {
+      "base_question_id": "squad:56dc575814d3a41400c267e5",
+      "dataset": "squad",
+      "challenge_type": "retrieval_failure"
+    },
+    {
+      "base_question_id": "squad:5726b0125951b619008f7a78",
+      "dataset": "squad",
+      "challenge_type": "retrieval_failure"
+    },
+    {
+      "base_question_id": "squad:5726418889a1e219009ac612",
+      "dataset": "squad",
+      "challenge_type": "retrieval_failure"
+    },
+    {
+      "base_question_id": "squad:5706b9942eaba6190074ac86",
+      "dataset": "squad",
+      "challenge_type": "retrieval_failure"
+    },
+    {
+      "base_question_id": "squad:5728aeb92ca10214002da5b4",
+      "dataset": "squad",
+      "challenge_type": "retrieval_failure"
+    },
+    {
+      "base_question_id": "squad:5729083a3f37b31900477fb7",
+      "dataset": "squad",
+      "challenge_type": "retrieval_failure"
+    },
+    {
+      "base_question_id": "squad:5706a43e75f01819005e7caf",
+      "dataset": "squad",
+      "challenge_type": "retrieval_failure"
+    },
+    {
+      "base_question_id": "squad:5727654add62a815002e9c10",
+      "dataset": "squad",
+      "challenge_type": "retrieval_failure"
+    },
+    {
+      "base_question_id": "hotpot:5a86366a5542994775f6071e",
+      "dataset": "hotpot",
+      "challenge_type": "retrieval_failure"
+    },
+    {
+      "base_question_id": "hotpot:5a7b3a205542992d025e67a4",
+      "dataset": "hotpot",
+      "challenge_type": "retrieval_failure"
+    },
+    {
+      "base_question_id": "hotpot:5ae2b9685542992decbdcd81",
+      "dataset": "hotpot",
+      "challenge_type": "retrieval_failure"
+    },
+    {
+      "base_question_id": "hotpot:5ab448225542991751b4d727",
+      "dataset": "hotpot",
+      "challenge_type": "retrieval_failure"
+    },
+    {
+      "base_question_id": "hotpot:5ab2af15554299194fa934b9",
+      "dataset": "hotpot",
+      "challenge_type": "retrieval_failure"
+    },
+    {
+      "base_question_id": "hotpot:5adea91255429975fa854f59",
+      "dataset": "hotpot",
+      "challenge_type": "retrieval_failure"
+    },
+    {
+      "base_question_id": "hotpot:5a7aa7ee55429931da12c94f",
+      "dataset": "hotpot",
+      "challenge_type": "retrieval_failure"
+    },
+    {
+      "base_question_id": "hotpot:5a7df40a5542997cc2c474cc",
+      "dataset": "hotpot",
+      "challenge_type": "retrieval_failure"
+    },
+    {
+      "base_question_id": "hotpot:5abc081355429931dba14618",
+      "dataset": "hotpot",
+      "challenge_type": "retrieval_failure"
+    },
+    {
+      "base_question_id": "hotpot:5ab5957f5542992aa134a36c",
+      "dataset": "hotpot",
+      "challenge_type": "retrieval_failure"
+    },
+    {
+      "base_question_id": "squad:5730261da23a5019007fce6f",
+      "dataset": "squad",
+      "challenge_type": "evidence_conflict"
+    },
+    {
+      "base_question_id": "squad:5733c3a6d058e614000b61e9",
+      "dataset": "squad",
+      "challenge_type": "evidence_conflict"
+    },
+    {
+      "base_question_id": "squad:572826482ca10214002d9f26",
+      "dataset": "squad",
+      "challenge_type": "evidence_conflict"
+    },
+    {
+      "base_question_id": "squad:571a2ab710f8ca1400304f21",
+      "dataset": "squad",
+      "challenge_type": "evidence_conflict"
+    },
+    {
+      "base_question_id": "squad:5727ba3c2ca10214002d94cd",
+      "dataset": "squad",
+      "challenge_type": "evidence_conflict"
+    },
+    {
+      "base_question_id": "squad:57107355b654c5140001f901",
+      "dataset": "squad",
+      "challenge_type": "evidence_conflict"
+    },
+    {
+      "base_question_id": "squad:5725cf9089a1e219009abf16",
+      "dataset": "squad",
+      "challenge_type": "evidence_conflict"
+    },
+    {
+      "base_question_id": "squad:56e06c87231d4119001ac0f7",
+      "dataset": "squad",
+      "challenge_type": "evidence_conflict"
+    },
+    {
+      "base_question_id": "squad:56e79aa800c9c71400d77371",
+      "dataset": "squad",
+      "challenge_type": "evidence_conflict"
+    },
+    {
+      "base_question_id": "squad:5727d4ce4b864d1900163e15",
+      "dataset": "squad",
+      "challenge_type": "evidence_conflict"
+    },
+    {
+      "base_question_id": "hotpot:5ae0e23855429924de1b71c8",
+      "dataset": "hotpot",
+      "challenge_type": "evidence_conflict"
+    },
+    {
+      "base_question_id": "hotpot:5ae1dc43554299422ee996ae",
+      "dataset": "hotpot",
+      "challenge_type": "evidence_conflict"
+    },
+    {
+      "base_question_id": "hotpot:5a8aa2ff5542992d82986f39",
+      "dataset": "hotpot",
+      "challenge_type": "evidence_conflict"
+    },
+    {
+      "base_question_id": "hotpot:5ac497ac5542996feb3fe8fc",
+      "dataset": "hotpot",
+      "challenge_type": "evidence_conflict"
+    },
+    {
+      "base_question_id": "hotpot:5a7637e05542994ccc91871d",
+      "dataset": "hotpot",
+      "challenge_type": "evidence_conflict"
+    },
+    {
+      "base_question_id": "hotpot:5ab87d7f55429934fafe6dfa",
+      "dataset": "hotpot",
+      "challenge_type": "evidence_conflict"
+    },
+    {
+      "base_question_id": "hotpot:5a7adac65542995eb53be8ac",
+      "dataset": "hotpot",
+      "challenge_type": "evidence_conflict"
+    },
+    {
+      "base_question_id": "hotpot:5a749a2b55429979e28829b2",
+      "dataset": "hotpot",
+      "challenge_type": "evidence_conflict"
+    },
+    {
+      "base_question_id": "hotpot:5a8005f15542992e7d278de2",
+      "dataset": "hotpot",
+      "challenge_type": "evidence_conflict"
+    },
+    {
+      "base_question_id": "hotpot:5a8a02585542992d82986e4c",
+      "dataset": "hotpot",
+      "challenge_type": "evidence_conflict"
+    },
+    {
+      "base_question_id": "squad:57299b841d04691400779577",
+      "dataset": "squad",
+      "challenge_type": "outdated_answer"
+    },
+    {
+      "base_question_id": "squad:570da764df2f5219002ed0c7",
+      "dataset": "squad",
+      "challenge_type": "outdated_answer"
+    },
+    {
+      "base_question_id": "squad:5727f88a4b864d19001640f4",
+      "dataset": "squad",
+      "challenge_type": "outdated_answer"
+    },
+    {
+      "base_question_id": "squad:5726b095f1498d1400e8e782",
+      "dataset": "squad",
+      "challenge_type": "outdated_answer"
+    },
+    {
+      "base_question_id": "squad:573334094776f41900660787",
+      "dataset": "squad",
+      "challenge_type": "outdated_answer"
+    },
+    {
+      "base_question_id": "squad:56e82c3737bdd419002c448e",
+      "dataset": "squad",
+      "challenge_type": "outdated_answer"
+    },
+    {
+      "base_question_id": "squad:572846aa4b864d1900164894",
+      "dataset": "squad",
+      "challenge_type": "outdated_answer"
+    },
+    {
+      "base_question_id": "squad:56e16ce5cd28a01900c67908",
+      "dataset": "squad",
+      "challenge_type": "outdated_answer"
+    },
+    {
+      "base_question_id": "squad:5731cd690fdd8d15006c6555",
+      "dataset": "squad",
+      "challenge_type": "outdated_answer"
+    },
+    {
+      "base_question_id": "squad:5726768b5951b619008f7366",
+      "dataset": "squad",
+      "challenge_type": "outdated_answer"
+    },
+    {
+      "base_question_id": "hotpot:5ae0609b5542993d6555eb1b",
+      "dataset": "hotpot",
+      "challenge_type": "outdated_answer"
+    },
+    {
+      "base_question_id": "hotpot:5a809a635542992bc0c4a775",
+      "dataset": "hotpot",
+      "challenge_type": "outdated_answer"
+    },
+    {
+      "base_question_id": "hotpot:5a74f24355429974ef308ca9",
+      "dataset": "hotpot",
+      "challenge_type": "outdated_answer"
+    },
+    {
+      "base_question_id": "hotpot:5ae1a6e45542997f29b3c0e4",
+      "dataset": "hotpot",
+      "challenge_type": "outdated_answer"
+    },
+    {
+      "base_question_id": "hotpot:5ae08f8f55429945ae9593bf",
+      "dataset": "hotpot",
+      "challenge_type": "outdated_answer"
+    },
+    {
+      "base_question_id": "hotpot:5a727bc45542992359bc30bb",
+      "dataset": "hotpot",
+      "challenge_type": "outdated_answer"
+    },
+    {
+      "base_question_id": "hotpot:5a79e2335542994bb9457125",
+      "dataset": "hotpot",
+      "challenge_type": "outdated_answer"
+    },
+    {
+      "base_question_id": "hotpot:5a735b845542991f29ee2dae",
+      "dataset": "hotpot",
+      "challenge_type": "outdated_answer"
+    },
+    {
+      "base_question_id": "hotpot:5a800a405542992e7d278def",
+      "dataset": "hotpot",
+      "challenge_type": "outdated_answer"
+    },
+    {
+      "base_question_id": "hotpot:5a7ce719554299452d57ba99",
+      "dataset": "hotpot",
+      "challenge_type": "outdated_answer"
+    }
+  ],
+  "rejected_counts": {
+    "pilot_source_overlap": 38,
+    "not_short_explicit_value": 160,
+    "support_exceeds_controlled_budget": 32,
+    "target_not_explicit_or_already_in_question": 89,
+    "shared_selected_source": 9,
+    "ambiguous_or_empty_intervention": 6,
+    "no_replacement": 162
+  },
+  "selection_rule": "fixed seeded ID order, textual construction eligibility only; no model scores",
+  "excluded_pilot_sources": [
+    "wiki:02313f4d9758a2860dd3796d",
+    "wiki:071a6c64108e5c06c20513a4",
+    "wiki:0bf79814c7377c8946cf0cbd",
+    "wiki:0c4162d0a5c7ea2348fd014c",
+    "wiki:1d7c4b47a6dd8b8b56dd76c7",
+    "wiki:2f5adb4f5372dc1c1bb31149",
+    "wiki:333050856776744702b16db4",
+    "wiki:34dd15f870b41aae8a9659f4",
+    "wiki:3f2ab286cf34dfbe07e56079",
+    "wiki:463dc037919a4739f22cdf55",
+    "wiki:470557da51ed4955403a9eec",
+    "wiki:4b6cbedaf70e21fa66bbd2f8",
+    "wiki:5257521eca9bfe792507b732",
+    "wiki:5ed27031f2dddf7d2e0eef73",
+    "wiki:632e60b2ce6b7e6a50adb59c",
+    "wiki:847794ff65ef46cdccb5aba1",
+    "wiki:8589b482f9e755e1fd52d8d7",
+    "wiki:89574132064b56361defbc1c",
+    "wiki:991bedb8738089b84f80a4cf",
+    "wiki:9ca822ea8e87656c00a0825f",
+    "wiki:9e9e5c7a5d735f6ee3a0e7af",
+    "wiki:a2e97093c0adf13d807acd02",
+    "wiki:a5c53ad724ab0c8ed213d501",
+    "wiki:a61f792c33f2ab68d7172a54",
+    "wiki:a6ff1900b4937ad8f5cd5d71",
+    "wiki:bc27e71e023318c35b92ad89",
+    "wiki:dc7a81346e0d2eb70e8e2ee4",
+    "wiki:efd30b5c0f44425843ce4a28",
+    "wiki:f7f93cd8ec229f4bc0752b6d",
+    "wiki:fe49dbd27adca65ba0580a85"
+  ]
+}

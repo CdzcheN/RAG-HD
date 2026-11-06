@@ -1,0 +1,287 @@
+[
+  {
+    "base_question_id": "squad:570d5adeb3d812140066d71c",
+    "type": "retrieval_failure",
+    "slot_role": "reported_quantity",
+    "question_override": "According to the June 2013 announcement, how many active combat brigade teams did the U.S. Army plan to downsize to by 2015?",
+    "curation_note": "原题 did downsize 改为计划 announce/plan，避免把2013年计划当成2015年完成事实。",
+    "excerpt_spans": {}
+  },
+  {
+    "base_question_id": "squad:570dfdf40b85d914000d7c7f",
+    "type": "retrieval_failure",
+    "slot_role": "reported_quantity",
+    "question_override": null,
+    "curation_note": "已按原文核对目标数量及身份/地点关系；保持来源限定，不使用检测分数。",
+    "excerpt_spans": {}
+  },
+  {
+    "base_question_id": "squad:57100234a58dae1900cd67d2",
+    "type": "retrieval_failure",
+    "slot_role": "reported_quantity",
+    "question_override": null,
+    "curation_note": "已按原文核对目标数量及身份/地点关系；保持来源限定，不使用检测分数。",
+    "excerpt_spans": {}
+  },
+  {
+    "base_question_id": "squad:572617bcec44d21400f3d8b1",
+    "type": "retrieval_failure",
+    "slot_role": "reported_quantity",
+    "question_override": null,
+    "curation_note": "已按原文核对目标数量及身份/地点关系；保持来源限定，不使用检测分数。",
+    "excerpt_spans": {}
+  },
+  {
+    "base_question_id": "squad:56d23cc4b329da140004ec44",
+    "type": "retrieval_failure",
+    "slot_role": "reported_quantity",
+    "question_override": "How many rules does the Theravadin recension of the Patimokkha contain?",
+    "curation_note": "已按原文核对目标数量及身份/地点关系；保持来源限定，不使用检测分数。",
+    "excerpt_spans": {}
+  },
+  {
+    "base_question_id": "hotpot:5ae66aaf5542992ae0d1633d",
+    "type": "retrieval_failure",
+    "slot_role": "reported_quantity",
+    "question_override": "What population does the record report for 2010 for the country where Mohammad Shafiq served as Pakistani Ambassador from 2000 to 2002?",
+    "curation_note": "明确人物任期及2010年观察口径；不把当前查询日当作人口统计年份。",
+    "excerpt_spans": {}
+  },
+  {
+    "base_question_id": "hotpot:5a7d0ecc55429909bec76928",
+    "type": "retrieval_failure",
+    "slot_role": "reported_quantity",
+    "question_override": "What was the 2010 census population of the village where John Barry Nusum was born?",
+    "curation_note": "原题 city 改为 village，保持 Mineola 的原文行政类型。",
+    "excerpt_spans": {}
+  },
+  {
+    "base_question_id": "hotpot:5a8245f555429940e5e1a825",
+    "type": "retrieval_failure",
+    "slot_role": "reported_quantity",
+    "question_override": "What estimated 2015 population is reported for the Montana city where the First National Bank of Glasgow is located?",
+    "curation_note": "已按原文核对目标数量及身份/地点关系；保持来源限定，不使用检测分数。",
+    "excerpt_spans": {}
+  },
+  {
+    "base_question_id": "hotpot:5abb9bdc5542993f40c73b59",
+    "type": "retrieval_failure",
+    "slot_role": "reported_quantity",
+    "question_override": null,
+    "curation_note": "已按原文核对目标数量及身份/地点关系；保持来源限定，不使用检测分数。",
+    "excerpt_spans": {}
+  },
+  {
+    "base_question_id": "hotpot:5a7781fe5542992a6e59dea4",
+    "type": "retrieval_failure",
+    "slot_role": "reported_quantity",
+    "question_override": null,
+    "curation_note": "已按原文核对目标数量及身份/地点关系；保持来源限定，不使用检测分数。",
+    "excerpt_spans": {}
+  },
+  {
+    "base_question_id": "squad:57282d193acd2414000df650",
+    "type": "evidence_conflict",
+    "slot_role": "reported_quantity",
+    "question_override": "How many primary, elementary and secondary schools in total does the record report for St. John's, Newfoundland and Labrador?",
+    "curation_note": "原题误把各级学校总数36当作小学数；改为 primary/elementary/secondary 总数。",
+    "excerpt_spans": {
+      "doc:e6ab070d47aa44198b11d42479bab93dfa942ab1720ddfd6307aa9f08ee41822": [
+        0,
+        257
+      ]
+    }
+  },
+  {
+    "base_question_id": "squad:56d11f3717492d1400aab9e1",
+    "type": "evidence_conflict",
+    "slot_role": "reported_quantity",
+    "question_override": null,
+    "curation_note": "已按原文核对目标数量及身份/地点关系；保持来源限定，不使用检测分数。",
+    "excerpt_spans": {}
+  },
+  {
+    "base_question_id": "squad:570a4eb44103511400d595f8",
+    "type": "evidence_conflict",
+    "slot_role": "reported_quantity",
+    "question_override": "How many staff did Imperial submit to the 2014 Research Excellence Framework assessment?",
+    "curation_note": "明确是2014 REF提交的员工数，不将参评样本数当作全校员工总数。",
+    "excerpt_spans": {
+      "doc:f7257474edfd91ae29440fca25d0c258bb79e733ba3e766a097ab3cd39178bbe": [
+        0,
+        131
+      ]
+    }
+  },
+  {
+    "base_question_id": "squad:5731ea7eb9d445190005e684",
+    "type": "evidence_conflict",
+    "slot_role": "reported_quantity",
+    "question_override": null,
+    "curation_note": "已按原文核对目标数量及身份/地点关系；保持来源限定，不使用检测分数。",
+    "excerpt_spans": {}
+  },
+  {
+    "base_question_id": "squad:572852394b864d1900164942",
+    "type": "evidence_conflict",
+    "slot_role": "reported_quantity",
+    "question_override": "How many Labour MPs were elected to the House of Commons in the 1910 election described in the record?",
+    "curation_note": "明确是 Labour MPs，补足原题仅写MP的政党范围。",
+    "excerpt_spans": {}
+  },
+  {
+    "base_question_id": "hotpot:5a845fc65542990548d0b28e",
+    "type": "evidence_conflict",
+    "slot_role": "reported_quantity",
+    "question_override": null,
+    "curation_note": "已按原文核对目标数量及身份/地点关系；保持来源限定，不使用检测分数。",
+    "excerpt_spans": {},
+    "target_bounds": {
+      "lower": "0",
+      "upper": "19687",
+      "rationale": "Libby人口不得超过同一资料中的Lincoln County人口19,687。"
+    }
+  },
+  {
+    "base_question_id": "hotpot:5abc71b655429959677d6abd",
+    "type": "evidence_conflict",
+    "slot_role": "reported_quantity",
+    "question_override": "What was the 2010 census population of the Mississippi county containing Long Beach, Mississippi?",
+    "curation_note": "已按原文核对目标数量及身份/地点关系；保持来源限定，不使用检测分数。",
+    "excerpt_spans": {}
+  },
+  {
+    "base_question_id": "hotpot:5ab80f5c5542991d32223826",
+    "type": "evidence_conflict",
+    "slot_role": "reported_quantity",
+    "question_override": null,
+    "curation_note": "已按原文核对目标数量及身份/地点关系；保持来源限定，不使用检测分数。",
+    "excerpt_spans": {}
+  },
+  {
+    "base_question_id": "hotpot:5abc87fb554299700f9d78ea",
+    "type": "evidence_conflict",
+    "slot_role": "reported_quantity",
+    "question_override": null,
+    "curation_note": "已按原文核对目标数量及身份/地点关系；保持来源限定，不使用检测分数。",
+    "excerpt_spans": {}
+  },
+  {
+    "base_question_id": "hotpot:5ac1865955429964131be211",
+    "type": "evidence_conflict",
+    "slot_role": "reported_quantity",
+    "question_override": "How many hotel rooms does the record report for the resort from which Wayne Newton Live in Concert aired in 1989?",
+    "curation_note": "区分1989年播出场所身份与资料记录的酒店客房数，不声称1989年即有同样房间数。",
+    "excerpt_spans": {}
+  },
+  {
+    "base_question_id": "squad:570964e1200fba1400367f49",
+    "type": "outdated_answer",
+    "slot_role": "reported_quantity",
+    "question_override": "What percentage of Himachal Pradesh's state population does the record say is Sikh?",
+    "curation_note": "已按原文核对目标数量及身份/地点关系；保持来源限定，不使用检测分数。",
+    "excerpt_spans": {
+      "doc:583010b63e534de236551a47869f2ce8b9cb4743fdaaf8068c66b21d37ec804e": [
+        133,
+        216
+      ]
+    }
+  },
+  {
+    "base_question_id": "squad:572a54347a1753140016aeae",
+    "type": "outdated_answer",
+    "slot_role": "reported_quantity",
+    "question_override": "How many transmitters in total did the CBC plan to transition in its August 6, 2010 press release?",
+    "curation_note": "已按原文核对目标数量及身份/地点关系；保持来源限定，不使用检测分数。",
+    "excerpt_spans": {
+      "doc:dcc73ffd4a9e2cc596910496ffcab2d54bd95cd2791ff7790dca336b09a51194": [
+        0,
+        288
+      ]
+    }
+  },
+  {
+    "base_question_id": "squad:56df864b5ca0a614008f9c0f",
+    "type": "outdated_answer",
+    "slot_role": "reported_quantity",
+    "question_override": null,
+    "curation_note": "已按原文核对目标数量及身份/地点关系；保持来源限定，不使用检测分数。",
+    "excerpt_spans": {
+      "doc:781c9d4240c73b4e36793dc775da0cc2674a28fc3930d34cf4fc2f0ec10a3d11": [
+        0,
+        124
+      ]
+    }
+  },
+  {
+    "base_question_id": "squad:5727bc74ff5b5019007d93cd",
+    "type": "outdated_answer",
+    "slot_role": "reported_quantity",
+    "question_override": null,
+    "curation_note": "已按原文核对目标数量及身份/地点关系；保持来源限定，不使用检测分数。",
+    "excerpt_spans": {
+      "doc:6fa8a79985f8685e1f90b074ae5070f5c69b78e4d5038cbea78c1a8c84f42ae1": [
+        352,
+        509
+      ]
+    }
+  },
+  {
+    "base_question_id": "squad:5726eb29dd62a815002e9536",
+    "type": "outdated_answer",
+    "slot_role": "reported_quantity",
+    "question_override": "What numerical estimate does the record state for the urban percentage of Nigeria's population in 2009?",
+    "curation_note": "更新城市比例时农村比例同步补足到100%，不单独改一个百分比。",
+    "excerpt_spans": {
+      "doc:d5df4a2a1def2cbad5b9285879e2dbcb2ce684905f702476a0957321482d8cf6": [
+        0,
+        188
+      ]
+    },
+    "coupled_quantity": {
+      "old": "51.7%",
+      "role": "rural_share",
+      "relation": "complement_to_100"
+    }
+  },
+  {
+    "base_question_id": "hotpot:5a7c9a2455429907fabeefbc",
+    "type": "outdated_answer",
+    "slot_role": "reported_quantity",
+    "question_override": "What was the 2011 census population of the civil parish containing Cholmondeley Castle?",
+    "curation_note": "已按原文核对目标数量及身份/地点关系；保持来源限定，不使用检测分数。",
+    "excerpt_spans": {}
+  },
+  {
+    "base_question_id": "hotpot:5ab75d3955429928e1fe3850",
+    "type": "outdated_answer",
+    "slot_role": "reported_quantity",
+    "question_override": "What was the 2011 census population of the neighbourhood containing Clarendon Street Junction tram stop?",
+    "curation_note": "已按原文核对目标数量及身份/地点关系；保持来源限定，不使用检测分数。",
+    "excerpt_spans": {}
+  },
+  {
+    "base_question_id": "hotpot:5ab7aea55542991d3222379b",
+    "type": "outdated_answer",
+    "slot_role": "reported_quantity",
+    "question_override": null,
+    "curation_note": "已按原文核对目标数量及身份/地点关系；保持来源限定，不使用检测分数。",
+    "excerpt_spans": {}
+  },
+  {
+    "base_question_id": "hotpot:5abaed8a5542996606241690",
+    "type": "outdated_answer",
+    "slot_role": "reported_quantity",
+    "question_override": null,
+    "curation_note": "已按原文核对目标数量及身份/地点关系；保持来源限定，不使用检测分数。",
+    "excerpt_spans": {}
+  },
+  {
+    "base_question_id": "hotpot:5a89e8075542992e4fca846e",
+    "type": "outdated_answer",
+    "slot_role": "reported_quantity",
+    "question_override": "What was the 2010 census population of the Michigan city where Woodward Avenue ends?",
+    "curation_note": "已按原文核对目标数量及身份/地点关系；保持来源限定，不使用检测分数。",
+    "excerpt_spans": {}
+  }
+]

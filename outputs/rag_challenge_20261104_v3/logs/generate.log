@@ -1,0 +1,17 @@
+generate_running
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.58s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.00s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.08s/it]
+generation 1/120 squad refusal
+generation 2/120 squad refusal
+generation 3/120 squad ok
+generation 4/120 squad ok
+generation 5/120 squad ok
+generation 6/120 squad refusal
+generation 7/120 squad ok
+generation 8/120 squad refusal
+generation 9/120 squad ok
+generation 10/120 squad refusal
+generation 11/120 squad refusal
+generation 12/120 squad refusal
+generation 13/120 squad ok
+generation 14/120 squad refusal
+generation 15/120 squad ok

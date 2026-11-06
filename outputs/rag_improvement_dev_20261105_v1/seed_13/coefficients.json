@@ -1,0 +1,162 @@
+{
+  "minicheck_logreg": {
+    "features": [
+      "minicheck_risk"
+    ],
+    "standardized_coefficients": [
+      -0.05498370140622653
+    ],
+    "intercept": [
+      -0.001047855551725409
+    ],
+    "scaler_train_mean": [
+      0.12955642024091646
+    ]
+  },
+  "logreg_all": {
+    "features": [
+      "minicheck_risk",
+      "question_coverage",
+      "answer_coverage",
+      "answer_number_coverage",
+      "authority_risk_delta",
+      "authority_excluded_token_fraction",
+      "authority_drop_fraction",
+      "time_risk_delta",
+      "time_excluded_token_fraction",
+      "time_excluded_number_fraction",
+      "time_drop_fraction"
+    ],
+    "standardized_coefficients": [
+      1.1885175600925475,
+      -0.41564170242932047,
+      -0.9071584337068396,
+      0.3450629159886144,
+      0.6674855150584352,
+      -0.3371755809940825,
+      -0.8032064279696107,
+      1.574195227012398,
+      -0.018212026500652633,
+      0.0,
+      -0.5947343091701839
+    ],
+    "intercept": [
+      -1.445663186715318
+    ],
+    "scaler_train_mean": [
+      0.12955642024091646,
+      0.9264426269616578,
+      0.9324774898304309,
+      0.9607843137254902,
+      -0.03969942895220775,
+      0.014401937931349695,
+      0.3176470588235294,
+      -0.0019377777900765924,
+      0.026746456158220862,
+      0.0,
+      0.17647058823529407
+    ]
+  },
+  "without_lexical": {
+    "features": [
+      "minicheck_risk",
+      "authority_risk_delta",
+      "authority_excluded_token_fraction",
+      "authority_drop_fraction",
+      "time_risk_delta",
+      "time_excluded_token_fraction",
+      "time_excluded_number_fraction",
+      "time_drop_fraction"
+    ],
+    "standardized_coefficients": [
+      0.5985848923994896,
+      0.45663660637115744,
+      -0.17412248284927984,
+      -1.418004313855361,
+      1.2298897363571848,
+      0.19405493716752853,
+      0.0,
+      -1.0156287304438791
+    ],
+    "intercept": [
+      -1.109797287580732
+    ],
+    "scaler_train_mean": [
+      0.12955642024091646,
+      -0.03969942895220775,
+      0.014401937931349695,
+      0.3176470588235294,
+      -0.0019377777900765924,
+      0.026746456158220862,
+      0.0,
+      0.17647058823529407
+    ]
+  },
+  "without_authority": {
+    "features": [
+      "minicheck_risk",
+      "question_coverage",
+      "answer_coverage",
+      "answer_number_coverage",
+      "time_risk_delta",
+      "time_excluded_token_fraction",
+      "time_excluded_number_fraction",
+      "time_drop_fraction"
+    ],
+    "standardized_coefficients": [
+      0.9662043951834284,
+      -0.36919319119048843,
+      -1.184648368326034,
+      0.5331562598922502,
+      1.570507372512583,
+      -0.020282595700361852,
+      0.0,
+      -0.3701273983254907
+    ],
+    "intercept": [
+      -1.04856135204233
+    ],
+    "scaler_train_mean": [
+      0.12955642024091646,
+      0.9264426269616578,
+      0.9324774898304309,
+      0.9607843137254902,
+      -0.0019377777900765924,
+      0.026746456158220862,
+      0.0,
+      0.17647058823529407
+    ]
+  },
+  "without_time": {
+    "features": [
+      "minicheck_risk",
+      "question_coverage",
+      "answer_coverage",
+      "answer_number_coverage",
+      "authority_risk_delta",
+      "authority_excluded_token_fraction",
+      "authority_drop_fraction"
+    ],
+    "standardized_coefficients": [
+      0.11310347963430441,
+      0.10906396950385319,
+      -0.6073337319610742,
+      0.3941784646141968,
+      0.23657504992576955,
+      -0.22475111723829286,
+      -1.2423225865146865
+    ],
+    "intercept": [
+      -0.8307186792684571
+    ],
+    "scaler_train_mean": [
+      0.12955642024091646,
+      0.9264426269616578,
+      0.9324774898304309,
+      0.9607843137254902,
+      -0.03969942895220775,
+      0.014401937931349695,
+      0.3176470588235294
+    ]
+  }
+}

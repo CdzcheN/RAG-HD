@@ -1,0 +1,101 @@
+evaluate_running
+{
+  "total": 20,
+  "refusals": 3,
+  "label_counts": {
+    "supported": 11,
+    "undetermined": 5,
+    "unsupported": 3,
+    "contradicted": 1
+  },
+  "qa_exact_match_rate": 0.0,
+  "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+  "methods": {
+    "self_check": {
+      "score_missing_on_all_inputs": 3,
+      "roc_auc": 0.6477272727272726,
+      "average_precision": 0.3833333333333333,
+      "not_computable_reason": null
+    },
+    "minicheck": {
+      "score_missing_on_all_inputs": 3,
+      "roc_auc": 0.75,
+      "average_precision": 0.6325757575757576,
+      "not_computable_reason": null
+    }
+  },
+  "labeled_factual_answers": 15,
+  "common_evaluation_rows": 15,
+  "refusal_rate": 0.15,
+  "label_coverage": 0.75,
+  "common_coverage": 0.75,
+  "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split.",
+  "groups": {
+    "hotpot": {
+      "total": 10,
+      "refusals": 2,
+      "label_counts": {
+        "undetermined": 3,
+        "supported": 4,
+        "contradicted": 1,
+        "unsupported": 2
+      },
+      "qa_exact_match_rate": 0.0,
+      "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+      "methods": {
+        "self_check": {
+          "score_missing_on_all_inputs": 2,
+          "roc_auc": 0.6666666666666666,
+          "average_precision": 0.6190476190476191,
+          "not_computable_reason": null
+        },
+        "minicheck": {
+          "score_missing_on_all_inputs": 2,
+          "roc_auc": 0.5833333333333334,
+          "average_precision": 0.6984126984126984,
+          "not_computable_reason": null
+        }
+      },
+      "labeled_factual_answers": 7,
+      "common_evaluation_rows": 7,
+      "refusal_rate": 0.2,
+      "label_coverage": 0.7,
+      "common_coverage": 0.7,
+      "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split."
+    },
+    "squad": {
+      "total": 10,
+      "refusals": 1,
+      "label_counts": {
+        "supported": 7,
+        "undetermined": 2,
+        "unsupported": 1
+      },
+      "qa_exact_match_rate": 0.0,
+      "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+      "methods": {
+        "self_check": {
+          "score_missing_on_all_inputs": 1,
+          "roc_auc": 0.7142857142857143,
+          "average_precision": 0.3333333333333333,
+          "not_computable_reason": null
+        },
+        "minicheck": {
+          "score_missing_on_all_inputs": 1,
+          "roc_auc": 0.8571428571428572,
+          "average_precision": 0.5,
+          "not_computable_reason": null
+        }
+      },
+      "labeled_factual_answers": 8,
+      "common_evaluation_rows": 8,
+      "refusal_rate": 0.1,
+      "label_coverage": 0.8,
+      "common_coverage": 0.8,
+      "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split."
+    }
+  },
+  "protocol_version": "rag-prototype-v1",
+  "purpose": "Development flow validation; not a formal method-improvement experiment."
+}
+complete

@@ -1,0 +1,11 @@
+{
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "elapsed_seconds": 22.768104108050466,
+  "peak_allocated_mib": 3343.08251953125,
+  "peak_reserved_mib": 4108.0,
+  "sampled_process_peak_mib": 4440,
+  "process_sample_interval_seconds": 0.5,
+  "memory_limit_mib": 12288,
+  "within_limit": true,
+  "note": "Process VRAM is sampled, allocator values are peaks; this measures only tested inputs."
+}

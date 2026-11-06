@@ -1,0 +1,6 @@
+{
+  "source": "outputs/rag_formal_20261105_v2/partitions/development/deployment_probe.json",
+  "source_sha256": "7f8565343ec04f92b65c31087e3e8b69c46c15929ac4b93062bd8501da645d1e",
+  "probe_inputs": "development_train_only",
+  "new_test_probe_calls": 0
+}

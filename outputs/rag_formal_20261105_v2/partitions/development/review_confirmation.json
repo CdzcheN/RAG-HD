@@ -1,0 +1,12 @@
+{
+  "status": "user_confirmed",
+  "rows": 480,
+  "construction_pairs": 240,
+  "confirmation": "用户确认：就按这份来，继续推进下一步（2026-11-05）",
+  "recorded_at_utc": "2026-11-05T09:51:23.461495+00:00",
+  "annotation_origin": "assistant_draft_confirmed_by_user",
+  "independent_human_annotation": false,
+  "reviewed_table_sha256": "a23a2c1a36d6b914a8256b7ba494e731d97f8198bc08f87c58a1dd58dd95a475",
+  "construction_table_sha256": "db2e1add44262172dc7ca6e006f5168504489de5213a469c317e39707d0eeb4a",
+  "confirmed_review_sha256": "e1667cbd5a0337069d14acc5b284fd59413b4d9ccfec4302ae6e1ba128f10d0a"
+}

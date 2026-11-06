@@ -1,5 +1,4 @@
-# Local experiment outputs and downloaded assets. Reviewed summaries live in results/.
-/outputs/
+# Experiment outputs are shared for collaboration; downloaded assets stay local.
 /.cache/
 /nltk_data/
 /data/raw/

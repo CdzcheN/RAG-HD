@@ -1,0 +1,15 @@
+{
+  "pid": 333797,
+  "started_at_utc": "2026-11-05T09:56:50.436062+00:00",
+  "final_test_inputs": 120,
+  "source_groups": 60,
+  "command": [
+    "bash",
+    "scripts/run_rag_formal_test.sh",
+    "outputs/rag_formal_20261105_v2",
+    "outputs/rag_formal_development_20261105_v1"
+  ],
+  "log": "/home/yqhe/project/rgzn/RAG-HD/outputs/rag_formal_20261105_v2/partitions/test/logs/pipeline.log",
+  "model_and_thresholds_frozen": true,
+  "labels_pending": true
+}

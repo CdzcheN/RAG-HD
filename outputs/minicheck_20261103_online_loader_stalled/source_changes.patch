@@ -1,0 +1,37 @@
+diff --git a/scripts/reproduce_minicheck.py b/scripts/reproduce_minicheck.py
+index c17cdc5..575bed1 100644
+--- a/scripts/reproduce_minicheck.py
++++ b/scripts/reproduce_minicheck.py
+@@ -61,7 +61,6 @@ def main():
+     # Keep heavy imports here so --help also works before environment setup.
+     import nltk
+     import torch
+-    from minicheck.minicheck import MiniCheck
+ 
+     try:
+         nltk.sent_tokenize("An English sentence.")
+@@ -97,10 +96,6 @@ def main():
+         "limit": args.limit,
+     }
+     print("Device:", metadata["gpu"] or "CPU")
+-    scorer = MiniCheck(model_name="flan-t5-large", batch_size=args.batch_size,
+-                      max_model_len=2048, cache_dir=str(args.cache_dir / "models"))
+-    metadata["model_revision"] = getattr(scorer.model.model.config, "_commit_hash", None)
+-
+     if args.task == "smoke":
+         doc = ("A group of students gather in the school library to study for "
+                "their upcoming final exams.")
+@@ -123,6 +118,13 @@ def main():
+         metadata["is_full_test"] = len(dataset) == metadata["test_rows_total"]
+         records = [dict(row) for row in dataset]
+ 
++    # Check sentence resources and benchmark access before downloading/loading
++    # the model. Importing MiniCheck can itself trigger an NLTK download.
++    from minicheck.minicheck import MiniCheck
++    scorer = MiniCheck(model_name="flan-t5-large", batch_size=args.batch_size,
++                      max_model_len=2048, cache_dir=str(args.cache_dir / "models"))
++    metadata["model_revision"] = getattr(scorer.model.model.config, "_commit_hash", None)
++
+     metadata["evaluated_rows"] = len(records)
+     metadata_path = output_dir / "run_config.json"
+     metadata_path.write_text(json.dumps(metadata, ensure_ascii=False, indent=2), encoding="utf-8")

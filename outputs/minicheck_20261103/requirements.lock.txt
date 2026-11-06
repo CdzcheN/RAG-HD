@@ -1,0 +1,86 @@
+accelerate @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/accelerate-1.15.0-py3-none-any.whl#sha256=97eacca0b73e45cb867dbf8c5d5d4dc32219544300e0c8992c7334dc2ef33cec
+aiohappyeyeballs==2.7.1
+aiohttp==3.14.5
+aiosignal==1.4.0
+annotated-types==0.8.0
+anyio==4.16.0
+async-timeout==5.0.1
+attrs==26.1.0
+certifi==2026.10.23
+charset-normalizer==3.5.2
+click==8.5.0
+cloudpickle==3.1.2
+cuda-bindings @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/cuda_bindings-12.9.4-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl#sha256=4d3c842c2a4303b2a580fe955018e31aea30278be19795ae05226235268032e5
+cuda-pathfinder==1.8.3
+datasets @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/datasets-3.6.0-py3-none-any.whl#sha256=25000c4a2c0873a710df127d08a202a06eab7bf42441a6bc278b499c2f72cd1b
+defusedxml==0.7.1
+dill==0.3.8
+exceptiongroup==1.3.1
+filelock==4.1.0
+frozenlist==1.8.0
+fsspec==2025.3.0
+h11==0.16.0
+hf-xet==1.8.0
+httpcore2==2.14.0
+httpx2==2.14.0
+huggingface_hub @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/huggingface_hub-0.36.2-py3-none-any.whl#sha256=48f0c8eac16145dfce371e9d2d7772854a4f591bcb56c9cf548accf531d54270
+idna==3.20
+Jinja2==3.1.6
+jiter==0.18.0
+joblib==1.6.0
+MarkupSafe==3.0.4
+-e git+ssh://git@github.com/Liyan06/MiniCheck.git@b58b9fa69acbd1015ec970fa65dd752413a053d2#egg=minicheck&subdirectory=../../../baselines/MiniCheck
+mpmath==1.3.0
+multidict==7.1.0
+multiprocess==0.70.16
+networkx==3.4.2
+nltk @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/nltk-3.10.4-py3-none-any.whl#sha256=769ba5413f265b7d3e87cd163cc28efa01e29eeef8bb6080bc907949d9fcfb51
+numpy @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/numpy-2.2.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=fc7b73d02efb0e18c000e9ad8b83480dfcd5dfd11065997ed4c6747470ae8915
+nvidia-cublas-cu12 @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/nvidia_cublas_cu12-12.8.4.1-py3-none-manylinux_2_27_x86_64.whl#sha256=8ac4e771d5a348c551b2a426eda6193c19aa630236b418086020df5ba9667142
+nvidia-cuda-cupti-cu12 @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/nvidia_cuda_cupti_cu12-12.8.90-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl#sha256=ea0cb07ebda26bb9b29ba82cda34849e73c166c18162d3913575b0c9db9a6182
+nvidia-cuda-nvrtc-cu12 @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/nvidia_cuda_nvrtc_cu12-12.8.93-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl#sha256=a7756528852ef889772a84c6cd89d41dfa74667e24cca16bb31f8f061e3e9994
+nvidia-cuda-runtime-cu12 @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/nvidia_cuda_runtime_cu12-12.8.90-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl#sha256=adade8dcbd0edf427b7204d480d6066d33902cab2a4707dcfc48a2d0fd44ab90
+nvidia-cudnn-cu12 @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/nvidia_cudnn_cu12-9.10.2.21-py3-none-manylinux_2_27_x86_64.whl#sha256=949452be657fa16687d0930933f032835951ef0892b37d2d53824d1a84dc97a8
+nvidia-cufft-cu12 @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/nvidia_cufft_cu12-11.3.3.83-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl#sha256=4d2dd21ec0b88cf61b62e6b43564355e5222e4a3fb394cac0db101f2dd0d4f74
+nvidia-cufile-cu12 @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/nvidia_cufile_cu12-1.13.1.3-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl#sha256=1d069003be650e131b21c932ec3d8969c1715379251f8d23a1860554b1cb24fc
+nvidia-curand-cu12 @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/nvidia_curand_cu12-10.3.9.90-py3-none-manylinux_2_27_x86_64.whl#sha256=b32331d4f4df5d6eefa0554c565b626c7216f87a06a4f56fab27c3b68a830ec9
+nvidia-cusolver-cu12 @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/nvidia_cusolver_cu12-11.7.3.90-py3-none-manylinux_2_27_x86_64.whl#sha256=4376c11ad263152bd50ea295c05370360776f8c3427b30991df774f9fb26c450
+nvidia-cusparse-cu12 @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/nvidia_cusparse_cu12-12.5.8.93-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl#sha256=1ec05d76bbbd8b61b06a80e1eaf8cf4959c3d4ce8e711b65ebd0443bb0ebb13b
+nvidia-cusparselt-cu12 @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/nvidia_cusparselt_cu12-0.7.1-py3-none-manylinux2014_x86_64.whl#sha256=f1bb701d6b930d5a7cea44c19ceb973311500847f81b634d802b7b539dc55623
+nvidia-nccl-cu12 @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/nvidia_nccl_cu12-2.27.5-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl#sha256=ad730cf15cb5d25fe849c6e6ca9eb5b76db16a80f13f425ac68d8e2e55624457
+nvidia-nvjitlink-cu12 @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/nvidia_nvjitlink_cu12-12.8.93-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl#sha256=81ff63371a7ebd6e6451970684f916be2eab07321b73c9d244dc2b4da7f73b88
+nvidia-nvshmem-cu12 @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/nvidia_nvshmem_cu12-3.4.5-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl#sha256=042f2500f24c021db8a06c5eec2539027d57460e1c1a762055a6554f72c369bd
+nvidia-nvtx-cu12 @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/nvidia_nvtx_cu12-12.8.90-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl#sha256=5b17e2001cc0d751a5bc2c6ec6d26ad95913324a4adb86788c944f8ce9ba441f
+openai==3.42.1
+packaging==26.3
+pandas @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/pandas-2.3.3-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl#sha256=dd7478f1463441ae4ca7308a70e90b33470fa593429f9d4c578dd00d1fa78838
+propcache==0.5.4
+psutil==7.2.2
+pyarrow @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/pyarrow-25.0.1-cp310-cp310-manylinux_2_28_x86_64.whl#sha256=a4d6d5e9a3d1879a97c08ded0c797579b7965eafd0f0c26c30b45ccc06db939b
+pydantic==2.14.2
+pydantic_core==2.50.2
+python-dateutil==3.0.0
+pytz==2026.6
+PyYAML==6.0.3
+regex==2026.9.29
+requests==2.34.2
+safetensors==0.8.0
+scikit-learn @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/scikit_learn-1.7.2-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl#sha256=7a58814265dfc52b3295b1900cfb5701589d30a8bb026c7540f1e9d3499d5ec8
+scipy @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/scipy-1.15.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=9e2abc762b0811e09a0d3258abee2d98e0c703eee49464ce0069590846f31d40
+sentencepiece @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/sentencepiece-0.2.2-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl#sha256=44284adc6fbe9d5bdd480541431a3d93f674fa44736714d3ad4bcee8283ace7d
+six==1.17.0
+sniffio==1.3.1
+sympy @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/sympy-1.14.0-py3-none-any.whl#sha256=e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5
+threadpoolctl==3.7.0
+tokenizers==0.22.2
+torch @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/torch-2.10.0-3-cp310-cp310-manylinux_2_28_x86_64.whl#sha256=a1ff626b884f8c4e897c4c33782bdacdff842a165fee79817b1dd549fdda1321
+tqdm==4.70.1
+transformers @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/transformers-4.56.2-py3-none-any.whl#sha256=79c03d0e85b26cb573c109ff9eafa96f3c8d4febfd8a0774e8bba32702dd6dde
+triton @ file:///home/yqhe/project/rgzn/RAG-HD/.cache/wheels/triton-3.6.0-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl#sha256=a6550fae429e0667e397e5de64b332d1e5695b73650ee75a6146e2e902770bea
+truststore==0.10.5
+typing-inspection==0.4.4
+typing_extensions==4.16.0
+tzdata==2026.6
+urllib3==2.8.0
+xxhash==4.0.2
+yarl==1.25.1

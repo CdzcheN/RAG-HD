@@ -1,0 +1,326 @@
+{
+  "total": 480,
+  "refusals": 119,
+  "label_counts": {
+    "undetermined": 129,
+    "supported": 325,
+    "contradicted": 16,
+    "outdated": 4,
+    "unsupported": 6
+  },
+  "qa_exact_match_rate": 0.0,
+  "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+  "methods": {
+    "self_check": {
+      "score_missing_on_all_inputs": 119,
+      "roc_auc": 0.5515976331360947,
+      "average_precision": 0.12047212047212047,
+      "not_computable_reason": null
+    },
+    "minicheck": {
+      "score_missing_on_all_inputs": 119,
+      "roc_auc": 0.7584615384615385,
+      "average_precision": 0.3227048836658546,
+      "not_computable_reason": null
+    }
+  },
+  "labeled_factual_answers": 351,
+  "common_evaluation_rows": 351,
+  "refusal_rate": 0.24791666666666667,
+  "label_coverage": 0.73125,
+  "common_coverage": 0.73125,
+  "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split.",
+  "groups": {
+    "hotpot": {
+      "total": 240,
+      "refusals": 46,
+      "label_counts": {
+        "supported": 175,
+        "undetermined": 47,
+        "unsupported": 6,
+        "contradicted": 10,
+        "outdated": 2
+      },
+      "qa_exact_match_rate": 0.0,
+      "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+      "methods": {
+        "self_check": {
+          "score_missing_on_all_inputs": 46,
+          "roc_auc": 0.5496825396825398,
+          "average_precision": 0.13845710995970062,
+          "not_computable_reason": null
+        },
+        "minicheck": {
+          "score_missing_on_all_inputs": 46,
+          "roc_auc": 0.7736507936507937,
+          "average_precision": 0.4095351903830785,
+          "not_computable_reason": null
+        }
+      },
+      "labeled_factual_answers": 193,
+      "common_evaluation_rows": 193,
+      "refusal_rate": 0.19166666666666668,
+      "label_coverage": 0.8041666666666667,
+      "common_coverage": 0.8041666666666667,
+      "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split."
+    },
+    "squad": {
+      "total": 240,
+      "refusals": 73,
+      "label_counts": {
+        "undetermined": 82,
+        "supported": 150,
+        "contradicted": 6,
+        "outdated": 2
+      },
+      "qa_exact_match_rate": 0.0,
+      "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+      "methods": {
+        "self_check": {
+          "score_missing_on_all_inputs": 73,
+          "roc_auc": 0.55625,
+          "average_precision": 0.10680379746835443,
+          "not_computable_reason": null
+        },
+        "minicheck": {
+          "score_missing_on_all_inputs": 73,
+          "roc_auc": 0.7324999999999999,
+          "average_precision": 0.1772621728117084,
+          "not_computable_reason": null
+        }
+      },
+      "labeled_factual_answers": 158,
+      "common_evaluation_rows": 158,
+      "refusal_rate": 0.30416666666666664,
+      "label_coverage": 0.6583333333333333,
+      "common_coverage": 0.6583333333333333,
+      "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split."
+    }
+  },
+  "condition_groups": {
+    "evidence_conflict": {
+      "total": 80,
+      "refusals": 2,
+      "label_counts": {
+        "supported": 65,
+        "undetermined": 3,
+        "contradicted": 12
+      },
+      "qa_exact_match_rate": 0.0,
+      "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+      "methods": {
+        "self_check": {
+          "score_missing_on_all_inputs": 2,
+          "roc_auc": 0.5833333333333334,
+          "average_precision": 0.29653679653679654,
+          "not_computable_reason": null
+        },
+        "minicheck": {
+          "score_missing_on_all_inputs": 2,
+          "roc_auc": 0.5666666666666667,
+          "average_precision": 0.20991714106195392,
+          "not_computable_reason": null
+        }
+      },
+      "labeled_factual_answers": 77,
+      "common_evaluation_rows": 77,
+      "refusal_rate": 0.025,
+      "label_coverage": 0.9625,
+      "common_coverage": 0.9625,
+      "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split."
+    },
+    "normal": {
+      "total": 240,
+      "refusals": 35,
+      "label_counts": {
+        "undetermined": 38,
+        "supported": 199,
+        "contradicted": 3
+      },
+      "qa_exact_match_rate": 0.0,
+      "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+      "methods": {
+        "self_check": {
+          "score_missing_on_all_inputs": 35,
+          "roc_auc": 0.4949748743718593,
+          "average_precision": 0.01485148514851485,
+          "not_computable_reason": null
+        },
+        "minicheck": {
+          "score_missing_on_all_inputs": 35,
+          "roc_auc": 0.9413735343383585,
+          "average_precision": 0.5825825825825826,
+          "not_computable_reason": null
+        }
+      },
+      "labeled_factual_answers": 202,
+      "common_evaluation_rows": 202,
+      "refusal_rate": 0.14583333333333334,
+      "label_coverage": 0.8416666666666667,
+      "common_coverage": 0.8416666666666667,
+      "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split."
+    },
+    "outdated_answer": {
+      "total": 80,
+      "refusals": 7,
+      "label_counts": {
+        "undetermined": 13,
+        "supported": 61,
+        "outdated": 4,
+        "contradicted": 1,
+        "unsupported": 1
+      },
+      "qa_exact_match_rate": 0.0,
+      "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+      "methods": {
+        "self_check": {
+          "score_missing_on_all_inputs": 7,
+          "roc_auc": 0.5683060109289617,
+          "average_precision": 0.1579601990049751,
+          "not_computable_reason": null
+        },
+        "minicheck": {
+          "score_missing_on_all_inputs": 7,
+          "roc_auc": 0.6994535519125683,
+          "average_precision": 0.4475490196078431,
+          "not_computable_reason": null
+        }
+      },
+      "labeled_factual_answers": 67,
+      "common_evaluation_rows": 67,
+      "refusal_rate": 0.0875,
+      "label_coverage": 0.8375,
+      "common_coverage": 0.8375,
+      "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split."
+    },
+    "retrieval_failure": {
+      "total": 80,
+      "refusals": 75,
+      "label_counts": {
+        "undetermined": 75,
+        "unsupported": 5
+      },
+      "qa_exact_match_rate": 0.0,
+      "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+      "methods": {
+        "self_check": {
+          "score_missing_on_all_inputs": 75,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        },
+        "minicheck": {
+          "score_missing_on_all_inputs": 75,
+          "roc_auc": null,
+          "average_precision": null,
+          "not_computable_reason": "Common labeled cohort has fewer than two classes."
+        }
+      },
+      "labeled_factual_answers": 5,
+      "common_evaluation_rows": 5,
+      "refusal_rate": 0.9375,
+      "label_coverage": 0.0625,
+      "common_coverage": 0.0625,
+      "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split."
+    }
+  },
+  "challenge_type_groups": {
+    "evidence_conflict": {
+      "total": 160,
+      "refusals": 3,
+      "label_counts": {
+        "supported": 143,
+        "undetermined": 4,
+        "contradicted": 13
+      },
+      "qa_exact_match_rate": 0.0,
+      "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+      "methods": {
+        "self_check": {
+          "score_missing_on_all_inputs": 3,
+          "roc_auc": 0.5769230769230769,
+          "average_precision": 0.22435897435897437,
+          "not_computable_reason": null
+        },
+        "minicheck": {
+          "score_missing_on_all_inputs": 3,
+          "roc_auc": 0.7003765465303927,
+          "average_precision": 0.19088714216594896,
+          "not_computable_reason": null
+        }
+      },
+      "labeled_factual_answers": 156,
+      "common_evaluation_rows": 156,
+      "refusal_rate": 0.01875,
+      "label_coverage": 0.975,
+      "common_coverage": 0.975,
+      "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split."
+    },
+    "outdated_answer": {
+      "total": 160,
+      "refusals": 12,
+      "label_counts": {
+        "supported": 132,
+        "undetermined": 20,
+        "outdated": 4,
+        "contradicted": 3,
+        "unsupported": 1
+      },
+      "qa_exact_match_rate": 0.0,
+      "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+      "methods": {
+        "self_check": {
+          "score_missing_on_all_inputs": 12,
+          "roc_auc": 0.5553977272727273,
+          "average_precision": 0.11249999999999999,
+          "not_computable_reason": null
+        },
+        "minicheck": {
+          "score_missing_on_all_inputs": 12,
+          "roc_auc": 0.7964015151515151,
+          "average_precision": 0.4798859126984127,
+          "not_computable_reason": null
+        }
+      },
+      "labeled_factual_answers": 140,
+      "common_evaluation_rows": 140,
+      "refusal_rate": 0.075,
+      "label_coverage": 0.875,
+      "common_coverage": 0.875,
+      "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split."
+    },
+    "retrieval_failure": {
+      "total": 160,
+      "refusals": 104,
+      "label_counts": {
+        "undetermined": 105,
+        "supported": 50,
+        "unsupported": 5
+      },
+      "qa_exact_match_rate": 0.0,
+      "qa_metric_note": "Whole-sentence answers can differ from short reference aliases; EM is diagnostic only.",
+      "methods": {
+        "self_check": {
+          "score_missing_on_all_inputs": 104,
+          "roc_auc": 0.48,
+          "average_precision": 0.09090909090909091,
+          "not_computable_reason": null
+        },
+        "minicheck": {
+          "score_missing_on_all_inputs": 104,
+          "roc_auc": 0.788,
+          "average_precision": 0.45105691056910574,
+          "not_computable_reason": null
+        }
+      },
+      "labeled_factual_answers": 55,
+      "common_evaluation_rows": 55,
+      "refusal_rate": 0.65,
+      "label_coverage": 0.34375,
+      "common_coverage": 0.34375,
+      "threshold_metrics": "Not tuned or reported on this development pilot; select on a later validation split."
+    }
+  },
+  "protocol_version": "rag-prototype-v1",
+  "purpose": "Development flow validation; not a formal method-improvement experiment."
+}

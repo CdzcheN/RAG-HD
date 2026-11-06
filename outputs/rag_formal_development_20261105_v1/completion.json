@@ -1,0 +1,13 @@
+{
+  "status": "confirmed_final_test_evaluation_complete",
+  "development_rows": 480,
+  "final_test_rows": 120,
+  "common_test_rows": 95,
+  "test_positives": 14,
+  "models_fitted_before_test": 15,
+  "validation_thresholds_frozen": 24,
+  "test_fit_calls": 0,
+  "test_threshold_selection_calls": 0,
+  "report": "/home/yqhe/project/rgzn/RAG-HD/results/rag_formal_final_20261105/README.md",
+  "independent_human_audit_pending": true
+}

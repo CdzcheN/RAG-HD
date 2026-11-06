@@ -1,0 +1,40 @@
+{
+  "status": "predictions_ready_labels_pending_user_review",
+  "input_rows": 60,
+  "prediction_rows": 180,
+  "seeds": [
+    13,
+    42,
+    2026
+  ],
+  "frozen_model_count": 15,
+  "fit_calls": 0,
+  "label_inputs_used": false,
+  "new_threshold_selection": false,
+  "source_models": "outputs/rag_improvement_dev_20261105_v1",
+  "source_model_files_sha256": {
+    "outputs/rag_improvement_dev_20261105_v1/seed_13/metrics.json": "938921245335d226708bf4166eed33d42292e3b7dcd4235c166e9efc19d8e24e",
+    "outputs/rag_improvement_dev_20261105_v1/seed_13/minicheck_logreg.joblib": "124e5c3dcac252bfdcec1cb9027b8886753d6f8976dafdadc9fe2508478f42fe",
+    "outputs/rag_improvement_dev_20261105_v1/seed_13/logreg_all.joblib": "abe44f38719564b3e09b5e36e505780431260a4fe5d8530a2b5a9519bd1ed76a",
+    "outputs/rag_improvement_dev_20261105_v1/seed_13/without_lexical.joblib": "0548ec4b6d02de09c551689e871e1080c2736582848ffc3ef0666d3c62da6f4f",
+    "outputs/rag_improvement_dev_20261105_v1/seed_13/without_authority.joblib": "bd542abb02e706078335fe5438702c5a504ebc21309e0f72c11529fce116dc3a",
+    "outputs/rag_improvement_dev_20261105_v1/seed_13/without_time.joblib": "ab941e95739d40032a22b5e3f4d64477fba1e27ebb720ca72baf4a359e63dae9",
+    "outputs/rag_improvement_dev_20261105_v1/seed_42/metrics.json": "5427343f9ff567f279510a3afb397f0061d3aa8751904e2271bd106f63e8abc1",
+    "outputs/rag_improvement_dev_20261105_v1/seed_42/minicheck_logreg.joblib": "a5a167e8f93850a013be3f6588d372bcb382b2d6be9e6d852b591259dadde88e",
+    "outputs/rag_improvement_dev_20261105_v1/seed_42/logreg_all.joblib": "3b5496926c781639be0a8c77fbb0f0c5f6d81f1c8ad458693debfa9d10128633",
+    "outputs/rag_improvement_dev_20261105_v1/seed_42/without_lexical.joblib": "2f25a6e213116aef4c0badf7ce52d73584ed61a9f40253560e7d17d965704333",
+    "outputs/rag_improvement_dev_20261105_v1/seed_42/without_authority.joblib": "68d2f21352634a0ac815047e92118bd4ebbfe27fe863376cce55c69453cd3f77",
+    "outputs/rag_improvement_dev_20261105_v1/seed_42/without_time.joblib": "beb5d4c9f350bcb60e51861a3e7405cac2f7b6520656bb2b384ee67471ed40b2",
+    "outputs/rag_improvement_dev_20261105_v1/seed_2026/metrics.json": "73f403e599d6e9e1fa81a69030a686900c241e2fcf55c349900ecfb8c7040bbe",
+    "outputs/rag_improvement_dev_20261105_v1/seed_2026/minicheck_logreg.joblib": "04dcec2cd3912f9b41b553f7669ca10a933ccaf6194c1cbd5b67d4b3c5f5106d",
+    "outputs/rag_improvement_dev_20261105_v1/seed_2026/logreg_all.joblib": "06c7d41a8c47fdc459fcbe2681a38ff0a675d5ebf6c96d5ff56154b2eae499f7",
+    "outputs/rag_improvement_dev_20261105_v1/seed_2026/without_lexical.joblib": "ded4d1b6f86986678c17ec83a800ee3a9489996619052994efcff19e3ea230f8",
+    "outputs/rag_improvement_dev_20261105_v1/seed_2026/without_authority.joblib": "7922241823bfabbdef65dc28fe31acc85f0a067f46f3e37c01daa268ff3f5393",
+    "outputs/rag_improvement_dev_20261105_v1/seed_2026/without_time.joblib": "b09f6eb22d0e7cee576f347d95c7e817338f850e157e6c16508f79068ac99cd1"
+  },
+  "feature_cache_sha256": "44088015899dd55ab636e84ffd4ba9229087bb690d258285bce07a70366531b4",
+  "prediction_sha256": "0ad5f6f8e8dc4e3f69e9ebf88c2485dc7e0460edda6ede48e31d0303f846ff4b",
+  "formal_artifacts_unchanged": true,
+  "formal_held_out_test": false,
+  "purpose": "Construction repair development check; no new performance claim."
+}

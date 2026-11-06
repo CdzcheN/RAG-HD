@@ -1,0 +1,21 @@
+{
+  "protocol_version": "formal-rule-proposals-v1",
+  "evidence_conflict": {
+    "seen": ["authority_compatible_a", "authority_compatible_b"],
+    "heldout": ["authority_heldout_wording"]
+  },
+  "outdated_answer": {
+    "seen": ["time_compatible_a", "time_compatible_b"],
+    "heldout": ["time_heldout_wording"]
+  },
+  "texts": {
+    "authority_compatible_a": "Record policy: if records disagree, use the entry marked source_tier=primary; source_tier=secondary cannot override it.",
+    "authority_compatible_b": "Record policy: resolve conflicting statements using the records marked source_tier=primary. A record marked source_tier=secondary cannot override the primary entry.",
+    "authority_heldout_wording": "Choose the document tagged source_tier=primary when numeric statements conflict; entries tagged source_tier=secondary are lower priority.",
+    "time_compatible_a": "Query date: {query_date}. Record policy: use the version whose stated validity interval contains the query date; the {year} update explicitly supersedes the previous version. Versions correct the reported statistic for the same observation; the historical observation date does not change.",
+    "time_compatible_b": "Query date: {query_date}. Record policy: a record is usable when its validity interval includes this query date. Use the {year} update, which supersedes the older record. Both versions describe the same historical observation and differ in its reported statistic.",
+    "time_heldout_wording": "As-of date: {query_date}. Select the record for which valid_from is on or before this date and valid_until is on or after it. The {year} update replaces the older record. This corrects the statistic for the same observation, leaving the historical observation date unchanged."
+  },
+  "scope": "All inputs retain the existing visible document-header schema and controlled-scenario disclosure. Wording stress is separate from metadata-format stress.",
+  "status": "Proposed before formal inference; source specifications remain pending semantic review"
+}
