@@ -54,10 +54,19 @@
 
 ## 本地生成与 RAG 原型
 
-当前机器已准备模型、数据和 `.venv/` 环境，可直接使用本地问答入口：
+先按[项目实施指南](项目资料/项目启动与实施指南.md)创建并激活统一的 `rag-c09`（Python 3.10）环境：
 
 ```bash
-.venv/bin/python scripts/local_qa.py \
+conda create -n rag-c09 python=3.10 -y
+conda activate rag-c09
+python -m pip install -U pip
+python -m pip install -r requirements.txt
+```
+
+激活环境并准备模型、数据后，可直接使用本地问答入口：
+
+```bash
+python scripts/local_qa.py \
   --question "What is the capital of the fictional region of Lumeria?" \
   --evidence "The fictional region of Lumeria has its capital in Bayport."
 ```
@@ -71,7 +80,7 @@ bash scripts/run_rag_prototype.sh outputs/rag_prototype_new_run
 配置位于 `configs/rag_prototype.yaml`，新增依赖见 `requirements-rag.txt`。本次运行目录是 `outputs/rag_prototype_20261104_v1/`，内有逐条结果、状态、日志、资源记录和不含检测分数的 `review_template.csv`。原型指标需经过可靠标签复核；`undetermined` 不自动当作负类。新增逻辑的 CPU 检查入口为：
 
 ```bash
-.venv/bin/python -m unittest discover -s tests -v
+python -m unittest discover -s tests -v
 ```
 
 20 条原型已整理助手辅助复核稿和人工填写表，位于本地运行目录的 `review_assistance/`。建议列与正式标签分开，尚不构成人工金标；导入方式、歧义案例和三类挑战实施草案见[原型标签复核与挑战准备](项目资料/原型标签复核与挑战准备.md)。

@@ -1,0 +1,67 @@
+{
+  "status": "human_annotation_pending",
+  "purpose": "100-row stratified quality audit; score-blind and separate from frozen final evaluation",
+  "source_records": "outputs/rag_formal_20261105_v2/partitions/test/records.jsonl",
+  "rows": 100,
+  "seed": 20261126,
+  "selection": {
+    "all_25_refusals_included": true,
+    "condition_quota_for_non_refusals": {
+      "normal": 33,
+      "retrieval_failure": 3,
+      "evidence_conflict": 20,
+      "outdated_answer": 19
+    },
+    "wording_groups": [
+      "seen_wording",
+      "unseen_wording",
+      "not_applicable"
+    ],
+    "boundary_candidates_flagged_without_revealing_labels": true
+  },
+  "counts": {
+    "condition": {
+      "evidence_conflict": 20,
+      "normal": 40,
+      "outdated_answer": 20,
+      "retrieval_failure": 20
+    },
+    "challenge_type": {
+      "evidence_conflict": 33,
+      "retrieval_failure": 35,
+      "outdated_answer": 32
+    },
+    "wording_group": {
+      "unseen_wording": 34,
+      "seen_wording": 31,
+      "not_applicable": 35
+    },
+    "refusal": {
+      "false": 75,
+      "true": 25
+    },
+    "boundary_candidate": {
+      "true": 67,
+      "false": 33
+    }
+  },
+  "annotation_rules": {
+    "evidence_label": [
+      "supported",
+      "contradicted",
+      "outdated",
+      "unsupported",
+      "undetermined"
+    ],
+    "answer_correctness": [
+      "correct",
+      "incorrect",
+      "undetermined"
+    ],
+    "refusal": "Keep factual labels undetermined for a clear refusal; record refusal handling in decision_basis.",
+    "disagreement": "Record the competing decision and reason; do not silently overwrite either annotator's entry.",
+    "final_disposition": "Record adjudicated value or unresolved."
+  },
+  "frozen_test_protection": "This packet contains no detector scores, thresholds, gold labels, private construction notes, or final-result fields.",
+  "packet_sha256": "b7d3961a797d6b9045143b657c8609b533ec3483fadf46fab1faf5eb12ee959b"
+}
