@@ -1,0 +1,24 @@
+{
+  "status": "collected_without_recomputation",
+  "created_from": [
+    "results/",
+    "outputs/"
+  ],
+  "summary_files": [
+    "汇总/正式总体方法比较.csv",
+    "汇总/正式分组比较.csv",
+    "汇总/正式总体每种子结果.csv",
+    "汇总/正式分组每种子结果.csv",
+    "汇总/100条人工审计.csv",
+    "汇总/MiniCheck公开基准.csv",
+    "汇总/正式阶段资源汇总.json"
+  ],
+  "raw_machine_readable_files": 562,
+  "frozen_test_policy": "No training, threshold selection, test re-evaluation, or result mutation was performed.",
+  "notes": {
+    "formal_overall": "95 common factual answers, 14 positive hallucination labels.",
+    "formal_test": "120 inputs, 60 source groups, 25 refusals retained as undetermined.",
+    "audit": "100-row stratified human quality audit; not a replacement for full independent double annotation.",
+    "plotting": "Use 汇总/ files for direct plotting; use 原始结果索引.csv to trace every source file."
+  }
+}
